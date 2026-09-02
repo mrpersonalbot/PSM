@@ -1,10 +1,5 @@
 {
-  "validation_version": 3,
-  "mode": "strict",
-  "total": 160,
-  "resolved": 0,
-  "unresolved_count": 160,
-  "unresolved": [
+  "needs_review": [
     {
       "slug": "lampu-led-3w-ecoking",
       "sku": "E02",
