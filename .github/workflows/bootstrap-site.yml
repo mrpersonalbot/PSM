@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'bootstrap/site.tar.gz.b64'
+      - 'bootstrap/site.part.*'
+      - 'bootstrap/READY'
 
 permissions:
   contents: write
@@ -18,15 +19,29 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check payload completeness
+        id: payload
+        shell: bash
+        run: |
+          count=$(find bootstrap -maxdepth 1 -type f -name 'site.part.*' 2>/dev/null | wc -l)
+          if [ "$count" -eq 6 ] && [ -f bootstrap/READY ]; then
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          else
+            echo "Payload not complete yet ($count/6 parts)."
+            echo 'ready=false' >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Expand final website source
+        if: steps.payload.outputs.ready == 'true'
         shell: bash
         run: |
           set -euo pipefail
-          base64 -d bootstrap/site.tar.gz.b64 > /tmp/pratama-site.tar.gz
+          cat bootstrap/site.part.* | base64 -d > /tmp/pratama-site.tar.gz
           tar -xzf /tmp/pratama-site.tar.gz -C .
           rm -rf bootstrap
 
       - name: Commit expanded website
+        if: steps.payload.outputs.ready == 'true'
         shell: bash
         run: |
           set -euo pipefail
