@@ -1,6 +1,6 @@
 {
-  "mode": "strict",
-  "validation_version": 3,
+  "mode": "semi_strict",
+  "validation_version": 4,
   "canvas": {
     "width": 1200,
     "height": 1200,
@@ -9,15 +9,19 @@
     "safe_margin_percent": 14
   },
   "rules": {
-    "require_approved_source_page": true,
+    "prefer_approved_source_page": true,
     "require_brand_match": true,
     "require_model_match_when_model_exists": true,
+    "allow_independent_product_pages": true,
+    "allow_marketplace_with_exact_model": true,
     "allow_generic_image_search_result": false,
     "allow_social_media": false,
     "allow_wikipedia": false,
-    "allow_marketplace_without_approval": false,
     "publish_unverified_image": false,
-    "unverified_fallback": "Foto produk sedang diverifikasi"
+    "unverified_fallback": "Foto produk sedang diverifikasi",
+    "independent_min_name_coverage_with_model": 0.40,
+    "independent_min_name_coverage_without_model": 0.78,
+    "marketplace_min_name_coverage": 0.50
   },
   "approved_sources": {
     "ECOKING": ["ecoking.co.id"],
@@ -28,5 +32,22 @@
     "3M": ["3m.co.id", "3m.com"],
     "PIOLINE": ["pioneerelectric.co.id"],
     "SUPREME": ["sucaco.com"]
-  }
+  },
+  "marketplace_sources": [
+    "tokopedia.com",
+    "shopee.co.id",
+    "blibli.com",
+    "lazada.co.id",
+    "bukalapak.com"
+  ],
+  "blocked_sources": [
+    "facebook.com",
+    "instagram.com",
+    "pinterest.com",
+    "tiktok.com",
+    "youtube.com",
+    "wikipedia.org",
+    "wikimedia.org",
+    "yumpu.com"
+  ]
 }
