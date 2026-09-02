@@ -1,0 +1,409 @@
+/* PRATAMA — Human Touch Layer
+   Direction: established local electrical supplier, warm counter-service feel.
+   This intentionally softens the previous technical / AI-dashboard aesthetic.
+*/
+
+:root{
+  --paper:#f7f2e9;
+  --paper-2:#fbf8f2;
+  --paper-3:#efe7da;
+  --hand-ink:#1d2529;
+  --warm-line:#ddd4c7;
+  --pratama-blue:#0a498b;
+  --pratama-blue-deep:#073a6d;
+  --signal-orange:#ef6536;
+  --soft-blue:#eaf2f7;
+}
+
+body{
+  background:var(--paper-2);
+  color:var(--hand-ink);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Typography: editorial warmth instead of a system-dashboard feel */
+h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.product-info h1,.hero-panel h2{
+  font-family:Georgia,"Times New Roman",serif;
+  letter-spacing:-.035em;
+  font-weight:700;
+}
+
+.eyebrow,
+.hero-index,
+.result-count,
+.breadcrumb,
+.microcopy,
+.hours>div,
+.product-info dt,
+.footer h4,
+.footer-legal{
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:.055em;
+}
+
+.eyebrow{
+  display:inline-block;
+  font-size:10px;
+  padding:5px 8px 4px;
+  background:var(--paper-3);
+  color:#5d5145;
+  transform:rotate(-.6deg);
+  text-transform:uppercase;
+  margin-bottom:14px;
+}
+
+/* Navigation feels like a real store, not translucent app chrome */
+.top-strip{
+  background:#f0e6d7;
+  color:#41372f;
+  border-bottom:1px solid #e1d4c3;
+}
+.top-strip a{color:var(--pratama-blue);font-weight:700}
+.site-header{
+  background:rgba(251,248,242,.98);
+  backdrop-filter:none;
+  border-bottom:1px solid var(--warm-line);
+}
+.nav>a,.nav-drop>button{font-weight:650;text-transform:none;letter-spacing:0}
+.drop-menu{
+  border-color:var(--warm-line);
+  border-radius:10px;
+  box-shadow:7px 8px 0 rgba(29,37,41,.07);
+  background:var(--paper-2);
+}
+.drop-menu a{border-radius:6px}
+.drop-menu a:hover{background:#eee6da}
+.icon-btn,.nav-toggle{border-color:var(--warm-line);border-radius:9px;background:var(--paper-2)}
+
+/* Buttons: conversational, no all-caps machine labels */
+.btn{
+  border-radius:9px;
+  min-height:49px;
+  padding:0 21px;
+  text-transform:none;
+  letter-spacing:0;
+  font-size:13px;
+  font-weight:750;
+  box-shadow:none;
+}
+.btn-primary{box-shadow:3px 3px 0 #15334b}
+.btn-primary:hover{box-shadow:1px 1px 0 #15334b;transform:translate(2px,2px)}
+.btn-ghost{background:transparent;border-color:#b8aa98}
+.text-link{text-transform:none;letter-spacing:0;font-size:13px}
+.text-link:after{content:"→";font-size:14px}
+
+/* Hero: warm paper, slightly imperfect composition */
+.hero{
+  background:
+    radial-gradient(circle at 14% 18%,rgba(239,101,54,.07),transparent 25%),
+    radial-gradient(circle at 86% 82%,rgba(10,73,139,.07),transparent 28%),
+    var(--paper);
+  border-bottom:1px solid var(--warm-line);
+  padding:88px 0 96px;
+}
+.hero:before{display:none}
+.hero-grid{gap:68px;align-items:center}
+.hero-index{
+  display:inline-block;
+  color:#5a514a;
+  font-size:11px;
+  background:#fffaf3;
+  border:1px solid #d8cbbb;
+  padding:7px 10px;
+  transform:rotate(-1deg);
+  box-shadow:2px 3px 0 rgba(29,37,41,.06);
+  letter-spacing:.03em;
+  text-transform:none;
+}
+.pill{
+  display:block;
+  width:max-content;
+  margin:18px 0 24px 8px;
+  padding:0;
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  color:var(--signal-orange);
+  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
+  font-size:17px;
+  font-weight:700;
+  transform:rotate(-2deg);
+}
+.hero-copy h1{
+  font-size:clamp(58px,7vw,102px);
+  line-height:.92;
+  letter-spacing:-.055em;
+  margin-bottom:28px;
+  max-width:850px;
+}
+.hero-copy h1 em{
+  color:var(--hand-ink);
+  font-style:italic;
+  position:relative;
+  white-space:nowrap;
+}
+.hero-copy h1 em:after{
+  content:"";
+  position:absolute;
+  left:-2%;right:-2%;bottom:-4px;
+  height:9px;
+  background:linear-gradient(175deg,transparent 36%,rgba(239,101,54,.72) 38%,rgba(239,101,54,.72) 60%,transparent 62%);
+  transform:rotate(-1.5deg);
+  pointer-events:none;
+}
+.hero-copy>p{font-size:18px;line-height:1.72;color:#574f49;max-width:650px}
+.trust-row{border-color:#d9cfc2;color:#675e56}
+.trust-row strong{font-family:Georgia,"Times New Roman",serif;font-weight:700;color:var(--hand-ink)}
+
+/* Search card resembles a note left at the shop counter */
+.hero-panel{
+  background:#fffdf9;
+  color:var(--hand-ink);
+  border:1px solid #b8aa98;
+  border-radius:14px;
+  padding:36px 34px 32px;
+  box-shadow:9px 10px 0 var(--pratama-blue);
+  transform:rotate(.35deg);
+}
+.hero-panel:after{display:none}
+.hero-panel:before{
+  content:"tidak tahu nama barangnya? kirim foto lewat WhatsApp ↗";
+  position:absolute;
+  right:22px;
+  top:-22px;
+  max-width:210px;
+  padding:6px 10px 5px;
+  background:#fff1b8;
+  color:#5b4a25;
+  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
+  font-size:13px;
+  line-height:1.15;
+  transform:rotate(2.3deg);
+  border:0;
+  z-index:2;
+}
+.hero-panel-top{color:#6b625a;opacity:1;font-size:10px;letter-spacing:.04em;text-transform:none}
+.hero-panel h2{font-size:35px;line-height:1.08;margin:38px 0 20px}
+.hero-search{background:#fff;border:1px solid #cabdab;border-radius:9px;padding:5px}
+.hero-search input{background:transparent;color:var(--hand-ink)}
+.hero-search button{border-radius:7px;background:var(--signal-orange)}
+.search-suggestions a{
+  border:1px solid #cfc2b0;
+  color:#514840;
+  border-radius:999px;
+  background:#fffaf3;
+}
+.search-suggestions a:hover{background:#f2e8db;color:var(--hand-ink)}
+.hero-shelf{background:transparent;gap:9px;margin-top:30px}
+.shelf-box{
+  background:#f4eee4;
+  color:var(--hand-ink);
+  border:1px solid #ddd0bf;
+  border-radius:8px;
+  min-height:88px;
+  padding:15px 12px;
+}
+.shelf-box:nth-child(1){transform:rotate(-.7deg)}
+.shelf-box:nth-child(2){transform:rotate(.6deg)}
+.shelf-box:nth-child(3){transform:rotate(-.35deg)}
+.shelf-box span{font-family:Inter,sans-serif;color:#786c60;opacity:1;letter-spacing:.04em}
+.shelf-box b{font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:700}
+
+/* Sections: less perfect grid, more editorial rhythm */
+.section{background:var(--paper-2);padding:94px 0}
+.section.soft{background:#f0ebe2}
+.section-head{align-items:flex-end}
+.section-head h2{line-height:1.02;letter-spacing:-.035em}
+.section-head p{color:#655c54}
+.section-head>div{position:relative}
+
+.audience-grid{background:transparent;gap:20px}
+.audience-card{
+  border:1px solid #d5c8b8;
+  border-radius:14px;
+  padding:37px;
+  min-height:315px;
+  box-shadow:4px 5px 0 rgba(29,37,41,.05);
+}
+.audience-card:before{display:none}
+.audience-card.consumer{background:#f4eadc;transform:rotate(-.35deg)}
+.audience-card.retailer{background:#eaf2f7;transform:rotate(.32deg)}
+.audience-card:hover{transform:translateY(-2px) rotate(0)}
+.audience-card h2{font-size:32px;line-height:1.16}
+.audience-card p{color:#5d554e}
+.round-arrow{border-radius:50%;background:#fff;border-color:#b9aa98}
+.audience-card.consumer:after,
+.audience-card.retailer:after{
+  position:absolute;
+  top:18px;right:20px;
+  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
+  font-size:13px;
+  color:#78624d;
+  transform:rotate(3deg);
+}
+.audience-card.consumer:after{content:"boleh tanya dulu"}
+.audience-card.retailer:after{content:"kami biasa bantu toko mulai dari 1 karton";max-width:170px;text-align:right}
+
+.category-grid{background:transparent;gap:14px}
+.category-card{
+  border:1px solid #ddd2c4;
+  border-radius:12px;
+  min-height:245px;
+  padding:25px;
+  background:#fffdf8;
+  box-shadow:2px 3px 0 rgba(29,37,41,.035);
+}
+.category-card:after{height:3px;border-radius:3px;background:var(--signal-orange)}
+.category-card:nth-child(4n+1){transform:translateY(4px) rotate(-.18deg)}
+.category-card:nth-child(4n+2){transform:translateY(-2px) rotate(.18deg)}
+.category-card:nth-child(4n+3){transform:translateY(2px) rotate(-.1deg)}
+.category-card:nth-child(4n){transform:translateY(-4px) rotate(.12deg)}
+.category-card:hover{transform:translateY(-3px);box-shadow:4px 6px 0 rgba(29,37,41,.06)}
+.category-icon{color:var(--pratama-blue);margin-bottom:24px}
+.category-card h3{font-family:Georgia,"Times New Roman",serif;font-size:20px}
+.category-card p{color:#675e56}
+.category-card span{text-transform:none;letter-spacing:0}
+
+/* Partner section feels like a trusted wholesale counter, not a SaaS block */
+.brand-feature{background:#20282c}
+.brand-feature:before{display:none}
+.brand-feature-grid{background:transparent;gap:18px}
+.brand-block{
+  border:1px solid #475157;
+  border-radius:12px;
+  background:#293237;
+  min-height:280px;
+  padding:36px;
+}
+.brand-block:nth-child(1){transform:rotate(-.25deg)}
+.brand-block:nth-child(2){transform:rotate(.25deg)}
+.brand-logo-text{font-family:Georgia,"Times New Roman",serif;font-size:44px;letter-spacing:-.025em}
+
+/* Product cards: catalog-book feel */
+.product-grid{background:transparent;gap:14px}
+.product-card{
+  border:1px solid #ddd2c4;
+  border-radius:11px;
+  overflow:hidden;
+  background:#fffdf9;
+  box-shadow:2px 3px 0 rgba(29,37,41,.035);
+}
+.product-card:hover{background:#fffaf3;box-shadow:4px 5px 0 rgba(29,37,41,.06);transform:translateY(-2px)}
+.product-visual{height:218px;background:#f2eee7}
+.product-visual:before{display:none}
+.visual-brand{
+  background:#fff5c8;
+  color:#554822;
+  padding:5px 7px;
+  border-radius:3px;
+  font-family:Inter,sans-serif;
+  letter-spacing:.05em;
+  transform:rotate(-1deg);
+}
+.product-card h3{font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:700}
+.product-meta{color:#746a61}
+.product-card .quick-wa{text-transform:none;letter-spacing:0;font-size:12px;color:var(--pratama-blue)}
+.product-card .quick-wa:after{content:"↗"}
+
+/* Product detail */
+.product-detail-visual{background:#f2eee7;border-color:#d9cec0;border-radius:10px}
+.product-detail-visual:after{content:"cek stok aktual ke tim kami";font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;font-size:13px;letter-spacing:0;color:#76695d;right:18px;bottom:15px;transform:rotate(-1.5deg)}
+.product-info h1{letter-spacing:-.035em}
+.product-info dt{text-transform:none;letter-spacing:.03em;color:#73685e}
+
+/* Retailer / B2B */
+.retailer-band{
+  background:#0d4f8b;
+  border-top:0;
+  position:relative;
+}
+.retailer-band:after{
+  content:"hubungan dagang yang baik dibangun dari order ke order";
+  position:absolute;
+  right:5%;top:32px;
+  width:230px;
+  color:#fff2bd;
+  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
+  font-size:15px;
+  line-height:1.2;
+  transform:rotate(2deg);
+  opacity:.88;
+}
+.benefit-grid{background:transparent;gap:10px}
+.benefit-grid>div{border:1px solid rgba(255,255,255,.24);border-radius:9px;background:rgba(2,35,67,.22)}
+.why-grid{background:transparent;gap:12px}
+.why-grid>div{border:1px solid #ddd2c4;border-radius:10px;background:#fffdf9}
+.why-grid strong{font-family:Georgia,"Times New Roman",serif}
+
+/* Local proof and FAQ */
+.local-section{background:#f0ebe2}
+.review-panel{
+  border:1px solid #d8ccbd;
+  border-left:1px solid #d8ccbd;
+  border-radius:12px;
+  background:#fffdf9;
+  padding:40px;
+  box-shadow:4px 5px 0 rgba(29,37,41,.05);
+  position:relative;
+}
+.review-panel:before{
+  content:"20+ tahun ketemu pelanggan di tempat yang sama";
+  position:absolute;
+  right:22px;top:-15px;
+  background:#fff0b5;
+  padding:5px 9px;
+  color:#6c5728;
+  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
+  font-size:13px;
+  transform:rotate(1.5deg);
+}
+.rating span{color:var(--signal-orange)}
+.faq summary{font-family:Georgia,"Times New Roman",serif;font-size:17px;font-weight:700}
+
+/* Internal pages */
+.page-hero,.brand-hero,.b2b-hero,.partner-hero,.local-hero{background:#0b467f}
+.page-hero:after,.brand-hero:after,.b2b-hero:after,.partner-hero:after,.local-hero:after{display:none}
+.page-hero.compact{background:var(--paper)}
+.catalog-toolbar{background:rgba(251,248,242,.97);border-color:#d8ccbd;border-radius:10px;box-shadow:4px 5px 0 rgba(29,37,41,.04)}
+.catalog-search,.catalog-toolbar select,.partner-form input,.partner-form textarea,.partner-form select{border-color:#cfc2b2;border-radius:8px;background:#fffdf9}
+.brand-pill-row a,.area-chips span,.variant-chip,.checkbox-grid label{border-radius:999px}
+.partner-form,.contact-card,.visit-card{border-radius:12px;border-color:#d8ccbd;background:#fffdf9;box-shadow:3px 4px 0 rgba(29,37,41,.035)}
+
+/* Footer: less black-tech, more established storefront */
+.footer{background:#1d272d;border-top:0}
+.footer h4{font-family:Inter,sans-serif;text-transform:none;letter-spacing:.03em;font-size:11px;color:#c6beb2}
+.footer-legal{font-family:Inter,sans-serif;letter-spacing:0;font-size:10px!important}
+.wa-float{background:var(--signal-orange);box-shadow:3px 4px 0 #8d371b}
+
+/* Small tactile details */
+::selection{background:#ffe19c;color:#25201b}
+
+@media (max-width:980px){
+  .hero-grid{gap:54px}
+  .hero-panel{transform:none;box-shadow:7px 8px 0 var(--pratama-blue)}
+  .retailer-band:after{display:none}
+}
+
+@media (max-width:720px){
+  .hero{padding:50px 0 66px}
+  .hero-copy h1{font-size:52px;line-height:.94}
+  .hero-copy>p{font-size:16px;line-height:1.65}
+  .hero-index{font-size:10px;line-height:1.35}
+  .pill{font-size:15px;margin-left:4px}
+  .hero-panel{padding:28px 20px 22px;box-shadow:5px 6px 0 var(--pratama-blue)}
+  .hero-panel:before{right:12px;top:-17px;max-width:185px;font-size:12px}
+  .hero-panel h2{font-size:29px;margin-top:34px}
+  .hero-shelf{grid-template-columns:1fr;gap:7px}
+  .hero-shelf .shelf-box:last-child{grid-column:auto}
+  .shelf-box{min-height:72px;transform:none!important}
+  .audience-card.consumer,.audience-card.retailer{transform:none}
+  .audience-card:after{display:none}
+  .category-grid{gap:10px}
+  .category-card{transform:none!important;min-height:210px}
+  .product-grid{gap:10px}
+  .brand-block{transform:none!important}
+  .review-panel:before{right:12px;font-size:11px;max-width:190px}
+  .mobile-action-dock{border-radius:12px;background:rgba(29,39,45,.96)}
+  .mobile-action-dock a:last-child{border-radius:8px}
+}
