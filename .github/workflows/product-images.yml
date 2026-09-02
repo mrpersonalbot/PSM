@@ -29,7 +29,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: pip
 
       - name: Cache background-removal model
         uses: actions/cache@v4
@@ -49,8 +48,6 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # Multiple passes retry only unresolved products. This helps with
-          # intermittent search-engine throttling and temporary source errors.
           for pass in 1 2 3 4; do
             echo "=== image resolution pass $pass ==="
             python3 tools/fetch_product_images.py
