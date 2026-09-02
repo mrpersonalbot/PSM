@@ -1,0 +1,32 @@
+{
+  "mode": "strict",
+  "validation_version": 3,
+  "canvas": {
+    "width": 1200,
+    "height": 1200,
+    "background": "#ffffff",
+    "max_product_coverage": 0.72,
+    "safe_margin_percent": 14
+  },
+  "rules": {
+    "require_approved_source_page": true,
+    "require_brand_match": true,
+    "require_model_match_when_model_exists": true,
+    "allow_generic_image_search_result": false,
+    "allow_social_media": false,
+    "allow_wikipedia": false,
+    "allow_marketplace_without_approval": false,
+    "publish_unverified_image": false,
+    "unverified_fallback": "Foto produk sedang diverifikasi"
+  },
+  "approved_sources": {
+    "ECOKING": ["ecoking.co.id"],
+    "VISALUX": ["visalux.co.id"],
+    "SCHNEIDER": ["se.com", "schneider-electric.com"],
+    "CHINT": ["chintglobal.com", "chint.com"],
+    "SIMON": ["simon.co.id", "simon-electric.com"],
+    "3M": ["3m.co.id", "3m.com"],
+    "PIOLINE": ["pioneerelectric.co.id"],
+    "SUPREME": ["sucaco.com"]
+  }
+}
