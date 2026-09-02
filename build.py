@@ -43,3 +43,11 @@ if dist.exists() and human_css.exists():
         for old, new in replacements.items():
             text = text.replace(old, new)
         home.write_text(text, encoding="utf-8")
+
+# Persisted product images are collected by GitHub Actions and stored in
+# source/product-images. Apply them after the static generator finishes so the
+# same image set is used by GitHub Pages and future production deployments.
+apply_images = root / "tools" / "apply_product_images.py"
+if apply_images.exists():
+    namespace = {"__name__": "__main__", "__file__": str(apply_images)}
+    exec(compile(apply_images.read_bytes(), str(apply_images), "exec"), namespace)
