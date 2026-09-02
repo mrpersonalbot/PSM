@@ -24,10 +24,10 @@ jobs:
         shell: bash
         run: |
           count=$(find bootstrap -maxdepth 1 -type f -name 'site.chunk.*' 2>/dev/null | wc -l)
-          if [ "$count" -eq 23 ] && [ -f bootstrap/READY ]; then
+          if [ "$count" -eq 12 ] && [ -f bootstrap/READY ]; then
             echo 'ready=true' >> "$GITHUB_OUTPUT"
           else
-            echo "Payload not complete yet ($count/23 chunks)."
+            echo "Payload not complete yet ($count/12 chunks)."
             echo 'ready=false' >> "$GITHUB_OUTPUT"
           fi
 
