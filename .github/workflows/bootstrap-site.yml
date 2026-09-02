@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'bootstrap/site.part.*'
+      - 'bootstrap/site.chunk.*'
       - 'bootstrap/READY'
 
 permissions:
@@ -23,11 +23,11 @@ jobs:
         id: payload
         shell: bash
         run: |
-          count=$(find bootstrap -maxdepth 1 -type f -name 'site.part.*' 2>/dev/null | wc -l)
-          if [ "$count" -eq 6 ] && [ -f bootstrap/READY ]; then
+          count=$(find bootstrap -maxdepth 1 -type f -name 'site.chunk.*' 2>/dev/null | wc -l)
+          if [ "$count" -eq 23 ] && [ -f bootstrap/READY ]; then
             echo 'ready=true' >> "$GITHUB_OUTPUT"
           else
-            echo "Payload not complete yet ($count/6 parts)."
+            echo "Payload not complete yet ($count/23 chunks)."
             echo 'ready=false' >> "$GITHUB_OUTPUT"
           fi
 
@@ -36,7 +36,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat bootstrap/site.part.* | base64 -d > /tmp/pratama-site.tar.gz
+          cat bootstrap/site.chunk.* | base64 -d > /tmp/pratama-site.tar.gz
           tar -xzf /tmp/pratama-site.tar.gz -C .
           rm -rf bootstrap
 
