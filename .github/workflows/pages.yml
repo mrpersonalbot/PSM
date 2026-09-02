@@ -26,6 +26,46 @@ jobs:
         env:
           SITE_URL: https://mrpersonalbot.github.io/PSM
 
+      - name: Adapt paths for GitHub Pages subpath
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          base = "/PSM"
+
+          for path in Path("dist").rglob("*.html"):
+              text = path.read_text(encoding="utf-8")
+              for attr in ("href", "src", "action"):
+                  text = text.replace(f'{attr}="/', f'{attr}="{base}/')
+                  text = text.replace(f"{attr}='/", f"{attr}='{base}/")
+              path.write_text(text, encoding="utf-8")
+
+          css = Path("dist/assets/styles.css")
+          text = css.read_text(encoding="utf-8")
+          text = text.replace("url('/assets/", "url('/PSM/assets/")
+          text = text.replace('url("/assets/', 'url("/PSM/assets/')
+          css.write_text(text, encoding="utf-8")
+
+          js = Path("dist/assets/app.js")
+          text = js.read_text(encoding="utf-8")
+          text = text.replace("location.href='/", "location.href='/PSM/")
+          text = text.replace('location.href="/', 'location.href="/PSM/')
+          text = text.replace('href="/', 'href="/PSM/')
+          text = text.replace("href='/", "href='/PSM/")
+          js.write_text(text, encoding="utf-8")
+          PY
+
+      - name: Validate preview paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f dist/assets/styles.css
+          grep -q 'href="/PSM/assets/styles.css"' dist/index.html
+          grep -q 'src="/PSM/assets/pratama-logo.svg"' dist/index.html
+          grep -q "url('/PSM/assets/pratama-logo-white.svg')" dist/assets/styles.css
+          grep -q "location.href='/PSM/produk/'" dist/assets/app.js
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
