@@ -1,0 +1,4 @@
+Product image pipeline complete.
+Resolved: 160/160 launch SKUs
+Unresolved: 0
+Images normalized to white 1200x1200 WebP canvases.
