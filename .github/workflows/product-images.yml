@@ -45,13 +45,12 @@ jobs:
       - name: Build current catalog
         run: python3 build.py
 
-      - name: Resolve only strictly verified product images
+      - name: Resolve semi-strict product images
         shell: bash
         run: |
           set -euo pipefail
-          # Re-run unresolved items because official sites can be intermittent.
-          for pass in 1 2 3; do
-            echo "=== strict image validation pass $pass ==="
+          for pass in 1 2; do
+            echo "=== semi-strict image validation pass $pass ==="
             python3 tools/fetch_product_images.py
             unresolved=$(python3 - <<'PY'
           import json
@@ -62,10 +61,10 @@ jobs:
             )
             echo "Held for review after pass $pass: $unresolved"
             if [ "$unresolved" -eq 0 ]; then break; fi
-            sleep $((pass * 10))
+            sleep $((pass * 8))
           done
 
-      - name: Build site with strict image mapping
+      - name: Build site with semi-strict image mapping
         run: python3 build.py
 
       - name: Audit sources, canvas and review queue
@@ -82,9 +81,13 @@ jobs:
           report=json.loads((root/'source/product-images-report.json').read_text())
           mapping=json.loads((root/'source/product-images.json').read_text())
           version=policy['validation_version']
-          approved={k.upper():[x.lower() for x in v] for k,v in policy['approved_sources'].items()}
+          approved={k.upper():[x.lower() for x in v] for k,v in policy.get('approved_sources',{}).items()}
+          marketplaces=[x.lower() for x in policy.get('marketplace_sources',[])]
+          blocked=[x.lower() for x in policy.get('blocked_sources',[])]
+          def matches(host,domains): return any(host==d or host.endswith('.'+d) for d in domains)
+
           assert report['validation_version']==version
-          assert report['mode']=='strict'
+          assert report['mode']=='semi_strict'
           assert report['resolved']+report['unresolved_count']==report['total']==160
           review=json.loads((root/'source/product-images-review.json').read_text())
           assert len(review['needs_review'])==report['unresolved_count']
@@ -95,17 +98,24 @@ jobs:
                   continue
               brand=str(v.get('brand','')).upper()
               host=(urlparse(v['source_page']).hostname or '').lower().removeprefix('www.')
-              allowed=approved.get(brand,[])
-              assert allowed and any(host==d or host.endswith('.'+d) for d in allowed), (slug,host,brand)
+              tier=v.get('source_tier')
+              assert not matches(host,blocked), (slug,host)
+              if tier=='official':
+                  assert matches(host,approved.get(brand,[])), (slug,host,brand)
+              elif tier=='marketplace':
+                  assert matches(host,marketplaces), (slug,host)
+                  assert v.get('model_tokens'), (slug,'marketplace without exact model evidence')
+              else:
+                  assert tier=='independent', (slug,tier)
               img=Image.open(root/'source'/v['file']).convert('RGB')
               assert img.size==(1200,1200), (slug,img.size)
-              # White border proves the product has breathing room and cannot touch the canvas edge.
               pts=[(0,0),(1199,0),(0,1199),(1199,1199),(600,0),(600,1199),(0,600),(1199,600)]
               assert all(min(img.getpixel(p))>=248 for p in pts), slug
               checked+=1
           assert checked==report['resolved']
-          print(f"Strict verified: {report['resolved']} / 160")
-          print(f"Held for manual/source review: {report['unresolved_count']}")
+          print(f"Semi-strict verified: {report['resolved']} / 160")
+          print(f"Source tiers: {report.get('source_tiers',{})}")
+          print(f"Held for review: {report['unresolved_count']}")
           PY
 
       - name: Commit verified library and review queue
@@ -116,21 +126,21 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A source/product-images source/product-images.json source/product-images-report.json source/product-images-review.json
           if git diff --cached --quiet; then
-            echo 'No strict product-image changes to commit.'
+            echo 'No semi-strict product-image changes to commit.'
           else
-            git commit -m 'Rebuild strict verified product image library'
+            git commit -m 'Rebuild semi-strict product image library'
             git pull --rebase origin main
             git push origin main
           fi
 
-      - name: Strict-mode completion summary
+      - name: Semi-strict completion summary
         shell: bash
         run: |
           python3 - <<'PY'
           import json
           from pathlib import Path
           r=json.loads(Path('source/product-images-report.json').read_text())
-          print(f"Published verified images: {r['resolved']}")
+          print(f"Published validated images: {r['resolved']}")
+          print(f"Source tiers: {r.get('source_tiers',{})}")
           print(f"Intentionally withheld images: {r['unresolved_count']}")
-          print('Unverified images are never published; website uses a verification placeholder instead.')
           PY
