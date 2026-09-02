@@ -1,1922 +1,1926 @@
 {
-  "lampu-led-3w-ecoking": {
+  "kabel-nya-1-5-x-100m-k-hj-cosmic": {
     "status": "resolved",
-    "file": "product-images/lampu-led-3w-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://oneworldmagazine.org/wp-content/uploads/2025/05/Olxtoto-Slot-9.jpg",
-    "source_page": "https://oneworldmagazine.org/",
-    "query": "site:ecoking.co.id \"LAMPU LED 3W ECOKING\" \"ECOKING\" \"E02\"",
-    "score": 100,
+    "validation_version": 2,
+    "file": "product-images/kabel-nya-1-5-x-100m-k-hj-cosmic.webp",
+    "source_page": "https://kr.made-in-china.com/co_longerev-js/product_14-Seats-Electric-Shuttle-Bus-Electric-Minibus-Sightseeing-Car-Tourist-Bus-for-Tourism-Group-or-Government-Reception_uoihuoshsg.html",
+    "source_image": "https://image.made-in-china.com/2f0j00IskiChjKGlod/14-Seats-Electric-Shuttle-Bus-Electric-Minibus-Sightseeing-Car-Tourist-Bus-for-Tourism-Group-or-Government-Reception.jpg",
+    "page_score": 76,
+    "image_score": 130.7,
+    "query": "\"COSMIC\" \"100M\"",
+    "sku": "A209",
+    "name": "KABEL NYA 1.5 X 100M (K/HJ) COSMIC",
+    "brand": "COSMIC"
+  },
+  "lampu-led-3w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"LAMPU LED 3W ECOKING\"",
+      "\"LAMPU LED 3W ECOKING\" \"ECOKING\"",
+      "ECOKING LAMPU LED 3W ECOKING"
+    ],
     "sku": "E02",
     "name": "LAMPU LED 3W ECOKING",
     "brand": "ECOKING"
   },
   "led-avatar-6w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-avatar-6w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED AVATAR 6W 6500K ECOKING\" \"ECOKING\" \"Z1077\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LED AVATAR 6W 6500K ECOKING\""
+    ],
     "sku": "Z1077",
     "name": "LED AVATAR 6W 6500K ECOKING",
     "brand": "ECOKING"
   },
   "led-kingdom-8w-3000k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-kingdom-8w-3000k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED KINGDOM 8W 3000K ECOKING\" \"ECOKING\" \"Z1221\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\"",
+      "\"ECOKING\" \"3000K\"",
+      "\"LED KINGDOM 8W 3000K ECOKING\""
+    ],
     "sku": "Z1221",
     "name": "LED KINGDOM 8W 3000K ECOKING",
     "brand": "ECOKING"
   },
   "led-strip-12v-252l-10w-3000k-els12252ww-cob-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-strip-12v-252l-10w-3000k-els12252ww-cob-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED STRIP 12V 252L/10W 3000K ELS12252WW-COB ECOKING\" \"ECOKING\" \"Y10864\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"252L10W\" \"3000K\"",
+      "\"ECOKING\" \"252L10W\" \"3000K\"",
+      "\"LED STRIP 12V 252L/10W 3000K ELS12252WW-COB ECOKING\""
+    ],
     "sku": "Y10864",
     "name": "LED STRIP 12V 252L/10W 3000K ELS12252WW-COB ECOKING",
     "brand": "ECOKING"
   },
   "lampu-5w-putih-etc9905dl-champions-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-5w-putih-etc9905dl-champions-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://img.yumpu.com/33018350/1/500x640/summary-of-benefits-coverage-classic-hmo.jpg",
-    "source_page": "https://www.yumpu.com/en/document/view/33018350/summary-of-benefits-coverage-classic-hmo",
-    "query": "site:ecoking.co.id \"LAMPU 5W PUTIH ETC9905DL CHAMPIONS ECOKING\" \"ECOKING\" \"C10737\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"ETC9905DL\"",
+      "\"ECOKING\" \"ETC9905DL\"",
+      "\"LAMPU 5W PUTIH ETC9905DL CHAMPIONS ECOKING\""
+    ],
     "sku": "C10737",
     "name": "LAMPU 5W PUTIH ETC9905DL CHAMPIONS ECOKING",
     "brand": "ECOKING"
   },
   "head-lamp-led-3w-6500k-3xaa-ehl2203wy-ecoking": {
-    "status": "resolved",
-    "file": "product-images/head-lamp-led-3w-6500k-3xaa-ehl2203wy-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://orig00.deviantart.net/e0ca/f/2010/057/4/2/head_model_side_by_smartrifle.jpg",
-    "source_page": "https://storage.googleapis.com/djwncxjgouryde/drawing-head-model.html",
-    "query": "site:ecoking.co.id \"HEAD LAMP LED 3W 6500K 3XAA EHL2203WY ECOKING\" \"ECOKING\" \"H14\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"3XAA\"",
+      "\"ECOKING\" \"6500K\" \"3XAA\"",
+      "\"HEAD LAMP LED 3W 6500K 3XAA EHL2203WY ECOKING\""
+    ],
     "sku": "H14",
     "name": "HEAD LAMP LED 3W 6500K 3XAA EHL2203WY ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-tayo-4u-30w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-tayo-4u-30w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.usmagazine.com/wp-content/uploads/2025/03/Suite-Life-of-Zack-and-Cody-Cast-Where-Are-They-Now-Cole-and-Dylan-Sprouse-Ashley-Tisdale-More-545.jpg?quality=86&strip=all",
-    "source_page": "https://www.usmagazine.com/shows/the-suite-life-of-zack-and-cody/",
-    "query": "site:ecoking.co.id \"LAMPU LED TAYO 4U 30W 6500K ECOKING\" \"ECOKING\" \"ZL46\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LAMPU LED TAYO 4U 30W 6500K ECOKING\""
+    ],
     "sku": "ZL46",
     "name": "LAMPU LED TAYO 4U 30W 6500K ECOKING",
     "brand": "ECOKING"
   },
   "led-legend-5w-kuning-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-legend-5w-kuning-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED LEGEND 5W KUNING ECOKING\" \"ECOKING\" \"Z1025\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"LED LEGEND 5W KUNING ECOKING\"",
+      "\"LED LEGEND 5W KUNING ECOKING\" \"ECOKING\"",
+      "ECOKING LED LEGEND 5W KUNING ECOKING"
+    ],
     "sku": "Z1025",
     "name": "LED LEGEND 5W KUNING ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-50w-6500k-champions-etc9950dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-50w-6500k-champions-etc9950dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://steadfastdaily.com/wp-content/uploads/2026/08/Google-Maps-Rerouting-experiment-1920x542.jpg",
-    "source_page": "https://steadfastdaily.com/google-maps-has-been-quietly-rerouting-you/",
-    "query": "site:ecoking.co.id \"LAMPU LED 50W 6500K CHAMPIONS ETC9950DL ECOKING\" \"ECOKING\" \"Y11070\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ETC9950DL\"",
+      "\"ECOKING\" \"6500K\" \"ETC9950DL\"",
+      "\"LAMPU LED 50W 6500K CHAMPIONS ETC9950DL ECOKING\""
+    ],
     "sku": "Y11070",
     "name": "LAMPU LED 50W 6500K CHAMPIONS ETC9950DL ECOKING",
     "brand": "ECOKING"
   },
   "downlight-icon-2-5-3w-6500k-bulat-epl3103dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/downlight-icon-2-5-3w-6500k-bulat-epl3103dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://higherlogicdownload.s3.amazonaws.com/KDP/UploadedImages/toKrlIxgRnO4Y3U4BlqA_Picture1.png",
-    "source_page": "https://www.kdp.org/blogs/kevin-wong/2025/04/13/lets-all-read-adapting-grade-level-text-for-studen",
-    "query": "site:ecoking.co.id \"DOWNLIGHT ICON 2.5\" 3W 6500K BULAT EPL3103DL ECOKING\" \"ECOKING\" \"TDD22\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"EPL3103DL\"",
+      "\"ECOKING\" \"6500K\" \"EPL3103DL\"",
+      "\"DOWNLIGHT ICON 2.5\" 3W 6500K BULAT EPL3103DL ECOKING\""
+    ],
     "sku": "TDD22",
     "name": "DOWNLIGHT ICON 2.5\" 3W 6500K BULAT EPL3103DL ECOKING",
     "brand": "ECOKING"
   },
   "lampu-15w-e27-a60-tricolour-etc315dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-15w-e27-a60-tricolour-etc315dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://i.ytimg.com/vi/Aa94Scs9U0g/maxresdefault.jpg",
-    "source_page": "https://www.youtube.com/watch?v=Aa94Scs9U0g",
-    "query": "site:ecoking.co.id \"LAMPU 15W E27 A60 TRICOLOUR ETC315DL ECOKING\" \"ECOKING\" \"Y1296\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"ETC315DL\"",
+      "\"ECOKING\" \"ETC315DL\"",
+      "\"LAMPU 15W E27 A60 TRICOLOUR ETC315DL ECOKING\""
+    ],
     "sku": "Y1296",
     "name": "LAMPU 15W E27 A60 TRICOLOUR ETC315DL ECOKING",
     "brand": "ECOKING"
   },
   "head-lamp-50w-6800k-glass-2700k-ehl2288wy-ecoking": {
-    "status": "resolved",
-    "file": "product-images/head-lamp-50w-6800k-glass-2700k-ehl2288wy-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://orig00.deviantart.net/e0ca/f/2010/057/4/2/head_model_side_by_smartrifle.jpg",
-    "source_page": "https://storage.googleapis.com/djwncxjgouryde/drawing-head-model.html",
-    "query": "site:ecoking.co.id \"HEAD LAMP 50W 6800K+GLASS 2700K EHL2288WY ECOKING\" \"ECOKING\" \"NM102\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6800K\" \"2700K\"",
+      "\"ECOKING\" \"6800K\" \"2700K\"",
+      "\"HEAD LAMP 50W 6800K+GLASS 2700K EHL2288WY ECOKING\""
+    ],
     "sku": "NM102",
     "name": "HEAD LAMP 50W 6800K+GLASS 2700K EHL2288WY ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-25w-jumbo-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-25w-jumbo-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/I/819yOochjkL._SL1500_.jpg",
-    "source_page": "https://www.amazon.com/Organic-Peppermint-Leaves-Certified-Sifted/dp/B0CGZPJC6H",
-    "query": "site:ecoking.co.id \"LAMPU LED 25W JUMBO 6500K ECOKING\" \"ECOKING\" \"ZL70\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LAMPU LED 25W JUMBO 6500K ECOKING\""
+    ],
     "sku": "ZL70",
     "name": "LAMPU LED 25W JUMBO 6500K ECOKING",
     "brand": "ECOKING"
   },
   "head-lamp-led-20w-3000k-ehl2240-ecoking": {
-    "status": "resolved",
-    "file": "product-images/head-lamp-led-20w-3000k-ehl2240-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://orig00.deviantart.net/e0ca/f/2010/057/4/2/head_model_side_by_smartrifle.jpg",
-    "source_page": "https://storage.googleapis.com/djwncxjgouryde/drawing-head-model.html",
-    "query": "site:ecoking.co.id \"HEAD LAMP LED 20W 3000K EHL2240 ECOKING\" \"ECOKING\" \"S10030\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"EHL2240\"",
+      "\"ECOKING\" \"3000K\" \"EHL2240\"",
+      "\"HEAD LAMP LED 20W 3000K EHL2240 ECOKING\""
+    ],
     "sku": "S10030",
     "name": "HEAD LAMP LED 20W 3000K EHL2240 ECOKING",
     "brand": "ECOKING"
   },
   "led-legend-8w-tigo-6500k-2-bonus-1-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-legend-8w-tigo-6500k-2-bonus-1-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED LEGEND 8W TIGO 6500K 2 BONUS 1 ECOKING\" \"ECOKING\" \"Z1072\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LED LEGEND 8W TIGO 6500K 2 BONUS 1 ECOKING\""
+    ],
     "sku": "Z1072",
     "name": "LED LEGEND 8W TIGO 6500K 2 BONUS 1 ECOKING",
     "brand": "ECOKING"
   },
   "downlight-metro-2-5-3w-6500k-bulat-epl3103r-ecoking": {
-    "status": "resolved",
-    "file": "product-images/downlight-metro-2-5-3w-6500k-bulat-epl3103r-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.thewhiskyworld.com/images/royal-salute-21-year-old-gift-pack-with-miniature-emerald-p4905-9011_image.jpg",
-    "source_page": "https://www.thewhiskyworld.com/royal-salute-21-year-old-gift-pack-with-miniature-emerald-p4905",
-    "query": "site:ecoking.co.id \"DOWNLIGHT METRO 2.5\" 3W 6500K BULAT EPL3103R ECOKING\" \"ECOKING\" \"TD73\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"EPL3103R\"",
+      "\"ECOKING\" \"6500K\" \"EPL3103R\"",
+      "\"DOWNLIGHT METRO 2.5\" 3W 6500K BULAT EPL3103R ECOKING\""
+    ],
     "sku": "TD73",
     "name": "DOWNLIGHT METRO 2.5\" 3W 6500K BULAT EPL3103R ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-bertiga-23w-6500k-2-bonus-1-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-bertiga-23w-6500k-2-bonus-1-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://thearchitectsdiary.com/wp-content/uploads/2024/01/Music-and-Architecture-03-1024x684.webp",
-    "source_page": "https://fity.club/lists/suggestions/relationship-between-music-and-architecture/",
-    "query": "site:ecoking.co.id \"LAMPU LED BERTIGA 23W 6500K (2 BONUS 1) ECOKING\" \"ECOKING\" \"ZL49\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LAMPU LED BERTIGA 23W 6500K (2 BONUS 1) ECOKING\""
+    ],
     "sku": "ZL49",
     "name": "LAMPU LED BERTIGA 23W 6500K (2 BONUS 1) ECOKING",
     "brand": "ECOKING"
   },
   "obor-led-frame-9w-1300k-elf009-ecoking": {
-    "status": "resolved",
-    "file": "product-images/obor-led-frame-9w-1300k-elf009-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://logos-marcas.com/wp-content/uploads/2021/08/DISH-Network-Simbolo.png",
-    "source_page": "https://storage.googleapis.com/djxatipofhfsde/dish-network-logo-history.html",
-    "query": "site:ecoking.co.id \"OBOR LED FRAME 9W 1300K ELF009 ECOKING\" \"ECOKING\" \"Y12278\"",
-    "score": 80,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"1300K\" \"ELF009\"",
+      "\"ECOKING\" \"1300K\" \"ELF009\"",
+      "\"OBOR LED FRAME 9W 1300K ELF009 ECOKING\""
+    ],
     "sku": "Y12278",
     "name": "OBOR LED FRAME 9W 1300K ELF009 ECOKING",
     "brand": "ECOKING"
   },
   "dl-2-5-6w-6500k-epl-3106s-dl-coco-ecoking": {
-    "status": "resolved",
-    "file": "product-images/dl-2-5-6w-6500k-epl-3106s-dl-coco-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://wallpaperaccess.com/full/1265835.png",
-    "source_page": "https://wallpaperaccess.com/creeper",
-    "query": "site:ecoking.co.id \"DL 2.5\" 6W 6500K EPL-3106S-DL COCO ECOKING\" \"ECOKING\" \"Y11007\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"EPL3106SDL\"",
+      "\"ECOKING\" \"6500K\" \"EPL3106SDL\"",
+      "\"DL 2.5\" 6W 6500K EPL-3106S-DL COCO ECOKING\""
+    ],
     "sku": "Y11007",
     "name": "DL 2.5\" 6W 6500K EPL-3106S-DL COCO ECOKING",
     "brand": "ECOKING"
   },
   "dl-3-9w-6500k-epl-3109r-dl-coco-ecoking": {
-    "status": "resolved",
-    "file": "product-images/dl-3-9w-6500k-epl-3109r-dl-coco-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://i.ytimg.com/vi/fSUgrNaoDS0/maxresdefault.jpg",
-    "source_page": "https://www.youtube.com/watch?v=fSUgrNaoDS0",
-    "query": "site:ecoking.co.id \"DL 3\" 9W 6500K EPL-3109R-DL COCO ECOKING\" \"ECOKING\" \"Y11009\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"EPL3109RDL\"",
+      "\"ECOKING\" \"6500K\" \"EPL3109RDL\"",
+      "\"DL 3\" 9W 6500K EPL-3109R-DL COCO ECOKING\""
+    ],
     "sku": "Y11009",
     "name": "DL 3\" 9W 6500K EPL-3109R-DL COCO ECOKING",
     "brand": "ECOKING"
   },
   "led-sensor-10w-6500k-ess810dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-sensor-10w-6500k-ess810dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED SENSOR 10W 6500K ESS810DL ECOKING\" \"ECOKING\" \"Z1023\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ESS810DL\"",
+      "\"ECOKING\" \"6500K\" \"ESS810DL\"",
+      "\"LED SENSOR 10W 6500K ESS810DL ECOKING\""
+    ],
     "sku": "Z1023",
     "name": "LED SENSOR 10W 6500K ESS810DL ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-spiral-45w-6500k-els645dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-spiral-45w-6500k-els645dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://img2.annthegran.com/printart/xlarge/hopscotch/pghs1901056c.webp",
-    "source_page": "https://ar.inspiredpencil.com/pictures-2023/field-trip-school-bus-clip-art",
-    "query": "site:ecoking.co.id \"LAMPU LED SPIRAL 45W 6500K ELS645DL ECOKING\" \"ECOKING\" \"ZL52\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ELS645DL\"",
+      "\"ECOKING\" \"6500K\" \"ELS645DL\"",
+      "\"LAMPU LED SPIRAL 45W 6500K ELS645DL ECOKING\""
+    ],
     "sku": "ZL52",
     "name": "LAMPU LED SPIRAL 45W 6500K ELS645DL ECOKING",
     "brand": "ECOKING"
   },
   "led-turbo-megic-saga-20w-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-turbo-megic-saga-20w-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED TURBO MEGIC SAGA 20W ECOKING\" \"ECOKING\" \"Z1195\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"LED TURBO MEGIC SAGA 20W ECOKING\"",
+      "\"LED TURBO MEGIC SAGA 20W ECOKING\" \"ECOKING\"",
+      "ECOKING LED TURBO MEGIC SAGA 20W ECOKING"
+    ],
     "sku": "Z1195",
     "name": "LED TURBO MEGIC SAGA 20W ECOKING",
     "brand": "ECOKING"
   },
   "lampu-18w-6500k-venus-evd1218dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-18w-6500k-venus-evd1218dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.ocregister.com/wp-content/uploads/2026/09/Ezrah.Cropped.jpg?w=982",
-    "source_page": "https://www.ocregister.com/2026/09/01/orange-county-boys-athlete-of-the-week-ezrah-brown-orange-lutheran-2/",
-    "query": "site:ecoking.co.id \"LAMPU 18W 6500K VENUS EVD1218DL ECOKING\" \"ECOKING\" \"Y10801\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"EVD1218DL\"",
+      "\"ECOKING\" \"6500K\" \"EVD1218DL\"",
+      "\"LAMPU 18W 6500K VENUS EVD1218DL ECOKING\""
+    ],
     "sku": "Y10801",
     "name": "LAMPU 18W 6500K VENUS EVD1218DL ECOKING",
     "brand": "ECOKING"
   },
   "led-tiger-35w-6500k-etl735dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-tiger-35w-6500k-etl735dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED TIGER 35W 6500K ETL735DL ECOKING\" \"ECOKING\" \"Z1242\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ETL735DL\"",
+      "\"ECOKING\" \"6500K\" \"ETL735DL\"",
+      "\"LED TIGER 35W 6500K ETL735DL ECOKING\""
+    ],
     "sku": "Z1242",
     "name": "LED TIGER 35W 6500K ETL735DL ECOKING",
     "brand": "ECOKING"
   },
   "kap-t5-neon-led-5w-6500k-l30cm-ent5505dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/kap-t5-neon-led-5w-6500k-l30cm-ent5505dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://images.sanoma-sndp.fi/569541c00bc7a70901ab3c3262eeeec0.jpg/some/is-default.jpg",
-    "source_page": "https://www.is.fi/urheilulehti/art-2000008943003.html",
-    "query": "site:ecoking.co.id \"KAP T5 NEON LED 5W 6500K L30CM ENT5505DL ECOKING\" \"ECOKING\" \"YP42\"",
-    "score": 92,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"L30CM\"",
+      "\"ECOKING\" \"6500K\" \"L30CM\"",
+      "\"KAP T5 NEON LED 5W 6500K L30CM ENT5505DL ECOKING\""
+    ],
     "sku": "YP42",
     "name": "KAP T5 NEON LED 5W 6500K L30CM ENT5505DL ECOKING",
     "brand": "ECOKING"
   },
   "led-turbo-saga-25w-6500k-ets-25w-ring-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-turbo-saga-25w-6500k-ets-25w-ring-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://images.theengineeringprojects.com/image/main/2022/04/07.jpg",
-    "source_page": "https://fity.club/lists/suggestions/light-emitting-diodes-sizes/",
-    "query": "site:ecoking.co.id \"LED TURBO SAGA 25W 6500K ETS-25W( RING ) ECOKING\" \"ECOKING\" \"Y1443\"",
-    "score": 101,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ETS25W\"",
+      "\"ECOKING\" \"6500K\" \"ETS25W\"",
+      "\"LED TURBO SAGA 25W 6500K ETS-25W( RING ) ECOKING\""
+    ],
     "sku": "Y1443",
     "name": "LED TURBO SAGA 25W 6500K ETS-25W( RING ) ECOKING",
     "brand": "ECOKING"
   },
   "head-lamp-60w-6800k-swat-ehl2860dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/head-lamp-60w-6800k-swat-ehl2860dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://orig00.deviantart.net/e0ca/f/2010/057/4/2/head_model_side_by_smartrifle.jpg",
-    "source_page": "https://storage.googleapis.com/djwncxjgouryde/drawing-head-model.html",
-    "query": "site:ecoking.co.id \"HEAD LAMP 60W 6800K SWAT EHL2860DL ECOKING\" \"ECOKING\" \"Y10992\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6800K\" \"EHL2860DL\"",
+      "\"ECOKING\" \"6800K\" \"EHL2860DL\"",
+      "\"HEAD LAMP 60W 6800K SWAT EHL2860DL ECOKING\""
+    ],
     "sku": "Y10992",
     "name": "HEAD LAMP 60W 6800K SWAT EHL2860DL ECOKING",
     "brand": "ECOKING"
   },
   "head-lamp-50w-6800k-ehl2850dl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/head-lamp-50w-6800k-ehl2850dl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://orig00.deviantart.net/e0ca/f/2010/057/4/2/head_model_side_by_smartrifle.jpg",
-    "source_page": "https://storage.googleapis.com/djwncxjgouryde/drawing-head-model.html",
-    "query": "site:ecoking.co.id \"HEAD LAMP 50W 6800K EHL2850DL ECOKING\" \"ECOKING\" \"Y10991\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6800K\" \"EHL2850DL\"",
+      "\"ECOKING\" \"6800K\" \"EHL2850DL\"",
+      "\"HEAD LAMP 50W 6800K EHL2850DL ECOKING\""
+    ],
     "sku": "Y10991",
     "name": "HEAD LAMP 50W 6800K EHL2850DL ECOKING",
     "brand": "ECOKING"
   },
   "led-sensor-12w-3000k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-sensor-12w-3000k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED SENSOR 12W 3000K ECOKING\" \"ECOKING\" \"Y1415\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\"",
+      "\"ECOKING\" \"3000K\"",
+      "\"LED SENSOR 12W 3000K ECOKING\""
+    ],
     "sku": "Y1415",
     "name": "LED SENSOR 12W 3000K ECOKING",
     "brand": "ECOKING"
   },
   "led-super-7w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-super-7w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED SUPER 7W 6500K ECOKING\" \"ECOKING\" \"E39\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LED SUPER 7W 6500K ECOKING\""
+    ],
     "sku": "E39",
     "name": "LED SUPER 7W 6500K ECOKING",
     "brand": "ECOKING"
   },
   "led-tiger-25w-3000k-etl725ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-tiger-25w-3000k-etl725ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED TIGER 25W 3000K ETL725WW ECOKING\" \"ECOKING\" \"Z1241\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"ETL725WW\"",
+      "\"ECOKING\" \"3000K\" \"ETL725WW\"",
+      "\"LED TIGER 25W 3000K ETL725WW ECOKING\""
+    ],
     "sku": "Z1241",
     "name": "LED TIGER 25W 3000K ETL725WW ECOKING",
     "brand": "ECOKING"
   },
   "downlight-viva-3-5-3-3w-wh-bl-petak-epl3233s-ecoking": {
-    "status": "resolved",
-    "file": "product-images/downlight-viva-3-5-3-3w-wh-bl-petak-epl3233s-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://wallpapercave.com/wp/wp8110175.jpg",
-    "source_page": "https://wallpapercave.com/mickey-mouse-minnie-mouse-pluto-wallpapers",
-    "query": "site:ecoking.co.id \"DOWNLIGHT VIVA 3.5\" 3+3W WH+BL PETAK EPL3233S ECOKING\" \"ECOKING\" \"TD87\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"EPL3233S\"",
+      "\"ECOKING\" \"EPL3233S\"",
+      "\"DOWNLIGHT VIVA 3.5\" 3+3W WH+BL PETAK EPL3233S ECOKING\""
+    ],
     "sku": "TD87",
     "name": "DOWNLIGHT VIVA 3.5\" 3+3W WH+BL PETAK EPL3233S ECOKING",
     "brand": "ECOKING"
   },
   "led-turbo-saga-30w-6500k-ets-30w-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-turbo-saga-30w-6500k-ets-30w-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED TURBO SAGA 30W 6500K ETS-30W ECOKING\" \"ECOKING\" \"Y1444\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\" \"ETS30W\"",
+      "\"ECOKING\" \"6500K\" \"ETS30W\"",
+      "\"LED TURBO SAGA 30W 6500K ETS-30W ECOKING\""
+    ],
     "sku": "Y1444",
     "name": "LED TURBO SAGA 30W 6500K ETS-30W ECOKING",
     "brand": "ECOKING"
   },
   "icon-step-light-3w-3000k-4500k-6500k-esl7103tc-ecoking": {
-    "status": "resolved",
-    "file": "product-images/icon-step-light-3w-3000k-4500k-6500k-esl7103tc-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/010/843/542/large_2x/set-of-black-web-corporate-business-card-icons-design-free-vector.jpg",
-    "source_page": "https://ausmalbilderfurkinder.de/icon-of-the-seas-2026/",
-    "query": "site:ecoking.co.id \"ICON STEP LIGHT 3W 3000K,4500K,6500K ESL7103TC ECOKING\" \"ECOKING\" \"Y10758\"",
-    "score": 103,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"4500K\"",
+      "\"ECOKING\" \"3000K\" \"4500K\"",
+      "\"ICON STEP LIGHT 3W 3000K,4500K,6500K ESL7103TC ECOKING\""
+    ],
     "sku": "Y10758",
     "name": "ICON STEP LIGHT 3W 3000K,4500K,6500K ESL7103TC ECOKING",
     "brand": "ECOKING"
   },
   "pingpong-3w-clear-epp003-ecoking": {
-    "status": "resolved",
-    "file": "product-images/pingpong-3w-clear-epp003-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://image.tmdb.org/t/p/original/8qBylBsQf4llkGrWR3qAsOtOU8O.jpg",
-    "source_page": "https://www.filmplothub.com/actors/tom-cruise/",
-    "query": "site:ecoking.co.id \"PINGPONG 3W CLEAR EPP003 ECOKING\" \"ECOKING\" \"Y12270\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"EPP003\"",
+      "\"ECOKING\" \"EPP003\"",
+      "\"PINGPONG 3W CLEAR EPP003 ECOKING\""
+    ],
     "sku": "Y12270",
     "name": "PINGPONG 3W CLEAR EPP003 ECOKING",
     "brand": "ECOKING"
   },
   "wall-light-cob-3w-3000k-alu-blk-icon-ewl-8303ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/wall-light-cob-3w-3000k-alu-blk-icon-ewl-8303ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.homenish.com/wp-content/uploads/2021/06/Brick-Wall-768x512.jpg",
-    "source_page": "https://www.homenish.com/types-of-walls/",
-    "query": "site:ecoking.co.id \"WALL LIGHT COB 3W 3000K ALU BLK ICON EWL-8303WW ECOKING\" \"ECOKING\" \"Y10873\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"EWL8303WW\"",
+      "\"ECOKING\" \"3000K\" \"EWL8303WW\"",
+      "\"WALL LIGHT COB 3W 3000K ALU BLK ICON EWL-8303WW ECOKING\""
+    ],
     "sku": "Y10873",
     "name": "WALL LIGHT COB 3W 3000K ALU BLK ICON EWL-8303WW ECOKING",
     "brand": "ECOKING"
   },
   "pingpong-3w-orange-epp003-ecoking": {
-    "status": "resolved",
-    "file": "product-images/pingpong-3w-orange-epp003-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://9746c6837f.vws.vegacdn.vn/thumb_article/0/0/0/1/FIyDipfNHoGtAMeNi1YftsDQicG3oZufOdROPP5r.jpg",
-    "source_page": "https://topi.vn/gia-vang-bao-tin-minh-chau.html",
-    "query": "site:ecoking.co.id \"PINGPONG 3W ORANGE EPP003 ECOKING\" \"ECOKING\" \"Y12272\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"EPP003\"",
+      "\"ECOKING\" \"EPP003\"",
+      "\"PINGPONG 3W ORANGE EPP003 ECOKING\""
+    ],
     "sku": "Y12272",
     "name": "PINGPONG 3W ORANGE EPP003 ECOKING",
     "brand": "ECOKING"
   },
   "wall-light-1-x-3w-3000k-alu-blk-icon-ewl-8503ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/wall-light-1-x-3w-3000k-alu-blk-icon-ewl-8503ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.homenish.com/wp-content/uploads/2021/06/Brick-Wall-768x512.jpg",
-    "source_page": "https://www.homenish.com/types-of-walls/",
-    "query": "site:ecoking.co.id \"WALL LIGHT 1 X 3W 3000K ALU BLK ICON EWL-8503WW ECOKING\" \"ECOKING\" \"Y10875\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"EWL8503WW\"",
+      "\"ECOKING\" \"3000K\" \"EWL8503WW\"",
+      "\"WALL LIGHT 1 X 3W 3000K ALU BLK ICON EWL-8503WW ECOKING\""
+    ],
     "sku": "Y10875",
     "name": "WALL LIGHT 1 X 3W 3000K ALU BLK ICON EWL-8503WW ECOKING",
     "brand": "ECOKING"
   },
   "kap-t5-neon-led-10w-3000k-l60cm-ent5510ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/kap-t5-neon-led-10w-3000k-l60cm-ent5510ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://designwiz.s3.amazonaws.com/blog/Softball-Players-in-Action-1.jpeg",
-    "source_page": "https://designwiz.com/blog/softball-images-and-pictures/",
-    "query": "site:ecoking.co.id \"KAP T5 NEON LED 10W 3000K L60CM ENT5510WW ECOKING\" \"ECOKING\" \"YP46\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"L60CM\"",
+      "\"ECOKING\" \"3000K\" \"L60CM\"",
+      "\"KAP T5 NEON LED 10W 3000K L60CM ENT5510WW ECOKING\""
+    ],
     "sku": "YP46",
     "name": "KAP T5 NEON LED 10W 3000K L60CM ENT5510WW ECOKING",
     "brand": "ECOKING"
   },
   "lampu-tl-ring-30w-e27-3000k-180mm-etr030ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-tl-ring-30w-e27-3000k-180mm-etr030ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://cdn.cinematerial.com/p/297x/nmhyhtgf/star-wars-the-mandalorian-and-grogu-movie-poster-md.jpg?v=1777940652",
-    "source_page": "https://www.cinematerial.com/movies/star-wars-the-mandalorian-and-grogu-i30825738",
-    "query": "site:ecoking.co.id \"LAMPU TL RING 30W E27 3000K 180MM ETR030WW ECOKING\" \"ECOKING\" \"ZL82\"",
-    "score": 80,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"180MM\"",
+      "\"ECOKING\" \"3000K\" \"180MM\"",
+      "\"LAMPU TL RING 30W E27 3000K 180MM ETR030WW ECOKING\""
+    ],
     "sku": "ZL82",
     "name": "LAMPU TL RING 30W E27 3000K 180MM ETR030WW ECOKING",
     "brand": "ECOKING"
   },
   "kap-t5-neon-led-5w-3000k-l30cm-ent5505ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/kap-t5-neon-led-5w-3000k-l30cm-ent5505ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://dunkindonutsmenuu.com/wp-content/uploads/2025/12/Dunkin-Donuts-Breakfast-Menu.webp",
-    "source_page": "https://dunkindonutsmenuu.com/breakfast-menu/",
-    "query": "site:ecoking.co.id \"KAP T5 NEON LED 5W 3000K L30CM ENT5505WW ECOKING\" \"ECOKING\" \"YP43\"",
-    "score": 96,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"L30CM\"",
+      "\"ECOKING\" \"3000K\" \"L30CM\"",
+      "\"KAP T5 NEON LED 5W 3000K L30CM ENT5505WW ECOKING\""
+    ],
     "sku": "YP43",
     "name": "KAP T5 NEON LED 5W 3000K L30CM ENT5505WW ECOKING",
     "brand": "ECOKING"
   },
   "kap-t5-neon-led-14w-3000k-l90cm-ent5514ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/kap-t5-neon-led-14w-3000k-l90cm-ent5514ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://as2.ftcdn.net/v2/jpg/00/88/04/69/1000_F_88046973_pm50jSfR8ZivlO2mFkXOPjILpnAnwQgb.jpg",
-    "source_page": "https://stock.adobe.com/images/ultrasound-of-the-larynx/88046973",
-    "query": "site:ecoking.co.id \"KAP T5 NEON LED 14W 3000K L90CM ENT5514WW ECOKING\" \"ECOKING\" \"YP49\"",
-    "score": 96,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"L90CM\"",
+      "\"ECOKING\" \"3000K\" \"L90CM\"",
+      "\"KAP T5 NEON LED 14W 3000K L90CM ENT5514WW ECOKING\""
+    ],
     "sku": "YP49",
     "name": "KAP T5 NEON LED 14W 3000K L90CM ENT5514WW ECOKING",
     "brand": "ECOKING"
   },
   "led-strip-pancawarna-48l-m-blue-2835-6mm-epw1060-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-strip-pancawarna-48l-m-blue-2835-6mm-epw1060-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED STRIP PANCAWARNA 48L/M BLUE 2835-6MM EPW1060 ECOKING\" \"ECOKING\" \"XP39\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"48LM\" \"28356MM\"",
+      "\"ECOKING\" \"48LM\" \"28356MM\"",
+      "\"LED STRIP PANCAWARNA 48L/M BLUE 2835-6MM EPW1060 ECOKING\""
+    ],
     "sku": "XP39",
     "name": "LED STRIP PANCAWARNA 48L/M BLUE 2835-6MM EPW1060 ECOKING",
     "brand": "ECOKING"
   },
   "lampu-led-disco-5w-rgb-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-led-disco-5w-rgb-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://img.freepik.com/premium-photo/cute-popcorn-character-isolated-empty-background_168310-93.jpg",
-    "source_page": "https://www.freepik.com/premium-photo/cute-popcorn-character-isolated-empty-background_38217953.htm",
-    "query": "site:ecoking.co.id \"LAMPU LED DISCO 5W RGB ECOKING\" \"ECOKING\" \"ZL64\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"LAMPU LED DISCO 5W RGB ECOKING\"",
+      "\"LAMPU LED DISCO 5W RGB ECOKING\" \"ECOKING\"",
+      "ECOKING LAMPU LED DISCO 5W RGB ECOKING"
+    ],
     "sku": "ZL64",
     "name": "LAMPU LED DISCO 5W RGB ECOKING",
     "brand": "ECOKING"
   },
   "led-strip-12v-9w-els12120-3000k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-strip-12v-9w-els12120-3000k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED STRIP 12V 9W ELS12120 3000K ECOKING\" \"ECOKING\" \"Y11167\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"ELS12120\" \"3000K\"",
+      "\"ECOKING\" \"ELS12120\" \"3000K\"",
+      "\"LED STRIP 12V 9W ELS12120 3000K ECOKING\""
+    ],
     "sku": "Y11167",
     "name": "LED STRIP 12V 9W ELS12120 3000K ECOKING",
     "brand": "ECOKING"
   },
   "led-strip-cob-12v-252l-10w-blue-ecoking": {
-    "status": "resolved",
-    "file": "product-images/led-strip-cob-12v-252l-10w-blue-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:ecoking.co.id \"LED STRIP COB 12V 252L 10W BLUE ECOKING\" \"ECOKING\" \"EP12\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"252L\"",
+      "\"ECOKING\" \"252L\"",
+      "\"LED STRIP COB 12V 252L 10W BLUE ECOKING\""
+    ],
     "sku": "EP12",
     "name": "LED STRIP COB 12V 252L 10W BLUE ECOKING",
     "brand": "ECOKING"
   },
   "kap-t5-neon-led-5w-blue-l30cm-ent5505bl-ecoking": {
-    "status": "resolved",
-    "file": "product-images/kap-t5-neon-led-5w-blue-l30cm-ent5505bl-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://otome.com/wp-content/uploads/2024/06/touchstarved-3.jpg",
-    "source_page": "https://otome.com/games/touchstarved/",
-    "query": "site:ecoking.co.id \"KAP T5 NEON LED 5W BLUE L30CM ENT5505BL ECOKING\" \"ECOKING\" \"YP41\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"L30CM\" \"ENT5505BL\"",
+      "\"ECOKING\" \"L30CM\" \"ENT5505BL\"",
+      "\"KAP T5 NEON LED 5W BLUE L30CM ENT5505BL ECOKING\""
+    ],
     "sku": "YP41",
     "name": "KAP T5 NEON LED 5W BLUE L30CM ENT5505BL ECOKING",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-300w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-300w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://image.tmdb.org/t/p/w1280/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
-    "source_page": "https://screenwiseapp.com/guides/the-odyssey-movie",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 300W 6500K ECOKING\" \"ECOKING\" \"Y0996\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"300W\" \"6500K\"",
+      "\"ECOKING\" \"300W\" \"6500K\"",
+      "\"LAMPU SOROT NINJA 300W 6500K ECOKING\""
+    ],
     "sku": "Y0996",
     "name": "LAMPU SOROT NINJA 300W 6500K ECOKING",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-50w-3000k-pfl5015ww-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-50w-3000k-pfl5015ww-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://akamai.sscdn.co/uploadfile/letras/fotos/d/e/8/8/de882aa2ab9d868c30718edd8e5d6fd5.jpg",
-    "source_page": "https://www.letras.com/fede-vigevani/",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 50W 3000K PFL5015WW ECOKING\" \"ECOKING\" \"NM103\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\" \"PFL5015WW\"",
+      "\"ECOKING\" \"3000K\" \"PFL5015WW\"",
+      "\"LAMPU SOROT NINJA 50W 3000K PFL5015WW ECOKING\""
+    ],
     "sku": "NM103",
     "name": "LAMPU SOROT NINJA 50W 3000K PFL5015WW ECOKING",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-100w-3000k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-100w-3000k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://wallpapercat.com/w/full/5/a/0/279795-1920x1080-desktop-full-hd-daredevil-background.jpg",
-    "source_page": "https://wallpapercat.com/daredevil-wallpapers",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 100W 3000K ECOKING\" \"ECOKING\" \"Y1007\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"100W\" \"3000K\"",
+      "\"ECOKING\" \"100W\" \"3000K\"",
+      "\"LAMPU SOROT NINJA 100W 3000K ECOKING\""
+    ],
     "sku": "Y1007",
     "name": "LAMPU SOROT NINJA 100W 3000K ECOKING",
     "brand": "ECOKING"
   },
   "wall-light-1xe27-rd-alu-icon-ewl8603-ecoking": {
-    "status": "resolved",
-    "file": "product-images/wall-light-1xe27-rd-alu-icon-ewl8603-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.homenish.com/wp-content/uploads/2021/06/Brick-Wall-768x512.jpg",
-    "source_page": "https://www.homenish.com/types-of-walls/",
-    "query": "site:ecoking.co.id \"WALL LIGHT 1XE27 RD ALU ICON-EWL8603 ECOKING\" \"ECOKING\" \"Y10870\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"1XE27\" \"ICONEWL8603\"",
+      "\"ECOKING\" \"1XE27\" \"ICONEWL8603\"",
+      "\"WALL LIGHT 1XE27 RD ALU ICON-EWL8603 ECOKING\""
+    ],
     "sku": "Y10870",
     "name": "WALL LIGHT 1XE27 RD ALU ICON-EWL8603 ECOKING",
     "brand": "ECOKING"
   },
   "wall-light-1xe27-sq-alu-icon-ewl8703-ecoking": {
-    "status": "resolved",
-    "file": "product-images/wall-light-1xe27-sq-alu-icon-ewl8703-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://www.homenish.com/wp-content/uploads/2021/06/Brick-Wall-768x512.jpg",
-    "source_page": "https://www.homenish.com/types-of-walls/",
-    "query": "site:ecoking.co.id \"WALL LIGHT 1XE27 SQ ALU ICON-EWL8703 ECOKING\" \"ECOKING\" \"Y10871\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"1XE27\" \"ICONEWL8703\"",
+      "\"ECOKING\" \"1XE27\" \"ICONEWL8703\"",
+      "\"WALL LIGHT 1XE27 SQ ALU ICON-EWL8703 ECOKING\""
+    ],
     "sku": "Y10871",
     "name": "WALL LIGHT 1XE27 SQ ALU ICON-EWL8703 ECOKING",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-10w-3000k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-10w-3000k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/03/mib-worms-1.jpg",
-    "source_page": "https://screenrant.com/men-in-black-worm-explained/",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 10W 3000K ECOKING\" \"ECOKING\" \"Y1000\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"3000K\"",
+      "\"ECOKING\" \"3000K\"",
+      "\"LAMPU SOROT NINJA 10W 3000K ECOKING\""
+    ],
     "sku": "Y1000",
     "name": "LAMPU SOROT NINJA 10W 3000K ECOKING",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-30w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-30w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://as1.ftcdn.net/jpg/08/95/95/68/1000_F_895956814_TDKs4QOjpvSMK0yMWAkXwwEnVkEprBpb.jpg",
-    "source_page": "https://stock.adobe.com/vn/images/spinothalamic-tract-as-neural-pathway-to-brain-thalamus-outline-diagram-transparent-background-labeled-educational-anatomy-scheme-with-primary-somatosensory-cortex-medulla-oblongata/895956814",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 30W 6500K ECOKING\" \"ECOKING\" \"Y1003\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LAMPU SOROT NINJA 30W 6500K ECOKING\""
+    ],
     "sku": "Y1003",
     "name": "LAMPU SOROT NINJA 30W 6500K ECOKING",
     "brand": "ECOKING"
   },
+  "lampu-sorot-rgb-samurai-10w-ecoking-pfl5011d": {
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"PFL5011D\"",
+      "\"ECOKING\" \"PFL5011D\"",
+      "\"LAMPU SOROT RGB SAMURAI 10W ECOKING PFL5011D\""
+    ],
+    "sku": "ZS11",
+    "name": "LAMPU SOROT RGB SAMURAI 10W ECOKING PFL5011D",
+    "brand": "ECOKING"
+  },
   "lampu-sorot-rgb-samurai-30w-ecoking-pfl5013d": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-rgb-samurai-30w-ecoking-pfl5013d.webp",
-    "engine": "bing",
-    "source_image": "https://image3.slideserve.com/6397015/itinerary-l.jpg",
-    "source_page": "https://www.slideserve.com/pandora-page/vocabulary-unit-11",
-    "query": "site:ecoking.co.id \"LAMPU SOROT RGB SAMURAI 30W ECOKING PFL5013D\" \"ECOKING\" \"ZS13\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"PFL5013D\"",
+      "\"ECOKING\" \"PFL5013D\"",
+      "\"LAMPU SOROT RGB SAMURAI 30W ECOKING PFL5013D\""
+    ],
     "sku": "ZS13",
     "name": "LAMPU SOROT RGB SAMURAI 30W ECOKING PFL5013D",
     "brand": "ECOKING"
   },
   "lampu-sorot-ninja-10w-6500k-ecoking": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-ninja-10w-6500k-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://data.templateroller.com/pdf_docs_html/2611/26115/2611570/appendix-d-2-adjusted-gross-income-agi-worksheet-microenterprise-program-community-development-block-grant-cdbg-california.png",
-    "source_page": "https://www.templateroller.com/template/2611572/appendix-d-4-certification-of-zero-income-community-development-block-grant-cdbg-california.html",
-    "query": "site:ecoking.co.id \"LAMPU SOROT NINJA 10W 6500K ECOKING\" \"ECOKING\" \"Y0999\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"6500K\"",
+      "\"ECOKING\" \"6500K\"",
+      "\"LAMPU SOROT NINJA 10W 6500K ECOKING\""
+    ],
     "sku": "Y0999",
     "name": "LAMPU SOROT NINJA 10W 6500K ECOKING",
     "brand": "ECOKING"
   },
   "raket-nyamuk-ern3102-ecoking": {
-    "status": "resolved",
-    "file": "product-images/raket-nyamuk-ern3102-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://pngimg.com/uploads/batman/batman_PNG10.png",
-    "source_page": "http://pngimg.com/download/28990",
-    "query": "site:ecoking.co.id \"RAKET NYAMUK ERN3102 ECOKING\" \"ECOKING\" \"RN05\"",
-    "score": 96,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"ERN3102\"",
+      "\"ECOKING\" \"ERN3102\"",
+      "\"RAKET NYAMUK ERN3102 ECOKING\""
+    ],
     "sku": "RN05",
     "name": "RAKET NYAMUK ERN3102 ECOKING",
     "brand": "ECOKING"
   },
   "raket-nyamuk-ern3107-atom-ecoking": {
-    "status": "resolved",
-    "file": "product-images/raket-nyamuk-ern3107-atom-ecoking.webp",
-    "engine": "bing",
-    "source_image": "https://image1.slideserve.com/1553708/cis-courses-offered-2013-2014-69-college-credits-l.jpg",
-    "source_page": "https://www.slideserve.com/niel/future-programming-options-powerpoint-ppt-presentation",
-    "query": "site:ecoking.co.id \"RAKET NYAMUK ERN3107 ATOM ECOKING\" \"ECOKING\" \"Y1462\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:ecoking.co.id \"ECOKING\" \"ERN3107\"",
+      "\"ECOKING\" \"ERN3107\"",
+      "\"RAKET NYAMUK ERN3107 ATOM ECOKING\""
+    ],
     "sku": "Y1462",
     "name": "RAKET NYAMUK ERN3107 ATOM ECOKING",
     "brand": "ECOKING"
   },
   "fitting-gantung-e27-hitam-vfg218b-visalux": {
-    "status": "resolved",
-    "file": "product-images/fitting-gantung-e27-hitam-vfg218b-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://medlineplus.gov/images/ThyroidDiseases_share.jpg",
-    "source_page": "https://fity.club/lists/suggestions/thyroid-disease/",
-    "query": "site:visalux.co.id \"FITTING GANTUNG E27 HITAM VFG218B VISALUX\" \"VISALUX\" \"YF22\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VFG218B\"",
+      "\"VISALUX\" \"VFG218B\"",
+      "\"FITTING GANTUNG E27 HITAM VFG218B VISALUX\""
+    ],
     "sku": "YF22",
     "name": "FITTING GANTUNG E27 HITAM VFG218B VISALUX",
     "brand": "VISALUX"
   },
   "fitting-colok-saklar-v2615-visalux": {
-    "status": "resolved",
-    "file": "product-images/fitting-colok-saklar-v2615-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://thumbs.dreamstime.com/b/glowing-jellyfish-swimming-deep-blue-sea-rainbow-neon-colors-glowing-jellyfish-swimming-deep-blue-sea-rainbow-neon-colors-ai-321248792.jpg",
-    "source_page": "https://www.dreamstime.com/glowing-jellyfish-swimming-deep-blue-sea-rainbow-neon-colors-glowing-jellyfish-swimming-deep-blue-sea-rainbow-neon-colors-ai-image321248792",
-    "query": "site:visalux.co.id \"FITTING COLOK + SAKLAR V2615 VISALUX\" \"VISALUX\" \"F502\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"V2615\"",
+      "\"VISALUX\" \"V2615\"",
+      "\"FITTING COLOK + SAKLAR V2615 VISALUX\""
+    ],
     "sku": "F502",
     "name": "FITTING COLOK + SAKLAR V2615 VISALUX",
     "brand": "VISALUX"
   },
   "fitting-kombinasi-visalux-v-272-s-black": {
-    "status": "resolved",
-    "file": "product-images/fitting-kombinasi-visalux-v-272-s-black.webp",
-    "engine": "bing",
-    "source_image": "https://images.everydayhealth.com/images/seo-graphic-content-initiative/eh-the-stages-of-chronic-kidney-disease-seo-graphics-audra-(1).png?sfvrsn=940d5b2e_3",
-    "source_page": "https://www.everydayhealth.com/urinary-conditions/chronic-kidney-disease/guide/",
-    "query": "site:visalux.co.id \"FITTING KOMBINASI VISALUX V 272 S BLACK\" \"VISALUX\" \"F290\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"FITTING KOMBINASI VISALUX V 272 S BLACK\"",
+      "\"FITTING KOMBINASI VISALUX V 272 S BLACK\" \"VISALUX\"",
+      "VISALUX FITTING KOMBINASI VISALUX V 272 S BLACK"
+    ],
     "sku": "F290",
     "name": "FITTING KOMBINASI VISALUX V 272 S BLACK",
     "brand": "VISALUX"
   },
   "fitting-plavon-segi-4-e27-3a-asb-vfp2704-visalux": {
-    "status": "resolved",
-    "file": "product-images/fitting-plavon-segi-4-e27-3a-asb-vfp2704-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://c8.alamy.com/comp/2D8AC4R/colby-college-campus-waterville-maine-usa-2D8AC4R.jpg",
-    "source_page": "https://www.alamy.com/stock-photo/colby-college-building.html",
-    "query": "site:visalux.co.id \"FITTING PLAVON SEGI 4 E27 3A ASB VFP2704 VISALUX\" \"VISALUX\" \"YF18\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VFP2704\"",
+      "\"VISALUX\" \"VFP2704\"",
+      "\"FITTING PLAVON SEGI 4 E27 3A ASB VFP2704 VISALUX\""
+    ],
     "sku": "YF18",
     "name": "FITTING PLAVON SEGI 4 E27 3A ASB VFP2704 VISALUX",
     "brand": "VISALUX"
   },
   "fitting-kombinasi-e27-white-visalux-v272w": {
-    "status": "resolved",
-    "file": "product-images/fitting-kombinasi-e27-white-visalux-v272w.webp",
-    "engine": "bing",
-    "source_image": "https://karkpost.com/wp-content/uploads/2025/06/Ella-Langley-2-2048x1367.jpg",
-    "source_page": "https://karkpost.com/ella-langley-puts-a-stunning-spin-on-george-straits-classic-hit/",
-    "query": "site:visalux.co.id \"FITTING KOMBINASI E27 WHITE VISALUX V272W\" \"VISALUX\" \"F495\"",
-    "score": 92,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"V272W\"",
+      "\"VISALUX\" \"V272W\"",
+      "\"FITTING KOMBINASI E27 WHITE VISALUX V272W\""
+    ],
     "sku": "F495",
     "name": "FITTING KOMBINASI E27 WHITE VISALUX V272W",
     "brand": "VISALUX"
   },
   "bola-lampu-legend-20w-6500k-8820dl-brilliance-visalux": {
-    "status": "resolved",
-    "file": "product-images/bola-lampu-legend-20w-6500k-8820dl-brilliance-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/originals/89/d0/5b/89d05bb1079a09d6f66ef85e0a0b139c.jpg",
-    "source_page": "https://utpaqp.edu.pe/post/las-quintillizas-wallpaper-4k-black/",
-    "query": "site:visalux.co.id \"BOLA LAMPU LEGEND 20W 6500K 8820DL BRILLIANCE VISALUX\" \"VISALUX\" \"VB05\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"8820DL\"",
+      "\"VISALUX\" \"6500K\" \"8820DL\"",
+      "\"BOLA LAMPU LEGEND 20W 6500K 8820DL BRILLIANCE VISALUX\""
+    ],
     "sku": "VB05",
     "name": "BOLA LAMPU LEGEND 20W 6500K 8820DL BRILLIANCE VISALUX",
     "brand": "VISALUX"
   },
   "s-k-1-lbg-arde-lampu-visalux-va-5201": {
-    "status": "resolved",
-    "file": "product-images/s-k-1-lbg-arde-lampu-visalux-va-5201.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K 1 LBG ARDE + LAMPU VISALUX VA 5201\" \"VISALUX\" \"S386\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"S/K 1 LBG ARDE + LAMPU VISALUX VA 5201\"",
+      "\"S/K 1 LBG ARDE + LAMPU VISALUX VA 5201\" \"VISALUX\"",
+      "VISALUX S/K 1 LBG ARDE + LAMPU VISALUX VA 5201"
+    ],
     "sku": "S386",
     "name": "S/K 1 LBG ARDE + LAMPU VISALUX VA 5201",
     "brand": "VISALUX"
   },
   "box-mcb-4group-kaca-lampu-vbm9304-visalux": {
-    "status": "resolved",
-    "file": "product-images/box-mcb-4group-kaca-lampu-vbm9304-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/021/164/996/original/open-cardboard-box-transparent-background-png.png",
-    "source_page": "https://es.vecteezy.com/png/21164996-abierto-cartulina-caja-transparente-antecedentes",
-    "query": "site:visalux.co.id \"BOX MCB 4GROUP KACA/LAMPU VBM9304 VISALUX\" \"VISALUX\" \"UB07\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"4GROUP\" \"VBM9304\"",
+      "\"VISALUX\" \"4GROUP\" \"VBM9304\"",
+      "\"BOX MCB 4GROUP KACA/LAMPU VBM9304 VISALUX\""
+    ],
     "sku": "UB07",
     "name": "BOX MCB 4GROUP KACA/LAMPU VBM9304 VISALUX",
     "brand": "VISALUX"
   },
   "s-k-ac-decor-lampu-visalux-vs-9113n": {
-    "status": "resolved",
-    "file": "product-images/s-k-ac-decor-lampu-visalux-vs-9113n.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K AC DECOR LAMPU VISALUX VS 9113N\" \"VISALUX\" \"X202\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"9113N\"",
+      "\"VISALUX\" \"9113N\"",
+      "\"S/K AC DECOR LAMPU VISALUX VS 9113N\""
+    ],
     "sku": "X202",
     "name": "S/K AC DECOR LAMPU VISALUX VS 9113N",
     "brand": "VISALUX"
   },
   "downlight-4-9w-6500k-bulat-vs8309r-visalux": {
-    "status": "resolved",
-    "file": "product-images/downlight-4-9w-6500k-bulat-vs8309r-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i.ebayimg.com/images/g/~ooAAOSw0PBlD-tt/s-l400.jpg",
-    "source_page": "https://www.ebay.it/itm/155791961330",
-    "query": "site:visalux.co.id \"DOWNLIGHT 4\" 9W 6500K BULAT VS8309R VISALUX\" \"VISALUX\" \"TD14\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VS8309R\"",
+      "\"VISALUX\" \"6500K\" \"VS8309R\"",
+      "\"DOWNLIGHT 4\" 9W 6500K BULAT VS8309R VISALUX\""
+    ],
     "sku": "TD14",
     "name": "DOWNLIGHT 4\" 9W 6500K BULAT VS8309R VISALUX",
     "brand": "VISALUX"
   },
   "led-t8-24w-glass-6500k-vtl1224-tl-visalux": {
-    "status": "resolved",
-    "file": "product-images/led-t8-24w-glass-6500k-vtl1224-tl-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:visalux.co.id \"LED T8 24W GLASS 6500K VTL1224-TL VISALUX\" \"VISALUX\" \"Y0054\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VTL1224TL\"",
+      "\"VISALUX\" \"6500K\" \"VTL1224TL\"",
+      "\"LED T8 24W GLASS 6500K VTL1224-TL VISALUX\""
+    ],
     "sku": "Y0054",
     "name": "LED T8 24W GLASS 6500K VTL1224-TL VISALUX",
     "brand": "VISALUX"
   },
   "downlight-4-white-vdl6540w-visalux": {
-    "status": "resolved",
-    "file": "product-images/downlight-4-white-vdl6540w-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/M/MV5BMDUxZDhmNjktMTBiNC00OWVjLWIyMzMtMjNhNTRlYTM3NjY5XkEyXkFqcGc@._V1_.jpg",
-    "source_page": "https://www.imdb.com/title/tt11718516/mediaviewer/rm3758311169/",
-    "query": "site:visalux.co.id \"DOWNLIGHT 4\" WHITE VDL6540W VISALUX\" \"VISALUX\" \"TD92\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VDL6540W\"",
+      "\"VISALUX\" \"VDL6540W\"",
+      "\"DOWNLIGHT 4\" WHITE VDL6540W VISALUX\""
+    ],
     "sku": "TD92",
     "name": "DOWNLIGHT 4\" WHITE VDL6540W VISALUX",
     "brand": "VISALUX"
   },
   "dl-12w-5-3000k-tetra-vs8312r-ww-visalux-bulat": {
-    "status": "resolved",
-    "file": "product-images/dl-12w-5-3000k-tetra-vs8312r-ww-visalux-bulat.webp",
-    "engine": "bing",
-    "source_image": "https://www.iphonemod.net/wp-content/uploads/2017/05/Microsoft-New-Surface-Pro-Cover-1024x720.jpg",
-    "source_page": "https://www.iphonemod.net/microsoft-unveils-new-surface-pro.html",
-    "query": "site:visalux.co.id \"DL 12W 5\" 3000K TETRA VS8312R-WW VISALUX BULAT\" \"VISALUX\" \"Y1056\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"3000K\" \"VS8312RWW\"",
+      "\"VISALUX\" \"3000K\" \"VS8312RWW\"",
+      "\"DL 12W 5\" 3000K TETRA VS8312R-WW VISALUX BULAT\""
+    ],
     "sku": "Y1056",
     "name": "DL 12W 5\" 3000K TETRA VS8312R-WW VISALUX BULAT",
     "brand": "VISALUX"
   },
   "bola-lampu-classic-7w-6500k-7707dl-radiance-visalux": {
-    "status": "resolved",
-    "file": "product-images/bola-lampu-classic-7w-6500k-7707dl-radiance-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://renarts.com/cdn/shop/files/1203A895-020-1.jpg?v=1774987541&width=2000",
-    "source_page": "https://renarts.com/products/asics-mens-gel-nyc-2-0-shoes-1203a895-020",
-    "query": "site:visalux.co.id \"BOLA LAMPU CLASSIC 7W 6500K 7707DL RADIANCE VISALUX\" \"VISALUX\" \"VR03\"",
-    "score": 98,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"7707DL\"",
+      "\"VISALUX\" \"6500K\" \"7707DL\"",
+      "\"BOLA LAMPU CLASSIC 7W 6500K 7707DL RADIANCE VISALUX\""
+    ],
     "sku": "VR03",
     "name": "BOLA LAMPU CLASSIC 7W 6500K 7707DL RADIANCE VISALUX",
     "brand": "VISALUX"
   },
   "dl-3-5-e27-white-vdl6535w-liberty-visalux": {
-    "status": "resolved",
-    "file": "product-images/dl-3-5-e27-white-vdl6535w-liberty-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://media.tenor.com/TRkahfU3qDwAAAAM/birthday-cake.gif",
-    "source_page": "https://tenor.com/pt-BR/view/birthday-cake-eating-dirty-gif-16300528",
-    "query": "site:visalux.co.id \"DL 3,5\" E27 WHITE VDL6535W LIBERTY VISALUX\" \"VISALUX\" \"Y1419\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VDL6535W\"",
+      "\"VISALUX\" \"VDL6535W\"",
+      "\"DL 3,5\" E27 WHITE VDL6535W LIBERTY VISALUX\""
+    ],
     "sku": "Y1419",
     "name": "DL 3,5\" E27 WHITE VDL6535W LIBERTY VISALUX",
     "brand": "VISALUX"
   },
   "dl-12w-6-6500k-tetra-vs8312s-dl-visalux-petak": {
-    "status": "resolved",
-    "file": "product-images/dl-12w-6-6500k-tetra-vs8312s-dl-visalux-petak.webp",
-    "engine": "bing",
-    "source_image": "https://media.colomio.com/calendar/2026/2026-calendar-printable-pdf.png",
-    "source_page": "https://iesanfelipe.edu.pe/tag/printable-2026-calendars-free-printable-pdf/",
-    "query": "site:visalux.co.id \"DL 12W 6\" 6500K TETRA VS8312S-DL VISALUX PETAK\" \"VISALUX\" \"Y1062\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VS8312SDL\"",
+      "\"VISALUX\" \"6500K\" \"VS8312SDL\"",
+      "\"DL 12W 6\" 6500K TETRA VS8312S-DL VISALUX PETAK\""
+    ],
     "sku": "Y1062",
     "name": "DL 12W 6\" 6500K TETRA VS8312S-DL VISALUX PETAK",
     "brand": "VISALUX"
   },
   "steker-t-multi-visalux-v-8812w": {
-    "status": "resolved",
-    "file": "product-images/steker-t-multi-visalux-v-8812w.webp",
-    "engine": "bing",
-    "source_image": "https://imperialcounty.org/wp-content/uploads/2026/04/IMG_7472.jpg",
-    "source_page": "https://imperialcounty.org/2026/04/adminproday26/",
-    "query": "site:visalux.co.id \"STEKER T MULTI VISALUX V 8812W\" \"VISALUX\" \"A483\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"8812W\"",
+      "\"VISALUX\" \"8812W\"",
+      "\"STEKER T MULTI VISALUX V 8812W\""
+    ],
     "sku": "A483",
     "name": "STEKER T MULTI VISALUX V 8812W",
     "brand": "VISALUX"
   },
   "s-k-4-lb-arde-lp-visalux-va-5204": {
-    "status": "resolved",
-    "file": "product-images/s-k-4-lb-arde-lp-visalux-va-5204.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K 4 LB ARDE + LP VISALUX VA 5204\" \"VISALUX\" \"S1016\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"S/K 4 LB ARDE + LP VISALUX VA 5204\"",
+      "\"S/K 4 LB ARDE + LP VISALUX VA 5204\" \"VISALUX\"",
+      "VISALUX S/K 4 LB ARDE + LP VISALUX VA 5204"
+    ],
     "sku": "S1016",
     "name": "S/K 4 LB ARDE + LP VISALUX VA 5204",
     "brand": "VISALUX"
   },
   "saklar-seri-1w-10a-vse3021-visalux": {
-    "status": "resolved",
-    "file": "product-images/saklar-seri-1w-10a-vse3021-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/736x/64/10/fd/6410fd142ea31eb10e91a05bb14cbebc--starburst-candy-salty-snacks.jpg",
-    "source_page": "https://storage.googleapis.com/detzwevvyzwyye/berries-and-cream-ad-starburst.html",
-    "query": "site:visalux.co.id \"SAKLAR SERI 1W 10A VSE3021 VISALUX\" \"VISALUX\" \"XG21\"",
-    "score": 98,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VSE3021\"",
+      "\"VISALUX\" \"VSE3021\"",
+      "\"SAKLAR SERI 1W 10A VSE3021 VISALUX\""
+    ],
     "sku": "XG21",
     "name": "SAKLAR SERI 1W 10A VSE3021 VISALUX",
     "brand": "VISALUX"
   },
   "s-k-flamingo-vsc-5002-visalux": {
-    "status": "resolved",
-    "file": "product-images/s-k-flamingo-vsc-5002-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K FLAMINGO VSC 5002 VISALUX\" \"VISALUX\" \"Y10655\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"S/K FLAMINGO VSC 5002 VISALUX\"",
+      "\"S/K FLAMINGO VSC 5002 VISALUX\" \"VISALUX\"",
+      "VISALUX S/K FLAMINGO VSC 5002 VISALUX"
+    ],
     "sku": "Y10655",
     "name": "S/K FLAMINGO VSC 5002 VISALUX",
     "brand": "VISALUX"
   },
   "over-steker-sebaguna-visalux-v-607a": {
-    "status": "resolved",
-    "file": "product-images/over-steker-sebaguna-visalux-v-607a.webp",
-    "engine": "bing",
-    "source_image": "https://mighty-wp.s3.amazonaws.com/mighty-deals-wp/wp-content/uploads/20230928094614/HoldenType-2.jpg",
-    "source_page": "https://fity.club/lists/suggestions/old-style-fonts/",
-    "query": "site:visalux.co.id \"OVER STEKER SEBAGUNA VISALUX V 607A\" \"VISALUX\" \"O051\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"607A\"",
+      "\"VISALUX\" \"607A\"",
+      "\"OVER STEKER SEBAGUNA VISALUX V 607A\""
+    ],
     "sku": "O051",
     "name": "OVER STEKER SEBAGUNA VISALUX V 607A",
     "brand": "VISALUX"
   },
   "s-k-ob-visalux-cello-putih-vs6016": {
-    "status": "resolved",
-    "file": "product-images/s-k-ob-visalux-cello-putih-vs6016.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K OB VISALUX CELLO PUTIH VS6016\" \"VISALUX\" \"X011\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VS6016\"",
+      "\"VISALUX\" \"VS6016\"",
+      "\"S/K OB VISALUX CELLO PUTIH VS6016\""
+    ],
     "sku": "X011",
     "name": "S/K OB VISALUX CELLO PUTIH VS6016",
     "brand": "VISALUX"
   },
   "saklar-tripel-1w-10a-vse3031-visalux": {
-    "status": "resolved",
-    "file": "product-images/saklar-tripel-1w-10a-vse3031-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a72deb60-de23-46d8-aba6-15f94e5278cf/dgj6usr-ecd2a077-74d6-4744-9fac-3c4da103a9c0.png/v1/fill/w_1280,h_937,q_80,strp/valhallen_s_fangirls_by_fluidease_dgj6usr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTM3IiwicGF0aCI6IlwvZlwvYTcyZGViNjAtZGUyMy00NmQ4LWFiYTYtMTVmOTRlNTI3OGNmXC9kZ2o2dXNyLWVjZDJhMDc3LTc0ZDYtNDc0NC05ZmFjLTNjNGRhMTAzYTljMC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.VQOPmQZA90Us_mwBOEcJbGxqLosaf3MW3Puo0f47AR8",
-    "source_page": "https://www.deviantart.com/fluidease/art/Valhallen-s-Fangirls-999691371",
-    "query": "site:visalux.co.id \"SAKLAR TRIPEL 1W 10A VSE3031 VISALUX\" \"VISALUX\" \"XG01\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VSE3031\"",
+      "\"VISALUX\" \"VSE3031\"",
+      "\"SAKLAR TRIPEL 1W 10A VSE3031 VISALUX\""
+    ],
     "sku": "XG01",
     "name": "SAKLAR TRIPEL 1W 10A VSE3031 VISALUX",
     "brand": "VISALUX"
   },
+  "kabel-ties-4-100-2-5mm-pth-visalux": {
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"25MM\"",
+      "\"VISALUX\" \"25MM\"",
+      "\"KABEL TIES 4\" (100*2.5MM) PTH VISALUX\""
+    ],
+    "sku": "T538",
+    "name": "KABEL TIES 4\" (100*2.5MM) PTH VISALUX",
+    "brand": "VISALUX"
+  },
   "klem-kabel-12mm-vkk-12-stella-visalux": {
-    "status": "resolved",
-    "file": "product-images/klem-kabel-12mm-vkk-12-stella-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://img.freepik.com/premium-photo/easter-wallpaper-high-quality-4k-ultra-hd-hdr_670382-129729.jpg?w=2000",
-    "source_page": "https://www.freepik.com/premium-ai-image/easter-wallpaper-high-quality-4k-ultra-hd-hdr_61731193.htm",
-    "query": "site:visalux.co.id \"KLEM KABEL 12MM VKK-12 STELLA VISALUX\" \"VISALUX\" \"Y10981\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"12MM\" \"VKK12\"",
+      "\"VISALUX\" \"12MM\" \"VKK12\"",
+      "\"KLEM KABEL 12MM VKK-12 STELLA VISALUX\""
+    ],
     "sku": "Y10981",
     "name": "KLEM KABEL 12MM VKK-12 STELLA VISALUX",
     "brand": "VISALUX"
   },
   "saklar-seri-ob-visalux-cello-putih-vs6210": {
-    "status": "resolved",
-    "file": "product-images/saklar-seri-ob-visalux-cello-putih-vs6210.webp",
-    "engine": "bing",
-    "source_image": "https://images.adsttc.com/media/images/5f77/609c/63c0/17ae/2200/09aa/large_jpg/Elche.jpg?1601659025",
-    "source_page": "https://www.archdaily.mx/mx/948980/trazas-urbanas-17-ciudades-vistas-desde-arriba",
-    "query": "site:visalux.co.id \"SAKLAR SERI OB VISALUX CELLO PUTIH VS6210\" \"VISALUX\" \"X009\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VS6210\"",
+      "\"VISALUX\" \"VS6210\"",
+      "\"SAKLAR SERI OB VISALUX CELLO PUTIH VS6210\""
+    ],
     "sku": "X009",
     "name": "SAKLAR SERI OB VISALUX CELLO PUTIH VS6210",
     "brand": "VISALUX"
   },
   "s-k-ob-segi-visalux-vs-8202": {
-    "status": "resolved",
-    "file": "product-images/s-k-ob-segi-visalux-vs-8202.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K OB SEGI VISALUX VS 8202\" \"VISALUX\" \"S979\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"S/K OB SEGI VISALUX VS 8202\"",
+      "\"S/K OB SEGI VISALUX VS 8202\" \"VISALUX\"",
+      "VISALUX S/K OB SEGI VISALUX VS 8202"
+    ],
     "sku": "S979",
     "name": "S/K OB SEGI VISALUX VS 8202",
     "brand": "VISALUX"
   },
   "skun-kabel-10-8mm-visalux-jgk": {
-    "status": "resolved",
-    "file": "product-images/skun-kabel-10-8mm-visalux-jgk.webp",
-    "engine": "bing",
-    "source_image": "https://overheaddoor-production-assets.azureedge.net/assets/images/default-source/doorview/garage-door-designer.jpg?sfvrsn=ba09dd68_1",
-    "source_page": "https://www.overheaddoor.com/residential/doordreamer",
-    "query": "site:visalux.co.id \"SKUN KABEL 10-8MM VISALUX JGK\" \"VISALUX\" \"XD13\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"108MM\"",
+      "\"VISALUX\" \"108MM\"",
+      "\"SKUN KABEL 10-8MM VISALUX JGK\""
+    ],
     "sku": "XD13",
     "name": "SKUN KABEL 10-8MM VISALUX JGK",
     "brand": "VISALUX"
   },
   "kabel-stereo-3-5mm-to-2plug-rca-1-4-black-cu-50-x-6pk-visalux": {
-    "status": "resolved",
-    "file": "product-images/kabel-stereo-3-5mm-to-2plug-rca-1-4-black-cu-50-x-6pk-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://5.imimg.com/data5/SELLER/Default/2023/1/VQ/MX/QO/55945448/bosch-fire-alarm-systems-1000x1000.png",
-    "source_page": "https://www.indiamart.com/proddetail/bosch-fire-alarm-systems-2849559743630.html",
-    "query": "site:visalux.co.id \"KABEL STEREO 3,5MM TO 2PLUG RCA 1,4 BLACK CU 50 X 6PK/VISALUX\" \"VISALUX\" \"Y0544\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"2PLUG\" \"6PKVISALUX\"",
+      "\"VISALUX\" \"2PLUG\" \"6PKVISALUX\"",
+      "\"KABEL STEREO 3,5MM TO 2PLUG RCA 1,4 BLACK CU 50 X 6PK/VISALUX\""
+    ],
     "sku": "Y0544",
     "name": "KABEL STEREO 3,5MM TO 2PLUG RCA 1,4 BLACK CU 50 X 6PK/VISALUX",
     "brand": "VISALUX"
   },
   "saklar-4g-decor-visalux-vs-9041": {
-    "status": "resolved",
-    "file": "product-images/saklar-4g-decor-visalux-vs-9041.webp",
-    "engine": "bing",
-    "source_image": "https://bdc2020.o0bc.com/wp-content/uploads/2025/06/GrkIlkaX0AAmJ2V-6856df1c7ced6-768x432.jpg?width=900",
-    "source_page": "https://www.boston.com/news/local-news/2025/06/21/heres-what-to-know-about-the-states-new-commemorative-250th-license-plate/",
-    "query": "site:visalux.co.id \"SAKLAR 4G DECOR VISALUX VS 9041\" \"VISALUX\" \"X200\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"SAKLAR 4G DECOR VISALUX VS 9041\"",
+      "\"SAKLAR 4G DECOR VISALUX VS 9041\" \"VISALUX\"",
+      "VISALUX SAKLAR 4G DECOR VISALUX VS 9041"
+    ],
     "sku": "X200",
     "name": "SAKLAR 4G DECOR VISALUX VS 9041",
     "brand": "VISALUX"
   },
   "s-k-3-lb-arde-switch-visalux-vs-6003ss": {
-    "status": "resolved",
-    "file": "product-images/s-k-3-lb-arde-switch-visalux-vs-6003ss.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:visalux.co.id \"S/K 3 LB ARDE + SWITCH VISALUX VS-6003SS\" \"VISALUX\" \"S1064\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VS6003SS\"",
+      "\"VISALUX\" \"VS6003SS\"",
+      "\"S/K 3 LB ARDE + SWITCH VISALUX VS-6003SS\""
+    ],
     "sku": "S1064",
     "name": "S/K 3 LB ARDE + SWITCH VISALUX VS-6003SS",
     "brand": "VISALUX"
   },
   "s-k-vsd9016-gold-lavish-visalux": {
-    "status": "resolved",
-    "file": "product-images/s-k-vsd9016-gold-lavish-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/021/054/556/original/3d-gold-effect-letter-s-free-png.png",
-    "source_page": "https://www.vecteezy.com/png/21054556-3d-gold-effect-letter-s",
-    "query": "site:visalux.co.id \"S/K VSD9016 GOLD LAVISH VISALUX\" \"VISALUX\" \"XG91\"",
-    "score": 103,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VSD9016\"",
+      "\"VISALUX\" \"VSD9016\"",
+      "\"S/K VSD9016 GOLD LAVISH VISALUX\""
+    ],
     "sku": "XG91",
     "name": "S/K VSD9016 GOLD LAVISH VISALUX",
     "brand": "VISALUX"
   },
   "bola-lampu-12w-6500k-lum-vpp6612dl-visalux-luminance": {
-    "status": "resolved",
-    "file": "product-images/bola-lampu-12w-6500k-lum-vpp6612dl-visalux-luminance.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/originals/06/4c/79/064c79adadda7b9d742f5673bac36655.jpg",
-    "source_page": "https://tour.qiqtek.com/happy-tuesday-motivational-quotes/",
-    "query": "site:visalux.co.id \"BOLA LAMPU 12W 6500K LUM-VPP6612DL VISALUX LUMINANCE\" \"VISALUX\" \"Y11118\"",
-    "score": 98,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"LUMVPP6612DL\"",
+      "\"VISALUX\" \"6500K\" \"LUMVPP6612DL\"",
+      "\"BOLA LAMPU 12W 6500K LUM-VPP6612DL VISALUX LUMINANCE\""
+    ],
     "sku": "Y11118",
     "name": "BOLA LAMPU 12W 6500K LUM-VPP6612DL VISALUX LUMINANCE",
     "brand": "VISALUX"
   },
   "honor-pl-led-5-12w-6500k-rd-vs8312r-d-visalux": {
-    "status": "resolved",
-    "file": "product-images/honor-pl-led-5-12w-6500k-rd-vs8312r-d-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://cdn.beebom.com/mobile/honor-win-front-back.png",
-    "source_page": "https://gadgets.beebom.com/mobile/honor-x9d",
-    "query": "site:visalux.co.id \"HONOR PL LED 5\" 12W 6500K RD VS8312R-D VISALUX\" \"VISALUX\" \"NP102\"",
-    "score": 103,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VS8312RD\"",
+      "\"VISALUX\" \"6500K\" \"VS8312RD\"",
+      "\"HONOR PL LED 5\" 12W 6500K RD VS8312R-D VISALUX\""
+    ],
     "sku": "NP102",
     "name": "HONOR PL LED 5\" 12W 6500K RD VS8312R-D VISALUX",
     "brand": "VISALUX"
   },
   "dl-8-24w-6500k-tetra-petak-visalux-vs8324s-dl": {
-    "status": "resolved",
-    "file": "product-images/dl-8-24w-6500k-tetra-petak-visalux-vs8324s-dl.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/736x/8d/5b/9c/8d5b9cebfd16033a08dc307a9e6e4b7a.jpg",
-    "source_page": "https://www.pinterest.com/pin/barlgura--814518282617531304/",
-    "query": "site:visalux.co.id \"DL 8\" 24W 6500K TETRA PETAK VISALUX VS8324S-DL\" \"VISALUX\" \"Y1090\"",
-    "score": 55,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VS8324SDL\"",
+      "\"VISALUX\" \"6500K\" \"VS8324SDL\"",
+      "\"DL 8\" 24W 6500K TETRA PETAK VISALUX VS8324S-DL\""
+    ],
     "sku": "Y1090",
     "name": "DL 8\" 24W 6500K TETRA PETAK VISALUX VS8324S-DL",
     "brand": "VISALUX"
   },
   "outlet-telp-1-way-decor-visalux-vs-9141": {
-    "status": "resolved",
-    "file": "product-images/outlet-telp-1-way-decor-visalux-vs-9141.webp",
-    "engine": "bing",
-    "source_image": "https://www.cyberpowersystems.com/wp-content/uploads/2018/02/R22U24CTR_R.jpg",
-    "source_page": "https://www.cyberpowersystems.com/product/general-power/r22u24ctr/",
-    "query": "site:visalux.co.id \"OUTLET TELP 1 WAY DECOR VISALUX VS 9141\" \"VISALUX\" \"O060\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"OUTLET TELP 1 WAY DECOR VISALUX VS 9141\"",
+      "\"OUTLET TELP 1 WAY DECOR VISALUX VS 9141\" \"VISALUX\"",
+      "VISALUX OUTLET TELP 1 WAY DECOR VISALUX VS 9141"
+    ],
     "sku": "O060",
     "name": "OUTLET TELP 1 WAY DECOR VISALUX VS 9141",
     "brand": "VISALUX"
   },
   "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w": {
-    "status": "resolved",
-    "file": "product-images/led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:visalux.co.id \"LED FL ROYAL 20W 3000K VISALUX RYL-VFL-5520W\" \"VISALUX\" \"Z1144\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"3000K\" \"RYLVFL5520W\"",
+      "\"VISALUX\" \"3000K\" \"RYLVFL5520W\"",
+      "\"LED FL ROYAL 20W 3000K VISALUX RYL-VFL-5520W\""
+    ],
     "sku": "Z1144",
     "name": "LED FL ROYAL 20W 3000K VISALUX RYL-VFL-5520W",
     "brand": "VISALUX"
   },
   "mcb-1p-6ka-4a-visalux-vs-104": {
-    "status": "resolved",
-    "file": "product-images/mcb-1p-6ka-4a-visalux-vs-104.webp",
-    "engine": "bing",
-    "source_image": "https://imgv2-1-f.scribdassets.com/img/document/917337841/original/8e9f4600de/1?v=1",
-    "source_page": "https://www.scribd.com/document/917337841/Chemical-Kinetics-Graphs",
-    "query": "site:visalux.co.id \"MCB 1P 6KA 4A VISALUX VS 104\" \"VISALUX\" \"M659\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"MCB 1P 6KA 4A VISALUX VS 104\"",
+      "\"MCB 1P 6KA 4A VISALUX VS 104\" \"VISALUX\"",
+      "VISALUX MCB 1P 6KA 4A VISALUX VS 104"
+    ],
     "sku": "M659",
     "name": "MCB 1P 6KA 4A VISALUX VS 104",
     "brand": "VISALUX"
   },
   "downlight-4-9w-6500k-petak-vs8309s-visalux": {
-    "status": "resolved",
-    "file": "product-images/downlight-4-9w-6500k-petak-vs8309s-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://miro.medium.com/v2/resize:fit:800/1*G_4Y_ZIc9vowo-B-9NUNbQ.jpeg",
-    "source_page": "https://medium.com/@rusma9/a-beginners-guide-to-confusion-matrix-and-performance-metrics-72d6d7ba90ea",
-    "query": "site:visalux.co.id \"DOWNLIGHT 4\" 9W 6500K PETAK VS8309S VISALUX\" \"VISALUX\" \"TD18\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VS8309S\"",
+      "\"VISALUX\" \"6500K\" \"VS8309S\"",
+      "\"DOWNLIGHT 4\" 9W 6500K PETAK VS8309S VISALUX\""
+    ],
     "sku": "TD18",
     "name": "DOWNLIGHT 4\" 9W 6500K PETAK VS8309S VISALUX",
     "brand": "VISALUX"
   },
   "dl-tetra-4-9w-6500k-ob-vpl9309s-dl-visalux": {
-    "status": "resolved",
-    "file": "product-images/dl-tetra-4-9w-6500k-ob-vpl9309s-dl-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i1.wp.com/www.remodelingcalculator.org/wp-content/uploads/Types-of-Gutters.png?fit=774%2C446&ssl=1",
-    "source_page": "https://www.remodelingcalculator.org/gutter-types/",
-    "query": "site:visalux.co.id \"DL TETRA 4\" 9W 6500K OB VPL9309S DL VISALUX\" \"VISALUX\" \"Y11123\"",
-    "score": 98,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VPL9309S\"",
+      "\"VISALUX\" \"6500K\" \"VPL9309S\"",
+      "\"DL TETRA 4\" 9W 6500K OB VPL9309S DL VISALUX\""
+    ],
     "sku": "Y11123",
     "name": "DL TETRA 4\" 9W 6500K OB VPL9309S DL VISALUX",
     "brand": "VISALUX"
   },
   "outlet-tv-visalux-e31tv75": {
-    "status": "resolved",
-    "file": "product-images/outlet-tv-visalux-e31tv75.webp",
-    "engine": "bing",
-    "source_image": "https://www.cyberpowersystems.com/wp-content/uploads/2018/02/R22U24CTR_R.jpg",
-    "source_page": "https://www.cyberpowersystems.com/product/general-power/r22u24ctr/",
-    "query": "site:visalux.co.id \"OUTLET TV VISALUX E31TV75\" \"VISALUX\" \"T275\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"E31TV75\"",
+      "\"VISALUX\" \"E31TV75\"",
+      "\"OUTLET TV VISALUX E31TV75\""
+    ],
     "sku": "T275",
     "name": "OUTLET TV VISALUX E31TV75",
     "brand": "VISALUX"
   },
   "body-t8-led-60cm-12w-6500k-vesta-w-batten-vtl0612-set-visalux": {
-    "status": "resolved",
-    "file": "product-images/body-t8-led-60cm-12w-6500k-vesta-w-batten-vtl0612-set-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://png.pngtree.com/png-clipart/20250303/original/pngtree-scientific-full-body-human-anatomy-illustration-for-medical-and-educational-use-png-image_20557308.png",
-    "source_page": "https://narodnatribuna.info/lists/d/full-body-organs-diagram/",
-    "query": "site:visalux.co.id \"BODY T8 LED 60CM 12W 6500K VESTA W/BATTEN VTL0612-SET VISALUX\" \"VISALUX\" \"Y0052\"",
-    "score": 103,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"60CM\" \"6500K\"",
+      "\"VISALUX\" \"60CM\" \"6500K\"",
+      "\"BODY T8 LED 60CM 12W 6500K VESTA W/BATTEN VTL0612-SET VISALUX\""
+    ],
     "sku": "Y0052",
     "name": "BODY T8 LED 60CM 12W 6500K VESTA W/BATTEN VTL0612-SET VISALUX",
     "brand": "VISALUX"
   },
   "end-cap-1-5mm-v1-25-black-visalux": {
-    "status": "resolved",
-    "file": "product-images/end-cap-1-5mm-v1-25-black-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://lukeanddakotaoffgrid.com/wp-content/uploads/2024/12/off-grid-resouces-modern-off-grid-homestead-header-image.jpg",
-    "source_page": "https://lukeanddakotaoffgrid.com/resources/",
-    "query": "site:visalux.co.id \"END CAP 1.5MM V1.25 BLACK VISALUX\" \"VISALUX\" \"E079\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"15MM\" \"V125\"",
+      "\"VISALUX\" \"15MM\" \"V125\"",
+      "\"END CAP 1.5MM V1.25 BLACK VISALUX\""
+    ],
     "sku": "E079",
     "name": "END CAP 1.5MM V1.25 BLACK VISALUX",
     "brand": "VISALUX"
   },
   "end-cap-1-5mm-v1-25-yellow-visalux": {
-    "status": "resolved",
-    "file": "product-images/end-cap-1-5mm-v1-25-yellow-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://doomsdayls.ru/wp-content/uploads/2025/07/загруженное-1-1024x576.jpg",
-    "source_page": "https://doomsdayls.ru/",
-    "query": "site:visalux.co.id \"END CAP 1.5MM V1.25 YELLOW VISALUX\" \"VISALUX\" \"E082\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"15MM\" \"V125\"",
+      "\"VISALUX\" \"15MM\" \"V125\"",
+      "\"END CAP 1.5MM V1.25 YELLOW VISALUX\""
+    ],
     "sku": "E082",
     "name": "END CAP 1.5MM V1.25 YELLOW VISALUX",
     "brand": "VISALUX"
   },
   "end-cap-1-5mm-v1-25-red-visalux": {
-    "status": "resolved",
-    "file": "product-images/end-cap-1-5mm-v1-25-red-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i.etsystatic.com/45392257/r/il/abe4e1/5528454013/il_1080xN.5528454013_43jh.jpg",
-    "source_page": "https://www.etsy.com/mx/listing/1591405758/imagenes-predisenadas-de-pablo-y-silas",
-    "query": "site:visalux.co.id \"END CAP 1.5MM V1.25 RED VISALUX\" \"VISALUX\" \"E080\"",
-    "score": 110,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"15MM\" \"V125\"",
+      "\"VISALUX\" \"15MM\" \"V125\"",
+      "\"END CAP 1.5MM V1.25 RED VISALUX\""
+    ],
     "sku": "E080",
     "name": "END CAP 1.5MM V1.25 RED VISALUX",
     "brand": "VISALUX"
   },
   "led-fl-10w-6500k-visalux-vfl-5510d": {
-    "status": "resolved",
-    "file": "product-images/led-fl-10w-6500k-visalux-vfl-5510d.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:visalux.co.id \"LED FL 10W 6500K VISALUX VFL-5510D\" \"VISALUX\" \"U79\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K\" \"VFL5510D\"",
+      "\"VISALUX\" \"6500K\" \"VFL5510D\"",
+      "\"LED FL 10W 6500K VISALUX VFL-5510D\""
+    ],
     "sku": "U79",
     "name": "LED FL 10W 6500K VISALUX VFL-5510D",
     "brand": "VISALUX"
   },
   "led-par38-20w-e27-3000k-vlp3820-visalux": {
-    "status": "resolved",
-    "file": "product-images/led-par38-20w-e27-3000k-vlp3820-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:visalux.co.id \"LED PAR38 20W E27 3000K VLP3820 VISALUX\" \"VISALUX\" \"Z1011\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"PAR38\" \"3000K\"",
+      "\"VISALUX\" \"PAR38\" \"3000K\"",
+      "\"LED PAR38 20W E27 3000K VLP3820 VISALUX\""
+    ],
     "sku": "Z1011",
     "name": "LED PAR38 20W E27 3000K VLP3820 VISALUX",
     "brand": "VISALUX"
   },
   "spectrum-led-track-light-10w-3000k-vtl9910w-wh-visalux": {
-    "status": "resolved",
-    "file": "product-images/spectrum-led-track-light-10w-3000k-vtl9910w-wh-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://c8.alamy.com/comp/DA6EJM/electromagnetic-spectrum-and-visible-light-DA6EJM.jpg",
-    "source_page": "https://www.alamy.com/stock-photo-electromagnetic-spectrum-and-visible-light-57920876.html",
-    "query": "site:visalux.co.id \"SPECTRUM LED TRACK LIGHT 10W 3000K VTL9910W WH VISALUX\" \"VISALUX\" \"Y11170\"",
-    "score": 110,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"3000K\" \"VTL9910W\"",
+      "\"VISALUX\" \"3000K\" \"VTL9910W\"",
+      "\"SPECTRUM LED TRACK LIGHT 10W 3000K VTL9910W WH VISALUX\""
+    ],
     "sku": "Y11170",
     "name": "SPECTRUM LED TRACK LIGHT 10W 3000K VTL9910W WH VISALUX",
     "brand": "VISALUX"
   },
   "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux": {
-    "status": "resolved",
-    "file": "product-images/led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "site:visalux.co.id \"LED SOLAR FL 50W 6500K/3000K 2WARNA SWAT VFL-5550 VISALUX\" \"VISALUX\" \"Z1222\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"6500K3000K\" \"2WARNA\"",
+      "\"VISALUX\" \"6500K3000K\" \"2WARNA\"",
+      "\"LED SOLAR FL 50W 6500K/3000K 2WARNA SWAT VFL-5550 VISALUX\""
+    ],
     "sku": "Z1222",
     "name": "LED SOLAR FL 50W 6500K/3000K 2WARNA SWAT VFL-5550 VISALUX",
     "brand": "VISALUX"
   },
   "lampu-jalan-12w-vsl-6012-visalux-6500k": {
-    "status": "resolved",
-    "file": "product-images/lampu-jalan-12w-vsl-6012-visalux-6500k.webp",
-    "engine": "bing",
-    "source_image": "https://ddsarizona.com/wp-content/uploads/2023/02/dentist-examining-patient-s-teeth-in-modern-dental.jpg",
-    "source_page": "https://ddsarizona.com/arizona-family-dental/",
-    "query": "site:visalux.co.id \"LAMPU JALAN 12W VSL-6012 VISALUX 6500K\" \"VISALUX\" \"A449\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VSL6012\" \"6500K\"",
+      "\"VISALUX\" \"VSL6012\" \"6500K\"",
+      "\"LAMPU JALAN 12W VSL-6012 VISALUX 6500K\""
+    ],
     "sku": "A449",
     "name": "LAMPU JALAN 12W VSL-6012 VISALUX 6500K",
     "brand": "VISALUX"
   },
   "multicord-5-lbg-3m-va5205e-visalux": {
-    "status": "resolved",
-    "file": "product-images/multicord-5-lbg-3m-va5205e-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://i.etsystatic.com/7937098/r/il/060526/447312039/il_794xN.447312039_ivwq.jpg",
-    "source_page": "https://www.etsy.com/listing/126573821/printable-baby-shower-sheets-chevron",
-    "query": "site:visalux.co.id \"MULTICORD 5 LBG 3M VA5205E VISALUX\" \"VISALUX\" \"UM105\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VA5205E\"",
+      "\"VISALUX\" \"VA5205E\"",
+      "\"MULTICORD 5 LBG 3M VA5205E VISALUX\""
+    ],
     "sku": "UM105",
     "name": "MULTICORD 5 LBG 3M VA5205E VISALUX",
     "brand": "VISALUX"
   },
   "box-mcb-8-group-ob-vbm9208-ob-visalux": {
-    "status": "resolved",
-    "file": "product-images/box-mcb-8-group-ob-vbm9208-ob-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/021/164/996/original/open-cardboard-box-transparent-background-png.png",
-    "source_page": "https://es.vecteezy.com/png/21164996-abierto-cartulina-caja-transparente-antecedentes",
-    "query": "site:visalux.co.id \"BOX MCB 8 GROUP OB VBM9208-OB VISALUX\" \"VISALUX\" \"U89\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VBM9208OB\"",
+      "\"VISALUX\" \"VBM9208OB\"",
+      "\"BOX MCB 8 GROUP OB VBM9208-OB VISALUX\""
+    ],
     "sku": "U89",
     "name": "BOX MCB 8 GROUP OB VBM9208-OB VISALUX",
     "brand": "VISALUX"
   },
   "multicord-5-lbg-2m-vek5205e-mozart-visalux": {
-    "status": "resolved",
-    "file": "product-images/multicord-5-lbg-2m-vek5205e-mozart-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://jeremyirons.net/wp-content/uploads/2015/11/freemanmckellenmcinnernyirons.jpg",
-    "source_page": "https://jeremyirons.net/2015/11/05/jeremy-irons-at-the-supper-club-for-the-terrence-higgins-trust/",
-    "query": "site:visalux.co.id \"MULTICORD 5 LBG 2M VEK5205E MOZART VISALUX\" \"VISALUX\" \"UM126\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VEK5205E\"",
+      "\"VISALUX\" \"VEK5205E\"",
+      "\"MULTICORD 5 LBG 2M VEK5205E MOZART VISALUX\""
+    ],
     "sku": "UM126",
     "name": "MULTICORD 5 LBG 2M VEK5205E MOZART VISALUX",
     "brand": "VISALUX"
   },
   "multicord-neutron-3lb-vek5203e-2m-visalux": {
-    "status": "resolved",
-    "file": "product-images/multicord-neutron-3lb-vek5203e-2m-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://www.astro-seek.com/photo-celebrity/19/67/12/rebecca-rigg-astrology-horoscope-sign.png",
-    "source_page": "https://ar.inspiredpencil.com/pictures-2023/rebecca-rigg-2022",
-    "query": "site:visalux.co.id \"MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX\" \"VISALUX\" \"Y10914\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VEK5203E2M\"",
+      "\"VISALUX\" \"VEK5203E2M\"",
+      "\"MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX\""
+    ],
     "sku": "Y10914",
     "name": "MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX",
     "brand": "VISALUX"
   },
   "last-dop-13mm-red-visalux-v5": {
-    "status": "resolved",
-    "file": "product-images/last-dop-13mm-red-visalux-v5.webp",
-    "engine": "bing",
-    "source_image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c07b3ac-00c7-4bc7-bcbc-5bb2c02c2446/dbguvda-ff6f8f26-6307-49dc-a146-d9ed4a4fef34.jpg/v1/fill/w_1600,h_1725,q_75,strp/giraffatitan_brancai_rigorous_skeletal_by_paleo_king_dbguvda-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjMDdiM2FjLTAwYzctNGJjNy1iY2JjLTViYjJjMDJjMjQ0NlwvZGJndXZkYS1mZjZmOGYyNi02MzA3LTQ5ZGMtYTE0Ni1kOWVkNGE0ZmVmMzQuanBnIiwiaGVpZ2h0IjoiPD0xNzI1Iiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uud2F0ZXJtYXJrIl0sIndtayI6eyJwYXRoIjoiXC93bVwvMmMwN2IzYWMtMDBjNy00YmM3LWJjYmMtNWJiMmMwMmMyNDQ2XC9wYWxlby1raW5nLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.4fJICGbWHo_Dd9Qfy-YQPlElU0Sj6A3hIUu6HSyT9Bs",
-    "source_page": "https://www.deviantart.com/paleo-king/art/Giraffatitan-brancai-rigorous-skeletal-693442126",
-    "query": "site:visalux.co.id \"LAST DOP 13MM RED VISALUX V5\" \"VISALUX\" \"L772\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"13MM\"",
+      "\"VISALUX\" \"13MM\"",
+      "\"LAST DOP 13MM RED VISALUX V5\""
+    ],
     "sku": "L772",
     "name": "LAST DOP 13MM RED VISALUX V5",
     "brand": "VISALUX"
   },
   "cef-8-inch-30w-visalux-bpt12-13-pipa": {
-    "status": "resolved",
-    "file": "product-images/cef-8-inch-30w-visalux-bpt12-13-pipa.webp",
-    "engine": "bing",
-    "source_image": "https://www.dumbchat.ai/wp-content/uploads/2022/06/220120-47456-1.jpg",
-    "source_page": "https://www.dumbchat.ai/instagram-marketing/",
-    "query": "site:visalux.co.id \"CEF 8 INCH 30W VISALUX BPT12-13 (PIPA)\" \"VISALUX\" \"C266\"",
-    "score": 96,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"BPT1213\"",
+      "\"VISALUX\" \"BPT1213\"",
+      "\"CEF 8 INCH 30W VISALUX BPT12-13 (PIPA)\""
+    ],
     "sku": "C266",
     "name": "CEF 8 INCH 30W VISALUX BPT12-13 (PIPA)",
     "brand": "VISALUX"
   },
+  "cef-10-inch-33w-visalux-apt25-a-petak": {
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"APT25A\"",
+      "\"VISALUX\" \"APT25A\"",
+      "\"CEF 10 INCH 33W VISALUX APT25-A (PETAK)\""
+    ],
+    "sku": "C128",
+    "name": "CEF 10 INCH 33W VISALUX APT25-A (PETAK)",
+    "brand": "VISALUX"
+  },
   "cef-8-30w-ventura-bpt12-13b3-visalux": {
-    "status": "resolved",
-    "file": "product-images/cef-8-30w-ventura-bpt12-13b3-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://cdn1.iconfinder.com/data/icons/multimedia-376/24/hd_circle-512.png",
-    "source_page": "https://www.iconfinder.com/icons/9047080/hd_circle_hd_interface_screen_resolution_multimedia_icon",
-    "query": "site:visalux.co.id \"CEF 8\" 30W VENTURA BPT12-13B3 VISALUX\" \"VISALUX\" \"Y11202\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"BPT1213B3\"",
+      "\"VISALUX\" \"BPT1213B3\"",
+      "\"CEF 8\" 30W VENTURA BPT12-13B3 VISALUX\""
+    ],
     "sku": "Y11202",
     "name": "CEF 8\" 30W VENTURA BPT12-13B3 VISALUX",
     "brand": "VISALUX"
   },
+  "cef-10-inch-33w-visalux-apt25-tg-petak": {
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"APT25TG\"",
+      "\"VISALUX\" \"APT25TG\"",
+      "\"CEF 10 INCH 33W VISALUX APT25-TG(PETAK)\""
+    ],
+    "sku": "C138",
+    "name": "CEF 10 INCH 33W VISALUX APT25-TG(PETAK)",
+    "brand": "VISALUX"
+  },
   "box-mcb-4-group-ib-vbm9204-ib-visalux": {
-    "status": "resolved",
-    "file": "product-images/box-mcb-4-group-ib-vbm9204-ib-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/021/164/996/original/open-cardboard-box-transparent-background-png.png",
-    "source_page": "https://es.vecteezy.com/png/21164996-abierto-cartulina-caja-transparente-antecedentes",
-    "query": "site:visalux.co.id \"BOX MCB 4 GROUP IB VBM9204-IB VISALUX\" \"VISALUX\" \"A005\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:visalux.co.id \"VISALUX\" \"VBM9204IB\"",
+      "\"VISALUX\" \"VBM9204IB\"",
+      "\"BOX MCB 4 GROUP IB VBM9204-IB VISALUX\""
+    ],
     "sku": "A005",
     "name": "BOX MCB 4 GROUP IB VBM9204-IB VISALUX",
     "brand": "VISALUX"
   },
   "mcb-easy9-1p-c-10a-ez9f54110-schneider": {
-    "status": "resolved",
-    "file": "product-images/mcb-easy9-1p-c-10a-ez9f54110-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://images.daznservices.com/di/library/DAZN_News/e7/7f/jordan-love-green-bayjanuary2024_w76lxlxsmfwe1od0xswchove6.jpg?t=417287373",
-    "source_page": "https://www.dazn.com/es-ES/news/fútbol-americano/jordan-love-descomunal-contrato-green-bay-packers-convierte-quarterback-mejor-pagado-historia-nfl-iguala-joe-burrow-supera-patrick-mahomes/cq3jgsxpklyr1m2ensua3gkup",
-    "query": "site:se.com \"MCB EASY9 1P C 10A EZ9F54110 SCHNEIDER\" \"SCHNEIDER\" \"RM30\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"EASY9\" \"EZ9F54110\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"EASY9\" \"EZ9F54110\"",
+      "\"SCHNEIDER\" \"EASY9\" \"EZ9F54110\"",
+      "\"MCB EASY9 1P C 10A EZ9F54110 SCHNEIDER\""
+    ],
     "sku": "RM30",
     "name": "MCB EASY9 1P C 10A EZ9F54110 SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "s-k-pieno-e82426-16s-ls-g3-schneider": {
-    "status": "resolved",
-    "file": "product-images/s-k-pieno-e82426-16s-ls-g3-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "site:se.com \"S/K PIENO E82426_16S_LS_G3 SCHNEIDER\" \"SCHNEIDER\" \"XC09\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"E8242616SLSG3\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"E8242616SLSG3\"",
+      "\"SCHNEIDER\" \"E8242616SLSG3\"",
+      "\"S/K PIENO E82426_16S_LS_G3 SCHNEIDER\""
+    ],
     "sku": "XC09",
     "name": "S/K PIENO E82426_16S_LS_G3 SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "saklar-seri-clasic-e32-1-2a-sni-schneider": {
-    "status": "resolved",
-    "file": "product-images/saklar-seri-clasic-e32-1-2a-sni-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/UIBYNZ6RV5PABNZOJFLS5N4DMY.jpg",
-    "source_page": "https://www.reuters.com/markets/commodities/poor-weather-hampers-search-rescue-efforts-indonesia-volcano-2021-12-06/",
-    "query": "site:se.com \"SAKLAR SERI CLASIC E32/1/2A(SNI) SCHNEIDER\" \"SCHNEIDER\" \"S889\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"E3212A\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"E3212A\"",
+      "\"SCHNEIDER\" \"E3212A\"",
+      "\"SAKLAR SERI CLASIC E32/1/2A(SNI) SCHNEIDER\""
+    ],
     "sku": "S889",
     "name": "SAKLAR SERI CLASIC E32/1/2A(SNI) SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "saklar-4-gang-kb34s-1-vivace-schneider": {
-    "status": "resolved",
-    "file": "product-images/saklar-4-gang-kb34s-1-vivace-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://dam.thdstatic.com/content/production/0f3RKbKbTICyxSm4QPaMdQ/zxUx17yky3KkcHdNivPixA/Original file/how-to-replace-a-bathtub-faucet-1014-step-5.jpg",
-    "source_page": "https://www.homedepot.com/c/ah/how-to-replace-a-bathtub-faucet/9ba683603be9fa5395fab90165371658",
-    "query": "site:se.com \"SAKLAR 4 GANG KB34S/1 VIVACE SCHNEIDER\" \"SCHNEIDER\" \"X501\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"KB34S1\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"KB34S1\"",
+      "\"SCHNEIDER\" \"KB34S1\"",
+      "\"SAKLAR 4 GANG KB34S/1 VIVACE SCHNEIDER\""
+    ],
     "sku": "X501",
     "name": "SAKLAR 4 GANG KB34S/1 VIVACE SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "stop-kontak-pvc-16a-e426-16s-clasic-schneider": {
-    "status": "resolved",
-    "file": "product-images/stop-kontak-pvc-16a-e426-16s-clasic-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/013/281/356/original/stop-sign-icon-free-png.png",
-    "source_page": "https://veri-art.net/stop-sign-color-page/",
-    "query": "site:se.com \"STOP KONTAK PVC 16A E426/16S CLASIC SCHNEIDER\" \"SCHNEIDER\" \"X306\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"E42616S\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"E42616S\"",
+      "\"SCHNEIDER\" \"E42616S\"",
+      "\"STOP KONTAK PVC 16A E426/16S CLASIC SCHNEIDER\""
+    ],
     "sku": "X306",
     "name": "STOP KONTAK PVC 16A E426/16S CLASIC SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "saklar-engkel-clasic-e31-1-2a-sni-schneider": {
-    "status": "resolved",
-    "file": "product-images/saklar-engkel-clasic-e31-1-2a-sni-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://i2-prod.walesonline.co.uk/article33441550.ece/ALTERNATES/s1200e/0_britains_got_talent_sr19_embargoed_8pm_16_feb_2026_03.jpg",
-    "source_page": "https://www.walesonline.co.uk/lifestyle/tv/itv-britains-talent-2026-start-33441552",
-    "query": "site:se.com \"SAKLAR ENGKEL CLASIC E31/1/2A(SNI) SCHNEIDER\" \"SCHNEIDER\" \"S898\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"E3112A\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"E3112A\"",
+      "\"SCHNEIDER\" \"E3112A\"",
+      "\"SAKLAR ENGKEL CLASIC E31/1/2A(SNI) SCHNEIDER\""
+    ],
     "sku": "S898",
     "name": "SAKLAR ENGKEL CLASIC E31/1/2A(SNI) SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "saklar-seri-pieno-e8232l1f-ls-g3-schneider": {
-    "status": "resolved",
-    "file": "product-images/saklar-seri-pieno-e8232l1f-ls-g3-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://oladino.com/wp-content/uploads/2024/10/Funny-Cat-Memes-6.png",
-    "source_page": "https://oladino.com/70-funny-cat-memes/",
-    "query": "site:se.com \"SAKLAR SERI PIENO E8232L1F_LS_G3 SCHNEIDER\" \"SCHNEIDER\" \"XG05\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"E8232L1FLSG3\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"E8232L1FLSG3\"",
+      "\"SCHNEIDER\" \"E8232L1FLSG3\"",
+      "\"SAKLAR SERI PIENO E8232L1F_LS_G3 SCHNEIDER\""
+    ],
     "sku": "XG05",
     "name": "SAKLAR SERI PIENO E8232L1F_LS_G3 SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "saklar-6-gang-et36-1-2ar-we-clasic-schneider": {
-    "status": "resolved",
-    "file": "product-images/saklar-6-gang-et36-1-2ar-we-clasic-schneider.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/736x/23/39/f1/2339f16dce0d0d340eebf03a69dfd33a.jpg",
-    "source_page": "https://fity.club/lists/suggestions/Cat-Breed-Chart/",
-    "query": "site:se.com \"SAKLAR 6 GANG ET36_1_2AR_WE CLASIC SCHNEIDER\" \"SCHNEIDER\" \"XG03\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:se.com \"SCHNEIDER\" \"ET3612ARWE\"",
+      "site:schneider-electric.com \"SCHNEIDER\" \"ET3612ARWE\"",
+      "\"SCHNEIDER\" \"ET3612ARWE\"",
+      "\"SAKLAR 6 GANG ET36_1_2AR_WE CLASIC SCHNEIDER\""
+    ],
     "sku": "XG03",
     "name": "SAKLAR 6 GANG ET36_1_2AR_WE CLASIC SCHNEIDER",
     "brand": "SCHNEIDER"
   },
   "mcb-1pole-10a-6ka-chint": {
-    "status": "resolved",
-    "file": "product-images/mcb-1pole-10a-6ka-chint.webp",
-    "engine": "bing",
-    "source_image": "https://i.insider.com/633c784e4d423e0018204806?width=600&format=jpeg&auto=webp",
-    "source_page": "https://www.businessinsider.com/inside-spirit-halloween-flagship-store-photos-2022-10",
-    "query": "site:chintglobal.com \"MCB 1POLE 10A 6KA CHINT\" \"CHINT\" \"M324\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"1POLE\"",
+      "site:chint.com \"CHINT\" \"1POLE\"",
+      "\"CHINT\" \"1POLE\"",
+      "\"MCB 1POLE 10A 6KA CHINT\""
+    ],
     "sku": "M324",
     "name": "MCB 1POLE 10A 6KA CHINT",
     "brand": "CHINT"
   },
   "fuse-link-16a-chint": {
-    "status": "resolved",
-    "file": "product-images/fuse-link-16a-chint.webp",
-    "engine": "bing",
-    "source_image": "https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600_progressive/v2-gallery_media/media608166852f3a9746232103.jpg",
-    "source_page": "https://oceanwide-expeditions.com/to-do/wildlife/bearded-seal",
-    "query": "site:chintglobal.com \"FUSE LINK 16A CHINT\" \"CHINT\" \"F337\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"FUSE LINK 16A CHINT\"",
+      "site:chint.com \"FUSE LINK 16A CHINT\"",
+      "\"FUSE LINK 16A CHINT\" \"CHINT\"",
+      "CHINT FUSE LINK 16A CHINT"
+    ],
     "sku": "F337",
     "name": "FUSE LINK 16A CHINT",
     "brand": "CHINT"
   },
   "pilot-lamp-flat-round-yellow-chint": {
-    "status": "resolved",
-    "file": "product-images/pilot-lamp-flat-round-yellow-chint.webp",
-    "engine": "bing",
-    "source_image": "https://www.pilotcareernews.com/wp-content/uploads/2017/03/Boeing-Pilot-Training.jpg",
-    "source_page": "https://www.pilotcareernews.com/boeing-expands-pilot-training-network/",
-    "query": "site:chintglobal.com \"PILOT LAMP FLAT ROUND YELLOW CHINT\" \"CHINT\" \"P085\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"PILOT LAMP FLAT ROUND YELLOW CHINT\"",
+      "site:chint.com \"PILOT LAMP FLAT ROUND YELLOW CHINT\"",
+      "\"PILOT LAMP FLAT ROUND YELLOW CHINT\" \"CHINT\"",
+      "CHINT PILOT LAMP FLAT ROUND YELLOW CHINT"
+    ],
     "sku": "P085",
     "name": "PILOT LAMP FLAT ROUND YELLOW CHINT",
     "brand": "CHINT"
   },
   "time-switch-kg316t-chint": {
-    "status": "resolved",
-    "file": "product-images/time-switch-kg316t-chint.webp",
-    "engine": "bing",
-    "source_image": "https://img.freepik.com/premium-vector/wall-clock-time-watch-illustration-vector_484855-321.jpg?w=1380",
-    "source_page": "https://www.freepik.com/premium-vector/wall-clock-time-watch-illustration-vector_31425038.htm",
-    "query": "site:chintglobal.com \"TIME SWITCH KG316T CHINT\" \"CHINT\" \"T06\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"KG316T\"",
+      "site:chint.com \"CHINT\" \"KG316T\"",
+      "\"CHINT\" \"KG316T\"",
+      "\"TIME SWITCH KG316T CHINT\""
+    ],
     "sku": "T06",
     "name": "TIME SWITCH KG316T CHINT",
     "brand": "CHINT"
   },
   "mccb-nm1-3p-63s-32a-15ka-chint": {
-    "status": "resolved",
-    "file": "product-images/mccb-nm1-3p-63s-32a-15ka-chint.webp",
-    "engine": "bing",
-    "source_image": "https://image.slidesharecdn.com/apa2-140509132849-phpapp02/85/Funcion-de-Activacion-POSLIN-y-PURELIN-2-320.jpg",
-    "source_page": "https://es.slideshare.net/slideshow/apa-2-34491584/34491584",
-    "query": "site:chintglobal.com \"MCCB NM1 3P 63S 32A 15KA CHINT\" \"CHINT\" \"M707\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"15KA\"",
+      "site:chint.com \"CHINT\" \"15KA\"",
+      "\"CHINT\" \"15KA\"",
+      "\"MCCB NM1 3P 63S 32A 15KA CHINT\""
+    ],
     "sku": "M707",
     "name": "MCCB NM1 3P 63S 32A 15KA CHINT",
     "brand": "CHINT"
   },
   "mccb-nm8-125s-3pole-50ka-63a-chint": {
-    "status": "resolved",
-    "file": "product-images/mccb-nm8-125s-3pole-50ka-63a-chint.webp",
-    "engine": "bing",
-    "source_image": "https://www.buyautoparts.com/data/all_images/14-0635C.-Map1.jpg",
-    "source_page": "https://www.buyautoparts.com/buynow/60-02290-rc",
-    "query": "site:chintglobal.com \"MCCB NM8 125S 3POLE 50KA 63A CHINT\" \"CHINT\" \"M497\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"125S\" \"3POLE\"",
+      "site:chint.com \"CHINT\" \"125S\" \"3POLE\"",
+      "\"CHINT\" \"125S\" \"3POLE\"",
+      "\"MCCB NM8 125S 3POLE 50KA 63A CHINT\""
+    ],
     "sku": "M497",
     "name": "MCCB NM8 125S 3POLE 50KA 63A CHINT",
     "brand": "CHINT"
   },
   "mccb-nm1-3p-100a-20ka-chint": {
-    "status": "resolved",
-    "file": "product-images/mccb-nm1-3p-100a-20ka-chint.webp",
-    "engine": "bing",
-    "source_image": "https://www.cookingclassy.com/wp-content/uploads/2023/11/peppermint-cookies-3-1460x2190.jpg",
-    "source_page": "https://www.cookingclassy.com/peppermint-cookies/",
-    "query": "site:chintglobal.com \"MCCB NM1 3P 100A 20KA CHINT\" \"CHINT\" \"M765\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"100A\" \"20KA\"",
+      "site:chint.com \"CHINT\" \"100A\" \"20KA\"",
+      "\"CHINT\" \"100A\" \"20KA\"",
+      "\"MCCB NM1 3P 100A 20KA CHINT\""
+    ],
     "sku": "M765",
     "name": "MCCB NM1 3P 100A 20KA CHINT",
     "brand": "CHINT"
   },
   "mccb-nmi-63s-3300-3pole-25a-chint": {
-    "status": "resolved",
-    "file": "product-images/mccb-nmi-63s-3300-3pole-25a-chint.webp",
-    "engine": "bing",
-    "source_image": "https://www7.mississauga.ca/Departments/Marketing/Websites/Accessibility/images/Figure.4.3.12.1.png",
-    "source_page": "https://ar.inspiredpencil.com/pictures-2023/ada-parking-stall-dimensions",
-    "query": "site:chintglobal.com \"MCCB NMI-63S/3300 3POLE 25A CHINT\" \"CHINT\" \"M501\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:chintglobal.com \"CHINT\" \"NMI63S3300\" \"3POLE\"",
+      "site:chint.com \"CHINT\" \"NMI63S3300\" \"3POLE\"",
+      "\"CHINT\" \"NMI63S3300\" \"3POLE\"",
+      "\"MCCB NMI-63S/3300 3POLE 25A CHINT\""
+    ],
     "sku": "M501",
     "name": "MCCB NMI-63S/3300 3POLE 25A CHINT",
     "brand": "CHINT"
   },
   "kabel-nyy-4-x-10-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nyy-4-x-10-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://boldtraveller.ca/wp-content/uploads/2025/06/473751949_1326722251684703_2206937335210066598_n.jpg",
-    "source_page": "https://boldtraveller.ca/destinations/usa/what-to-do-in-hanalei-for-a-true-taste-of-hawaiian-culture/",
-    "query": "\"KABEL NYY 4 X 10 COSMIC\" \"COSMIC\" \"Y105\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYY 4 X 10 COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL NYY 4 X 10 COSMIC"
+    ],
     "sku": "Y105",
     "name": "KABEL NYY 4 X 10 COSMIC",
     "brand": "COSMIC"
   },
   "kabel-nyy-hyo-2-x-0-75-x-50m-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nyy-hyo-2-x-0-75-x-50m-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://pbs.twimg.com/media/FI65ci2WUAY1jjN.jpg",
-    "source_page": "https://ar.inspiredpencil.com/pictures-2023/adventures-of-sonic-the-hedgehog-robotnik",
-    "query": "\"KABEL NYY HYO 2 X 0.75 X 50M COSMIC\" \"COSMIC\" \"A377\"",
-    "score": 98,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYY HYO 2 X 0.75 X 50M COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL NYY HYO 2 X 0.75 X 50M COSMIC"
+    ],
     "sku": "A377",
     "name": "KABEL NYY HYO 2 X 0.75 X 50M COSMIC",
     "brand": "COSMIC"
   },
   "kabel-nym-hyo-2-x-0-75-x-50m-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nym-hyo-2-x-0-75-x-50m-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://www.epic.com/_next/image/?url=https:%2F%2Fmedia.epic.com%2Fepicdotcom%2Fwordpress%2Fepic-barn-by-james-cheng-min-scaled.jpg&w=3840&q=75",
-    "source_page": "https://www.epic.com/epic/post/barn/",
-    "query": "\"KABEL NYM HYO 2 X 0.75 X 50M COSMIC\" \"COSMIC\" \"A193\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYM HYO 2 X 0.75 X 50M COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL NYM HYO 2 X 0.75 X 50M COSMIC"
+    ],
     "sku": "A193",
     "name": "KABEL NYM HYO 2 X 0.75 X 50M COSMIC",
     "brand": "COSMIC"
   },
   "kabel-nya-1-5-x-50m-merah-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nya-1-5-x-50m-merah-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://i5.walmartimages.com/seo/a-Jesdani-Women-s-Plus-Size-Summer-Dresses-Casual-Short-Sleeve-Flowy-Tiered-Mini-Dresses-L-4X_b0d6e2e7-acce-4182-bfcb-7c12c8957257.4e60ae548e4a75977e6d7914646cae2e.jpeg",
-    "source_page": "https://www.walmart.com/ip/a-Jesdani-Women-s-Plus-Size-Summer-Dresses-Casual-Short-Sleeve-Flowy-Tiered-Mini-Dresses-L-4X/5234080764",
-    "query": "\"KABEL NYA 1.5 X 50M MERAH COSMIC\" \"COSMIC\" \"K1129\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYA 1.5 X 50M MERAH COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL NYA 1.5 X 50M MERAH COSMIC"
+    ],
     "sku": "K1129",
     "name": "KABEL NYA 1.5 X 50M MERAH COSMIC",
     "brand": "COSMIC"
   },
   "kabel-telp-2-x-0-60-x-100-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-telp-2-x-0-60-x-100-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://ledgernote.com/wp-content/uploads/2016/05/israel-kamakawiwoole-statue.jpg",
-    "source_page": "https://ledgernote.com/blog/culture/israel-kamakawiwoole-music-hawaii/",
-    "query": "\"KABEL TELP 2 X 0.60 X 100 COSMIC\" \"COSMIC\" \"K1148\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL TELP 2 X 0.60 X 100 COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL TELP 2 X 0.60 X 100 COSMIC"
+    ],
     "sku": "K1148",
     "name": "KABEL TELP 2 X 0.60 X 100 COSMIC",
     "brand": "COSMIC"
   },
   "kabel-nyy-2-x-1-5-x-50m-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nyy-2-x-1-5-x-50m-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://i.pinimg.com/originals/54/8c/72/548c725af24572d95541d8ef4da0c78e.png",
-    "source_page": "https://br.pinterest.com/pin/firewind-in-2025--73957618876638934/",
-    "query": "\"KABEL NYY 2 X 1.5 X 50M COSMIC\" \"COSMIC\" \"A164\"",
-    "score": 55,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYY 2 X 1.5 X 50M COSMIC\" \"COSMIC\"",
+      "COSMIC KABEL NYY 2 X 1.5 X 50M COSMIC"
+    ],
     "sku": "A164",
     "name": "KABEL NYY 2 X 1.5 X 50M COSMIC",
     "brand": "COSMIC"
   },
   "kabel-nya-1-5-x-100m-b-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nya-1-5-x-100m-b-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://gd-hbimg.huaban.com/c5fe8ef4ded8a8bb9db441914abc86bec914cf1cd26b-wysvcQ_fw658webp",
-    "source_page": "https://huaban.com/pins/3587485944",
-    "query": "\"KABEL NYA 1.5 X 100M (B) COSMIC\" \"COSMIC\" \"A208\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"COSMIC\" \"100M\"",
+      "\"KABEL NYA 1.5 X 100M (B) COSMIC\""
+    ],
     "sku": "A208",
     "name": "KABEL NYA 1.5 X 100M (B) COSMIC",
     "brand": "COSMIC"
   },
-  "kabel-nya-1-5-x-100m-k-hj-cosmic": {
-    "status": "resolved",
-    "file": "product-images/kabel-nya-1-5-x-100m-k-hj-cosmic.webp",
-    "engine": "bing",
-    "source_image": "https://cdn.shopify.com/s/files/1/1038/1798/files/olive-green-color-palette_1024x1024.jpg?v=1681364524",
-    "source_page": "https://creativebooster.net/blogs/colors/shades-of-green-color-names-hex-rgb-codes",
-    "query": "\"KABEL NYA 1.5 X 100M (K/HJ) COSMIC\" \"COSMIC\" \"A209\"",
-    "score": 88,
-    "sku": "A209",
-    "name": "KABEL NYA 1.5 X 100M (K/HJ) COSMIC",
-    "brand": "COSMIC"
-  },
   "led-bulb-40w-6500k-beta-ptb2140-pioline": {
-    "status": "resolved",
-    "file": "product-images/led-bulb-40w-6500k-beta-ptb2140-pioline.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "\"LED BULB 40W 6500K BETA PTB2140 PIOLINE\" \"PIOLINE\" \"Y1231\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"PIOLINE\" \"6500K\" \"PTB2140\"",
+      "\"LED BULB 40W 6500K BETA PTB2140 PIOLINE\""
+    ],
     "sku": "Y1231",
     "name": "LED BULB 40W 6500K BETA PTB2140 PIOLINE",
     "brand": "PIOLINE"
   },
   "s-k-3lbg-lampu-psc2003n-pioline": {
-    "status": "resolved",
-    "file": "product-images/s-k-3lbg-lampu-psc2003n-pioline.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "\"S/K 3LBG + LAMPU PSC2003N PIOLINE\" \"PIOLINE\" \"XC04\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"PIOLINE\" \"3LBG\" \"PSC2003N\"",
+      "\"S/K 3LBG + LAMPU PSC2003N PIOLINE\""
+    ],
     "sku": "XC04",
     "name": "S/K 3LBG + LAMPU PSC2003N PIOLINE",
     "brand": "PIOLINE"
   },
   "s-k-gepeng-2lbg-lampu-psc2102s-pioline": {
-    "status": "resolved",
-    "file": "product-images/s-k-gepeng-2lbg-lampu-psc2102s-pioline.webp",
-    "engine": "bing",
-    "source_image": "https://static.vecteezy.com/system/resources/previews/022/287/295/original/letter-s-pink-alphabet-glossy-png.png",
-    "source_page": "https://www.vecteezy.com/png/22287295-letter-s-pink-alphabet-glossy",
-    "query": "\"S/K GEPENG 2LBG + LAMPU PSC2102S PIOLINE\" \"PIOLINE\" \"XC26\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"PIOLINE\" \"2LBG\" \"PSC2102S\"",
+      "\"S/K GEPENG 2LBG + LAMPU PSC2102S PIOLINE\""
+    ],
     "sku": "XC26",
     "name": "S/K GEPENG 2LBG + LAMPU PSC2102S PIOLINE",
     "brand": "PIOLINE"
   },
   "pilot-lamp-22mm-merah-pioline": {
-    "status": "resolved",
-    "file": "product-images/pilot-lamp-22mm-merah-pioline.webp",
-    "engine": "bing",
-    "source_image": "https://www.pilotcareernews.com/wp-content/uploads/2017/03/Boeing-Pilot-Training.jpg",
-    "source_page": "https://www.pilotcareernews.com/boeing-expands-pilot-training-network/",
-    "query": "\"PILOT LAMP 22MM MERAH PIOLINE\" \"PIOLINE\" \"P072\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"PIOLINE\" \"22MM\"",
+      "\"PILOT LAMP 22MM MERAH PIOLINE\""
+    ],
     "sku": "P072",
     "name": "PILOT LAMP 22MM MERAH PIOLINE",
     "brand": "PIOLINE"
   },
   "led-filament-60w-2900k-frosted-6360ww-pioline": {
-    "status": "resolved",
-    "file": "product-images/led-filament-60w-2900k-frosted-6360ww-pioline.webp",
-    "engine": "bing",
-    "source_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/RGB-Led-projection.jpg/500px-RGB-Led-projection.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Light-emitting_diode",
-    "query": "\"LED FILAMENT 60W 2900K FROSTED 6360WW PIOLINE\" \"PIOLINE\" \"YL075\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"PIOLINE\" \"2900K\" \"6360WW\"",
+      "\"LED FILAMENT 60W 2900K FROSTED 6360WW PIOLINE\""
+    ],
     "sku": "YL075",
     "name": "LED FILAMENT 60W 2900K FROSTED 6360WW PIOLINE",
     "brand": "PIOLINE"
   },
   "simon-valor-led-hpb-t80-20w-6500k": {
-    "status": "resolved",
-    "file": "product-images/simon-valor-led-hpb-t80-20w-6500k.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/M/MV5BOGExZjk2YWEtYTNiYy00YjBhLWFmZjQtYTUxMGI5MjJhZWY3XkEyXkFqcGc@._V1_.jpg",
-    "source_page": "https://ooquotes.com/10-simon-bolivar-quotes.html",
-    "query": "site:simon.co.id \"SIMON VALOR LED HPB T80 20W 6500K\" \"SIMON\" \"Z1129\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:simon.co.id \"SIMON\" \"6500K\"",
+      "site:simon-electric.com \"SIMON\" \"6500K\"",
+      "\"SIMON\" \"6500K\"",
+      "\"SIMON VALOR LED HPB T80 20W 6500K\""
+    ],
     "sku": "Z1129",
     "name": "SIMON VALOR LED HPB T80 20W 6500K",
     "brand": "SIMON"
   },
   "simon-valor-led-bulb-a60-7w-6500k": {
-    "status": "resolved",
-    "file": "product-images/simon-valor-led-bulb-a60-7w-6500k.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/M/MV5BOGExZjk2YWEtYTNiYy00YjBhLWFmZjQtYTUxMGI5MjJhZWY3XkEyXkFqcGc@._V1_.jpg",
-    "source_page": "https://ooquotes.com/10-simon-bolivar-quotes.html",
-    "query": "site:simon.co.id \"SIMON VALOR LED BULB A60 7W 6500K\" \"SIMON\" \"Z1127\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:simon.co.id \"SIMON\" \"6500K\"",
+      "site:simon-electric.com \"SIMON\" \"6500K\"",
+      "\"SIMON\" \"6500K\"",
+      "\"SIMON VALOR LED BULB A60 7W 6500K\""
+    ],
     "sku": "Z1127",
     "name": "SIMON VALOR LED BULB A60 7W 6500K",
     "brand": "SIMON"
   },
   "simon-valor-led-downlight-r100-8w-3000k": {
-    "status": "resolved",
-    "file": "product-images/simon-valor-led-downlight-r100-8w-3000k.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/M/MV5BOGExZjk2YWEtYTNiYy00YjBhLWFmZjQtYTUxMGI5MjJhZWY3XkEyXkFqcGc@._V1_.jpg",
-    "source_page": "https://ooquotes.com/10-simon-bolivar-quotes.html",
-    "query": "site:simon.co.id \"SIMON VALOR LED DOWNLIGHT R100 8W 3000K\" \"SIMON\" \"TD45\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:simon.co.id \"SIMON\" \"R100\" \"3000K\"",
+      "site:simon-electric.com \"SIMON\" \"R100\" \"3000K\"",
+      "\"SIMON\" \"R100\" \"3000K\"",
+      "\"SIMON VALOR LED DOWNLIGHT R100 8W 3000K\""
+    ],
     "sku": "TD45",
     "name": "SIMON VALOR LED DOWNLIGHT R100 8W 3000K",
     "brand": "SIMON"
   },
   "simon-valor-led-bulb-g45-3w-6500k": {
-    "status": "resolved",
-    "file": "product-images/simon-valor-led-bulb-g45-3w-6500k.webp",
-    "engine": "bing",
-    "source_image": "https://m.media-amazon.com/images/M/MV5BOGExZjk2YWEtYTNiYy00YjBhLWFmZjQtYTUxMGI5MjJhZWY3XkEyXkFqcGc@._V1_.jpg",
-    "source_page": "https://ooquotes.com/10-simon-bolivar-quotes.html",
-    "query": "site:simon.co.id \"SIMON VALOR LED BULB G45 3W 6500K\" \"SIMON\" \"Z1107\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:simon.co.id \"SIMON\" \"6500K\"",
+      "site:simon-electric.com \"SIMON\" \"6500K\"",
+      "\"SIMON\" \"6500K\"",
+      "\"SIMON VALOR LED BULB G45 3W 6500K\""
+    ],
     "sku": "Z1107",
     "name": "SIMON VALOR LED BULB G45 3W 6500K",
     "brand": "SIMON"
   },
   "lampu-t8-led-8818-24w-putih-himawari": {
-    "status": "resolved",
-    "file": "product-images/lampu-t8-led-8818-24w-putih-himawari.webp",
-    "engine": "bing",
-    "source_image": "https://images.pexels.com/photos/20787/pexels-photo.jpg?cs=srgb&dl=animal-cat-adorable-20787.jpg&fm=jpg",
-    "source_page": "https://www.pexels.com/search/cat/",
-    "query": "\"LAMPU T8 LED 8818 24W PUTIH HIMAWARI\" \"HIMAWARI\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"LAMPU T8 LED 8818 24W PUTIH HIMAWARI\" \"HIMAWARI\"",
+      "HIMAWARI LAMPU T8 LED 8818 24W PUTIH HIMAWARI"
+    ],
     "sku": "L2",
     "name": "LAMPU T8 LED 8818 24W PUTIH HIMAWARI",
     "brand": "HIMAWARI"
   },
   "fitting-e-27-e27-65mm-himawari": {
-    "status": "resolved",
-    "file": "product-images/fitting-e-27-e27-65mm-himawari.webp",
-    "engine": "bing",
-    "source_image": "https://i.etsystatic.com/5609612/r/il/b2de88/4812761309/il_1080xN.4812761309_jjjh.jpg",
-    "source_page": "https://www.etsy.com/listing/1432958263/linen-dress-sleeveless-linen-dress",
-    "query": "\"FITTING E 27-E27 65MM HIMAWARI\" \"HIMAWARI\" \"F432\"",
-    "score": 101,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"HIMAWARI\" \"27E27\" \"65MM\"",
+      "\"FITTING E 27-E27 65MM HIMAWARI\""
+    ],
     "sku": "F432",
     "name": "FITTING E 27-E27 65MM HIMAWARI",
     "brand": "HIMAWARI"
   },
   "kabel-nym-3-x-1-5-x-40m-vinito-putih": {
-    "status": "resolved",
-    "file": "product-images/kabel-nym-3-x-1-5-x-40m-vinito-putih.webp",
-    "engine": "bing",
-    "source_image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2bhXD5.img?w=2000&h=1333&m=4&q=86",
-    "source_page": "https://www.msn.com/en-us/news/news/friends-mysteriously-found-dead-after-midnight-canoeing-trip-to-remote-california-island/ar-AA2bhZXJ",
-    "query": "\"KABEL NYM 3 X 1,5 X 40M VINITO PUTIH\" \"VINITO\" \"VNT03\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"KABEL NYM 3 X 1,5 X 40M VINITO PUTIH\" \"VINITO\"",
+      "VINITO KABEL NYM 3 X 1,5 X 40M VINITO PUTIH"
+    ],
     "sku": "VNT03",
     "name": "KABEL NYM 3 X 1,5 X 40M VINITO PUTIH",
     "brand": "VINITO"
   },
   "lampu-spiral-15w-mini-eterna-ww": {
-    "status": "resolved",
-    "file": "product-images/lampu-spiral-15w-mini-eterna-ww.webp",
-    "engine": "bing",
-    "source_image": "https://dbi-blog.s3.amazonaws.com/uploads/2022/12/D24NY23050V2_RED_PRM_PROD9_1290.jpeg",
-    "source_page": "https://rodenesgrobbs.github.io/latest-vgjkr-dress-with-ruffle-spring-2026-the-unstoppable-reign-of-feminine-flair-scipl-trends/",
-    "query": "\"LAMPU SPIRAL 15W MINI ETERNA WW\" \"ETERNA\" \"L740\"",
-    "score": 105,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"LAMPU SPIRAL 15W MINI ETERNA WW\" \"ETERNA\"",
+      "ETERNA LAMPU SPIRAL 15W MINI ETERNA WW"
+    ],
     "sku": "L740",
     "name": "LAMPU SPIRAL 15W MINI ETERNA WW",
     "brand": "ETERNA"
   },
   "lampu-spiral-11w-mini-eterna-ww": {
-    "status": "resolved",
-    "file": "product-images/lampu-spiral-11w-mini-eterna-ww.webp",
-    "engine": "bing",
-    "source_image": "https://art.ngfiles.com/images/7612000/7612900_3117796_shademeadows_untitled-7612900.8b71014a33915c3680ed1920aa035792.jpg?f1775152050",
-    "source_page": "https://www.newgrounds.com/art/view/shademeadows/rocky-savior-of-the-universe-project-hail-mary-fanart",
-    "query": "\"LAMPU SPIRAL 11W MINI ETERNA WW\" \"ETERNA\" \"L739\"",
-    "score": 103,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"LAMPU SPIRAL 11W MINI ETERNA WW\" \"ETERNA\"",
+      "ETERNA LAMPU SPIRAL 11W MINI ETERNA WW"
+    ],
     "sku": "L739",
     "name": "LAMPU SPIRAL 11W MINI ETERNA WW",
     "brand": "ETERNA"
   },
   "isolasi-vhb-4900-3m-double-tape-merah": {
-    "status": "resolved",
-    "file": "product-images/isolasi-vhb-4900-3m-double-tape-merah.webp",
-    "engine": "bing",
-    "source_image": "https://cdn.rockislandauction.com/ghost/2024/11/Elmer-Kieth-s-famed-Number-5-revolver-with-the-accompaning-it-fully-carved-George-Lawrence-120-holster.jpg",
-    "source_page": "https://www.rockislandauction.com/riac-blog/skeeter-skelton-gun",
-    "query": "site:3m.co.id \"ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH\" \"3M\" \"A181\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "site:3m.co.id \"ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH\"",
+      "site:3m.com \"ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH\"",
+      "\"ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH\" \"3M\"",
+      "3M ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH"
+    ],
     "sku": "A181",
     "name": "ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH",
     "brand": "3M"
   },
   "multicord-5lb-2m-supreme-vek5205e-sup-p10a-visalux": {
-    "status": "resolved",
-    "file": "product-images/multicord-5lb-2m-supreme-vek5205e-sup-p10a-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://scx2.b-cdn.net/gfx/news/hires/2024/understanding-healthy.jpg",
-    "source_page": "https://medicalxpress.com/news/2024-01-health-russia-central-asian-countries.html",
-    "query": "\"MULTICORD 5LB 2M SUPREME VEK5205E-SUP-P10A VISALUX\" \"SUPREME\" \"Y11022\"",
-    "score": 100,
+    "status": "unresolved",
+    "validation_version": 2,
+    "queries": [
+      "\"SUPREME\" \"VEK5205ESUPP10A\"",
+      "\"MULTICORD 5LB 2M SUPREME VEK5205E-SUP-P10A VISALUX\""
+    ],
     "sku": "Y11022",
     "name": "MULTICORD 5LB 2M SUPREME VEK5205E-SUP-P10A VISALUX",
     "brand": "SUPREME"
-  },
-  "lampu-sorot-rgb-samurai-10w-ecoking-pfl5011d": {
-    "status": "resolved",
-    "file": "product-images/lampu-sorot-rgb-samurai-10w-ecoking-pfl5011d.webp",
-    "engine": "bing",
-    "source_image": "https://image.slidesharecdn.com/anatomy-of-a-bmu-150507064437-lva1-app6892/75/BMU-Building-Maintenance-Unit-1-2048.jpg",
-    "source_page": "https://www.slideshare.net/slideshow/bmu-building-maintenanace-unit/47850591",
-    "query": "site:ecoking.co.id \"LAMPU SOROT RGB SAMURAI 10W ECOKING PFL5011D\" \"ECOKING\" \"ZS11\"",
-    "score": 100,
-    "sku": "ZS11",
-    "name": "LAMPU SOROT RGB SAMURAI 10W ECOKING PFL5011D",
-    "brand": "ECOKING"
-  },
-  "kabel-ties-4-100-2-5mm-pth-visalux": {
-    "status": "resolved",
-    "file": "product-images/kabel-ties-4-100-2-5mm-pth-visalux.webp",
-    "engine": "bing",
-    "source_image": "https://m-cdn.phonearena.com/images/article/183010-wide-two_1200/iPhone-18-Pro-revealed-to-come-in-three-new-retail-colors.webp?1788297636",
-    "source_page": "https://www.phonearena.com/news/iphone-18-pro-revealed-to-come-in-three-new-retail-colors_id183010",
-    "query": "site:visalux.co.id \"KABEL TIES 4\" (100*2.5MM) PTH VISALUX\" \"VISALUX\" \"T538\"",
-    "score": 100,
-    "sku": "T538",
-    "name": "KABEL TIES 4\" (100*2.5MM) PTH VISALUX",
-    "brand": "VISALUX"
-  },
-  "cef-10-inch-33w-visalux-apt25-a-petak": {
-    "status": "resolved",
-    "file": "product-images/cef-10-inch-33w-visalux-apt25-a-petak.webp",
-    "engine": "bing",
-    "source_image": "https://www.pngplay.com/wp-content/uploads/6/Green-Shining-Apple-Fruit-Transparent-PNG.png",
-    "source_page": "https://www.pngplay.com/image/100193",
-    "query": "site:visalux.co.id \"CEF 10 INCH 33W VISALUX APT25-A (PETAK)\" \"VISALUX\" \"C128\"",
-    "score": 101,
-    "sku": "C128",
-    "name": "CEF 10 INCH 33W VISALUX APT25-A (PETAK)",
-    "brand": "VISALUX"
-  },
-  "cef-10-inch-33w-visalux-apt25-tg-petak": {
-    "status": "resolved",
-    "file": "product-images/cef-10-inch-33w-visalux-apt25-tg-petak.webp",
-    "engine": "bing",
-    "source_image": "https://www.entheosweb.com/wp-content/uploads/2026/02/September-2026-desktop-wallpaper-calendar-1-1.jpg",
-    "source_page": "https://www.entheosweb.com/freebies/september-2026-desktop-wallpaper-calendar/",
-    "query": "site:visalux.co.id \"CEF 10 INCH 33W VISALUX APT25-TG(PETAK)\" \"VISALUX\" \"C138\"",
-    "score": 100,
-    "sku": "C138",
-    "name": "CEF 10 INCH 33W VISALUX APT25-TG(PETAK)",
-    "brand": "VISALUX"
   }
 }

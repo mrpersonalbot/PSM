@@ -1,6 +1,962 @@
 {
+  "validation_version": 2,
   "total": 160,
-  "resolved": 160,
-  "unresolved_count": 0,
-  "unresolved": []
+  "resolved": 1,
+  "unresolved_count": 159,
+  "unresolved": [
+    {
+      "slug": "lampu-led-3w-ecoking",
+      "sku": "E02",
+      "name": "LAMPU LED 3W ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-avatar-6w-6500k-ecoking",
+      "sku": "Z1077",
+      "name": "LED AVATAR 6W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-kingdom-8w-3000k-ecoking",
+      "sku": "Z1221",
+      "name": "LED KINGDOM 8W 3000K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-strip-12v-252l-10w-3000k-els12252ww-cob-ecoking",
+      "sku": "Y10864",
+      "name": "LED STRIP 12V 252L/10W 3000K ELS12252WW-COB ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-5w-putih-etc9905dl-champions-ecoking",
+      "sku": "C10737",
+      "name": "LAMPU 5W PUTIH ETC9905DL CHAMPIONS ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "head-lamp-led-3w-6500k-3xaa-ehl2203wy-ecoking",
+      "sku": "H14",
+      "name": "HEAD LAMP LED 3W 6500K 3XAA EHL2203WY ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-tayo-4u-30w-6500k-ecoking",
+      "sku": "ZL46",
+      "name": "LAMPU LED TAYO 4U 30W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-legend-5w-kuning-ecoking",
+      "sku": "Z1025",
+      "name": "LED LEGEND 5W KUNING ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-50w-6500k-champions-etc9950dl-ecoking",
+      "sku": "Y11070",
+      "name": "LAMPU LED 50W 6500K CHAMPIONS ETC9950DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "downlight-icon-2-5-3w-6500k-bulat-epl3103dl-ecoking",
+      "sku": "TDD22",
+      "name": "DOWNLIGHT ICON 2.5\" 3W 6500K BULAT EPL3103DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-15w-e27-a60-tricolour-etc315dl-ecoking",
+      "sku": "Y1296",
+      "name": "LAMPU 15W E27 A60 TRICOLOUR ETC315DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "head-lamp-50w-6800k-glass-2700k-ehl2288wy-ecoking",
+      "sku": "NM102",
+      "name": "HEAD LAMP 50W 6800K+GLASS 2700K EHL2288WY ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-25w-jumbo-6500k-ecoking",
+      "sku": "ZL70",
+      "name": "LAMPU LED 25W JUMBO 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "head-lamp-led-20w-3000k-ehl2240-ecoking",
+      "sku": "S10030",
+      "name": "HEAD LAMP LED 20W 3000K EHL2240 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-legend-8w-tigo-6500k-2-bonus-1-ecoking",
+      "sku": "Z1072",
+      "name": "LED LEGEND 8W TIGO 6500K 2 BONUS 1 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "downlight-metro-2-5-3w-6500k-bulat-epl3103r-ecoking",
+      "sku": "TD73",
+      "name": "DOWNLIGHT METRO 2.5\" 3W 6500K BULAT EPL3103R ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-bertiga-23w-6500k-2-bonus-1-ecoking",
+      "sku": "ZL49",
+      "name": "LAMPU LED BERTIGA 23W 6500K (2 BONUS 1) ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "obor-led-frame-9w-1300k-elf009-ecoking",
+      "sku": "Y12278",
+      "name": "OBOR LED FRAME 9W 1300K ELF009 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "dl-2-5-6w-6500k-epl-3106s-dl-coco-ecoking",
+      "sku": "Y11007",
+      "name": "DL 2.5\" 6W 6500K EPL-3106S-DL COCO ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "dl-3-9w-6500k-epl-3109r-dl-coco-ecoking",
+      "sku": "Y11009",
+      "name": "DL 3\" 9W 6500K EPL-3109R-DL COCO ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-sensor-10w-6500k-ess810dl-ecoking",
+      "sku": "Z1023",
+      "name": "LED SENSOR 10W 6500K ESS810DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-spiral-45w-6500k-els645dl-ecoking",
+      "sku": "ZL52",
+      "name": "LAMPU LED SPIRAL 45W 6500K ELS645DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-turbo-megic-saga-20w-ecoking",
+      "sku": "Z1195",
+      "name": "LED TURBO MEGIC SAGA 20W ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-18w-6500k-venus-evd1218dl-ecoking",
+      "sku": "Y10801",
+      "name": "LAMPU 18W 6500K VENUS EVD1218DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-tiger-35w-6500k-etl735dl-ecoking",
+      "sku": "Z1242",
+      "name": "LED TIGER 35W 6500K ETL735DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "kap-t5-neon-led-5w-6500k-l30cm-ent5505dl-ecoking",
+      "sku": "YP42",
+      "name": "KAP T5 NEON LED 5W 6500K L30CM ENT5505DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-turbo-saga-25w-6500k-ets-25w-ring-ecoking",
+      "sku": "Y1443",
+      "name": "LED TURBO SAGA 25W 6500K ETS-25W( RING ) ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "head-lamp-60w-6800k-swat-ehl2860dl-ecoking",
+      "sku": "Y10992",
+      "name": "HEAD LAMP 60W 6800K SWAT EHL2860DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "head-lamp-50w-6800k-ehl2850dl-ecoking",
+      "sku": "Y10991",
+      "name": "HEAD LAMP 50W 6800K EHL2850DL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-sensor-12w-3000k-ecoking",
+      "sku": "Y1415",
+      "name": "LED SENSOR 12W 3000K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-super-7w-6500k-ecoking",
+      "sku": "E39",
+      "name": "LED SUPER 7W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-tiger-25w-3000k-etl725ww-ecoking",
+      "sku": "Z1241",
+      "name": "LED TIGER 25W 3000K ETL725WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "downlight-viva-3-5-3-3w-wh-bl-petak-epl3233s-ecoking",
+      "sku": "TD87",
+      "name": "DOWNLIGHT VIVA 3.5\" 3+3W WH+BL PETAK EPL3233S ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-turbo-saga-30w-6500k-ets-30w-ecoking",
+      "sku": "Y1444",
+      "name": "LED TURBO SAGA 30W 6500K ETS-30W ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "icon-step-light-3w-3000k-4500k-6500k-esl7103tc-ecoking",
+      "sku": "Y10758",
+      "name": "ICON STEP LIGHT 3W 3000K,4500K,6500K ESL7103TC ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "pingpong-3w-clear-epp003-ecoking",
+      "sku": "Y12270",
+      "name": "PINGPONG 3W CLEAR EPP003 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "wall-light-cob-3w-3000k-alu-blk-icon-ewl-8303ww-ecoking",
+      "sku": "Y10873",
+      "name": "WALL LIGHT COB 3W 3000K ALU BLK ICON EWL-8303WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "pingpong-3w-orange-epp003-ecoking",
+      "sku": "Y12272",
+      "name": "PINGPONG 3W ORANGE EPP003 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "wall-light-1-x-3w-3000k-alu-blk-icon-ewl-8503ww-ecoking",
+      "sku": "Y10875",
+      "name": "WALL LIGHT 1 X 3W 3000K ALU BLK ICON EWL-8503WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "kap-t5-neon-led-10w-3000k-l60cm-ent5510ww-ecoking",
+      "sku": "YP46",
+      "name": "KAP T5 NEON LED 10W 3000K L60CM ENT5510WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-tl-ring-30w-e27-3000k-180mm-etr030ww-ecoking",
+      "sku": "ZL82",
+      "name": "LAMPU TL RING 30W E27 3000K 180MM ETR030WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "kap-t5-neon-led-5w-3000k-l30cm-ent5505ww-ecoking",
+      "sku": "YP43",
+      "name": "KAP T5 NEON LED 5W 3000K L30CM ENT5505WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "kap-t5-neon-led-14w-3000k-l90cm-ent5514ww-ecoking",
+      "sku": "YP49",
+      "name": "KAP T5 NEON LED 14W 3000K L90CM ENT5514WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-strip-pancawarna-48l-m-blue-2835-6mm-epw1060-ecoking",
+      "sku": "XP39",
+      "name": "LED STRIP PANCAWARNA 48L/M BLUE 2835-6MM EPW1060 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-led-disco-5w-rgb-ecoking",
+      "sku": "ZL64",
+      "name": "LAMPU LED DISCO 5W RGB ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-strip-12v-9w-els12120-3000k-ecoking",
+      "sku": "Y11167",
+      "name": "LED STRIP 12V 9W ELS12120 3000K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "led-strip-cob-12v-252l-10w-blue-ecoking",
+      "sku": "EP12",
+      "name": "LED STRIP COB 12V 252L 10W BLUE ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "kap-t5-neon-led-5w-blue-l30cm-ent5505bl-ecoking",
+      "sku": "YP41",
+      "name": "KAP T5 NEON LED 5W BLUE L30CM ENT5505BL ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-300w-6500k-ecoking",
+      "sku": "Y0996",
+      "name": "LAMPU SOROT NINJA 300W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-50w-3000k-pfl5015ww-ecoking",
+      "sku": "NM103",
+      "name": "LAMPU SOROT NINJA 50W 3000K PFL5015WW ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-100w-3000k-ecoking",
+      "sku": "Y1007",
+      "name": "LAMPU SOROT NINJA 100W 3000K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "wall-light-1xe27-rd-alu-icon-ewl8603-ecoking",
+      "sku": "Y10870",
+      "name": "WALL LIGHT 1XE27 RD ALU ICON-EWL8603 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "wall-light-1xe27-sq-alu-icon-ewl8703-ecoking",
+      "sku": "Y10871",
+      "name": "WALL LIGHT 1XE27 SQ ALU ICON-EWL8703 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-10w-3000k-ecoking",
+      "sku": "Y1000",
+      "name": "LAMPU SOROT NINJA 10W 3000K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-30w-6500k-ecoking",
+      "sku": "Y1003",
+      "name": "LAMPU SOROT NINJA 30W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-rgb-samurai-10w-ecoking-pfl5011d",
+      "sku": "ZS11",
+      "name": "LAMPU SOROT RGB SAMURAI 10W ECOKING PFL5011D",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-rgb-samurai-30w-ecoking-pfl5013d",
+      "sku": "ZS13",
+      "name": "LAMPU SOROT RGB SAMURAI 30W ECOKING PFL5013D",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "lampu-sorot-ninja-10w-6500k-ecoking",
+      "sku": "Y0999",
+      "name": "LAMPU SOROT NINJA 10W 6500K ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "raket-nyamuk-ern3102-ecoking",
+      "sku": "RN05",
+      "name": "RAKET NYAMUK ERN3102 ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "raket-nyamuk-ern3107-atom-ecoking",
+      "sku": "Y1462",
+      "name": "RAKET NYAMUK ERN3107 ATOM ECOKING",
+      "brand": "ECOKING"
+    },
+    {
+      "slug": "fitting-gantung-e27-hitam-vfg218b-visalux",
+      "sku": "YF22",
+      "name": "FITTING GANTUNG E27 HITAM VFG218B VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "fitting-colok-saklar-v2615-visalux",
+      "sku": "F502",
+      "name": "FITTING COLOK + SAKLAR V2615 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "fitting-kombinasi-visalux-v-272-s-black",
+      "sku": "F290",
+      "name": "FITTING KOMBINASI VISALUX V 272 S BLACK",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "fitting-plavon-segi-4-e27-3a-asb-vfp2704-visalux",
+      "sku": "YF18",
+      "name": "FITTING PLAVON SEGI 4 E27 3A ASB VFP2704 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "fitting-kombinasi-e27-white-visalux-v272w",
+      "sku": "F495",
+      "name": "FITTING KOMBINASI E27 WHITE VISALUX V272W",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "bola-lampu-legend-20w-6500k-8820dl-brilliance-visalux",
+      "sku": "VB05",
+      "name": "BOLA LAMPU LEGEND 20W 6500K 8820DL BRILLIANCE VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-1-lbg-arde-lampu-visalux-va-5201",
+      "sku": "S386",
+      "name": "S/K 1 LBG ARDE + LAMPU VISALUX VA 5201",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "box-mcb-4group-kaca-lampu-vbm9304-visalux",
+      "sku": "UB07",
+      "name": "BOX MCB 4GROUP KACA/LAMPU VBM9304 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-ac-decor-lampu-visalux-vs-9113n",
+      "sku": "X202",
+      "name": "S/K AC DECOR LAMPU VISALUX VS 9113N",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "downlight-4-9w-6500k-bulat-vs8309r-visalux",
+      "sku": "TD14",
+      "name": "DOWNLIGHT 4\" 9W 6500K BULAT VS8309R VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "led-t8-24w-glass-6500k-vtl1224-tl-visalux",
+      "sku": "Y0054",
+      "name": "LED T8 24W GLASS 6500K VTL1224-TL VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "downlight-4-white-vdl6540w-visalux",
+      "sku": "TD92",
+      "name": "DOWNLIGHT 4\" WHITE VDL6540W VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "dl-12w-5-3000k-tetra-vs8312r-ww-visalux-bulat",
+      "sku": "Y1056",
+      "name": "DL 12W 5\" 3000K TETRA VS8312R-WW VISALUX BULAT",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "bola-lampu-classic-7w-6500k-7707dl-radiance-visalux",
+      "sku": "VR03",
+      "name": "BOLA LAMPU CLASSIC 7W 6500K 7707DL RADIANCE VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "dl-3-5-e27-white-vdl6535w-liberty-visalux",
+      "sku": "Y1419",
+      "name": "DL 3,5\" E27 WHITE VDL6535W LIBERTY VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "dl-12w-6-6500k-tetra-vs8312s-dl-visalux-petak",
+      "sku": "Y1062",
+      "name": "DL 12W 6\" 6500K TETRA VS8312S-DL VISALUX PETAK",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "steker-t-multi-visalux-v-8812w",
+      "sku": "A483",
+      "name": "STEKER T MULTI VISALUX V 8812W",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-4-lb-arde-lp-visalux-va-5204",
+      "sku": "S1016",
+      "name": "S/K 4 LB ARDE + LP VISALUX VA 5204",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "saklar-seri-1w-10a-vse3021-visalux",
+      "sku": "XG21",
+      "name": "SAKLAR SERI 1W 10A VSE3021 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-flamingo-vsc-5002-visalux",
+      "sku": "Y10655",
+      "name": "S/K FLAMINGO VSC 5002 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "over-steker-sebaguna-visalux-v-607a",
+      "sku": "O051",
+      "name": "OVER STEKER SEBAGUNA VISALUX V 607A",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-ob-visalux-cello-putih-vs6016",
+      "sku": "X011",
+      "name": "S/K OB VISALUX CELLO PUTIH VS6016",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "saklar-tripel-1w-10a-vse3031-visalux",
+      "sku": "XG01",
+      "name": "SAKLAR TRIPEL 1W 10A VSE3031 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "kabel-ties-4-100-2-5mm-pth-visalux",
+      "sku": "T538",
+      "name": "KABEL TIES 4\" (100*2.5MM) PTH VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "klem-kabel-12mm-vkk-12-stella-visalux",
+      "sku": "Y10981",
+      "name": "KLEM KABEL 12MM VKK-12 STELLA VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "saklar-seri-ob-visalux-cello-putih-vs6210",
+      "sku": "X009",
+      "name": "SAKLAR SERI OB VISALUX CELLO PUTIH VS6210",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-ob-segi-visalux-vs-8202",
+      "sku": "S979",
+      "name": "S/K OB SEGI VISALUX VS 8202",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "skun-kabel-10-8mm-visalux-jgk",
+      "sku": "XD13",
+      "name": "SKUN KABEL 10-8MM VISALUX JGK",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "kabel-stereo-3-5mm-to-2plug-rca-1-4-black-cu-50-x-6pk-visalux",
+      "sku": "Y0544",
+      "name": "KABEL STEREO 3,5MM TO 2PLUG RCA 1,4 BLACK CU 50 X 6PK/VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "saklar-4g-decor-visalux-vs-9041",
+      "sku": "X200",
+      "name": "SAKLAR 4G DECOR VISALUX VS 9041",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-3-lb-arde-switch-visalux-vs-6003ss",
+      "sku": "S1064",
+      "name": "S/K 3 LB ARDE + SWITCH VISALUX VS-6003SS",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "s-k-vsd9016-gold-lavish-visalux",
+      "sku": "XG91",
+      "name": "S/K VSD9016 GOLD LAVISH VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "bola-lampu-12w-6500k-lum-vpp6612dl-visalux-luminance",
+      "sku": "Y11118",
+      "name": "BOLA LAMPU 12W 6500K LUM-VPP6612DL VISALUX LUMINANCE",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "honor-pl-led-5-12w-6500k-rd-vs8312r-d-visalux",
+      "sku": "NP102",
+      "name": "HONOR PL LED 5\" 12W 6500K RD VS8312R-D VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "dl-8-24w-6500k-tetra-petak-visalux-vs8324s-dl",
+      "sku": "Y1090",
+      "name": "DL 8\" 24W 6500K TETRA PETAK VISALUX VS8324S-DL",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "outlet-telp-1-way-decor-visalux-vs-9141",
+      "sku": "O060",
+      "name": "OUTLET TELP 1 WAY DECOR VISALUX VS 9141",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w",
+      "sku": "Z1144",
+      "name": "LED FL ROYAL 20W 3000K VISALUX RYL-VFL-5520W",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "mcb-1p-6ka-4a-visalux-vs-104",
+      "sku": "M659",
+      "name": "MCB 1P 6KA 4A VISALUX VS 104",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "downlight-4-9w-6500k-petak-vs8309s-visalux",
+      "sku": "TD18",
+      "name": "DOWNLIGHT 4\" 9W 6500K PETAK VS8309S VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "dl-tetra-4-9w-6500k-ob-vpl9309s-dl-visalux",
+      "sku": "Y11123",
+      "name": "DL TETRA 4\" 9W 6500K OB VPL9309S DL VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "outlet-tv-visalux-e31tv75",
+      "sku": "T275",
+      "name": "OUTLET TV VISALUX E31TV75",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "body-t8-led-60cm-12w-6500k-vesta-w-batten-vtl0612-set-visalux",
+      "sku": "Y0052",
+      "name": "BODY T8 LED 60CM 12W 6500K VESTA W/BATTEN VTL0612-SET VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "end-cap-1-5mm-v1-25-black-visalux",
+      "sku": "E079",
+      "name": "END CAP 1.5MM V1.25 BLACK VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "end-cap-1-5mm-v1-25-yellow-visalux",
+      "sku": "E082",
+      "name": "END CAP 1.5MM V1.25 YELLOW VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "end-cap-1-5mm-v1-25-red-visalux",
+      "sku": "E080",
+      "name": "END CAP 1.5MM V1.25 RED VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "led-fl-10w-6500k-visalux-vfl-5510d",
+      "sku": "U79",
+      "name": "LED FL 10W 6500K VISALUX VFL-5510D",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "led-par38-20w-e27-3000k-vlp3820-visalux",
+      "sku": "Z1011",
+      "name": "LED PAR38 20W E27 3000K VLP3820 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "spectrum-led-track-light-10w-3000k-vtl9910w-wh-visalux",
+      "sku": "Y11170",
+      "name": "SPECTRUM LED TRACK LIGHT 10W 3000K VTL9910W WH VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux",
+      "sku": "Z1222",
+      "name": "LED SOLAR FL 50W 6500K/3000K 2WARNA SWAT VFL-5550 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "lampu-jalan-12w-vsl-6012-visalux-6500k",
+      "sku": "A449",
+      "name": "LAMPU JALAN 12W VSL-6012 VISALUX 6500K",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "multicord-5-lbg-3m-va5205e-visalux",
+      "sku": "UM105",
+      "name": "MULTICORD 5 LBG 3M VA5205E VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "box-mcb-8-group-ob-vbm9208-ob-visalux",
+      "sku": "U89",
+      "name": "BOX MCB 8 GROUP OB VBM9208-OB VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "multicord-5-lbg-2m-vek5205e-mozart-visalux",
+      "sku": "UM126",
+      "name": "MULTICORD 5 LBG 2M VEK5205E MOZART VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "multicord-neutron-3lb-vek5203e-2m-visalux",
+      "sku": "Y10914",
+      "name": "MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "last-dop-13mm-red-visalux-v5",
+      "sku": "L772",
+      "name": "LAST DOP 13MM RED VISALUX V5",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "cef-8-inch-30w-visalux-bpt12-13-pipa",
+      "sku": "C266",
+      "name": "CEF 8 INCH 30W VISALUX BPT12-13 (PIPA)",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "cef-10-inch-33w-visalux-apt25-a-petak",
+      "sku": "C128",
+      "name": "CEF 10 INCH 33W VISALUX APT25-A (PETAK)",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "cef-8-30w-ventura-bpt12-13b3-visalux",
+      "sku": "Y11202",
+      "name": "CEF 8\" 30W VENTURA BPT12-13B3 VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "cef-10-inch-33w-visalux-apt25-tg-petak",
+      "sku": "C138",
+      "name": "CEF 10 INCH 33W VISALUX APT25-TG(PETAK)",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "box-mcb-4-group-ib-vbm9204-ib-visalux",
+      "sku": "A005",
+      "name": "BOX MCB 4 GROUP IB VBM9204-IB VISALUX",
+      "brand": "VISALUX"
+    },
+    {
+      "slug": "mcb-easy9-1p-c-10a-ez9f54110-schneider",
+      "sku": "RM30",
+      "name": "MCB EASY9 1P C 10A EZ9F54110 SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "s-k-pieno-e82426-16s-ls-g3-schneider",
+      "sku": "XC09",
+      "name": "S/K PIENO E82426_16S_LS_G3 SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "saklar-seri-clasic-e32-1-2a-sni-schneider",
+      "sku": "S889",
+      "name": "SAKLAR SERI CLASIC E32/1/2A(SNI) SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "saklar-4-gang-kb34s-1-vivace-schneider",
+      "sku": "X501",
+      "name": "SAKLAR 4 GANG KB34S/1 VIVACE SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "stop-kontak-pvc-16a-e426-16s-clasic-schneider",
+      "sku": "X306",
+      "name": "STOP KONTAK PVC 16A E426/16S CLASIC SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "saklar-engkel-clasic-e31-1-2a-sni-schneider",
+      "sku": "S898",
+      "name": "SAKLAR ENGKEL CLASIC E31/1/2A(SNI) SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "saklar-seri-pieno-e8232l1f-ls-g3-schneider",
+      "sku": "XG05",
+      "name": "SAKLAR SERI PIENO E8232L1F_LS_G3 SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "saklar-6-gang-et36-1-2ar-we-clasic-schneider",
+      "sku": "XG03",
+      "name": "SAKLAR 6 GANG ET36_1_2AR_WE CLASIC SCHNEIDER",
+      "brand": "SCHNEIDER"
+    },
+    {
+      "slug": "mcb-1pole-10a-6ka-chint",
+      "sku": "M324",
+      "name": "MCB 1POLE 10A 6KA CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "fuse-link-16a-chint",
+      "sku": "F337",
+      "name": "FUSE LINK 16A CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "pilot-lamp-flat-round-yellow-chint",
+      "sku": "P085",
+      "name": "PILOT LAMP FLAT ROUND YELLOW CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "time-switch-kg316t-chint",
+      "sku": "T06",
+      "name": "TIME SWITCH KG316T CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "mccb-nm1-3p-63s-32a-15ka-chint",
+      "sku": "M707",
+      "name": "MCCB NM1 3P 63S 32A 15KA CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "mccb-nm8-125s-3pole-50ka-63a-chint",
+      "sku": "M497",
+      "name": "MCCB NM8 125S 3POLE 50KA 63A CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "mccb-nm1-3p-100a-20ka-chint",
+      "sku": "M765",
+      "name": "MCCB NM1 3P 100A 20KA CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "mccb-nmi-63s-3300-3pole-25a-chint",
+      "sku": "M501",
+      "name": "MCCB NMI-63S/3300 3POLE 25A CHINT",
+      "brand": "CHINT"
+    },
+    {
+      "slug": "kabel-nyy-4-x-10-cosmic",
+      "sku": "Y105",
+      "name": "KABEL NYY 4 X 10 COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-nyy-hyo-2-x-0-75-x-50m-cosmic",
+      "sku": "A377",
+      "name": "KABEL NYY HYO 2 X 0.75 X 50M COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-nym-hyo-2-x-0-75-x-50m-cosmic",
+      "sku": "A193",
+      "name": "KABEL NYM HYO 2 X 0.75 X 50M COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-nya-1-5-x-50m-merah-cosmic",
+      "sku": "K1129",
+      "name": "KABEL NYA 1.5 X 50M MERAH COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-telp-2-x-0-60-x-100-cosmic",
+      "sku": "K1148",
+      "name": "KABEL TELP 2 X 0.60 X 100 COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-nyy-2-x-1-5-x-50m-cosmic",
+      "sku": "A164",
+      "name": "KABEL NYY 2 X 1.5 X 50M COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "kabel-nya-1-5-x-100m-b-cosmic",
+      "sku": "A208",
+      "name": "KABEL NYA 1.5 X 100M (B) COSMIC",
+      "brand": "COSMIC"
+    },
+    {
+      "slug": "led-bulb-40w-6500k-beta-ptb2140-pioline",
+      "sku": "Y1231",
+      "name": "LED BULB 40W 6500K BETA PTB2140 PIOLINE",
+      "brand": "PIOLINE"
+    },
+    {
+      "slug": "s-k-3lbg-lampu-psc2003n-pioline",
+      "sku": "XC04",
+      "name": "S/K 3LBG + LAMPU PSC2003N PIOLINE",
+      "brand": "PIOLINE"
+    },
+    {
+      "slug": "s-k-gepeng-2lbg-lampu-psc2102s-pioline",
+      "sku": "XC26",
+      "name": "S/K GEPENG 2LBG + LAMPU PSC2102S PIOLINE",
+      "brand": "PIOLINE"
+    },
+    {
+      "slug": "pilot-lamp-22mm-merah-pioline",
+      "sku": "P072",
+      "name": "PILOT LAMP 22MM MERAH PIOLINE",
+      "brand": "PIOLINE"
+    },
+    {
+      "slug": "led-filament-60w-2900k-frosted-6360ww-pioline",
+      "sku": "YL075",
+      "name": "LED FILAMENT 60W 2900K FROSTED 6360WW PIOLINE",
+      "brand": "PIOLINE"
+    },
+    {
+      "slug": "simon-valor-led-hpb-t80-20w-6500k",
+      "sku": "Z1129",
+      "name": "SIMON VALOR LED HPB T80 20W 6500K",
+      "brand": "SIMON"
+    },
+    {
+      "slug": "simon-valor-led-bulb-a60-7w-6500k",
+      "sku": "Z1127",
+      "name": "SIMON VALOR LED BULB A60 7W 6500K",
+      "brand": "SIMON"
+    },
+    {
+      "slug": "simon-valor-led-downlight-r100-8w-3000k",
+      "sku": "TD45",
+      "name": "SIMON VALOR LED DOWNLIGHT R100 8W 3000K",
+      "brand": "SIMON"
+    },
+    {
+      "slug": "simon-valor-led-bulb-g45-3w-6500k",
+      "sku": "Z1107",
+      "name": "SIMON VALOR LED BULB G45 3W 6500K",
+      "brand": "SIMON"
+    },
+    {
+      "slug": "lampu-t8-led-8818-24w-putih-himawari",
+      "sku": "L2",
+      "name": "LAMPU T8 LED 8818 24W PUTIH HIMAWARI",
+      "brand": "HIMAWARI"
+    },
+    {
+      "slug": "fitting-e-27-e27-65mm-himawari",
+      "sku": "F432",
+      "name": "FITTING E 27-E27 65MM HIMAWARI",
+      "brand": "HIMAWARI"
+    },
+    {
+      "slug": "kabel-nym-3-x-1-5-x-40m-vinito-putih",
+      "sku": "VNT03",
+      "name": "KABEL NYM 3 X 1,5 X 40M VINITO PUTIH",
+      "brand": "VINITO"
+    },
+    {
+      "slug": "lampu-spiral-15w-mini-eterna-ww",
+      "sku": "L740",
+      "name": "LAMPU SPIRAL 15W MINI ETERNA WW",
+      "brand": "ETERNA"
+    },
+    {
+      "slug": "lampu-spiral-11w-mini-eterna-ww",
+      "sku": "L739",
+      "name": "LAMPU SPIRAL 11W MINI ETERNA WW",
+      "brand": "ETERNA"
+    },
+    {
+      "slug": "isolasi-vhb-4900-3m-double-tape-merah",
+      "sku": "A181",
+      "name": "ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH",
+      "brand": "3M"
+    },
+    {
+      "slug": "multicord-5lb-2m-supreme-vek5205e-sup-p10a-visalux",
+      "sku": "Y11022",
+      "name": "MULTICORD 5LB 2M SUPREME VEK5205E-SUP-P10A VISALUX",
+      "brand": "SUPREME"
+    }
+  ]
 }
