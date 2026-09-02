@@ -1,7 +1,7 @@
 {
   "lampu-led-3w-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU LED 3W ECOKING\"",
@@ -15,7 +15,7 @@
   },
   "led-avatar-6w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED AVATAR 6W 6500K ECOKING\"",
@@ -29,7 +29,7 @@
   },
   "led-kingdom-8w-3000k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED KINGDOM 8W 3000K ECOKING\"",
@@ -43,7 +43,7 @@
   },
   "led-strip-12v-252l-10w-3000k-els12252ww-cob-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"252L10W\" \"ECOKING\"",
@@ -59,7 +59,7 @@
   },
   "lampu-5w-putih-etc9905dl-champions-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETC9905DL\" \"ECOKING\"",
@@ -74,7 +74,7 @@
   },
   "head-lamp-led-3w-6500k-3xaa-ehl2203wy-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"3XAA\" \"ECOKING\"",
@@ -90,7 +90,7 @@
   },
   "lampu-led-tayo-4u-30w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU LED TAYO 4U 30W 6500K ECOKING\"",
@@ -104,7 +104,7 @@
   },
   "led-legend-5w-kuning-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED LEGEND 5W KUNING ECOKING\"",
@@ -118,7 +118,7 @@
   },
   "lampu-led-50w-6500k-champions-etc9950dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETC9950DL\" \"ECOKING\"",
@@ -133,7 +133,7 @@
   },
   "downlight-icon-2-5-3w-6500k-bulat-epl3103dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPL3103DL\" \"ECOKING\"",
@@ -148,7 +148,7 @@
   },
   "lampu-15w-e27-a60-tricolour-etc315dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETC315DL\" \"ECOKING\"",
@@ -163,7 +163,7 @@
   },
   "head-lamp-50w-6800k-glass-2700k-ehl2288wy-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EHL2288WY\" \"ECOKING\"",
@@ -178,7 +178,7 @@
   },
   "lampu-led-25w-jumbo-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU LED 25W JUMBO 6500K ECOKING\"",
@@ -192,7 +192,7 @@
   },
   "head-lamp-led-20w-3000k-ehl2240-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EHL2240\" \"ECOKING\"",
@@ -207,7 +207,7 @@
   },
   "led-legend-8w-tigo-6500k-2-bonus-1-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED LEGEND 8W TIGO 6500K 2 BONUS 1 ECOKING\"",
@@ -221,7 +221,7 @@
   },
   "downlight-metro-2-5-3w-6500k-bulat-epl3103r-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPL3103R\" \"ECOKING\"",
@@ -236,7 +236,7 @@
   },
   "lampu-led-bertiga-23w-6500k-2-bonus-1-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU LED BERTIGA 23W 6500K (2 BONUS 1) ECOKING\"",
@@ -250,7 +250,7 @@
   },
   "obor-led-frame-9w-1300k-elf009-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ELF009\" \"ECOKING\"",
@@ -265,7 +265,7 @@
   },
   "dl-2-5-6w-6500k-epl-3106s-dl-coco-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPL3106SDL\" \"ECOKING\"",
@@ -280,7 +280,7 @@
   },
   "dl-3-9w-6500k-epl-3109r-dl-coco-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPL3109RDL\" \"ECOKING\"",
@@ -295,7 +295,7 @@
   },
   "led-sensor-10w-6500k-ess810dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ESS810DL\" \"ECOKING\"",
@@ -310,7 +310,7 @@
   },
   "lampu-led-spiral-45w-6500k-els645dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ELS645DL\" \"ECOKING\"",
@@ -325,7 +325,7 @@
   },
   "led-turbo-megic-saga-20w-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED TURBO MEGIC SAGA 20W ECOKING\"",
@@ -339,7 +339,7 @@
   },
   "lampu-18w-6500k-venus-evd1218dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EVD1218DL\" \"ECOKING\"",
@@ -354,7 +354,7 @@
   },
   "led-tiger-35w-6500k-etl735dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETL735DL\" \"ECOKING\"",
@@ -369,7 +369,7 @@
   },
   "kap-t5-neon-led-5w-6500k-l30cm-ent5505dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"L30CM\" \"ECOKING\"",
@@ -385,7 +385,7 @@
   },
   "led-turbo-saga-25w-6500k-ets-25w-ring-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETS25W\" \"ECOKING\"",
@@ -400,7 +400,7 @@
   },
   "head-lamp-60w-6800k-swat-ehl2860dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EHL2860DL\" \"ECOKING\"",
@@ -415,7 +415,7 @@
   },
   "head-lamp-50w-6800k-ehl2850dl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EHL2850DL\" \"ECOKING\"",
@@ -430,7 +430,7 @@
   },
   "led-sensor-12w-3000k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED SENSOR 12W 3000K ECOKING\"",
@@ -444,7 +444,7 @@
   },
   "led-super-7w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LED SUPER 7W 6500K ECOKING\"",
@@ -458,7 +458,7 @@
   },
   "led-tiger-25w-3000k-etl725ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETL725WW\" \"ECOKING\"",
@@ -473,7 +473,7 @@
   },
   "downlight-viva-3-5-3-3w-wh-bl-petak-epl3233s-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPL3233S\" \"ECOKING\"",
@@ -488,7 +488,7 @@
   },
   "led-turbo-saga-30w-6500k-ets-30w-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETS30W\" \"ECOKING\"",
@@ -503,7 +503,7 @@
   },
   "icon-step-light-3w-3000k-4500k-6500k-esl7103tc-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ESL7103TC\" \"ECOKING\"",
@@ -518,7 +518,7 @@
   },
   "pingpong-3w-clear-epp003-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPP003\" \"ECOKING\"",
@@ -533,7 +533,7 @@
   },
   "wall-light-cob-3w-3000k-alu-blk-icon-ewl-8303ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EWL8303WW\" \"ECOKING\"",
@@ -548,7 +548,7 @@
   },
   "pingpong-3w-orange-epp003-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EPP003\" \"ECOKING\"",
@@ -563,7 +563,7 @@
   },
   "wall-light-1-x-3w-3000k-alu-blk-icon-ewl-8503ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"EWL8503WW\" \"ECOKING\"",
@@ -578,7 +578,7 @@
   },
   "kap-t5-neon-led-10w-3000k-l60cm-ent5510ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"L60CM\" \"ECOKING\"",
@@ -594,7 +594,7 @@
   },
   "lampu-tl-ring-30w-e27-3000k-180mm-etr030ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ETR030WW\" \"ECOKING\"",
@@ -609,7 +609,7 @@
   },
   "kap-t5-neon-led-5w-3000k-l30cm-ent5505ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"L30CM\" \"ECOKING\"",
@@ -625,7 +625,7 @@
   },
   "kap-t5-neon-led-14w-3000k-l90cm-ent5514ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"L90CM\" \"ECOKING\"",
@@ -641,7 +641,7 @@
   },
   "led-strip-pancawarna-48l-m-blue-2835-6mm-epw1060-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"48LM\" \"ECOKING\"",
@@ -657,7 +657,7 @@
   },
   "lampu-led-disco-5w-rgb-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU LED DISCO 5W RGB ECOKING\"",
@@ -671,7 +671,7 @@
   },
   "led-strip-12v-9w-els12120-3000k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ELS12120\" \"ECOKING\"",
@@ -686,7 +686,7 @@
   },
   "led-strip-cob-12v-252l-10w-blue-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"252L\" \"ECOKING\"",
@@ -701,7 +701,7 @@
   },
   "kap-t5-neon-led-5w-blue-l30cm-ent5505bl-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"L30CM\" \"ECOKING\"",
@@ -717,7 +717,7 @@
   },
   "lampu-sorot-ninja-300w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU SOROT NINJA 300W 6500K ECOKING\"",
@@ -731,7 +731,7 @@
   },
   "lampu-sorot-ninja-50w-3000k-pfl5015ww-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"PFL5015WW\" \"ECOKING\"",
@@ -746,7 +746,7 @@
   },
   "lampu-sorot-ninja-100w-3000k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU SOROT NINJA 100W 3000K ECOKING\"",
@@ -760,7 +760,7 @@
   },
   "wall-light-1xe27-rd-alu-icon-ewl8603-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"1XE27\" \"ECOKING\"",
@@ -776,7 +776,7 @@
   },
   "wall-light-1xe27-sq-alu-icon-ewl8703-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"1XE27\" \"ECOKING\"",
@@ -792,7 +792,7 @@
   },
   "lampu-sorot-ninja-10w-3000k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU SOROT NINJA 10W 3000K ECOKING\"",
@@ -806,7 +806,7 @@
   },
   "lampu-sorot-ninja-30w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU SOROT NINJA 30W 6500K ECOKING\"",
@@ -820,7 +820,7 @@
   },
   "lampu-sorot-rgb-samurai-10w-ecoking-pfl5011d": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"PFL5011D\" \"ECOKING\"",
@@ -835,7 +835,7 @@
   },
   "lampu-sorot-rgb-samurai-30w-ecoking-pfl5013d": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"PFL5013D\" \"ECOKING\"",
@@ -850,7 +850,7 @@
   },
   "lampu-sorot-ninja-10w-6500k-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"LAMPU SOROT NINJA 10W 6500K ECOKING\"",
@@ -864,7 +864,7 @@
   },
   "raket-nyamuk-ern3102-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ERN3102\" \"ECOKING\"",
@@ -879,7 +879,7 @@
   },
   "raket-nyamuk-ern3107-atom-ecoking": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:ecoking.co.id \"ERN3107\" \"ECOKING\"",
@@ -894,7 +894,7 @@
   },
   "fitting-gantung-e27-hitam-vfg218b-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VFG218B\" \"VISALUX\"",
@@ -909,7 +909,7 @@
   },
   "fitting-colok-saklar-v2615-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"V2615\" \"VISALUX\"",
@@ -924,7 +924,7 @@
   },
   "fitting-kombinasi-visalux-v-272-s-black": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"FITTING KOMBINASI VISALUX V 272 S BLACK\"",
@@ -938,7 +938,7 @@
   },
   "fitting-plavon-segi-4-e27-3a-asb-vfp2704-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VFP2704\" \"VISALUX\"",
@@ -953,7 +953,7 @@
   },
   "fitting-kombinasi-e27-white-visalux-v272w": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"V272W\" \"VISALUX\"",
@@ -968,7 +968,7 @@
   },
   "bola-lampu-legend-20w-6500k-8820dl-brilliance-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"8820DL\" \"VISALUX\"",
@@ -983,7 +983,7 @@
   },
   "s-k-1-lbg-arde-lampu-visalux-va-5201": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"S/K 1 LBG ARDE + LAMPU VISALUX VA 5201\"",
@@ -997,7 +997,7 @@
   },
   "box-mcb-4group-kaca-lampu-vbm9304-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"4GROUP\" \"VISALUX\"",
@@ -1013,7 +1013,7 @@
   },
   "s-k-ac-decor-lampu-visalux-vs-9113n": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"9113N\" \"VISALUX\"",
@@ -1028,7 +1028,7 @@
   },
   "downlight-4-9w-6500k-bulat-vs8309r-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8309R\" \"VISALUX\"",
@@ -1043,7 +1043,7 @@
   },
   "led-t8-24w-glass-6500k-vtl1224-tl-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VTL1224TL\" \"VISALUX\"",
@@ -1058,7 +1058,7 @@
   },
   "downlight-4-white-vdl6540w-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VDL6540W\" \"VISALUX\"",
@@ -1073,7 +1073,7 @@
   },
   "dl-12w-5-3000k-tetra-vs8312r-ww-visalux-bulat": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8312RWW\" \"VISALUX\"",
@@ -1088,7 +1088,7 @@
   },
   "bola-lampu-classic-7w-6500k-7707dl-radiance-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"7707DL\" \"VISALUX\"",
@@ -1103,7 +1103,7 @@
   },
   "dl-3-5-e27-white-vdl6535w-liberty-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VDL6535W\" \"VISALUX\"",
@@ -1118,7 +1118,7 @@
   },
   "dl-12w-6-6500k-tetra-vs8312s-dl-visalux-petak": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8312SDL\" \"VISALUX\"",
@@ -1133,7 +1133,7 @@
   },
   "steker-t-multi-visalux-v-8812w": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"STEKER T MULTI VISALUX V 8812W\"",
@@ -1147,7 +1147,7 @@
   },
   "s-k-4-lb-arde-lp-visalux-va-5204": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"S/K 4 LB ARDE + LP VISALUX VA 5204\"",
@@ -1161,7 +1161,7 @@
   },
   "saklar-seri-1w-10a-vse3021-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VSE3021\" \"VISALUX\"",
@@ -1176,7 +1176,7 @@
   },
   "s-k-flamingo-vsc-5002-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"S/K FLAMINGO VSC 5002 VISALUX\"",
@@ -1190,7 +1190,7 @@
   },
   "over-steker-sebaguna-visalux-v-607a": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"OVER STEKER SEBAGUNA VISALUX V 607A\"",
@@ -1204,7 +1204,7 @@
   },
   "s-k-ob-visalux-cello-putih-vs6016": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS6016\" \"VISALUX\"",
@@ -1219,7 +1219,7 @@
   },
   "saklar-tripel-1w-10a-vse3031-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VSE3031\" \"VISALUX\"",
@@ -1234,7 +1234,7 @@
   },
   "kabel-ties-4-100-2-5mm-pth-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"KABEL TIES 4\" (100*2.5MM) PTH VISALUX\"",
@@ -1248,7 +1248,7 @@
   },
   "klem-kabel-12mm-vkk-12-stella-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VKK12\" \"VISALUX\"",
@@ -1263,7 +1263,7 @@
   },
   "saklar-seri-ob-visalux-cello-putih-vs6210": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS6210\" \"VISALUX\"",
@@ -1278,7 +1278,7 @@
   },
   "s-k-ob-segi-visalux-vs-8202": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"S/K OB SEGI VISALUX VS 8202\"",
@@ -1292,7 +1292,7 @@
   },
   "skun-kabel-10-8mm-visalux-jgk": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"SKUN KABEL 10-8MM VISALUX JGK\"",
@@ -1306,7 +1306,7 @@
   },
   "kabel-stereo-3-5mm-to-2plug-rca-1-4-black-cu-50-x-6pk-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"2PLUG\" \"VISALUX\"",
@@ -1322,7 +1322,7 @@
   },
   "saklar-4g-decor-visalux-vs-9041": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"SAKLAR 4G DECOR VISALUX VS 9041\"",
@@ -1336,7 +1336,7 @@
   },
   "s-k-3-lb-arde-switch-visalux-vs-6003ss": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS6003SS\" \"VISALUX\"",
@@ -1351,7 +1351,7 @@
   },
   "s-k-vsd9016-gold-lavish-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VSD9016\" \"VISALUX\"",
@@ -1366,7 +1366,7 @@
   },
   "bola-lampu-12w-6500k-lum-vpp6612dl-visalux-luminance": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"LUMVPP6612DL\" \"VISALUX\"",
@@ -1381,7 +1381,7 @@
   },
   "honor-pl-led-5-12w-6500k-rd-vs8312r-d-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8312RD\" \"VISALUX\"",
@@ -1396,7 +1396,7 @@
   },
   "dl-8-24w-6500k-tetra-petak-visalux-vs8324s-dl": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8324SDL\" \"VISALUX\"",
@@ -1411,7 +1411,7 @@
   },
   "outlet-telp-1-way-decor-visalux-vs-9141": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"OUTLET TELP 1 WAY DECOR VISALUX VS 9141\"",
@@ -1425,7 +1425,7 @@
   },
   "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"RYLVFL5520W\" \"VISALUX\"",
@@ -1440,7 +1440,7 @@
   },
   "mcb-1p-6ka-4a-visalux-vs-104": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"MCB 1P 6KA 4A VISALUX VS 104\"",
@@ -1454,7 +1454,7 @@
   },
   "downlight-4-9w-6500k-petak-vs8309s-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VS8309S\" \"VISALUX\"",
@@ -1469,7 +1469,7 @@
   },
   "dl-tetra-4-9w-6500k-ob-vpl9309s-dl-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VPL9309S\" \"VISALUX\"",
@@ -1484,7 +1484,7 @@
   },
   "outlet-tv-visalux-e31tv75": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"E31TV75\" \"VISALUX\"",
@@ -1499,7 +1499,7 @@
   },
   "body-t8-led-60cm-12w-6500k-vesta-w-batten-vtl0612-set-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VTL0612SET\" \"VISALUX\"",
@@ -1514,7 +1514,7 @@
   },
   "end-cap-1-5mm-v1-25-black-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"V125\" \"VISALUX\"",
@@ -1529,7 +1529,7 @@
   },
   "end-cap-1-5mm-v1-25-yellow-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"V125\" \"VISALUX\"",
@@ -1544,7 +1544,7 @@
   },
   "end-cap-1-5mm-v1-25-red-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"V125\" \"VISALUX\"",
@@ -1559,7 +1559,7 @@
   },
   "led-fl-10w-6500k-visalux-vfl-5510d": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VFL5510D\" \"VISALUX\"",
@@ -1574,7 +1574,7 @@
   },
   "led-par38-20w-e27-3000k-vlp3820-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"PAR38\" \"VISALUX\"",
@@ -1590,7 +1590,7 @@
   },
   "spectrum-led-track-light-10w-3000k-vtl9910w-wh-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VTL9910W\" \"VISALUX\"",
@@ -1605,7 +1605,7 @@
   },
   "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"6500K3000K\" \"VISALUX\"",
@@ -1621,7 +1621,7 @@
   },
   "lampu-jalan-12w-vsl-6012-visalux-6500k": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VSL6012\" \"VISALUX\"",
@@ -1636,7 +1636,7 @@
   },
   "multicord-5-lbg-3m-va5205e-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VA5205E\" \"VISALUX\"",
@@ -1651,7 +1651,7 @@
   },
   "box-mcb-8-group-ob-vbm9208-ob-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VBM9208OB\" \"VISALUX\"",
@@ -1666,7 +1666,7 @@
   },
   "multicord-5-lbg-2m-vek5205e-mozart-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VEK5205E\" \"VISALUX\"",
@@ -1681,7 +1681,7 @@
   },
   "multicord-neutron-3lb-vek5203e-2m-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VEK5203E2M\" \"VISALUX\"",
@@ -1696,7 +1696,7 @@
   },
   "last-dop-13mm-red-visalux-v5": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"LAST DOP 13MM RED VISALUX V5\"",
@@ -1710,7 +1710,7 @@
   },
   "cef-8-inch-30w-visalux-bpt12-13-pipa": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"BPT1213\" \"VISALUX\"",
@@ -1725,7 +1725,7 @@
   },
   "cef-10-inch-33w-visalux-apt25-a-petak": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"APT25A\" \"VISALUX\"",
@@ -1740,7 +1740,7 @@
   },
   "cef-8-30w-ventura-bpt12-13b3-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"BPT1213B3\" \"VISALUX\"",
@@ -1755,7 +1755,7 @@
   },
   "cef-10-inch-33w-visalux-apt25-tg-petak": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"APT25TG\" \"VISALUX\"",
@@ -1770,7 +1770,7 @@
   },
   "box-mcb-4-group-ib-vbm9204-ib-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:visalux.co.id \"VBM9204IB\" \"VISALUX\"",
@@ -1785,7 +1785,7 @@
   },
   "mcb-easy9-1p-c-10a-ez9f54110-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"EASY9\" \"SCHNEIDER\"",
@@ -1805,7 +1805,7 @@
   },
   "s-k-pieno-e82426-16s-ls-g3-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"E8242616SLSG3\" \"SCHNEIDER\"",
@@ -1823,7 +1823,7 @@
   },
   "saklar-seri-clasic-e32-1-2a-sni-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"E3212A\" \"SCHNEIDER\"",
@@ -1841,7 +1841,7 @@
   },
   "saklar-4-gang-kb34s-1-vivace-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"KB34S1\" \"SCHNEIDER\"",
@@ -1859,7 +1859,7 @@
   },
   "stop-kontak-pvc-16a-e426-16s-clasic-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"E42616S\" \"SCHNEIDER\"",
@@ -1877,7 +1877,7 @@
   },
   "saklar-engkel-clasic-e31-1-2a-sni-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"E3112A\" \"SCHNEIDER\"",
@@ -1895,7 +1895,7 @@
   },
   "saklar-seri-pieno-e8232l1f-ls-g3-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"E8232L1FLSG3\" \"SCHNEIDER\"",
@@ -1913,7 +1913,7 @@
   },
   "saklar-6-gang-et36-1-2ar-we-clasic-schneider": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:se.com \"ET3612ARWE\" \"SCHNEIDER\"",
@@ -1931,7 +1931,7 @@
   },
   "mcb-1pole-10a-6ka-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"1POLE\" \"CHINT\"",
@@ -1949,7 +1949,7 @@
   },
   "fuse-link-16a-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"FUSE LINK 16A CHINT\"",
@@ -1965,7 +1965,7 @@
   },
   "pilot-lamp-flat-round-yellow-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"PILOT LAMP FLAT ROUND YELLOW CHINT\"",
@@ -1981,7 +1981,7 @@
   },
   "time-switch-kg316t-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"KG316T\" \"CHINT\"",
@@ -1999,7 +1999,7 @@
   },
   "mccb-nm1-3p-63s-32a-15ka-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"MCCB NM1 3P 63S 32A 15KA CHINT\"",
@@ -2015,7 +2015,7 @@
   },
   "mccb-nm8-125s-3pole-50ka-63a-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"125S\" \"CHINT\"",
@@ -2035,7 +2035,7 @@
   },
   "mccb-nm1-3p-100a-20ka-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"MCCB NM1 3P 100A 20KA CHINT\"",
@@ -2051,7 +2051,7 @@
   },
   "mccb-nmi-63s-3300-3pole-25a-chint": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:chintglobal.com \"NMI63S3300\" \"CHINT\"",
@@ -2071,7 +2071,7 @@
   },
   "kabel-nyy-4-x-10-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "Y105",
@@ -2080,7 +2080,7 @@
   },
   "kabel-nyy-hyo-2-x-0-75-x-50m-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "A377",
@@ -2089,7 +2089,7 @@
   },
   "kabel-nym-hyo-2-x-0-75-x-50m-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "A193",
@@ -2098,7 +2098,7 @@
   },
   "kabel-nya-1-5-x-50m-merah-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "K1129",
@@ -2107,7 +2107,7 @@
   },
   "kabel-telp-2-x-0-60-x-100-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "K1148",
@@ -2116,7 +2116,7 @@
   },
   "kabel-nyy-2-x-1-5-x-50m-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "A164",
@@ -2125,7 +2125,7 @@
   },
   "kabel-nya-1-5-x-100m-b-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "A208",
@@ -2134,7 +2134,7 @@
   },
   "kabel-nya-1-5-x-100m-k-hj-cosmic": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "A209",
@@ -2143,7 +2143,7 @@
   },
   "led-bulb-40w-6500k-beta-ptb2140-pioline": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:pioneerelectric.co.id \"PTB2140\" \"PIOLINE\"",
@@ -2158,7 +2158,7 @@
   },
   "s-k-3lbg-lampu-psc2003n-pioline": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:pioneerelectric.co.id \"3LBG\" \"PIOLINE\"",
@@ -2174,7 +2174,7 @@
   },
   "s-k-gepeng-2lbg-lampu-psc2102s-pioline": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:pioneerelectric.co.id \"2LBG\" \"PIOLINE\"",
@@ -2190,7 +2190,7 @@
   },
   "pilot-lamp-22mm-merah-pioline": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:pioneerelectric.co.id \"PILOT LAMP 22MM MERAH PIOLINE\"",
@@ -2204,7 +2204,7 @@
   },
   "led-filament-60w-2900k-frosted-6360ww-pioline": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:pioneerelectric.co.id \"6360WW\" \"PIOLINE\"",
@@ -2219,7 +2219,7 @@
   },
   "simon-valor-led-hpb-t80-20w-6500k": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:simon.co.id \"SIMON VALOR LED HPB T80 20W 6500K\"",
@@ -2235,7 +2235,7 @@
   },
   "simon-valor-led-bulb-a60-7w-6500k": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:simon.co.id \"SIMON VALOR LED BULB A60 7W 6500K\"",
@@ -2251,7 +2251,7 @@
   },
   "simon-valor-led-downlight-r100-8w-3000k": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:simon.co.id \"R100\" \"SIMON\"",
@@ -2269,7 +2269,7 @@
   },
   "simon-valor-led-bulb-g45-3w-6500k": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:simon.co.id \"SIMON VALOR LED BULB G45 3W 6500K\"",
@@ -2285,7 +2285,7 @@
   },
   "lampu-t8-led-8818-24w-putih-himawari": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "L2",
@@ -2294,7 +2294,7 @@
   },
   "fitting-e-27-e27-65mm-himawari": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "F432",
@@ -2303,7 +2303,7 @@
   },
   "kabel-nym-3-x-1-5-x-40m-vinito-putih": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "VNT03",
@@ -2312,7 +2312,7 @@
   },
   "lampu-spiral-15w-mini-eterna-ww": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "L740",
@@ -2321,7 +2321,7 @@
   },
   "lampu-spiral-11w-mini-eterna-ww": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_approved_source_for_brand",
     "queries": [],
     "sku": "L739",
@@ -2330,7 +2330,7 @@
   },
   "isolasi-vhb-4900-3m-double-tape-merah": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:3m.co.id \"ISOLASI VHB 4900 3M (DOUBLE TAPE) MERAH\"",
@@ -2346,7 +2346,7 @@
   },
   "multicord-5lb-2m-supreme-vek5205e-sup-p10a-visalux": {
     "status": "unresolved",
-    "validation_version": 3,
+    "validation_version": 4,
     "reason": "no_validated_page",
     "queries": [
       "site:sucaco.com \"VEK5205ESUPP10A\" \"SUPREME\"",
