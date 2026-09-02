@@ -27,15 +27,21 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          html_count=$(find . -type f -name '*.html' -not -path './.git/*' | wc -l)
-          product_count=$(find produk -mindepth 2 -maxdepth 2 -type f -name index.html | wc -l)
+          if [ -d dist ]; then
+            site_root=dist
+          else
+            site_root=.
+          fi
+          echo "Site root: $site_root"
+          html_count=$(find "$site_root" -type f -name '*.html' | wc -l)
+          product_count=$(find "$site_root/produk" -mindepth 2 -maxdepth 2 -type f -name index.html | wc -l)
           echo "HTML pages: $html_count"
           echo "Product pages: $product_count"
           test "$html_count" -eq 189
           test "$product_count" -eq 160
-          grep -q 'operated by PT Pratama Sukses Mandiri' index.html
-          grep -q 'PRATAMA MITRA' index.html
-          grep -q '#0A498B' assets/styles.css
+          grep -q 'operated by PT Pratama Sukses Mandiri' "$site_root/index.html"
+          grep -q 'PRATAMA MITRA' "$site_root/index.html"
+          grep -qi '#0a498b' "$site_root/assets/styles.css"
 
       - name: Remove temporary bootstrap files
         run: |
