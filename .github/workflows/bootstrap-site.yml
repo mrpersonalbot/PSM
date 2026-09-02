@@ -1,56 +1,44 @@
-name: Bootstrap Pratama website
+name: Build PRATAMA website
 
 on:
   push:
     branches: [main]
-    paths:
-      - 'bootstrap/site.chunk.*'
-      - 'bootstrap/READY'
+  pull_request:
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  expand-site:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
+          python-version: '3.12'
 
-      - name: Check payload completeness
-        id: payload
+      - name: Build static website
+        run: python3 build.py
+
+      - name: Verify generated site
         shell: bash
         run: |
-          count=$(find bootstrap -maxdepth 1 -type f -name 'site.chunk.*' 2>/dev/null | wc -l)
-          if [ "$count" -eq 12 ] && [ -f bootstrap/READY ]; then
-            echo 'ready=true' >> "$GITHUB_OUTPUT"
-          else
-            echo "Payload not complete yet ($count/12 chunks)."
-            echo 'ready=false' >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Expand final website source
-        if: steps.payload.outputs.ready == 'true'
-        shell: bash
-        run: |
-          set -euo pipefail
-          cat bootstrap/site.chunk.* | base64 -d > /tmp/pratama-site.tar.gz
-          tar -xzf /tmp/pratama-site.tar.gz -C .
-          rm -rf bootstrap
-
-      - name: Commit expanded website
-        if: steps.payload.outputs.ready == 'true'
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
-          if git diff --cached --quiet; then
-            echo 'No changes to commit.'
-            exit 0
-          fi
-          git commit -m 'Publish final Pratama website UI/UX'
-          git push origin main
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          dist = Path('dist')
+          pages = list(dist.rglob('*.html'))
+          products = json.loads((dist / 'data/products.json').read_text())
+          assert len(pages) == 189, f'Expected 189 HTML pages, got {len(pages)}'
+          assert len(products) == 160, f'Expected 160 products, got {len(products)}'
+          assert (dist / 'index.html').exists()
+          assert (dist / 'sitemap.xml').exists()
+          assert (dist / 'robots.txt').exists()
+          public = '\n'.join(p.read_text(errors='ignore') for p in pages)
+          assert 'HPP' not in public
+          print(f'PASS: {len(pages)} HTML pages, {len(products)} products')
+          PY
