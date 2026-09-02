@@ -1,0 +1,41 @@
+name: Bootstrap Pratama website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bootstrap/site.tar.gz.b64'
+
+permissions:
+  contents: write
+
+jobs:
+  expand-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Expand final website source
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d bootstrap/site.tar.gz.b64 > /tmp/pratama-site.tar.gz
+          tar -xzf /tmp/pratama-site.tar.gz -C .
+          rm -rf bootstrap
+
+      - name: Commit expanded website
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Publish final Pratama website UI/UX'
+          git push origin main
