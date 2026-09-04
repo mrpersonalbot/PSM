@@ -129,8 +129,13 @@ jobs:
             echo 'No semi-strict product-image changes to commit.'
           else
             git commit -m 'Rebuild semi-strict product image library'
-            git pull --rebase origin main
-            git push origin main
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git checkout --theirs source/product-images source/product-images.json source/product-images-report.json source/product-images-review.json
+              git add -A source/product-images source/product-images.json source/product-images-report.json source/product-images-review.json
+              GIT_EDITOR=true git rebase --continue
+            fi
+            git push origin HEAD:main
           fi
 
       - name: Semi-strict completion summary
