@@ -343,6 +343,7 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .product-card h3{font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:700}
 .product-meta{color:#746a61}
 .product-card .quick-wa{text-transform:none;letter-spacing:0;font-size:12px;color:var(--pratama-blue)}
+.quick-wa img{display:block;width:24px;height:24px;position:relative;top:-2px}
 .product-card .quick-wa:after{content:"↗"}
 
 /* Product detail */

@@ -72,6 +72,11 @@ if dist.exists() and human_css.exists():
             r'\1<img src="/assets/whatsapp.svg" alt="" width="30" height="30">\2',
             text,
         )
+        text = re.sub(
+            r'(<a class="quick-wa"[^>]*>)WA(</a>)',
+            r'\1<img src="/assets/whatsapp.svg" alt="" width="24" height="24">\2',
+            text,
+        )
         text = text.replace(
             "7 salesman mendukung kebutuhan toko dan kunjungan langsung.",
             "Sales support mendukung kebutuhan toko dan kunjungan langsung.",
