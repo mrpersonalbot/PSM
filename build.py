@@ -1,4 +1,4 @@
-import base64, gzip, shutil
+import base64, gzip, re, shutil
 from pathlib import Path
 
 root = Path(__file__).parent
@@ -45,6 +45,25 @@ if dist.exists() and human_css.exists():
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
+
+        # The homepage brand strip is intentionally presentation-only: one
+        # continuously moving line of logos, with no separate brand labels.
+        text = re.sub(
+            r'<div class="brand-wall-copy">.*?</div><div class="brand-logo-row">',
+            '<div class="brand-logo-row">',
+            text,
+            count=1,
+            flags=re.S,
+        )
+        row_match = re.search(r'(<div class="brand-logo-row">)(.*?)(</div>)', text, flags=re.S)
+        if row_match and 'brand-logo-track' not in text:
+            logo_items = row_match.group(2)
+            row = (
+                '<div class="brand-logo-row"><div class="brand-logo-track">'
+                + logo_items + logo_items
+                + '</div></div>'
+            )
+            text = text[:row_match.start()] + row + text[row_match.end():]
         home.write_text(text, encoding="utf-8")
 
 # Persisted product images are collected by GitHub Actions and stored in
