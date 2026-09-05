@@ -103,6 +103,20 @@ if dist.exists() and human_css.exists():
                 + '</div></div>'
             )
             text = text[:row_match.start()] + row + text[row_match.end():]
+
+        # Place the floating brand marquee directly above the two audience cards.
+        brand_match = re.search(r'<section class="section brand-wall">.*?</section>', text, flags=re.S)
+        audience_match = re.search(r'<section class="section section-tight"><div class="container audience-grid">.*?</section>', text, flags=re.S)
+        if brand_match and audience_match and brand_match.start() > audience_match.start():
+            brand_section = brand_match.group(0)
+            audience_section = audience_match.group(0)
+            text = (
+                text[:audience_match.start()]
+                + brand_section
+                + audience_section
+                + text[audience_match.end():brand_match.start()]
+                + text[brand_match.end():]
+            )
         home.write_text(text, encoding="utf-8")
 
 # Persisted product images are collected by GitHub Actions and stored in
