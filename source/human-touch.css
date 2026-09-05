@@ -413,7 +413,31 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .footer{background:#1d272d;border-top:0}
 .footer h4{font-family:Inter,sans-serif;text-transform:none;letter-spacing:.03em;font-size:11px;color:#c6beb2}
 .footer-legal{font-family:Inter,sans-serif;letter-spacing:0;font-size:10px!important}
-.wa-float{background:var(--signal-orange);box-shadow:3px 4px 0 #8d371b}
+.wa-float{
+  background:#fff;
+  border:3px solid #25D366;
+  box-shadow:3px 4px 0 #168c45;
+}
+.wa-float img{display:block;width:30px;height:30px}
+
+/* Benefit numbers need to read as anchors, not disappear into the card. */
+.benefit-grid>div>.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:42px;
+  height:42px;
+  margin:0 0 20px;
+  padding:0;
+  background:#fff0d8;
+  color:#0b467f;
+  border:1px solid rgba(11,70,127,.22);
+  border-radius:8px;
+  font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:.02em;
+}
 
 /* Small tactile details */
 ::selection{background:#ffe19c;color:#25201b}

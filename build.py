@@ -34,6 +34,9 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
+    whatsapp_logo = root / "source" / "assets" / "whatsapp.svg"
+    if whatsapp_logo.exists():
+        shutil.copy2(whatsapp_logo, assets / "whatsapp.svg")
 
     for html_path in dist.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8")
@@ -62,6 +65,17 @@ if dist.exists() and human_css.exists():
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
+        # Use the supplied/localized WhatsApp brand mark instead of a text-only
+        # "WA" badge while preserving the existing link and accessible label.
+        text = re.sub(
+            r'(<a class="wa-float"[^>]*>)WA(</a>)',
+            r'\1<img src="/assets/whatsapp.svg" alt="" width="30" height="30">\2',
+            text,
+        )
+        text = text.replace(
+            "7 salesman mendukung kebutuhan toko dan kunjungan langsung.",
+            "Sales support mendukung kebutuhan toko dan kunjungan langsung.",
+        )
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,
