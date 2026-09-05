@@ -2,6 +2,14 @@ import base64, gzip, re, shutil
 from pathlib import Path
 
 root = Path(__file__).parent
+AVAILABLE_BRANDS = {
+    "VISALUX", "ECOKING", "PIOLINE", "HIMAWARI", "SCHNEIDER", "CHINT",
+    "SIMON", "ADVANCE", "PROFAN", "DEXTA", "LUBY", "VISERO",
+}
+REMOVED_BRANDS = {
+    "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
+}
+LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
 payload = root / "source" / "payload" / "build_impl.gz.b64"
 code = gzip.decompress(base64.b64decode(payload.read_text().strip()))
 exec(compile(code, "build_impl.py", "exec"))
@@ -24,6 +32,7 @@ if dist.exists() and human_css.exists():
         app_js.write_text(app_text, encoding="utf-8")
     brand_logos = root / "source" / "brand-logos"
     if brand_logos.exists():
+        shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
 
     for html_path in dist.rglob("*.html"):
@@ -41,6 +50,18 @@ if dist.exists() and human_css.exists():
             lambda m: f'href="/produk/?q={m.group(1)}%20electric"',
             text,
         )
+        # Remove brand tiles and filter options when no visual asset was supplied.
+        for brand in REMOVED_BRANDS:
+            text = re.sub(
+                rf'<a class="brand-logo-tile"[^>]*?(?:brand={brand}|q={brand}%20electric)[^>]*>.*?</a>',
+                "",
+                text,
+                flags=re.S | re.I,
+            )
+            text = text.replace(f'<option value="{brand}">{brand}</option>', "")
+        # The supplied visual assets are PNGs, replacing the former text SVGs.
+        for slug, ext in LOGO_EXTENSIONS.items():
+            text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,
