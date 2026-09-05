@@ -3,6 +3,45 @@
    This intentionally softens the previous technical / AI-dashboard aesthetic.
 */
 
+/* Partner registration: keep every label and control in an intact field group. */
+#daftar .split-card{
+  align-items:start;
+  grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr);
+  gap:clamp(34px,6vw,88px);
+}
+#daftar .split-card>div:first-child{position:sticky;top:32px}
+#daftar .lead-form{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:20px 18px;
+  width:100%;
+  min-width:0;
+}
+#daftar .form-field{min-width:0;display:flex;flex-direction:column;gap:8px}
+#daftar .form-field label{display:block;color:var(--hand-ink);font-size:12px;font-weight:750;line-height:1.2}
+#daftar .form-field input,
+#daftar .form-field select{
+  width:100%;
+  min-height:50px;
+  padding:0 14px;
+  border:1px solid var(--warm-line);
+  border-radius:9px;
+  background:#fffdf9;
+  color:var(--hand-ink);
+  outline:none;
+  transition:border-color .16s ease,box-shadow .16s ease,background .16s ease;
+}
+#daftar .form-field input::placeholder{color:#9b9187}
+#daftar .form-field input:focus,
+#daftar .form-field select:focus{border-color:var(--pratama-blue);box-shadow:0 0 0 3px rgba(10,73,139,.13);background:#fff}
+#daftar .form-submit{grid-column:1/-1;margin-top:6px;min-height:56px}
+@media(max-width:760px){
+  #daftar .split-card{grid-template-columns:1fr;gap:28px}
+  #daftar .split-card>div:first-child{position:static}
+  #daftar .lead-form{grid-template-columns:1fr;gap:16px}
+  #daftar .form-submit{grid-column:auto}
+}
+
 :root{
   --paper:#f7f2e9;
   --paper-2:#fbf8f2;
