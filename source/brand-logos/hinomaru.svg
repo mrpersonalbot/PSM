@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-labelledby="title desc"><title id="title">HINOMARU logo</title><desc id="desc">HINOMARU circular sun logo and wordmark</desc><circle cx="30" cy="32" r="22" fill="#ef6536"/><circle cx="30" cy="32" r="10" fill="#f7f2e9"/><path d="M30 3v8M30 53v8M1 32h8M51 32h8" stroke="#ef6536" stroke-width="4" stroke-linecap="round"/><text x="66" y="41" fill="#0a498b" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" letter-spacing="1.8">HINOMARU</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 56" role="img" aria-labelledby="title desc">
+  <title id="title">HINOMARU</title>
+  <desc id="desc">HINOMARU brand wordmark</desc>
+  <text x="106.0" y="35" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2.2">HINOMARU</text>
+</svg>

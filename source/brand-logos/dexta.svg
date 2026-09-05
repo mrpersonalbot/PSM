@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title desc"><title id="title">DEXTA logo</title><desc id="desc">DEXTA angular X logo and wordmark</desc><path d="m9 15 16 17-16 17h14l9-10 9 10h14L35 32l16-17H37l-5 7-5-7Z" fill="#ef6536"/><path d="m32 22 6 10-6 10-6-10Z" fill="#0a498b"/><text x="67" y="41" fill="#0a498b" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="800" letter-spacing="1.8">DEXTA</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 56" role="img" aria-labelledby="title desc">
+  <title id="title">DEXTA</title>
+  <desc id="desc">DEXTA brand wordmark</desc>
+  <text x="90.0" y="35" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2.2">DEXTA</text>
+</svg>
