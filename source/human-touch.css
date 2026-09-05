@@ -418,7 +418,7 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   border:3px solid #25D366;
   box-shadow:3px 4px 0 #168c45;
 }
-.wa-float img{display:block;width:30px;height:30px}
+.wa-float img{display:block;width:30px;height:30px;position:relative;top:-2px}
 .wa-float:hover,.wa-float:focus-visible{
   background:#fff;
   border-color:#25D366;
