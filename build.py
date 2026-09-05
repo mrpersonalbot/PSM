@@ -81,6 +81,10 @@ if dist.exists() and human_css.exists():
             "Temukan kebutuhan listrik Anda.": "Mulai dari barang yang paling sering dicari.",
             "Dukungan 7 salesman untuk kebutuhan toko.": "Dukungan salesman untuk kebutuhan toko.",
             "<span><strong>7</strong> salesman</span>": "",
+            "20+Tahun dipercaya": "20+ Tahun dipercaya",
+            "1.000+SKU aktif": "1.000+ SKU aktif",
+            "4,9★Google rating": "4,9 ★ Google rating",
+            "PadangStore & warehouse": "Padang Store & warehouse",
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
