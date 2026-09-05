@@ -14,6 +14,9 @@ human_css = root / "source" / "human-touch.css"
 if dist.exists() and human_css.exists():
     assets.mkdir(parents=True, exist_ok=True)
     shutil.copy2(human_css, assets / "human-touch.css")
+    brand_logos = root / "source" / "brand-logos"
+    if brand_logos.exists():
+        shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
 
     for html_path in dist.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8")
