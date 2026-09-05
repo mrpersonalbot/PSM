@@ -79,7 +79,6 @@ if dist.exists() and human_css.exists():
             "<span>VISALUX</span><b>Electrical</b>": "<span>TANYA STOK</span><b>Langsung WhatsApp</b>",
             "<span>MULTI-BRAND</span><b>1.000+ SKU</b>": "<span>BELANJA UNTUK TOKO?</span><b>Tanya harga grosir</b>",
             "Temukan kebutuhan listrik Anda.": "Mulai dari barang yang paling sering dicari.",
-            "<h1>Kebutuhan listrik <em>lengkap.</em></h1>": "<h1>Toko alat listrik lengkap di<br><em>Padang.</em></h1>",
             "Dukungan 7 salesman untuk kebutuhan toko.": "Dukungan salesman untuk kebutuhan toko.",
             "<span><strong>7</strong> salesman</span>": "",
             "20+Tahun dipercaya": "20+ Tahun dipercaya",
