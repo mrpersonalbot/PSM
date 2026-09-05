@@ -14,6 +14,14 @@ human_css = root / "source" / "human-touch.css"
 if dist.exists() and human_css.exists():
     assets.mkdir(parents=True, exist_ok=True)
     shutil.copy2(human_css, assets / "human-touch.css")
+    app_js = assets / "app.js"
+    if app_js.exists():
+        app_text = app_js.read_text(encoding="utf-8")
+        app_text = app_text.replace(
+            "const q=search.value.trim().toLowerCase(), b=",
+            "const q=search.value.trim().toLowerCase().replace(/\\s+electric$/,'').trim(), b=",
+        )
+        app_js.write_text(app_text, encoding="utf-8")
     brand_logos = root / "source" / "brand-logos"
     if brand_logos.exists():
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
@@ -25,6 +33,14 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
+        # Brand-logo links should search the catalog with the electrical context
+        # included, e.g. "VISALUX electric", rather than only applying a
+        # strict brand filter.
+        text = re.sub(
+            r'href="/produk/\?brand=([^&"]+)"',
+            lambda m: f'href="/produk/?q={m.group(1)}%20electric"',
+            text,
+        )
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,
