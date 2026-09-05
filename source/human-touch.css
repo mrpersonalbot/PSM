@@ -445,6 +445,115 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 }
 .brand-wall,.brand-logo-row,.brand-logo-track,.brand-logo-tile{background:transparent!important}
 
+/* Mitra hero: clear B2B hierarchy instead of dark text on a blue field. */
+.b2b-hero{
+  background:linear-gradient(118deg,#082f58 0%,#0b467f 62%,#0d568f 100%);
+  padding:clamp(64px,8vw,112px) 0 clamp(72px,9vw,124px);
+  overflow:hidden;
+  position:relative;
+}
+.b2b-hero:before{
+  content:"";
+  position:absolute;
+  width:420px;height:420px;
+  right:-130px;top:-180px;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:50%;
+  box-shadow:0 0 0 34px rgba(255,255,255,.035),0 0 0 68px rgba(255,255,255,.025);
+  pointer-events:none;
+}
+.b2b-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.08fr) minmax(290px,.72fr);
+  gap:clamp(42px,8vw,118px);
+  align-items:center;
+  position:relative;
+  z-index:1;
+}
+.b2b-grid>div:first-child{max-width:760px}
+.b2b-hero .eyebrow.signal{
+  display:inline-flex;
+  align-items:center;
+  padding:9px 13px;
+  margin:0 0 25px;
+  background:#fff6e9;
+  color:#c6532d;
+  border-radius:3px;
+  font-size:10px;
+  letter-spacing:.16em;
+}
+.b2b-hero h1{
+  max-width:720px;
+  margin:0 0 24px;
+  color:#fffdf8;
+  font-size:clamp(48px,6.5vw,88px);
+  line-height:.94;
+  letter-spacing:-.06em;
+}
+.b2b-hero .b2b-grid>div:first-child>p{
+  max-width:650px;
+  margin:0;
+  color:rgba(255,255,255,.78);
+  font-size:clamp(16px,1.5vw,19px);
+  line-height:1.65;
+}
+.b2b-hero .hero-actions{margin-top:34px;gap:14px}
+.b2b-hero .btn{min-height:50px;padding:0 20px}
+.b2b-hero .btn-signal{background:#ef6536;color:#fff;border-color:#ef6536}
+.b2b-hero .btn-signal:hover{background:#d95328;border-color:#d95328}
+.b2b-hero .btn-ghost-light{color:#fff;border:1px solid rgba(255,255,255,.42);background:transparent}
+.b2b-hero .btn-ghost-light:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.mitra-panel{
+  position:relative;
+  padding:34px 34px 38px;
+  background:#fff6e9;
+  color:#172d3f;
+  border:0;
+  border-radius:16px;
+  box-shadow:12px 12px 0 rgba(3,24,45,.32);
+  transform:rotate(1.2deg);
+}
+.mitra-panel:before{
+  content:"";
+  display:block;
+  width:46px;height:5px;
+  margin-bottom:40px;
+  background:#ef6536;
+  border-radius:99px;
+}
+.mitra-panel span,.mitra-panel strong{display:block}
+.mitra-panel span{
+  margin-bottom:12px;
+  color:#c6532d;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+.mitra-panel strong{
+  max-width:260px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(28px,3vw,42px);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+.mitra-panel p{
+  max-width:270px;
+  margin:27px 0 0;
+  padding-top:20px;
+  border-top:1px solid rgba(23,45,63,.2);
+  color:#53616a;
+  font-size:14px;
+  line-height:1.6;
+}
+@media (max-width:760px){
+  .b2b-hero{padding:52px 0 72px}
+  .b2b-grid{grid-template-columns:1fr;gap:48px}
+  .b2b-hero h1{font-size:clamp(45px,14vw,68px)}
+  .b2b-hero .hero-actions{align-items:stretch;flex-direction:column;max-width:300px}
+  .b2b-hero .hero-actions .btn{width:100%}
+  .mitra-panel{max-width:360px;padding:28px 26px 32px;box-shadow:8px 8px 0 rgba(3,24,45,.32)}
+}
+
 @media (max-width:980px){
   .hero-grid{gap:54px}
   .hero-panel{transform:none;box-shadow:7px 8px 0 var(--pratama-blue)}
