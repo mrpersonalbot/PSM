@@ -80,6 +80,7 @@ if dist.exists() and human_css.exists():
             "<span>MULTI-BRAND</span><b>1.000+ SKU</b>": "<span>BELANJA UNTUK TOKO?</span><b>Tanya harga grosir</b>",
             "Temukan kebutuhan listrik Anda.": "Mulai dari barang yang paling sering dicari.",
             "Dukungan 7 salesman untuk kebutuhan toko.": "Dukungan salesman untuk kebutuhan toko.",
+            "<span><strong>7</strong> salesman</span>": "",
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
