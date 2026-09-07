@@ -34,10 +34,12 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
-    whatsapp_logo = root / "source" / "assets" / "whatsapp.png"
+    whatsapp_logo = root / "source" / "assets" / "whatsapp-clean.png"
     if whatsapp_logo.exists():
         (assets / "whatsapp.svg").unlink(missing_ok=True)
-        shutil.copy2(whatsapp_logo, assets / "whatsapp.png")
+        (assets / "whatsapp.jpg").unlink(missing_ok=True)
+        (assets / "whatsapp.png").unlink(missing_ok=True)
+        shutil.copy2(whatsapp_logo, assets / "whatsapp-clean.png")
 
     for html_path in dist.rglob("*.html"):
         text = html_path.read_text(encoding="utf-8")
@@ -70,12 +72,12 @@ if dist.exists() and human_css.exists():
         # "WA" badge while preserving the existing link and accessible label.
         text = re.sub(
             r'(<a class="wa-float"[^>]*>)WA(</a>)',
-            r'\1<img src="/assets/whatsapp.png" alt="" width="30" height="30">\2',
+            r'\1<img src="/assets/whatsapp-clean.png" alt="" width="30" height="30">\2',
             text,
         )
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
-            r'\1<img src="/assets/whatsapp.png" alt="" width="24" height="24">\2',
+            r'\1<img src="/assets/whatsapp-clean.png" alt="" width="24" height="24">\2',
             text,
         )
         text = text.replace(
