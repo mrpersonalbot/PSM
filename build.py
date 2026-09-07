@@ -34,7 +34,10 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
-    # The floating WhatsApp artwork is no longer part of the published site.
+    whatsapp_logo = root / "source" / "assets" / "whatsapp-floating-final.jpg"
+    if whatsapp_logo.exists():
+        (assets / "whatsapp-floating-final.jpg").unlink(missing_ok=True)
+        shutil.copy2(whatsapp_logo, assets / "whatsapp-floating-final.jpg")
     for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg"):
         (assets / stale_asset).unlink(missing_ok=True)
     for html_path in dist.rglob("*.html"): 
@@ -64,8 +67,13 @@ if dist.exists() and human_css.exists():
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
-        # Remove the persistent floating WhatsApp action at the user's request.
-        text = re.sub(r'<a class="wa-float"[^>]*>.*?</a>', "", text, flags=re.S)
+        # Use the supplied artwork as the only visible floating WhatsApp element.
+        text = re.sub(
+            r'(<a class="wa-float"[^>]*>).*?(</a>)',
+            r'\1<img src="/assets/whatsapp-floating-final.jpg" alt="Hubungi WhatsApp" width="58" height="58">\2',
+            text,
+            flags=re.S,
+        )
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
             r'\1Tanya stok\2',
