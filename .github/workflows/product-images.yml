@@ -149,3 +149,5 @@ jobs:
           print(f"Source tiers: {r.get('source_tiers',{})}")
           print(f"Intentionally withheld images: {r['unresolved_count']}")
           PY
+
+# Re-run the verified product-image pipeline after repository updates.
