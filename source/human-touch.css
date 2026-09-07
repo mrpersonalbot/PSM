@@ -343,7 +343,7 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .product-card h3{font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:700}
 .product-meta{color:#746a61}
 .product-card .quick-wa{text-transform:none;letter-spacing:0;font-size:12px;color:var(--pratama-blue)}
-.quick-wa img{display:block;width:24px;height:24px;position:relative;top:-2px}
+.quick-wa img{display:block;width:24px;height:24px;object-fit:contain;position:relative;top:-2px}
 .product-card .quick-wa:after{content:"↗"}
 
 /* Product detail */
@@ -419,7 +419,7 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   border:3px solid #25D366;
   box-shadow:3px 4px 0 #168c45;
 }
-.wa-float img{display:block;width:30px;height:30px;position:relative;top:-2px}
+.wa-float img{display:block;width:30px;height:30px;object-fit:contain;position:relative;top:-2px}
 .wa-float:hover,.wa-float:focus-visible{
   background:#fff;
   border-color:#25D366;
