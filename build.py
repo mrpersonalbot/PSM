@@ -34,16 +34,10 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
-    whatsapp_logo = root / "source" / "assets" / "whatsapp-floating.jpg"
-    if whatsapp_logo.exists():
-        (assets / "whatsapp.svg").unlink(missing_ok=True)
-        (assets / "whatsapp.jpg").unlink(missing_ok=True)
-        (assets / "whatsapp.png").unlink(missing_ok=True)
-        (assets / "whatsapp-clean.png").unlink(missing_ok=True)
-        (assets / "whatsapp-floating.jpg").unlink(missing_ok=True)
-        shutil.copy2(whatsapp_logo, assets / "whatsapp-floating.jpg")
-
-    for html_path in dist.rglob("*.html"):
+    # The floating WhatsApp artwork is no longer part of the published site.
+    for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg"):
+        (assets / stale_asset).unlink(missing_ok=True)
+    for html_path in dist.rglob("*.html"): 
         text = html_path.read_text(encoding="utf-8")
         if "/assets/human-touch.css" not in text:
             text = text.replace(
@@ -70,13 +64,8 @@ if dist.exists() and human_css.exists():
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
-        # Use the supplied/localized WhatsApp brand mark instead of a text-only
-        # "WA" badge while preserving the existing link and accessible label.
-        text = re.sub(
-            r'(<a class="wa-float"[^>]*>)WA(</a>)',
-            r'\1<img src="/assets/whatsapp-floating.jpg" alt="" width="30" height="30">\2',
-            text,
-        )
+        # Remove the persistent floating WhatsApp action at the user's request.
+        text = re.sub(r'<a class="wa-float"[^>]*>.*?</a>', "", text, flags=re.S)
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
             r'\1Tanya stok\2',
