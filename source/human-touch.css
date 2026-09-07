@@ -415,20 +415,34 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .footer h4{font-family:Inter,sans-serif;text-transform:none;letter-spacing:.03em;font-size:11px;color:#c6beb2}
 .footer-legal{font-family:Inter,sans-serif;letter-spacing:0;font-size:10px!important}
 .wa-float{
+  display:block!important;
+  width:58px!important;
+  height:58px!important;
+  padding:0!important;
+  margin:0;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  line-height:0;
+  font-size:0;
+}
+.wa-float img{
+  display:block;
   width:58px;
   height:58px;
-  padding:0;
-  background:transparent;
+  object-fit:cover;
   border:0;
-  box-shadow:none;
+  border-radius:0;
+  position:static;
 }
-.wa-float img{display:block;width:58px;height:58px;object-fit:contain;position:relative;top:0}
-.wa-float:hover,.wa-float:focus-visible{
-  background:transparent;
-  border:0;
-  color:inherit;
-  box-shadow:none;
-  transform:translateY(-2px);
+.wa-float:hover,.wa-float:focus,.wa-float:focus-visible{
+  display:block!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  transform:none;
 }
 
 /* Benefit numbers need to read as anchors, not disappear into the card. */
