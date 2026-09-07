@@ -77,7 +77,7 @@ if dist.exists() and human_css.exists():
         )
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
-            r'\1<img src="/assets/whatsapp-clean.png" alt="" width="24" height="24">\2',
+            r'\1Tanya stok\2',
             text,
         )
         text = text.replace(
