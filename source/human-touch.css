@@ -415,16 +415,19 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .footer h4{font-family:Inter,sans-serif;text-transform:none;letter-spacing:.03em;font-size:11px;color:#c6beb2}
 .footer-legal{font-family:Inter,sans-serif;letter-spacing:0;font-size:10px!important}
 .wa-float{
-  background:#fff;
-  border:3px solid #25D366;
-  box-shadow:3px 4px 0 #168c45;
+  width:58px;
+  height:58px;
+  padding:0;
+  background:transparent;
+  border:0;
+  box-shadow:none;
 }
-.wa-float img{display:block;width:30px;height:30px;object-fit:contain;position:relative;top:-2px}
+.wa-float img{display:block;width:58px;height:58px;object-fit:contain;position:relative;top:0}
 .wa-float:hover,.wa-float:focus-visible{
-  background:#fff;
-  border-color:#25D366;
-  color:#25D366;
-  box-shadow:3px 4px 0 #168c45;
+  background:transparent;
+  border:0;
+  color:inherit;
+  box-shadow:none;
   transform:translateY(-2px);
 }
 
