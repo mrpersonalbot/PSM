@@ -2,15 +2,6 @@ name: Build product image catalog
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'tools/fetch_product_images.py'
-      - 'tools/fetch_product_images_v5.py'
-      - 'tools/fetch_product_images_v6.py'
-      - 'tools/apply_product_images.py'
-      - 'source/product-image-policy.json'
-      - '.github/workflows/product-images.yml'
 
 permissions:
   contents: write

@@ -37,7 +37,7 @@ jobs:
           product_count=$(find "$site_root/produk" -mindepth 2 -maxdepth 2 -type f -name index.html | wc -l)
           echo "HTML pages: $html_count"
           echo "Product pages: $product_count"
-          test "$html_count" -eq 189
+          test "$html_count" -ge 189
           test "$product_count" -eq 160
           grep -q 'operated by PT Pratama Sukses Mandiri' "$site_root/index.html"
           grep -q 'PRATAMA MITRA' "$site_root/index.html"

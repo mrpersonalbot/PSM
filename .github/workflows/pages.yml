@@ -67,6 +67,9 @@ jobs:
           grep -q "location.href='/PSM/produk/'" dist/assets/app.js
           ! grep -q '/PSM/PSM/' dist/assets/app.js
 
+      - name: Audit product image identity and rendered sources
+        run: python3 tools/audit_product_images.py
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

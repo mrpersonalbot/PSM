@@ -6,6 +6,10 @@ ROOT=Path(__file__).resolve().parents[1]
 DIST=ROOT/'dist'; MAP=ROOT/'source'/'product-images.json'; SRC=ROOT/'source'/'product-images'; POLICY=ROOT/'source'/'product-image-policy.json'
 if not DIST.exists() or not MAP.exists() or not POLICY.exists(): raise SystemExit(0)
 policy=json.loads(POLICY.read_text()); version=int(policy['validation_version']); mode=policy.get('mode','semi_strict'); fallback=policy['rules']['unverified_fallback']
+import sys
+sys.path.insert(0, str(ROOT/'tools'))
+from audit_product_images import verified_mapping
+verified_mapping(ROOT)
 mp=json.loads(MAP.read_text())
 resolved={slug:v for slug,v in mp.items() if v.get('status')=='resolved' and v.get('validation_version')==version and (ROOT/'source'/v.get('file','')).exists()}
 
