@@ -2,9 +2,9 @@
   "reviewed_commit": "12a2182faa5039a1bbdce6dd0082a622a1bedde6",
   "scope": "All raster product-image blobs reachable in Git history and branches; image workflow runs expose no downloadable artifacts. Active run 34312264369 not included because output is unavailable.",
   "total_products": 160,
-  "matched": 3,
+  "matched": 7,
   "rejected_candidates": 117,
-  "unresolved": 157,
+  "unresolved": 153,
   "approved": {
     "lampu-led-3w-ecoking": {
       "brand": "ECOKING",
@@ -32,6 +32,42 @@
       "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/66a707089fc38.png",
       "sha256": "14629398bb7435368e94d9f5ca266ddaf61cf45f11775c9ae8e4346756bfb593",
       "visual_review": "Package visibly shows EcoKing product family and matching wattage variant."
+    },
+    "saklar-seri-1w-10a-vse3021-visalux": {
+      "brand": "VISALUX",
+      "model": "VSE3021",
+      "specs": "1 gang; 10A; Visalux E-Series",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/e-series/vse3021",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/sbIaqIjc6nsrGAFKLBwGa6b9cKbd0LRnP5C2tVcH.png",
+      "sha256": "e4d6a301708e6c01ed518b68c6dfc5f7c974f266bbfeeafbb73f261d4a7afe5d",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "saklar-tripel-1w-10a-vse3031-visalux": {
+      "brand": "VISALUX",
+      "model": "VSE3031",
+      "specs": "3 gang; 10A; Visalux E-Series",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/e-series/vse3031",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/FO8uglxREkZzw6cq8ROy1Bmni9VuaEQIF2mfbNrx.png",
+      "sha256": "7a2911defc43f8c5bc3a3e26e2a507ed8b613f7f92e3ae60e9a71313413fe91c",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "s-k-ob-visalux-cello-putih-vs6016": {
+      "brand": "VISALUX",
+      "model": "VS6016-OB",
+      "specs": "OB socket; white; Visalux Cello Series",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cello-series/vs6016-ob",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/UlWs4D0ajIV9PcQx5Cm0wKhBZn9mZubyZ6ddq70C.png",
+      "sha256": "3323285caffd833c6983a1fea0b18dff0bf820eef506a24b94cb5d266b974534",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "saklar-seri-ob-visalux-cello-putih-vs6210": {
+      "brand": "VISALUX",
+      "model": "VS6210-OB",
+      "specs": "series switch; white; Visalux Cello Series",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cello-series/vs6210-ob",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/ba8qi3KtxKPsDSsmndgqZ6VJAW2aCwEURPZQrWgS.png",
+      "sha256": "f99e1f86fe41ef09f4d1467153aea3503fece81bb96ae64a938a27d60fe8e99f",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
     }
   },
   "candidates": [

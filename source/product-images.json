@@ -1131,19 +1131,24 @@
     }
   },
   "saklar-seri-1w-10a-vse3021-visalux": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-reseller",
+    "file": "product-images/saklar-seri-1w-10a-vse3021-visalux.webp",
+    "source_tier": "official_reseller",
+    "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/e-series/vse3021",
+    "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/sbIaqIjc6nsrGAFKLBwGa6b9cKbd0LRnP5C2tVcH.png",
     "sku": "XG21",
     "name": "SAKLAR SERI 1W 10A VSE3021 VISALUX",
     "brand": "VISALUX",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "7ecac46f204c33ba781a63e0de220682e4e6c60e"
-      ]
-    }
+    "model_tokens": [
+      "VSE3021"
+    ],
+    "evidence": "Golden Batam Raya product detail identifies the exact Visalux code and shows the matching product form.",
+    "evidence_title": "VSE3021",
+    "specs": "1 gang; 10A; Visalux E-Series",
+    "sha256": "e4d6a301708e6c01ed518b68c6dfc5f7c974f266bbfeeafbb73f261d4a7afe5d"
   },
   "s-k-flamingo-vsc-5002-visalux": {
     "status": "unresolved",
@@ -1174,32 +1179,44 @@
     }
   },
   "s-k-ob-visalux-cello-putih-vs6016": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "no_existing_candidate",
+    "resolver": "manual-official-reseller",
+    "file": "product-images/s-k-ob-visalux-cello-putih-vs6016.webp",
+    "source_tier": "official_reseller",
+    "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cello-series/vs6016-ob",
+    "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/UlWs4D0ajIV9PcQx5Cm0wKhBZn9mZubyZ6ddq70C.png",
     "sku": "X011",
     "name": "S/K OB VISALUX CELLO PUTIH VS6016",
     "brand": "VISALUX",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": []
-    }
+    "model_tokens": [
+      "VS6016OB"
+    ],
+    "evidence": "Golden Batam Raya product detail identifies the exact Visalux code and shows the matching product form.",
+    "evidence_title": "VS6016-OB",
+    "specs": "OB socket; white; Visalux Cello Series",
+    "sha256": "3323285caffd833c6983a1fea0b18dff0bf820eef506a24b94cb5d266b974534"
   },
   "saklar-tripel-1w-10a-vse3031-visalux": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-reseller",
+    "file": "product-images/saklar-tripel-1w-10a-vse3031-visalux.webp",
+    "source_tier": "official_reseller",
+    "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/e-series/vse3031",
+    "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/FO8uglxREkZzw6cq8ROy1Bmni9VuaEQIF2mfbNrx.png",
     "sku": "XG01",
     "name": "SAKLAR TRIPEL 1W 10A VSE3031 VISALUX",
     "brand": "VISALUX",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "50d8fd6b95ee8494199d3b6d2d48d20e18876c60"
-      ]
-    }
+    "model_tokens": [
+      "VSE3031"
+    ],
+    "evidence": "Golden Batam Raya product detail identifies the exact Visalux code and shows the matching product form.",
+    "evidence_title": "VSE3031",
+    "specs": "3 gang; 10A; Visalux E-Series",
+    "sha256": "7a2911defc43f8c5bc3a3e26e2a507ed8b613f7f92e3ae60e9a71313413fe91c"
   },
   "kabel-ties-4-100-2-5mm-pth-visalux": {
     "status": "unresolved",
@@ -1232,19 +1249,24 @@
     }
   },
   "saklar-seri-ob-visalux-cello-putih-vs6210": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-reseller",
+    "file": "product-images/saklar-seri-ob-visalux-cello-putih-vs6210.webp",
+    "source_tier": "official_reseller",
+    "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cello-series/vs6210-ob",
+    "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/ba8qi3KtxKPsDSsmndgqZ6VJAW2aCwEURPZQrWgS.png",
     "sku": "X009",
     "name": "SAKLAR SERI OB VISALUX CELLO PUTIH VS6210",
     "brand": "VISALUX",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "3791b8049ec394a018cf7b22cdadff3f12dd8155"
-      ]
-    }
+    "model_tokens": [
+      "VS6210OB"
+    ],
+    "evidence": "Golden Batam Raya product detail identifies the exact Visalux code and shows the matching product form.",
+    "evidence_title": "VS6210-OB",
+    "specs": "series switch; white; Visalux Cello Series",
+    "sha256": "f99e1f86fe41ef09f4d1467153aea3503fece81bb96ae64a938a27d60fe8e99f"
   },
   "s-k-ob-segi-visalux-vs-8202": {
     "status": "unresolved",

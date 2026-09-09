@@ -527,13 +527,6 @@
       "reason": "no_existing_candidate"
     },
     {
-      "slug": "saklar-seri-1w-10a-vse3021-visalux",
-      "sku": "XG21",
-      "name": "SAKLAR SERI 1W 10A VSE3021 VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
-    },
-    {
       "slug": "s-k-flamingo-vsc-5002-visalux",
       "sku": "Y10655",
       "name": "S/K FLAMINGO VSC 5002 VISALUX",
@@ -548,20 +541,6 @@
       "reason": "existing_candidates_rejected"
     },
     {
-      "slug": "s-k-ob-visalux-cello-putih-vs6016",
-      "sku": "X011",
-      "name": "S/K OB VISALUX CELLO PUTIH VS6016",
-      "brand": "VISALUX",
-      "reason": "no_existing_candidate"
-    },
-    {
-      "slug": "saklar-tripel-1w-10a-vse3031-visalux",
-      "sku": "XG01",
-      "name": "SAKLAR TRIPEL 1W 10A VSE3031 VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
-    },
-    {
       "slug": "kabel-ties-4-100-2-5mm-pth-visalux",
       "sku": "T538",
       "name": "KABEL TIES 4\" (100*2.5MM) PTH VISALUX",
@@ -572,13 +551,6 @@
       "slug": "klem-kabel-12mm-vkk-12-stella-visalux",
       "sku": "Y10981",
       "name": "KLEM KABEL 12MM VKK-12 STELLA VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
-    },
-    {
-      "slug": "saklar-seri-ob-visalux-cello-putih-vs6210",
-      "sku": "X009",
-      "name": "SAKLAR SERI OB VISALUX CELLO PUTIH VS6210",
       "brand": "VISALUX",
       "reason": "existing_candidates_rejected"
     },
@@ -1104,6 +1076,10 @@
   "resolved": [
     "lampu-led-3w-ecoking",
     "led-avatar-6w-6500k-ecoking",
-    "led-legend-5w-kuning-ecoking"
+    "led-legend-5w-kuning-ecoking",
+    "s-k-ob-visalux-cello-putih-vs6016",
+    "saklar-seri-1w-10a-vse3021-visalux",
+    "saklar-seri-ob-visalux-cello-putih-vs6210",
+    "saklar-tripel-1w-10a-vse3031-visalux"
   ]
 }
