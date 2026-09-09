@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'tools/fetch_product_images.py'
+      - 'tools/fetch_product_images_v5.py'
       - 'tools/apply_product_images.py'
       - 'source/product-image-policy.json'
       - '.github/workflows/product-images.yml'
@@ -19,7 +20,7 @@ env:
 jobs:
   product-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 360
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -45,33 +46,18 @@ jobs:
       - name: Build current catalog
         run: python3 build.py
 
-      - name: Resolve semi-strict product images
-        shell: bash
-        run: |
-          set -euo pipefail
-          for pass in 1 2; do
-            echo "=== semi-strict image validation pass $pass ==="
-            python3 tools/fetch_product_images.py
-            unresolved=$(python3 - <<'PY'
-          import json
-          from pathlib import Path
-          p=Path('source/product-images-report.json')
-          print(json.loads(p.read_text()).get('unresolved_count',160) if p.exists() else 160)
-          PY
-            )
-            echo "Held for review after pass $pass: $unresolved"
-            if [ "$unresolved" -eq 0 ]; then break; fi
-            sleep $((pass * 8))
-          done
+      - name: Resolve 160 semi-strict product images
+        run: python3 tools/fetch_product_images_v5.py
 
       - name: Build site with semi-strict image mapping
         run: python3 build.py
 
-      - name: Audit sources, canvas and review queue
+      - name: Audit sources, evidence, canvas and review queue
         shell: bash
         run: |
           python3 - <<'PY'
           import json
+          import re
           from pathlib import Path
           from urllib.parse import urlparse
           from PIL import Image
@@ -85,6 +71,7 @@ jobs:
           marketplaces=[x.lower() for x in policy.get('marketplace_sources',[])]
           blocked=[x.lower() for x in policy.get('blocked_sources',[])]
           def matches(host,domains): return any(host==d or host.endswith('.'+d) for d in domains)
+          def compact(s): return re.sub(r'[^A-Z0-9]','',str(s).upper())
 
           assert report['validation_version']==version
           assert report['mode']=='semi_strict'
@@ -107,6 +94,16 @@ jobs:
                   assert v.get('model_tokens'), (slug,'marketplace without exact model evidence')
               else:
                   assert tier=='independent', (slug,tier)
+
+              if v.get('search_fallback'):
+                  evidence=str(v.get('evidence_title',''))
+                  ce=compact(evidence+' '+v.get('source_page',''))
+                  models=v.get('model_tokens') or []
+                  if models:
+                      assert any(m in ce for m in models), (slug,'search fallback missing exact model evidence')
+                  if tier=='marketplace':
+                      assert brand in evidence.upper(), (slug,'marketplace fallback missing brand in title')
+
               img=Image.open(root/'source'/v['file']).convert('RGB')
               assert img.size==(1200,1200), (slug,img.size)
               pts=[(0,0),(1199,0),(0,1199),(1199,1199),(600,0),(600,1199),(0,600),(1199,600)]
@@ -114,6 +111,7 @@ jobs:
               checked+=1
           assert checked==report['resolved']
           print(f"Semi-strict verified: {report['resolved']} / 160")
+          print(f"Resolver: {report.get('resolver','legacy')}")
           print(f"Source tiers: {report.get('source_tiers',{})}")
           print(f"Held for review: {report['unresolved_count']}")
           PY
@@ -149,5 +147,3 @@ jobs:
           print(f"Source tiers: {r.get('source_tiers',{})}")
           print(f"Intentionally withheld images: {r['unresolved_count']}")
           PY
-
-# Re-run the verified product-image pipeline after repository updates.
