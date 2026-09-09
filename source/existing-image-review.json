@@ -2,10 +2,38 @@
   "reviewed_commit": "12a2182faa5039a1bbdce6dd0082a622a1bedde6",
   "scope": "All raster product-image blobs reachable in Git history and branches; image workflow runs expose no downloadable artifacts. Active run 34312264369 not included because output is unavailable.",
   "total_products": 160,
-  "matched": 0,
+  "matched": 3,
   "rejected_candidates": 117,
-  "unresolved": 160,
-  "approved": {},
+  "unresolved": 157,
+  "approved": {
+    "lampu-led-3w-ecoking": {
+      "brand": "ECOKING",
+      "model": "LED Star 3W variant",
+      "specs": "3W; E27; official LED Star product family",
+      "source_page": "https://www.ecoking.co.id/product/led-bulb/led-star",
+      "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/64ccfb685387f.png",
+      "sha256": "36660e08f6a7de53d11d7d24b3c12afbdf4b746926c7b8fe9cb6be30a5fa6579",
+      "visual_review": "Package visibly shows EcoKing product family and matching wattage variant."
+    },
+    "led-avatar-6w-6500k-ecoking": {
+      "brand": "ECOKING",
+      "model": "LED Avatar 6W variant",
+      "specs": "6W; 6500K daylight; official LED Avatar product family",
+      "source_page": "https://www.ecoking.co.id/product/led-bulb/led-avatar",
+      "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/64ccff4057b41.png",
+      "sha256": "e5b9a1a1ddafc9fd9d492ffc0fcbcc27c1bf66a7fcb0e068da25380723bfe8b0",
+      "visual_review": "Package visibly shows EcoKing product family and matching wattage variant."
+    },
+    "led-legend-5w-kuning-ecoking": {
+      "brand": "ECOKING",
+      "model": "LED Legend 5W warm-white variant",
+      "specs": "5W; warm white/yellow; official LED Legend product family",
+      "source_page": "https://www.ecoking.co.id/product/led-bulb/led-legend-warm-white",
+      "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/66a707089fc38.png",
+      "sha256": "14629398bb7435368e94d9f5ca266ddaf61cf45f11775c9ae8e4346756bfb593",
+      "visual_review": "Package visibly shows EcoKing product family and matching wattage variant."
+    }
+  },
   "candidates": [
     {
       "git_blob": "09d187f31380a75bf5c7b6e2633aea435b7d4317",

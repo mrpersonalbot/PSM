@@ -1,33 +1,39 @@
 {
   "lampu-led-3w-ecoking": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-ecoking",
+    "file": "product-images/lampu-led-3w-ecoking.webp",
+    "source_tier": "official",
+    "source_page": "https://www.ecoking.co.id/product/led-bulb/led-star",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/64ccfb685387f.png",
     "sku": "E02",
     "name": "LAMPU LED 3W ECOKING",
     "brand": "ECOKING",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "fc8aa1facc3ad6db36b245950cb90d7f292d4724"
-      ]
-    }
+    "model_tokens": [],
+    "evidence": "official EcoKing product page and matching printed package variant",
+    "evidence_title": "LED Star 3W variant",
+    "specs": "3W; E27; official LED Star product family",
+    "sha256": "36660e08f6a7de53d11d7d24b3c12afbdf4b746926c7b8fe9cb6be30a5fa6579"
   },
   "led-avatar-6w-6500k-ecoking": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-ecoking",
+    "file": "product-images/led-avatar-6w-6500k-ecoking.webp",
+    "source_tier": "official",
+    "source_page": "https://www.ecoking.co.id/product/led-bulb/led-avatar",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/64ccff4057b41.png",
     "sku": "Z1077",
     "name": "LED AVATAR 6W 6500K ECOKING",
     "brand": "ECOKING",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "eefc8140b9c107ab923d9f6ad4edbe3208810d21"
-      ]
-    }
+    "model_tokens": [],
+    "evidence": "official EcoKing product page and matching printed package variant",
+    "evidence_title": "LED Avatar 6W variant",
+    "specs": "6W; 6500K daylight; official LED Avatar product family",
+    "sha256": "e5b9a1a1ddafc9fd9d492ffc0fcbcc27c1bf66a7fcb0e068da25380723bfe8b0"
   },
   "led-kingdom-8w-3000k-ecoking": {
     "status": "unresolved",
@@ -99,17 +105,22 @@
     }
   },
   "led-legend-5w-kuning-ecoking": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "no_existing_candidate",
+    "resolver": "manual-official-ecoking",
+    "file": "product-images/led-legend-5w-kuning-ecoking.webp",
+    "source_tier": "official",
+    "source_page": "https://www.ecoking.co.id/product/led-bulb/led-legend-warm-white",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/images/66a707089fc38.png",
     "sku": "Z1025",
     "name": "LED LEGEND 5W KUNING ECOKING",
     "brand": "ECOKING",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": []
-    }
+    "model_tokens": [],
+    "evidence": "official EcoKing product page and matching printed package variant",
+    "evidence_title": "LED Legend 5W warm-white variant",
+    "specs": "5W; warm white/yellow; official LED Legend product family",
+    "sha256": "14629398bb7435368e94d9f5ca266ddaf61cf45f11775c9ae8e4346756bfb593"
   },
   "lampu-led-50w-6500k-champions-etc9950dl-ecoking": {
     "status": "unresolved",

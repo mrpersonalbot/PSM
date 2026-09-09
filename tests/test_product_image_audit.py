@@ -20,7 +20,8 @@ class ImageAuditTests(unittest.TestCase):
             shutil.copytree(ROOT/'source', root/'source')
             path = root/'source/product-images.json'
             mapping = json.loads(path.read_text())
-            next(iter(mapping.values()))['status'] = 'resolved'
+            unresolved = next(slug for slug, entry in mapping.items() if entry.get('status') != 'resolved')
+            mapping[unresolved]['status'] = 'resolved'
             path.write_text(json.dumps(mapping))
             with self.assertRaisesRegex(AssertionError, 'manual identity review required'):
                 audit.verified_mapping(root)

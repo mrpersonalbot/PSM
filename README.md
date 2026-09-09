@@ -45,7 +45,7 @@ Frontend tidak mengekspos HPP maupun jumlah stok internal exact. Customer diarah
 ## Existing-image review (2026-09-09)
 
 The review of all 117 unique product-image blobs reachable in repository history
-found **0 verified matches, 117 rejected candidates, and 160 unresolved catalog
+found **3 verified matches, 117 rejected candidates, and 157 unresolved catalog
 products**. Candidate counts are file counts, not mutually exclusive product
 counts. Historical filenames were incorrect: examples include anatomy art for a
 VISALUX tube light, a CyberPower power outlet for a VISALUX telephone outlet, and
