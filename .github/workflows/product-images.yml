@@ -7,6 +7,7 @@ on:
     paths:
       - 'tools/fetch_product_images.py'
       - 'tools/fetch_product_images_v5.py'
+      - 'tools/fetch_product_images_v6.py'
       - 'tools/apply_product_images.py'
       - 'source/product-image-policy.json'
       - '.github/workflows/product-images.yml'
@@ -40,6 +41,8 @@ jobs:
 
       - name: Install image pipeline dependencies
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
           python -m pip install --upgrade pip
           python -m pip install 'rembg[cpu]' pillow requests beautifulsoup4
 
@@ -47,12 +50,12 @@ jobs:
         run: python3 build.py
 
       - name: Resolve 160 semi-strict product images
-        run: python3 tools/fetch_product_images_v5.py
+        run: python3 tools/fetch_product_images_v6.py
 
       - name: Build site with semi-strict image mapping
         run: python3 build.py
 
-      - name: Audit sources, evidence, canvas and review queue
+      - name: Audit sources, identity evidence, canvas and review queue
         shell: bash
         run: |
           python3 - <<'PY'
@@ -72,6 +75,8 @@ jobs:
           blocked=[x.lower() for x in policy.get('blocked_sources',[])]
           def matches(host,domains): return any(host==d or host.endswith('.'+d) for d in domains)
           def compact(s): return re.sub(r'[^A-Z0-9]','',str(s).upper())
+          def watts(s): return {m.group(1).replace(',','.') for m in re.finditer(r'\b(\d+(?:[.,]\d+)?)\s*W\b',str(s),re.I)}
+          def ccts(s): return {m.group(1) for m in re.finditer(r'\b(\d{4})\s*K\b',str(s),re.I)}
 
           assert report['validation_version']==version
           assert report['mode']=='semi_strict'
@@ -86,23 +91,26 @@ jobs:
               brand=str(v.get('brand','')).upper()
               host=(urlparse(v['source_page']).hostname or '').lower().removeprefix('www.')
               tier=v.get('source_tier')
+              evidence=str(v.get('evidence_title',''))+' '+str(v.get('source_page',''))
               assert not matches(host,blocked), (slug,host)
               if tier=='official':
                   assert matches(host,approved.get(brand,[])), (slug,host,brand)
               elif tier=='marketplace':
                   assert matches(host,marketplaces), (slug,host)
-                  assert v.get('model_tokens'), (slug,'marketplace without exact model evidence')
               else:
                   assert tier=='independent', (slug,tier)
 
-              if v.get('search_fallback'):
-                  evidence=str(v.get('evidence_title',''))
-                  ce=compact(evidence+' '+v.get('source_page',''))
-                  models=v.get('model_tokens') or []
-                  if models:
-                      assert any(m in ce for m in models), (slug,'search fallback missing exact model evidence')
-                  if tier=='marketplace':
-                      assert brand in evidence.upper(), (slug,'marketplace fallback missing brand in title')
+              models=v.get('model_tokens') or []
+              if models:
+                  ce=compact(evidence)
+                  assert any(m in ce for m in models), (slug,'missing exact model evidence')
+              else:
+                  # Without a model code, brand plus numeric specification is mandatory.
+                  assert brand in evidence.upper() or tier=='official', (slug,'missing brand evidence')
+                  pw,ew=watts(v.get('name','')),watts(evidence)
+                  pk,ek=ccts(v.get('name','')),ccts(evidence)
+                  if pw: assert pw & ew, (slug,'missing watt evidence')
+                  if pk: assert pk & ek, (slug,'missing CCT evidence')
 
               img=Image.open(root/'source'/v['file']).convert('RGB')
               assert img.size==(1200,1200), (slug,img.size)
@@ -113,6 +121,7 @@ jobs:
           print(f"Semi-strict verified: {report['resolved']} / 160")
           print(f"Resolver: {report.get('resolver','legacy')}")
           print(f"Source tiers: {report.get('source_tiers',{})}")
+          print(f"Engines: {report.get('engines',{})}")
           print(f"Held for review: {report['unresolved_count']}")
           PY
 
@@ -145,5 +154,6 @@ jobs:
           r=json.loads(Path('source/product-images-report.json').read_text())
           print(f"Published validated images: {r['resolved']}")
           print(f"Source tiers: {r.get('source_tiers',{})}")
+          print(f"Engines: {r.get('engines',{})}")
           print(f"Intentionally withheld images: {r['unresolved_count']}")
           PY
