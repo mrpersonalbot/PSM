@@ -12,6 +12,7 @@ import random
 import re
 import subprocess
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -366,12 +367,16 @@ def resolve(product, session):
         if image_score <= -500:
             continue
 
-        ocr = ocr_text(image)
-        ok, ocr_reason = ocr_guard(product, ocr)
-        if not ok:
-            if len(image_rejections) < 30:
-                image_rejections.append({"image": hit["image"], "reason": ocr_reason, "ocr": ocr[:500]})
-            continue
+        # OCR is expensive; use it only when source evidence is borderline.
+        ocr = ""
+        ocr_reason = "ocr_skipped_strong_evidence"
+        if page_score < 520 or image_score < 0:
+            ocr = ocr_text(image)
+            ok, ocr_reason = ocr_guard(product, ocr)
+            if not ok:
+                if len(image_rejections) < 30:
+                    image_rejections.append({"image": hit["image"], "reason": ocr_reason, "ocr": ocr[:500]})
+                continue
 
         normalized, reason = base.normalize_product(image, session)
         if normalized is None:
@@ -466,14 +471,23 @@ def main():
     pending = [p for p in products if p["slug"] not in mapping]
     print(f"{base.MODE} v{base.VALIDATION_VERSION} / {ENGINE}: {len(mapping)} validated, {len(pending)} pending, {len(products)} total", flush=True)
     session = new_session("u2netp")
-    for i, product in enumerate(pending, 1):
-        print(f'[{i}/{len(pending)}] {product["brand"]} | {product["name"]} | {product["sku"]}', flush=True)
-        mapping[product["slug"]] = {**resolve(product, session), "sku": product["sku"], "name": product["name"], "brand": product["brand"]}
-        base.MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=2))
-        if i % 10 == 0:
-            r = write_report(mapping, products)
-            print(f'checkpoint: {r["resolved"]}/{r["total"]} resolved', flush=True)
-        time.sleep(random.uniform(0.08, 0.18))
+    # Resolve independent SKUs concurrently. Each future is bounded so one
+    # slow source cannot hold the entire catalog hostage.
+    workers = min(10, max(1, len(pending)))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(resolve, product, session): product for product in pending}
+        for i, future in enumerate(as_completed(futures), 1):
+            product = futures[future]
+            try:
+                result = future.result(timeout=95)
+            except Exception as exc:
+                result = {"status": "unresolved", "validation_version": base.VALIDATION_VERSION,
+                          "mode": base.MODE, "resolver": ENGINE, "reason": f"timeout_or_error:{type(exc).__name__}"}
+            mapping[product["slug"]] = {**result, "sku": product["sku"], "name": product["name"], "brand": product["brand"]}
+            base.MAP.write_text(json.dumps(mapping, ensure_ascii=False, indent=2))
+            if i % 5 == 0 or i == len(pending):
+                r = write_report(mapping, products)
+                print(f'checkpoint: {i}/{len(pending)} processed, {r["resolved"]}/{r["total"]} resolved', flush=True)
     report = write_report(mapping, products)
     print(json.dumps(report, ensure_ascii=False), flush=True)
     return 0

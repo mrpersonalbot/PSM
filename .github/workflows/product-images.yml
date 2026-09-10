@@ -12,7 +12,7 @@ env:
 jobs:
   product-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4
