@@ -723,13 +723,6 @@
       "reason": "no_existing_candidate"
     },
     {
-      "slug": "multicord-neutron-3lb-vek5203e-2m-visalux",
-      "sku": "Y10914",
-      "name": "MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
-    },
-    {
       "slug": "last-dop-13mm-red-visalux-v5",
       "sku": "L772",
       "name": "LAST DOP 13MM RED VISALUX V5",
@@ -1059,6 +1052,7 @@
     "led-legend-5w-kuning-ecoking",
     "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux",
     "multicord-5-lbg-2m-vek5205e-mozart-visalux",
+    "multicord-neutron-3lb-vek5203e-2m-visalux",
     "s-k-ob-visalux-cello-putih-vs6016",
     "saklar-seri-1w-10a-vse3021-visalux",
     "saklar-seri-ob-visalux-cello-putih-vs6210",

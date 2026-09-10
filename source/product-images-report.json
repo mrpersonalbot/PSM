@@ -3,8 +3,8 @@
   "mode": "semi_strict",
   "resolver": "manual-official-ecoking + existing-image-review",
   "total": 160,
-  "resolved": 10,
-  "unresolved_count": 150,
+  "resolved": 11,
+  "unresolved_count": 149,
   "source_tiers": {
     "official": 3,
     "official_reseller": 4
@@ -730,13 +730,6 @@
       "name": "BOX MCB 8 GROUP OB VBM9208-OB VISALUX",
       "brand": "VISALUX",
       "reason": "no_existing_candidate"
-    },
-    {
-      "slug": "multicord-neutron-3lb-vek5203e-2m-visalux",
-      "sku": "Y10914",
-      "name": "MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
     },
     {
       "slug": "last-dop-13mm-red-visalux-v5",

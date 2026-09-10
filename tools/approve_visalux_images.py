@@ -15,6 +15,7 @@ SELECTED = {
     "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w": ("led-floodlight-royal/ryl-vfl5520", "EBluHeIVeGb1HGP6jzNZn1AT5UhcrkIQlsLAIeol.png", "RYL-VFL5520", "20W; 3000K; Royal floodlight; Visalux"),
     "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux": ("led-floodlight-mythic/vfl5550", "TInUKRAqZ6lBfQnAm733TYulGmhTHkJy91aahIPS.png", "VFL5550", "50W; 6500K/3000K; solar floodlight; Visalux"),
     "multicord-5-lbg-2m-vek5205e-mozart-visalux": ("cable-extension-mozart/moz-vek5205e", "kLE5mx2cbUVNqnp6JThSpSDsXSupKnbP11ju199E.png", "MOZ-VEK5205E", "5 outlet; 2m; Mozart multicord; Visalux"),
+    "multicord-neutron-3lb-vek5203e-2m-visalux": ("cable-extention-neutron/vek-5203e", "WVsEP8cZUsdNjo2vKhd3Rj0OfCwnfs9VSKSskRtl.png", "VEK-5203E", "3 outlet; 2m; Neutron multicord; Visalux"),
 }
 
 def save_image(url, path):

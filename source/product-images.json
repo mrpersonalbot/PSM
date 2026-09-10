@@ -1677,19 +1677,24 @@
     "sha256": "a9e0c9c6a3e6de371ab6d4b4c4a1e7a717a813ae88a2f2af10abce7b425b53fa"
   },
   "multicord-neutron-3lb-vek5203e-2m-visalux": {
-    "status": "unresolved",
+    "status": "resolved",
     "validation_version": 4,
     "mode": "semi_strict",
-    "reason": "existing_candidates_rejected",
+    "resolver": "manual-official-reseller",
+    "file": "product-images/multicord-neutron-3lb-vek5203e-2m-visalux.webp",
+    "source_tier": "official_reseller",
+    "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cable-extention-neutron/vek-5203e",
+    "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/WVsEP8cZUsdNjo2vKhd3Rj0OfCwnfs9VSKSskRtl.png",
     "sku": "Y10914",
     "name": "MULTICORD NEUTRON 3LB VEK5203E-2M VISALUX",
     "brand": "VISALUX",
-    "existing_image_review": {
-      "status": "unresolved",
-      "candidate_blobs": [
-        "13a257d788102a4a75ce82394293b950673c1ddb"
-      ]
-    }
+    "model_tokens": [
+      "VEK5203E"
+    ],
+    "evidence": "Golden Batam Raya product detail identifies the exact Visalux code and shows the matching product form.",
+    "evidence_title": "VEK-5203E",
+    "specs": "3 outlet; 2m; Neutron multicord; Visalux",
+    "sha256": "b8448861165e7b30643fd2c4a2182fecc04cc6a298100d3f4f1f01d52891ee0d"
   },
   "last-dop-13mm-red-visalux-v5": {
     "status": "unresolved",
