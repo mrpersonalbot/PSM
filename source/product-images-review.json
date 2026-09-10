@@ -625,13 +625,6 @@
       "reason": "existing_candidates_rejected"
     },
     {
-      "slug": "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w",
-      "sku": "Z1144",
-      "name": "LED FL ROYAL 20W 3000K VISALUX RYL-VFL-5520W",
-      "brand": "VISALUX",
-      "reason": "no_existing_candidate"
-    },
-    {
       "slug": "mcb-1p-6ka-4a-visalux-vs-104",
       "sku": "M659",
       "name": "MCB 1P 6KA 4A VISALUX VS 104",
@@ -709,13 +702,6 @@
       "reason": "existing_candidates_rejected"
     },
     {
-      "slug": "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux",
-      "sku": "Z1222",
-      "name": "LED SOLAR FL 50W 6500K/3000K 2WARNA SWAT VFL-5550 VISALUX",
-      "brand": "VISALUX",
-      "reason": "no_existing_candidate"
-    },
-    {
       "slug": "lampu-jalan-12w-vsl-6012-visalux-6500k",
       "sku": "A449",
       "name": "LAMPU JALAN 12W VSL-6012 VISALUX 6500K",
@@ -735,13 +721,6 @@
       "name": "BOX MCB 8 GROUP OB VBM9208-OB VISALUX",
       "brand": "VISALUX",
       "reason": "no_existing_candidate"
-    },
-    {
-      "slug": "multicord-5-lbg-2m-vek5205e-mozart-visalux",
-      "sku": "UM126",
-      "name": "MULTICORD 5 LBG 2M VEK5205E MOZART VISALUX",
-      "brand": "VISALUX",
-      "reason": "existing_candidates_rejected"
     },
     {
       "slug": "multicord-neutron-3lb-vek5203e-2m-visalux",
@@ -1076,7 +1055,10 @@
   "resolved": [
     "lampu-led-3w-ecoking",
     "led-avatar-6w-6500k-ecoking",
+    "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w",
     "led-legend-5w-kuning-ecoking",
+    "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux",
+    "multicord-5-lbg-2m-vek5205e-mozart-visalux",
     "s-k-ob-visalux-cello-putih-vs6016",
     "saklar-seri-1w-10a-vse3021-visalux",
     "saklar-seri-ob-visalux-cello-putih-vs6210",

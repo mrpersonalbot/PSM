@@ -2,9 +2,9 @@
   "reviewed_commit": "12a2182faa5039a1bbdce6dd0082a622a1bedde6",
   "scope": "All raster product-image blobs reachable in Git history and branches; image workflow runs expose no downloadable artifacts. Active run 34312264369 not included because output is unavailable.",
   "total_products": 160,
-  "matched": 7,
+  "matched": 10,
   "rejected_candidates": 117,
-  "unresolved": 153,
+  "unresolved": 150,
   "approved": {
     "lampu-led-3w-ecoking": {
       "brand": "ECOKING",
@@ -67,6 +67,33 @@
       "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cello-series/vs6210-ob",
       "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/ba8qi3KtxKPsDSsmndgqZ6VJAW2aCwEURPZQrWgS.png",
       "sha256": "f99e1f86fe41ef09f4d1467153aea3503fece81bb96ae64a938a27d60fe8e99f",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w": {
+      "brand": "VISALUX",
+      "model": "RYL-VFL5520",
+      "specs": "20W; 3000K; Royal floodlight; Visalux",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/led-floodlight-royal/ryl-vfl5520",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/EBluHeIVeGb1HGP6jzNZn1AT5UhcrkIQlsLAIeol.png",
+      "sha256": "f676bd1aa7f2be10fcb483182351aa78ca9e711e4478cd659b5c5110b763cae3",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux": {
+      "brand": "VISALUX",
+      "model": "VFL5550",
+      "specs": "50W; 6500K/3000K; solar floodlight; Visalux",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/led-floodlight-mythic/vfl5550",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/TInUKRAqZ6lBfQnAm733TYulGmhTHkJy91aahIPS.png",
+      "sha256": "1e25db53b0d96612cce8c650527a4acbc7cdb4bff167e0aa9f05e45904cd675b",
+      "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
+    },
+    "multicord-5-lbg-2m-vek5205e-mozart-visalux": {
+      "brand": "VISALUX",
+      "model": "MOZ-VEK5205E",
+      "specs": "5 outlet; 2m; Mozart multicord; Visalux",
+      "source_page": "https://www.goldenbatamraya.com/product/detail/visalux/cable-extension-mozart/moz-vek5205e",
+      "source_image": "https://www.goldenbatamraya.com/storage/assets/images/sub-categories/kLE5mx2cbUVNqnp6JThSpSDsXSupKnbP11ju199E.png",
+      "sha256": "a9e0c9c6a3e6de371ab6d4b4c4a1e7a717a813ae88a2f2af10abce7b425b53fa",
       "visual_review": "Product image visibly matches the exact Visalux code and product form shown on the detail page."
     }
   },

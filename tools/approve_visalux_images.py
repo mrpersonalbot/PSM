@@ -12,6 +12,9 @@ SELECTED = {
     "saklar-tripel-1w-10a-vse3031-visalux": ("e-series/vse3031", "FO8uglxREkZzw6cq8ROy1Bmni9VuaEQIF2mfbNrx.png", "VSE3031", "3 gang; 10A; Visalux E-Series"),
     "s-k-ob-visalux-cello-putih-vs6016": ("cello-series/vs6016-ob", "UlWs4D0ajIV9PcQx5Cm0wKhBZn9mZubyZ6ddq70C.png", "VS6016-OB", "OB socket; white; Visalux Cello Series"),
     "saklar-seri-ob-visalux-cello-putih-vs6210": ("cello-series/vs6210-ob", "ba8qi3KtxKPsDSsmndgqZ6VJAW2aCwEURPZQrWgS.png", "VS6210-OB", "series switch; white; Visalux Cello Series"),
+    "led-fl-royal-20w-3000k-visalux-ryl-vfl-5520w": ("led-floodlight-royal/ryl-vfl5520", "EBluHeIVeGb1HGP6jzNZn1AT5UhcrkIQlsLAIeol.png", "RYL-VFL5520", "20W; 3000K; Royal floodlight; Visalux"),
+    "led-solar-fl-50w-6500k-3000k-2warna-swat-vfl-5550-visalux": ("led-floodlight-mythic/vfl5550", "TInUKRAqZ6lBfQnAm733TYulGmhTHkJy91aahIPS.png", "VFL5550", "50W; 6500K/3000K; solar floodlight; Visalux"),
+    "multicord-5-lbg-2m-vek5205e-mozart-visalux": ("cable-extension-mozart/moz-vek5205e", "kLE5mx2cbUVNqnp6JThSpSDsXSupKnbP11ju199E.png", "MOZ-VEK5205E", "5 outlet; 2m; Mozart multicord; Visalux"),
 }
 
 def save_image(url, path):
