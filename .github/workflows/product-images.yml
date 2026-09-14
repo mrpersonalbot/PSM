@@ -82,7 +82,7 @@ jobs:
               brand=str(v.get('brand','')).upper()
               host=(urlparse(v['source_page']).hostname or '').lower().removeprefix('www.')
               tier=v.get('source_tier')
-              evidence=str(v.get('evidence_title',''))+' '+str(v.get('source_page',''))
+              evidence=' '.join(str(v.get(k,'')) for k in ('evidence_title','evidence','specs','source_page'))
               assert not matches(host,blocked), (slug,host)
               if tier=='official':
                   assert matches(host,approved.get(brand,[])), (slug,host,brand)
