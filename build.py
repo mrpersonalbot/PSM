@@ -47,6 +47,9 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
+        # Cache-bust the override stylesheet so the legacy WA label cannot survive
+        # in a browser that cached an earlier floating-button rule.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=wa-textless-2')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
