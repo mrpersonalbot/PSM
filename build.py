@@ -34,11 +34,11 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
-    whatsapp_logo = root / "source" / "assets" / "whatsapp-floating-transparent.png"
+    whatsapp_logo = root / "source" / "assets" / "whatsapp-floating-logo-only.png"
     if whatsapp_logo.exists():
-        (assets / "whatsapp-floating-transparent.png").unlink(missing_ok=True)
-        shutil.copy2(whatsapp_logo, assets / "whatsapp-floating-transparent.png")
-    for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg"):
+        (assets / "whatsapp-floating-logo-only.png").unlink(missing_ok=True)
+        shutil.copy2(whatsapp_logo, assets / "whatsapp-floating-logo-only.png")
+    for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg", "whatsapp-floating-transparent.png"):
         (assets / stale_asset).unlink(missing_ok=True)
     for html_path in dist.rglob("*.html"): 
         text = html_path.read_text(encoding="utf-8")
@@ -70,7 +70,7 @@ if dist.exists() and human_css.exists():
         # Use the supplied artwork as the only visible floating WhatsApp element.
         text = re.sub(
             r'(<a class="wa-float"[^>]*>).*?(</a>)',
-            r'\1<img src="/assets/whatsapp-floating-transparent.png" alt="Hubungi WhatsApp" width="58" height="58">\2',
+            r'\1<img src="/assets/whatsapp-floating-logo-only.png" alt="Hubungi WhatsApp" width="58" height="58">\2',
             text,
             flags=re.S,
         )
