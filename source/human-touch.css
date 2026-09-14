@@ -440,6 +440,16 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   border-radius:0!important;
   box-shadow:none!important;
 }
+/* Prevent the legacy floating button's text or pseudo-label from rendering. */
+.wa-float{
+  color:transparent!important;
+  font-size:0!important;
+  text-indent:-9999px!important;
+}
+.wa-float::before,.wa-float::after{
+  content:none!important;
+  display:none!important;
+}
 .wa-float:hover,.wa-float:focus,.wa-float:focus-visible{
   background:transparent!important;
   border:0!important;
