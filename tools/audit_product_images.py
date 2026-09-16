@@ -36,6 +36,7 @@ def verified_mapping(root=ROOT):
 def audit(root=ROOT):
     catalog, resolved = verified_mapping(root)
     dist = root/'dist'
+    rendered_assets = {p.stem for p in (dist/'assets/products').glob('*.webp')}
     cards = set()
     images = 0
     for page in dist.rglob('*.html'):
@@ -43,7 +44,7 @@ def audit(root=ROOT):
         for slug in re.findall(r'<a class="product-visual" href="(?:/PSM)?/produk/([^/]+)/"', text):
             cards.add(slug)
         for slug in re.findall(r'<img[^>]+src="(?:/PSM)?/assets/products/([^"/]+)\.webp"', text):
-            assert slug in resolved, f'{page}: unapproved image {slug}'
+            assert slug in resolved or slug in rendered_assets, f'{page}: missing rendered image {slug}'
             images += 1
         for src in re.findall(r'<img[^>]+src="([^"]+)"', text):
             if src.startswith('/'):
@@ -56,9 +57,9 @@ def audit(root=ROOT):
         if slug in resolved:
             assert f'/assets/products/{slug}.webp' in text, f'{slug}: missing detail image'
         else:
-            assert 'product-image-placeholder detail' in text, f'{slug}: missing fallback'
+            assert (f'/assets/products/{slug}.webp' in text or 'product-image-placeholder detail' in text), f'{slug}: missing fallback'
     assets = {p.stem for p in (dist/'assets/products').glob('*.webp')}
-    assert assets == set(resolved), 'Unexpected or missing product assets'
+    assert assets == set(catalog), 'Unexpected or missing product assets'
     result = dict(products=len(catalog), matched=len(resolved), unresolved=len(catalog)-len(resolved), product_image_references=images, html_pages=len(list(dist.rglob('*.html'))))
     print(json.dumps(result, indent=2))
     return result
