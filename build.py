@@ -132,6 +132,24 @@ if dist.exists() and human_css.exists():
             )
             text = text[:row_match.start()] + row + text[row_match.end():]
 
+        # Temporarily hide all product sections from the landing page while
+        # keeping the standalone catalog, category, and product detail routes.
+        # These sections are identified by their stable generated grid markers.
+        text = re.sub(
+            r'<section class="section">.*?<div class="category-grid">.*?</section>',
+            "",
+            text,
+            count=1,
+            flags=re.S,
+        )
+        text = re.sub(
+            r'<section class="section">.*?<div class="product-grid">.*?</section>',
+            "",
+            text,
+            count=1,
+            flags=re.S,
+        )
+
         # Place the floating brand marquee directly above the two audience cards.
         brand_match = re.search(r'<section class="section brand-wall">.*?</section>', text, flags=re.S)
         audience_match = re.search(r'<section class="section section-tight"><div class="container audience-grid">.*?</section>', text, flags=re.S)
