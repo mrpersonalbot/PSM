@@ -1,5 +1,6 @@
 import base64, gzip, re, shutil
 from pathlib import Path
+from urllib.parse import quote
 
 root = Path(__file__).parent
 AVAILABLE_BRANDS = {
@@ -67,6 +68,21 @@ if dist.exists() and human_css.exists():
                 flags=re.S | re.I,
             )
             text = text.replace(f'<option value="{brand}">{brand}</option>', "")
+        # Update the public contact details consistently in generated pages.
+        text = text.replace('6281266600800', '6281993399888')
+        text = text.replace('0812-6660-0800', '081993399888')
+        text = text.replace('https://www.instagram.com/psm_padan/', 'https://www.instagram.com/psm_padang/')
+        text = text.replace('@psm_padan', '@psm_padang')
+
+        # Remove the product search icon from the top navigation.
+        text = re.sub(
+            r'<a class="icon-btn" href="/produk/" aria-label="Cari produk">.*?</a>',
+            "",
+            text,
+            count=1,
+            flags=re.S,
+        )
+
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
@@ -154,7 +170,7 @@ if dist.exists() and human_css.exists():
 
         # The homepage product finder should start a WhatsApp conversation,
         # rather than sending visitors to the catalog search route.
-        whatsapp_product = 'https://wa.me/6281266600800?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
+        whatsapp_product = 'https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
         text = text.replace(
             'Cari barangnya. Kalau ragu, tanya kami.',
             'Cari barangnya. Kalau ragu, kami tanya.',
@@ -170,6 +186,45 @@ if dist.exists() and human_css.exists():
             '<a class="btn btn-primary" href="/produk/">Cari Produk</a>',
             f'<a class="btn btn-primary" href="{whatsapp_product}">Tanya Produk</a>',
         )
+
+        # Category cards now ask via WhatsApp with the selected category in
+        # the prefilled message instead of opening the catalog route.
+        category_messages = {
+            "lampu-pencahayaan": "Lampu & Pencahayaan",
+            "saklar-stop-kontak": "Saklar & Stop Kontak",
+            "kabel-listrik": "Kabel & Kawat",
+            "proteksi-panel-listrik": "Proteksi Listrik",
+            "aksesoris-instalasi-listrik": "Aksesoris Instalasi",
+            "extension-steker-adaptor": "Extension & Steker",
+            "kipas-ventilasi": "Kipas & Ventilasi",
+            "kontrol-otomasi": "Kontrol & Otomasi",
+        }
+        def category_card(match):
+            slug, body = match.group(1), match.group(2)
+            category = category_messages.get(slug)
+            if not category:
+                return match.group(0)
+            href = 'https://wa.me/6281993399888?text=' + quote(
+                f"Halo Pratama, saya ingin menanyakan kategori {category}."
+            )
+            body = body.replace("Lihat produk →", "Tanya Produk →")
+            return f'<a class="category-card" href="{href}">{body}</a>'
+        text = re.sub(
+            r'<a class="category-card" href="/kategori/([^/]+)/">(.*?)</a>',
+            category_card,
+            text,
+            flags=re.S,
+        )
+
+        # Use the supplied Google Maps share link for the landing-page button
+        # and the footer location link.
+        maps_url = 'https://share.google/nobfOiBD7ggfAbN7W'
+        text = text.replace(
+            'https://www.google.com/maps/search/?api=1&query=Pratama+Sukses+Mandiri+Padang',
+            maps_url,
+        )
+        text = text.replace('>Buka Maps<', '>Google Maps<')
+        text = text.replace('>Buka Google Maps →<', '>Google Maps →<')
 
         # Place the floating brand marquee directly above the two audience cards.
         brand_match = re.search(r'<section class="section brand-wall">.*?</section>', text, flags=re.S)
