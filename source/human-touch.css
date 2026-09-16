@@ -458,7 +458,18 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 }
 
 
-/* Benefit numbers need to read as anchors, not disappear into the card. */
+/* Catalog product images: slightly closer framing without cropping the card shell. */
+.product-visual{overflow:hidden!important;}
+.product-visual .catalog-product-image{
+  transform:scale(1.06)!important;
+  transform-origin:center center!important;
+  transition:transform .25s ease!important;
+}
+.product-visual:hover .catalog-product-image,
+.product-visual:focus-visible .catalog-product-image{
+  transform:scale(1.08)!important;
+}
+
 .benefit-grid>div>.eyebrow{
   display:inline-flex;
   align-items:center;
