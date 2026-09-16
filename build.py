@@ -132,18 +132,10 @@ if dist.exists() and human_css.exists():
             )
             text = text[:row_match.start()] + row + text[row_match.end():]
 
-        # Temporarily hide all product sections from the landing page while
-        # keeping the standalone catalog, category, and product detail routes.
-        # These sections are identified by their stable generated grid markers.
+        # Temporarily hide the featured product catalog from the landing page
+        # while keeping the category section and standalone catalog routes.
         text = re.sub(
-            r'<section class="section">.*?<div class="category-grid">.*?</section>',
-            "",
-            text,
-            count=1,
-            flags=re.S,
-        )
-        text = re.sub(
-            r'<section class="section">.*?<div class="product-grid">.*?</section>',
+            r'<section class="section">(?:(?!<section class="section">).)*?<div class="product-grid">.*?</section>',
             "",
             text,
             count=1,
