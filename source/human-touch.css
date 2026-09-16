@@ -372,6 +372,8 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 }
 .benefit-grid{background:transparent;gap:10px}
 .benefit-grid>div{border:1px solid rgba(255,255,255,.24);border-radius:9px;background:rgba(2,35,67,.22)}
+.benefit-grid>div b{font-size:23px;line-height:1.2}
+.benefit-grid>div span{font-size:18px;line-height:1.55}
 .why-grid{background:transparent;gap:12px}
 .why-grid>div{border:1px solid #ddd2c4;border-radius:10px;background:#fffdf9}
 .why-grid strong{font-family:Georgia,"Times New Roman",serif}
