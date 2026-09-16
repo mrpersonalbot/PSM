@@ -13,6 +13,10 @@ from audit_product_images import verified_mapping
 verified_mapping(ROOT)
 mp=json.loads(MAP.read_text())
 resolved={slug:v for slug,v in mp.items() if v.get('status')=='resolved' and v.get('validation_version')==version and (ROOT/'source'/v.get('file','')).exists()}
+ecoking_catalog=[]
+catalog_file=ROOT/'source'/'ecoking-catalog-images.json'
+if catalog_file.exists():
+    ecoking_catalog=json.loads(catalog_file.read_text())
 
 # Option 2: when an exact SKU photo is unavailable, use the closest verified
 # photo from the same product family. This is deliberately a presentation
@@ -30,6 +34,19 @@ def fallback_source(slug, value):
         return score
     return max(resolved.items(), key=score)[0]
 
+def ecoking_source(value):
+    if not ecoking_catalog or value.get('brand','').upper() != 'ECOKING': return None
+    name=value.get('name','').upper()
+    def score(item):
+        candidate=item['name'].upper()
+        score=SequenceMatcher(None,name,candidate).ratio()*100
+        for token in ('LED','DOWNLIGHT','HEAD LAMP','WALL LIGHT','STRIP','T5','SOROT','RAKET','PINGPONG','FITTING'):
+            if token in name and token in candidate: score += 30
+        for token in re.findall(r'\b\d+W\b|\b\d{4}K\b',name):
+            if token in candidate: score += 18
+        return score
+    return max(ecoking_catalog,key=score)
+
 display_images={slug:slug for slug in resolved}
 for slug, value in mp.items():
     if slug not in display_images:
@@ -41,7 +58,11 @@ out.mkdir(parents=True,exist_ok=True)
 for slug,v in resolved.items(): shutil.copy2(ROOT/'source'/v['file'],out/(slug+'.webp'))
 for slug,source_slug in display_images.items():
     if slug != source_slug:
-        shutil.copy2(ROOT/'source'/resolved[source_slug]['file'],out/(slug+'.webp'))
+        ec=ecoking_source(mp[slug])
+        if ec:
+            shutil.copy2(ROOT/'source'/ec['file'],out/(slug+'.webp'))
+        else:
+            shutil.copy2(ROOT/'source'/resolved[source_slug]['file'],out/(slug+'.webp'))
 
 def esc(s): return html.escape(str(s),quote=True)
 def img_tag(slug,name):

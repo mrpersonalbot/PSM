@@ -1,0 +1,426 @@
+[
+  {
+    "name": "LED Class Daylight",
+    "slug": "led-class-daylight",
+    "url_path": "led-class-daylight",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/F91je9iIaMIH9pacIVjSJYQ7nzyrDjXugR5UDYzo.png",
+    "file": "ecoking-catalog-images/led-class-daylight.webp"
+  },
+  {
+    "name": "LED Class Warm White",
+    "slug": "led-class-warm-white",
+    "url_path": "led-class-warm-white",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/iL31EYYGpYZPPbQQf1gcwoagEqgA2P3UvS4ZMOKF.png",
+    "file": "ecoking-catalog-images/led-class-warm-white.webp"
+  },
+  {
+    "name": "LED Legend Daylight",
+    "slug": "led-legend-daylight",
+    "url_path": "led-legend-daylight",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/HcHWaaqUFJ68PlsCWpqYuneZzbCjaqwG93Mfc7cO.png",
+    "file": "ecoking-catalog-images/led-legend-daylight.webp"
+  },
+  {
+    "name": "LED Legend Warm White",
+    "slug": "led-legend-warm-white",
+    "url_path": "led-legend-warm-white",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/5UTgROT70It4i5sXXZpk9Zy5UqGvJvBWlahwOupz.png",
+    "file": "ecoking-catalog-images/led-legend-warm-white.webp"
+  },
+  {
+    "name": "LED Class Jumbo",
+    "slug": "led-class-jumbo",
+    "url_path": "led-class-jumbo",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/Ukft3qUzc3EcWCyYflrud3WC6ZMFkfOuGB4wqCWa.png",
+    "file": "ecoking-catalog-images/led-class-jumbo.webp"
+  },
+  {
+    "name": "LED Avatar",
+    "slug": "led-avatar",
+    "url_path": "led-avatar",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/7kQYiMKPxnVIAhrRKvN2FUJPSP386pT783R5cXZn.png",
+    "file": "ecoking-catalog-images/led-avatar.webp"
+  },
+  {
+    "name": "LED Marlin",
+    "slug": "led-marlin",
+    "url_path": "led-marlin",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/WuotlAWpy10TGXyqkhKjlcgLKiSu4q88q3OEKASD.png",
+    "file": "ecoking-catalog-images/led-marlin.webp"
+  },
+  {
+    "name": "LED Sensor A Bulb",
+    "slug": "led-sensor-a-bulb",
+    "url_path": "led-sensor-a-bulb",
+    "source_page": "https://www.ecoking.co.id/catalog",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/CSJpsUxPURySK9HDkMuWiL6CC2T9TKJn9S9Tfdg1.png",
+    "file": "ecoking-catalog-images/led-sensor-a-bulb.webp"
+  },
+  {
+    "name": "LED Sensor T Bulb",
+    "slug": "led-sensor-t-bulb",
+    "url_path": "led-sensor-t-bulb",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/yOZ7NHPIboLrU5xu7b38wiziM2jyVemYMaJJQoTv.png",
+    "file": "ecoking-catalog-images/led-sensor-t-bulb.webp"
+  },
+  {
+    "name": "T5 NEON",
+    "slug": "t5-neon",
+    "url_path": "t5-neon",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/854l8sYUu7nkX2HjAU1VKJnMgJ0Kcxk3W6f5W7cH.png",
+    "file": "ecoking-catalog-images/t5-neon.webp"
+  },
+  {
+    "name": "TL RING",
+    "slug": "tl-ring",
+    "url_path": "tl-ring",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/MekKctB5bv0mScmtMwFpKFdJybXSZY4U1oZ6HyZq.png",
+    "file": "ecoking-catalog-images/tl-ring.webp"
+  },
+  {
+    "name": "LED Komet",
+    "slug": "led-komet",
+    "url_path": "led-komet",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/ilHKRqC3cMrftMYlxKjs4TEzG2BfN9HVfabViDm7.png",
+    "file": "ecoking-catalog-images/led-komet.webp"
+  },
+  {
+    "name": "LED Star",
+    "slug": "led-star",
+    "url_path": "led-star",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/FbbZ7kWFL3pblQbM3y7b7WnBLWP5tWPnf6gC6KJh.png",
+    "file": "ecoking-catalog-images/led-star.webp"
+  },
+  {
+    "name": "LED HERO SAGA",
+    "slug": "led-hero-saga",
+    "url_path": "led-hero-saga",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/iCOCUTl57QUytHUauuvqOfTPuJDXxw4l2vWxK1cH.png",
+    "file": "ecoking-catalog-images/led-hero-saga.webp"
+  },
+  {
+    "name": "LED TURBO SAGA",
+    "slug": "led-turbo-saga",
+    "url_path": "led-turbo-saga",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/FuZXFRqEn3QSdyrSzbQZeijqODjd4WUJ5HEiAMsb.png",
+    "file": "ecoking-catalog-images/led-turbo-saga.webp"
+  },
+  {
+    "name": "LED HERO GOLD",
+    "slug": "led-hero-gold",
+    "url_path": "led-hero-gold",
+    "source_page": "https://www.ecoking.co.id/catalog?page=2",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/zAwaStPwSYJ6U5cbnAT1RHPVl9c0EEikksb3DvuH.png",
+    "file": "ecoking-catalog-images/led-hero-gold.webp"
+  },
+  {
+    "name": "LED SUPER",
+    "slug": "led-super",
+    "url_path": "led-super",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/V4StOFMbtOXCtsdOoe7pqsBKYkyoHbwYxw4xLDFt.png",
+    "file": "ecoking-catalog-images/led-super.webp"
+  },
+  {
+    "name": "VIVA",
+    "slug": "viva",
+    "url_path": "viva",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/NVlZD1AViqXnHsPEKGW5JhEZINkjHPiWrosw0gUA.png",
+    "file": "ecoking-catalog-images/viva.webp"
+  },
+  {
+    "name": "CENTRO",
+    "slug": "centro",
+    "url_path": "centro",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/M0jstPmBa2K6JmoOUBBxfa0I4yWOfax9WsoIZrru.png",
+    "file": "ecoking-catalog-images/centro.webp"
+  },
+  {
+    "name": "METRO",
+    "slug": "metro",
+    "url_path": "metro",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/EBQcyCDV2Mjh0jufud2KX9Ou73NEp8THUPstSBEC.png",
+    "file": "ecoking-catalog-images/metro.webp"
+  },
+  {
+    "name": "SOGO",
+    "slug": "sogo",
+    "url_path": "sogo",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/GecFHbp712xl7KbzCksqilmkrTjEHZWK11KSfHYx.png",
+    "file": "ecoking-catalog-images/sogo.webp"
+  },
+  {
+    "name": "DIVING HEADLAMP",
+    "slug": "diving-headlamp",
+    "url_path": "diving-headlamp",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/WPFbRFEHPkw8yEJANOstMDlAgrk3uck2tm3kkHu5.png",
+    "file": "ecoking-catalog-images/diving-headlamp.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2203WY",
+    "slug": "headlamp-ehl-2203wy",
+    "url_path": "headlamp-ehl-2203wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/oEYMwEZGODcpJlg3ifJrtRtU1GGYA1o7Op1C96yo.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2203wy.webp"
+  },
+  {
+    "name": "PANCAWARNA",
+    "slug": "pancawarna",
+    "url_path": "pancawarna",
+    "source_page": "https://www.ecoking.co.id/catalog?page=3",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/Oa1XSRahiTtvU7fVFajHO5n1DhrcHGbakaZYKyOu.png",
+    "file": "ecoking-catalog-images/pancawarna.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2221WY",
+    "slug": "headlamp-ehl-2221wy",
+    "url_path": "headlamp-ehl-2221wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/zzDhPM9as9ZymqOanC0IooqZ7hoPDdtJYkGalaaa.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2221wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2240WY",
+    "slug": "headlamp-ehl-2240wy",
+    "url_path": "headlamp-ehl-2240wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/ZrMqyl6GL2V8y3vwdrVdpSih3zVf8vb7tiQbobO4.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2240wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2246WY",
+    "slug": "headlamp-ehl-2246wy",
+    "url_path": "headlamp-ehl-2246wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/wExdlf6cY1SGcDvusRgC0NwPT3IcRNhwm3HiPMXG.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2246wy.webp"
+  },
+  {
+    "name": "LED THUNDER SERIES",
+    "slug": "led-thunder-series",
+    "url_path": "led-thunder-series",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/y0CR9qKC8mobpfG3NgPiEuMtjJtRTiS4KpGGT8eY.png",
+    "file": "ecoking-catalog-images/led-thunder-series.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2248WY",
+    "slug": "headlamp-ehl-2248wy",
+    "url_path": "headlamp-ehl-2248wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/IJwVZUC9bRJPM4NIJzJoLZTvdyrsbkuJXSaRTy6I.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2248wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2280WY",
+    "slug": "headlamp-ehl-2280wy",
+    "url_path": "headlamp-ehl-2280wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/R9l4VrZp0Ey1e0pK1TUeuzqkVyEM1GngiyJord3n.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2280wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2208WY",
+    "slug": "headlamp-ehl-2208wy",
+    "url_path": "headlamp-ehl-2208wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/0hRR0XHEtkTGR2HKWlcL9F4ZJ9ULvKs1hVisLFNy.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2208wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2245WY",
+    "slug": "headlamp-ehl-2245wy",
+    "url_path": "headlamp-ehl-2245wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=4",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/1Ytyx3XYqgif1oPVXieVQpdrK1ziusftvZ4eb34F.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2245wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2265WY",
+    "slug": "headlamp-ehl-2265wy",
+    "url_path": "headlamp-ehl-2265wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/PiBKxeaC3WMGOYtzOObSaCVbIck3OusmKxNaFodZ.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2265wy.webp"
+  },
+  {
+    "name": "HEADLAMP EHL-2288WY",
+    "slug": "headlamp-ehl-2288wy",
+    "url_path": "headlamp-ehl-2288wy",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/bzGOmltvZyHwV0PMeEwip5t59s2r58UgwVgWbFhQ.png",
+    "file": "ecoking-catalog-images/headlamp-ehl-2288wy.webp"
+  },
+  {
+    "name": "RAKET NYAMUK ERN-3101",
+    "slug": "raket-nyamuk-ern-3101",
+    "url_path": "raket-nyamuk-ern-3101",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/5271HHcF5g2si7vLopOOB9bwhC9wTRG3b72RmUj5.png",
+    "file": "ecoking-catalog-images/raket-nyamuk-ern-3101.webp"
+  },
+  {
+    "name": "HEADLAMP EHL2250DL",
+    "slug": "headlamp-ehl2250dl",
+    "url_path": "headlamp-ehl2250dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/kWeJDPcmb1YvMcjPZEBCPNUUs6ZOoOKwxs4crh3A.png",
+    "file": "ecoking-catalog-images/headlamp-ehl2250dl.webp"
+  },
+  {
+    "name": "RAKET NYAMUK ERN-3102",
+    "slug": "raket-nyamuk-ern-3102",
+    "url_path": "raket-nyamuk-ern-3102",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/NfNsEeIxEime0apaTvaKVJlvqrQIEWdYF4n7wUJT.png",
+    "file": "ecoking-catalog-images/raket-nyamuk-ern-3102.webp"
+  },
+  {
+    "name": "RAKET NYAMUK ERN-3103",
+    "slug": "raket-nyamuk-ern-3103",
+    "url_path": "raket-nyamuk-ern-3103",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/SzEKQ1dC1GX1AsJbWiqI8GVDnbWklcrXpOFuSUC3.png",
+    "file": "ecoking-catalog-images/raket-nyamuk-ern-3103.webp"
+  },
+  {
+    "name": "HEADLAMP EHL3045DL",
+    "slug": "headlamp-ehl3045dl",
+    "url_path": "headlamp-ehl3045dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/D7kX1mAfKSvtMUdv7Xw7YFza3xC1imwC62744Eqh.png",
+    "file": "ecoking-catalog-images/headlamp-ehl3045dl.webp"
+  },
+  {
+    "name": "TIGER - LED FOLDING LIGHT",
+    "slug": "tiger-led-folding-light",
+    "url_path": "tiger-led-folding-light",
+    "source_page": "https://www.ecoking.co.id/catalog?page=5",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/8uXrv5Ovqa6eA7FTavj9hnlGjblwNahBjxB3iwAj.png",
+    "file": "ecoking-catalog-images/tiger-led-folding-light.webp"
+  },
+  {
+    "name": "ICON WALL LIGHT",
+    "slug": "icon-wall-light",
+    "url_path": "icon-wall-light",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/aYCn83YFsUZ1ZiwDM3yxYqi2Hz0hKlEFq5z8sGUl.png",
+    "file": "ecoking-catalog-images/icon-wall-light.webp"
+  },
+  {
+    "name": "ICON EPL3112",
+    "slug": "icon-epl3112",
+    "url_path": "icon-epl3112",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/aXgXBuZVW9vuALd1afeGLO3d7FjKPVJw1ZZknXb1.png",
+    "file": "ecoking-catalog-images/icon-epl3112.webp"
+  },
+  {
+    "name": "LED COCO",
+    "slug": "led-coco",
+    "url_path": "led-coco",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/pM6WskCasJUI87ZottuDpT6TB5QSwumpsAxI21NH.png",
+    "file": "ecoking-catalog-images/led-coco.webp"
+  },
+  {
+    "name": "NINJA",
+    "slug": "ninja",
+    "url_path": "ninja",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/me3PKXMSbcf0W6WaGyV4Ba7d1KrRORSrnkoDlCxw.png",
+    "file": "ecoking-catalog-images/ninja.webp"
+  },
+  {
+    "name": "SAMURAI",
+    "slug": "samurai",
+    "url_path": "samurai",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/m1aVS12uXRdroyMG2Pm1OuDXLDiO3GIYJTfsiNmL.png",
+    "file": "ecoking-catalog-images/samurai.webp"
+  },
+  {
+    "name": "LED Kingdom Daylight",
+    "slug": "led-kingdom-daylight",
+    "url_path": "led-kingdom-daylight",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/qA77QXsS0osMNOFkPa8K6AjDTm9NTSD2rs0Cik16.png",
+    "file": "ecoking-catalog-images/led-kingdom-daylight.webp"
+  },
+  {
+    "name": "LED FUGU",
+    "slug": "led-fugu",
+    "url_path": "led-fugu",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/cL5tCXt0v04RftOGkmhXFOR1Rt1EPLV9pCtd1j1y.png",
+    "file": "ecoking-catalog-images/led-fugu.webp"
+  },
+  {
+    "name": "Motion",
+    "slug": "motion",
+    "url_path": "motion",
+    "source_page": "https://www.ecoking.co.id/catalog?page=6",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/5kVnYvY3yxLlTul3JcK8a4rCfujnH1pgXMbJxDUN.png",
+    "file": "ecoking-catalog-images/motion.webp"
+  },
+  {
+    "name": "THUNDER LED CAMPING LIGHT",
+    "slug": "thunder-led-camping-light",
+    "url_path": "thunder-led-camping-light",
+    "source_page": "https://www.ecoking.co.id/catalog?page=7",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/6FyXpAeKEkbEAK85PLJcCzIHu51TGjv0j4RnC401.png",
+    "file": "ecoking-catalog-images/thunder-led-camping-light.webp"
+  },
+  {
+    "name": "THUNDER ETH8841DL",
+    "slug": "thunder-eth8841dl",
+    "url_path": "thunder-eth8841dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=7",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/oMkpYpzYELFemnf3Uv2MNhmgXgkVOAyQiMY57tEv.png",
+    "file": "ecoking-catalog-images/thunder-eth8841dl.webp"
+  },
+  {
+    "name": "THUNDER ETH8844DL",
+    "slug": "thunder-eth8844dl",
+    "url_path": "thunder-eth8844dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=7",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/S5lMz7AnF8yBNhh5fQpNa0AAoGSqQ7xPEiwg8t3R.png",
+    "file": "ecoking-catalog-images/thunder-eth8844dl.webp"
+  },
+  {
+    "name": "THUNDER ETH8846DL",
+    "slug": "thunder-eth8846dl",
+    "url_path": "thunder-eth8846dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=7",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/Q4HwuHjcjfhFJ8uPqK48GYuh23mvYAUUTVLWhQxU.png",
+    "file": "ecoking-catalog-images/thunder-eth8846dl.webp"
+  },
+  {
+    "name": "THUNDER ETH8890DL",
+    "slug": "thunder-eth8890dl",
+    "url_path": "thunder-eth8890dl",
+    "source_page": "https://www.ecoking.co.id/catalog?page=7",
+    "source_image": "https://www.ecoking.co.id/storage/assets/images/sub-categories/w43dqRgPlOwD0IJ0QzuQFZ5s4rDJhJGiqd66IfLZ.png",
+    "file": "ecoking-catalog-images/thunder-eth8890dl.webp"
+  }
+]
