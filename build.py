@@ -142,6 +142,35 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
+        # Remove the product dropdown from the top navigation while keeping
+        # product categories and catalog routes available from the page.
+        text = re.sub(
+            r'<div class="nav-drop"><button>Produk\s*<span>⌄</span></button><div class="drop-menu">.*?</div></div>',
+            "",
+            text,
+            count=1,
+            flags=re.S,
+        )
+
+        # The homepage product finder should start a WhatsApp conversation,
+        # rather than sending visitors to the catalog search route.
+        whatsapp_product = 'https://wa.me/6281266600800?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
+        text = text.replace(
+            'Cari barangnya. Kalau ragu, tanya kami.',
+            'Cari barangnya. Kalau ragu, kami tanya.',
+        )
+        text = re.sub(
+            r'<form class="hero-search" action="/produk/" method="get">.*?</form>',
+            f'<a class="btn btn-primary hero-whatsapp" href="{whatsapp_product}">Tanya Produk</a>',
+            text,
+            count=1,
+            flags=re.S,
+        )
+        text = text.replace(
+            '<a class="btn btn-primary" href="/produk/">Cari Produk</a>',
+            f'<a class="btn btn-primary" href="{whatsapp_product}">Tanya Produk</a>',
+        )
+
         # Place the floating brand marquee directly above the two audience cards.
         brand_match = re.search(r'<section class="section brand-wall">.*?</section>', text, flags=re.S)
         audience_match = re.search(r'<section class="section section-tight"><div class="container audience-grid">.*?</section>', text, flags=re.S)
