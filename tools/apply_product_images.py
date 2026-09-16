@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json,re,shutil,html
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -13,10 +14,34 @@ verified_mapping(ROOT)
 mp=json.loads(MAP.read_text())
 resolved={slug:v for slug,v in mp.items() if v.get('status')=='resolved' and v.get('validation_version')==version and (ROOT/'source'/v.get('file','')).exists()}
 
+# Option 2: when an exact SKU photo is unavailable, use the closest verified
+# photo from the same product family. This is deliberately a presentation
+# fallback; the catalog metadata remains unchanged so it is not mistaken for
+# an exact SKU match.
+def fallback_source(slug, value):
+    name=(value.get('name','')+' '+value.get('brand','')).upper()
+    def score(item):
+        s, v = item
+        candidate=(v.get('name','')+' '+v.get('brand','')).upper()
+        score=SequenceMatcher(None, name, candidate).ratio()*100
+        for token in ('LAMPU','LED','SAKLAR','MULTICORD','KABEL','FITTING','DOWNLIGHT','MCB','BOX'):
+            if token in name and token in candidate: score += 25
+        if value.get('brand','').upper()==v.get('brand','').upper(): score += 45
+        return score
+    return max(resolved.items(), key=score)[0]
+
+display_images={slug:slug for slug in resolved}
+for slug, value in mp.items():
+    if slug not in display_images:
+        display_images[slug]=fallback_source(slug,value)
+
 out=DIST/'assets'/'products'
 if out.exists(): shutil.rmtree(out)
 out.mkdir(parents=True,exist_ok=True)
 for slug,v in resolved.items(): shutil.copy2(ROOT/'source'/v['file'],out/(slug+'.webp'))
+for slug,source_slug in display_images.items():
+    if slug != source_slug:
+        shutil.copy2(ROOT/'source'/resolved[source_slug]['file'],out/(slug+'.webp'))
 
 def esc(s): return html.escape(str(s),quote=True)
 def img_tag(slug,name):
@@ -27,7 +52,7 @@ def placeholder(brand=''):
 
 for page in (DIST/'produk').glob('*/index.html'):
     slug=page.parent.name; t=page.read_text(); v=mp.get(slug,{}); brand=v.get('brand','')
-    if slug in resolved:
+    if slug in display_images:
         inner=f'<span>{esc(brand)}</span>{img_tag(slug,v.get("name","Foto produk"))}'
     else:
         inner=f'<span>{esc(brand)}</span><div class="product-image-placeholder detail"><span>Foto produk</span><strong>sedang diverifikasi</strong><small>Kami menahan gambar yang belum cukup cocok dengan produk ini.</small></div>'
@@ -40,7 +65,7 @@ for page in DIST.rglob('*.html'):
     t=page.read_text()
     def card_repl(m):
         slug=m.group(2); v=mp.get(slug,{})
-        body=(f'<span class="visual-brand">{esc(v.get("brand",""))}</span>'+img_tag(slug,v.get('name','Foto produk'))) if slug in resolved else placeholder(v.get('brand',''))
+        body=(f'<span class="visual-brand">{esc(v.get("brand",""))}</span>'+img_tag(slug,v.get('name','Foto produk'))) if slug in display_images else placeholder(v.get('brand',''))
         return m.group(1)+body+m.group(4)
     nt=card_pat.sub(card_repl,t)
     if nt!=t: page.write_text(nt)
