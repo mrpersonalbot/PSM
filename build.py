@@ -83,6 +83,17 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
+        # Brand links in the top navigation/brand strip should open the
+        # dedicated brand page, not a filtered product-results page.
+        text = re.sub(
+            r'href="/produk/\?q=([^&"]+)%20electric"',
+            lambda m: f'href="/brand/{m.group(1).lower()}/"',
+            text,
+        )
+        # Keep the catalog's displayed inventory claim current.
+        text = text.replace('1.000+', '2.000+')
+        text = text.replace('kami tanya', 'tanya kami')
+
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
@@ -172,8 +183,8 @@ if dist.exists() and human_css.exists():
         # rather than sending visitors to the catalog search route.
         whatsapp_product = 'https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
         text = text.replace(
-            'Cari barangnya. Kalau ragu, tanya kami.',
             'Cari barangnya. Kalau ragu, kami tanya.',
+            'Cari barangnya. Kalau ragu, tanya kami.',
         )
         text = re.sub(
             r'<form class="hero-search" action="/produk/" method="get">.*?</form>',
