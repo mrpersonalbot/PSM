@@ -20,6 +20,7 @@ REMOVED_BRANDS = {
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
 payload = root / "source" / "payload" / "build_impl.gz.b64"
 product_payload = root / "source" / "payload" / "products.gz.b64"
+database_sku_counts_path = root / "source" / "database-sku-counts.json"
 
 # Every brand rendered in the supplied logo directory and top-bar menu must have
 # at least one catalog record. This keeps each visible brand page useful as
@@ -30,6 +31,13 @@ if top_bar_brand_codes != AVAILABLE_BRANDS:
 source_products = json.loads(gzip.decompress(base64.b64decode(product_payload.read_text().strip())))
 source_brands = {product["brand"] for product in source_products}
 source_brand_counts = Counter(product["brand"] for product in source_products)
+database_sku_snapshot = json.loads(database_sku_counts_path.read_text(encoding="utf-8"))
+database_brand_sku_counts = database_sku_snapshot["counts"]
+missing_database_brands = sorted(AVAILABLE_BRANDS - set(database_brand_sku_counts))
+if missing_database_brands:
+    raise RuntimeError(
+        "Database SKU counts missing visible brand(s): " + ", ".join(missing_database_brands)
+    )
 missing_catalog_brands = sorted(AVAILABLE_BRANDS - source_brands)
 underfilled_catalog_brands = sorted(
     brand for brand in AVAILABLE_BRANDS if source_brand_counts[brand] < 12
@@ -178,14 +186,14 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
-        # Brand pages show the actual count from the catalog payload—not the
-        # site-wide inventory claim—and end with a direct inquiry path.
+        # Brand pages show the count from the supplied warehouse-database
+        # snapshot—not the number of product cards currently published on the site.
         relative_parts = html_path.relative_to(dist).parts
         if len(relative_parts) == 3 and relative_parts[0] == "brand" and relative_parts[2] == "index.html":
             brand_slug = relative_parts[1]
             brand_name = next((name for name, slug in TOP_BAR_BRANDS if slug == brand_slug), None)
             if brand_name:
-                sku_count = source_brand_counts[brand_name.upper()]
+                sku_count = database_brand_sku_counts[brand_name.upper()]
                 text = re.sub(
                     r'<h2>\d+ produk pilihan\.</h2>',
                     f'<h2>{sku_count} SKU terdaftar di katalog.</h2>',

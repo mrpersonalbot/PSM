@@ -1,0 +1,19 @@
+{
+  "source_file": "GUDANG_BERKATEGORI.xlsx",
+  "source_sheet": "DATA FULL",
+  "method": "Distinct non-empty SKU values whose product name identifies the brand; all database rows are counted regardless of current stock quantity.",
+  "counts": {
+    "ECOKING": 0,
+    "PIOLINE": 6,
+    "HIMAWARI": 4,
+    "SCHNEIDER": 0,
+    "CHINT": 3,
+    "SIMON": 0,
+    "ADVANCE": 0,
+    "PROFAN": 0,
+    "DEXTA": 3,
+    "LUBY": 0,
+    "VISERO": 2,
+    "VISALUX": 8
+  }
+}
