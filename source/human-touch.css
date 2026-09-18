@@ -227,19 +227,29 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .hero-search{background:#fff;border:1px solid #cabdab;border-radius:9px;padding:5px}
 .hero-search input{background:transparent;color:var(--hand-ink)}
 .hero-search button{
-  border-radius:7px;
-  background:var(--pratama-blue);
+  width:auto;
+  min-height:64px;
+  padding:0 30px;
+  border:0;
+  border-radius:16px;
+  background:#155596;
   color:#fff;
-  font-weight:750;
-  box-shadow:3px 3px 0 #15334b;
+  font-size:20px;
+  font-weight:800;
+  line-height:1;
+  letter-spacing:0;
+  box-shadow:0 7px 0 #17364c;
+  cursor:pointer;
+  transition:background .16s ease,box-shadow .16s ease,transform .16s ease;
 }
 .hero-search button:hover,
 .hero-search button:focus-visible{
-  background:var(--pratama-blue-deep);
+  background:#0f477f;
   color:#fff;
-  box-shadow:1px 1px 0 #15334b;
-  transform:translate(2px,2px);
+  box-shadow:0 3px 0 #17364c;
+  transform:translateY(4px);
 }
+.hero-search button:focus-visible{outline:3px solid rgba(21,85,150,.28);outline-offset:3px}
 .search-suggestions a{
   border:1px solid #cfc2b0;
   color:#514840;
