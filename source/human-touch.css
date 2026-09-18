@@ -226,7 +226,20 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .hero-panel h2{font-size:35px;line-height:1.08;margin:38px 0 20px}
 .hero-search{background:#fff;border:1px solid #cabdab;border-radius:9px;padding:5px}
 .hero-search input{background:transparent;color:var(--hand-ink)}
-.hero-search button{border-radius:7px;background:var(--signal-orange)}
+.hero-search button{
+  border-radius:7px;
+  background:var(--pratama-blue);
+  color:#fff;
+  font-weight:750;
+  box-shadow:3px 3px 0 #15334b;
+}
+.hero-search button:hover,
+.hero-search button:focus-visible{
+  background:var(--pratama-blue-deep);
+  color:#fff;
+  box-shadow:1px 1px 0 #15334b;
+  transform:translate(2px,2px);
+}
 .search-suggestions a{
   border:1px solid #cfc2b0;
   color:#514840;

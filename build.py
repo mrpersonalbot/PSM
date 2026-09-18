@@ -48,8 +48,8 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the override stylesheet after restoring the homepage finder.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=homepage-product-search-1')
+        # Cache-bust the override stylesheet after making the finder button match the blue CTA treatment.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=homepage-product-search-blue-1')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
