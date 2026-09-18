@@ -48,9 +48,8 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the override stylesheet so the current catalog presentation
-        # is fetched instead of a browser's previously cached product-card CSS.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=header-search-cta-1')
+        # Cache-bust the override stylesheet after restoring the homepage finder.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=homepage-product-search-1')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
@@ -186,20 +185,18 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
-        # The homepage product finder should start a WhatsApp conversation,
-        # rather than sending visitors to the catalog search route.
-        whatsapp_product = 'https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
-        text = text.replace(
-            'Cari barangnya. Kalau ragu, kami tanya.',
-            'Cari barangnya. Kalau ragu, tanya kami.',
-        )
+        # Restore the homepage finder as a real catalog search. It keeps the
+        # familiar panel but now submits the entered product/SKU/brand query to
+        # the catalog through a clearly labelled "Cari Produk" button.
         text = re.sub(
             r'<form class="hero-search" action="/produk/" method="get">.*?</form>',
-            f'<a class="btn btn-primary hero-whatsapp" href="{whatsapp_product}">Tanya Produk</a>',
+            '<form class="hero-search" action="/produk/" method="get"><input name="q" placeholder="Nama produk, SKU atau brand..." aria-label="Cari produk"><button type="submit">Cari Produk</button></form>',
             text,
             count=1,
             flags=re.S,
         )
+        # The primary homepage CTA remains a direct WhatsApp inquiry.
+        whatsapp_product = 'https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
         text = text.replace(
             '<a class="btn btn-primary" href="/produk/">Cari Produk</a>',
             f'<a class="btn btn-primary" href="{whatsapp_product}">Tanya Produk</a>',
