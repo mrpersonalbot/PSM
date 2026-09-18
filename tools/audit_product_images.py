@@ -7,6 +7,9 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Keep image identity evidence and source assets intact, but while this switch is
+# enabled the rendered catalog is deliberately a text-only list.
+TEXT_ONLY_CATALOG = True
 
 
 def verified_mapping(root=ROOT):
@@ -41,23 +44,36 @@ def audit(root=ROOT):
     images = 0
     for page in dist.rglob('*.html'):
         text = page.read_text()
-        for slug in re.findall(r'<a class="product-visual" href="(?:/PSM)?/produk/([^/]+)/"', text):
-            cards.add(slug)
-        for slug in re.findall(r'<img[^>]+src="(?:/PSM)?/assets/products/([^"/]+)\.webp"', text):
-            assert slug in resolved or slug in rendered_assets, f'{page}: missing rendered image {slug}'
-            images += 1
+        if TEXT_ONLY_CATALOG:
+            assert 'catalog-product-image' not in text, f'{page}: product photo rendered in text-only mode'
+            assert 'product-visual' not in text, f'{page}: product visual rendered in text-only mode'
+            assert 'product-detail-visual' not in text, f'{page}: product detail photo rendered in text-only mode'
+        else:
+            for slug in re.findall(r'<a class="product-visual" href="(?:/PSM)?/produk/([^/]+)/"', text):
+                cards.add(slug)
+            for slug in re.findall(r'<img[^>]+src="(?:/PSM)?/assets/products/([^"/]+)\.webp"', text):
+                assert slug in resolved or slug in rendered_assets, f'{page}: missing rendered image {slug}'
+                images += 1
         for src in re.findall(r'<img[^>]+src="([^"]+)"', text):
             if src.startswith('/'):
                 target = src.removeprefix('/PSM').lstrip('/')
                 assert (dist/target).is_file(), f'{page}: missing {src}'
+    if TEXT_ONLY_CATALOG:
+        catalog_html = (dist/'produk/index.html').read_text()
+        cards = set(re.findall(
+            r'<article class="product-card"[^>]*>.*?<h3><a href="(?:/PSM)?/produk/([^/]+)/"',
+            catalog_html,
+            flags=re.S,
+        ))
     assert cards == set(catalog), 'Missing catalog cards'
-    for slug in catalog:
-        page = dist/'produk'/slug/'index.html'
-        text = page.read_text()
-        if slug in resolved:
-            assert f'/assets/products/{slug}.webp' in text, f'{slug}: missing detail image'
-        else:
-            assert (f'/assets/products/{slug}.webp' in text or 'product-image-placeholder detail' in text), f'{slug}: missing fallback'
+    if not TEXT_ONLY_CATALOG:
+        for slug in catalog:
+            page = dist/'produk'/slug/'index.html'
+            text = page.read_text()
+            if slug in resolved:
+                assert f'/assets/products/{slug}.webp' in text, f'{slug}: missing detail image'
+            else:
+                assert (f'/assets/products/{slug}.webp' in text or 'product-image-placeholder detail' in text), f'{slug}: missing fallback'
     assets = {p.stem for p in (dist/'assets/products').glob('*.webp')}
     assert assets == set(catalog), 'Unexpected or missing product assets'
     result = dict(products=len(catalog), matched=len(resolved), unresolved=len(catalog)-len(resolved), product_image_references=images, html_pages=len(list(dist.rglob('*.html'))))
