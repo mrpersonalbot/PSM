@@ -186,17 +186,16 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
-        # Brand pages show the count from the supplied warehouse-database
-        # snapshot—not the number of product cards currently published on the site.
+        # Every brand page uses the same catalog-availability statement rather
+        # than exposing its warehouse snapshot or its number of published cards.
         relative_parts = html_path.relative_to(dist).parts
         if len(relative_parts) == 3 and relative_parts[0] == "brand" and relative_parts[2] == "index.html":
             brand_slug = relative_parts[1]
             brand_name = next((name for name, slug in TOP_BAR_BRANDS if slug == brand_slug), None)
             if brand_name:
-                sku_count = database_brand_sku_counts[brand_name.upper()]
                 text = re.sub(
                     r'<h2>\d+ produk pilihan\.</h2>',
-                    f'<h2>{sku_count} SKU terdaftar di katalog.</h2>',
+                    '<h2>Lebih dari 100 SKU terdaftar di katalog.</h2>',
                     text,
                     count=1,
                 )
