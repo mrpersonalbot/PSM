@@ -1,3 +1,5 @@
+import base64
+import gzip
 import importlib.util
 import json
 import tempfile
@@ -12,7 +14,10 @@ spec.loader.exec_module(audit)
 
 class ImageAuditTests(unittest.TestCase):
     def test_current_site(self):
-        self.assertEqual(audit.audit()['products'], 160)
+        products = json.loads(gzip.decompress(base64.b64decode(
+            (ROOT/'source/payload/products.gz.b64').read_bytes()
+        )))
+        self.assertEqual(audit.audit()['products'], len(products))
 
     def test_unreviewed_image_cannot_publish(self):
         with tempfile.TemporaryDirectory() as temp:

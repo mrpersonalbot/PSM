@@ -1,4 +1,4 @@
-import base64, gzip, re, shutil
+import base64, gzip, json, re, shutil
 from pathlib import Path
 from urllib.parse import quote
 
@@ -12,6 +12,18 @@ REMOVED_BRANDS = {
 }
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
 payload = root / "source" / "payload" / "build_impl.gz.b64"
+product_payload = root / "source" / "payload" / "products.gz.b64"
+
+# Every brand rendered in the supplied logo directory must have at least one
+# catalog record. This keeps each visible brand page useful as inventory grows.
+source_products = json.loads(gzip.decompress(base64.b64decode(product_payload.read_text().strip())))
+source_brands = {product["brand"] for product in source_products}
+missing_catalog_brands = sorted(AVAILABLE_BRANDS - source_brands)
+if missing_catalog_brands:
+    raise RuntimeError(
+        "Visible brand(s) missing catalog products: " + ", ".join(missing_catalog_brands)
+    )
+
 code = gzip.decompress(base64.b64decode(payload.read_text().strip()))
 exec(compile(code, "build_impl.py", "exec"))
 

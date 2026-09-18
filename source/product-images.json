@@ -2368,5 +2368,135 @@
         "6b6b5cc74e8bcb2b98af1f11b15302f7695a6fbf"
       ]
     }
+  },
+  "stop-kontak-3-lubang-stp-3-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-3",
+    "name": "STOP KONTAK 3 LUBANG STP-3 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-4-lubang-stp-4-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-4",
+    "name": "STOP KONTAK 4 LUBANG STP-4 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-1-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X1.5",
+    "name": "KABEL NYM 2 x 1.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-2-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X2.5",
+    "name": "KABEL NYM 2 x 2.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-1-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X1.5",
+    "name": "KABEL NYM 2 x 1.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-2-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X2.5",
+    "name": "KABEL NYM 2 x 2.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-emergency-rechargeable-l-763-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "L-763",
+    "name": "LAMPU EMERGENCY RECHARGEABLE L-763 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-emergency-rechargeable-l-782-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "L-782",
+    "name": "LAMPU EMERGENCY RECHARGEABLE L-782 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-dinding-v8-10-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "V8-10",
+    "name": "STOP KONTAK DINDING V8-10 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-stop-kontak-dinding-v8-11-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "V8-11",
+    "name": "SAKLAR + STOP KONTAK DINDING V8-11 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
   }
 }

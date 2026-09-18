@@ -17,7 +17,7 @@ def verified_mapping(root=ROOT):
     catalog = {p['slug']: p for p in products}
     mapping = json.loads((root/'source/product-images.json').read_text())
     review = json.loads((root/'source/existing-image-review.json').read_text())
-    assert len(catalog) == 160 and set(mapping) == set(catalog), 'Catalog/mapping mismatch'
+    assert set(mapping) == set(catalog), 'Catalog/mapping mismatch'
     approved = review['approved']
     resolved = {}
     for slug, entry in mapping.items():
