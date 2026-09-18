@@ -1,7 +1,7 @@
 {
   "source_file": "GUDANG_BERKATEGORI.xlsx",
   "source_sheet": "DATA FULL",
-  "method": "Distinct non-empty SKU values whose product name identifies the brand; all database rows are counted regardless of current stock quantity.",
+  "method": "One SKU per data row whose product-name cell contains the brand name (case-insensitive). Duplicate SKU values, blank SKU cells, and stock quantity do not change the count; every matching row counts as one SKU.",
   "counts": {
     "ECOKING": 0,
     "PIOLINE": 6,
