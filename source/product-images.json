@@ -2498,5 +2498,1084 @@
       "status": "unresolved",
       "candidate_blobs": []
     }
+  },
+  "saklar-engkel-outbow-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-OB-1",
+    "name": "SAKLAR ENGKEL OUTBOW PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-seri-outbow-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-OB-2",
+    "name": "SAKLAR SERI OUTBOW PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-universal-outbow-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SK-OB-U",
+    "name": "STOP KONTAK UNIVERSAL OUTBOW PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-saklar-outbow-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SKS-OB",
+    "name": "STOP KONTAK + SAKLAR OUTBOW PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "steker-arde-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "ST-ARDE",
+    "name": "STEKER ARDE PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-plafon-e27-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-P",
+    "name": "FITTING PLAFON E27 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-gantung-e27-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-G",
+    "name": "FITTING GANTUNG E27 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-engkel-tanam-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-TN-1",
+    "name": "SAKLAR ENGKEL TANAM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-seri-tanam-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-TN-2",
+    "name": "SAKLAR SERI TANAM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-hotel-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-TN-H",
+    "name": "SAKLAR HOTEL HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-tanam-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SK-TN",
+    "name": "STOP KONTAK TANAM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-outbow-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SK-OB",
+    "name": "STOP KONTAK OUTBOW HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-saklar-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SKS-1",
+    "name": "STOP KONTAK + SAKLAR HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "steker-arde-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "ST-ARDE",
+    "name": "STEKER ARDE HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "tusuk-kontak-arde-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "TK-ARDE",
+    "name": "TUSUK KONTAK ARDE HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-plafon-e27-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-P",
+    "name": "FITTING PLAFON E27 HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-gantung-e27-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-G",
+    "name": "FITTING GANTUNG E27 HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-easy9-1p-c-6a-ez9f54106-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "EZ9F54106",
+    "name": "MCB EASY9 1P C 6A EZ9F54106 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-easy9-1p-c-16a-ez9f54116-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "EZ9F54116",
+    "name": "MCB EASY9 1P C 16A EZ9F54116 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-easy9-1p-c-20a-ez9f54120-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "EZ9F54120",
+    "name": "MCB EASY9 1P C 20A EZ9F54120 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-easy9-1p-c-25a-ez9f54125-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "EZ9F54125",
+    "name": "MCB EASY9 1P C 25A EZ9F54125 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-1-pole-6a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NB1-63-1P-6A",
+    "name": "MCB 1 POLE 6A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-1-pole-16a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NB1-63-1P-16A",
+    "name": "MCB 1 POLE 16A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-1-pole-20a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NB1-63-1P-20A",
+    "name": "MCB 1 POLE 20A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "mcb-1-pole-32a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NB1-63-1P-32A",
+    "name": "MCB 1 POLE 32A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-bulb-a60-5w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-A60-5W",
+    "name": "SIMON VALOR LED BULB A60 5W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-bulb-a60-9w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-A60-9W",
+    "name": "SIMON VALOR LED BULB A60 9W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-bulb-a60-12w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-A60-12W",
+    "name": "SIMON VALOR LED BULB A60 12W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-bulb-a60-15w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-A60-15W",
+    "name": "SIMON VALOR LED BULB A60 15W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-bulb-g45-5w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-G45-5W",
+    "name": "SIMON VALOR LED BULB G45 5W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-downlight-r100-8w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-R100-8W-DL",
+    "name": "SIMON VALOR LED DOWNLIGHT R100 8W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-downlight-r100-12w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-R100-12W-WW",
+    "name": "SIMON VALOR LED DOWNLIGHT R100 12W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-valor-led-downlight-r100-12w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "SV-R100-12W-DL",
+    "name": "SIMON VALOR LED DOWNLIGHT R100 12W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-2-lubang-stp-2-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-2",
+    "name": "STOP KONTAK 2 LUBANG STP-2 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-5-lubang-stp-5-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-5",
+    "name": "STOP KONTAK 5 LUBANG STP-5 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-6-lubang-stp-6-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-6",
+    "name": "STOP KONTAK 6 LUBANG STP-6 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-3-lubang-dengan-saklar-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-3S",
+    "name": "STOP KONTAK 3 LUBANG DENGAN SAKLAR ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-4-lubang-dengan-saklar-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-4S",
+    "name": "STOP KONTAK 4 LUBANG DENGAN SAKLAR ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "stop-kontak-5-lubang-dengan-saklar-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "STP-5S",
+    "name": "STOP KONTAK 5 LUBANG DENGAN SAKLAR ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "steker-arde-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "ST-ARDE",
+    "name": "STEKER ARDE ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-plafon-e27-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-P",
+    "name": "FITTING PLAFON E27 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "fitting-gantung-e27-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "FT-E27-G",
+    "name": "FITTING GANTUNG E27 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "saklar-engkel-outbow-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "S-OB-1",
+    "name": "SAKLAR ENGKEL OUTBOW ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-4-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X4",
+    "name": "KABEL NYM 2 x 4 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-6-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X6",
+    "name": "KABEL NYM 2 x 6 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-1-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X1.5",
+    "name": "KABEL NYM 3 x 1.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-2-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X2.5",
+    "name": "KABEL NYM 3 x 2.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-4-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X4",
+    "name": "KABEL NYM 3 x 4 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-6-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X6",
+    "name": "KABEL NYM 3 x 6 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-1-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X1.5",
+    "name": "KABEL NYM 4 x 1.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-2-5-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X2.5",
+    "name": "KABEL NYM 4 x 2.5 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-4-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X4",
+    "name": "KABEL NYM 2 x 4 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-2-x-6-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-2X6",
+    "name": "KABEL NYM 2 x 6 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-1-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X1.5",
+    "name": "KABEL NYM 3 x 1.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-2-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X2.5",
+    "name": "KABEL NYM 3 x 2.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-4-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X4",
+    "name": "KABEL NYM 3 x 4 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-3-x-6-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-3X6",
+    "name": "KABEL NYM 3 x 6 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-1-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X1.5",
+    "name": "KABEL NYM 4 x 1.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-2-5-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X2.5",
+    "name": "KABEL NYM 4 x 2.5 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-3w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-3W",
+    "name": "LAMPU LED BULB 3W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-5w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-5W",
+    "name": "LAMPU LED BULB 5W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-7w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-7W",
+    "name": "LAMPU LED BULB 7W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-9w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-9W",
+    "name": "LAMPU LED BULB 9W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-12w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-12W",
+    "name": "LAMPU LED BULB 12W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-15w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-15W",
+    "name": "LAMPU LED BULB 15W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-18w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-18W",
+    "name": "LAMPU LED BULB 18W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-20w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-20W",
+    "name": "LAMPU LED BULB 20W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-24w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-24W",
+    "name": "LAMPU LED BULB 24W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-30w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-30W",
+    "name": "LAMPU LED BULB 30W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-3w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-3W",
+    "name": "LAMPU LED BULB 3W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-5w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-5W",
+    "name": "LAMPU LED BULB 5W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-7w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-7W",
+    "name": "LAMPU LED BULB 7W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-9w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-9W",
+    "name": "LAMPU LED BULB 9W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-12w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-12W",
+    "name": "LAMPU LED BULB 12W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-15w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-15W",
+    "name": "LAMPU LED BULB 15W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-18w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-18W",
+    "name": "LAMPU LED BULB 18W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-20w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-20W",
+    "name": "LAMPU LED BULB 20W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-24w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-24W",
+    "name": "LAMPU LED BULB 24W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "lampu-led-bulb-30w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "LED-30W",
+    "name": "LAMPU LED BULB 30W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-4-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X4",
+    "name": "KABEL NYM 4 x 4 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-6-mm-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X6",
+    "name": "KABEL NYM 4 x 6 mm² PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-4-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X4",
+    "name": "KABEL NYM 4 x 4 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "kabel-nym-4-x-6-mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "pending_image_identity_review",
+    "sku": "NYM-4X6",
+    "name": "KABEL NYM 4 x 6 mm² DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
   }
 }

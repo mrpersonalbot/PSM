@@ -1,4 +1,5 @@
 import base64, gzip, json, re, shutil
+from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
 
@@ -28,10 +29,19 @@ if top_bar_brand_codes != AVAILABLE_BRANDS:
     raise RuntimeError("Top-bar brands must match the visible brand directory")
 source_products = json.loads(gzip.decompress(base64.b64decode(product_payload.read_text().strip())))
 source_brands = {product["brand"] for product in source_products}
+source_brand_counts = Counter(product["brand"] for product in source_products)
 missing_catalog_brands = sorted(AVAILABLE_BRANDS - source_brands)
+underfilled_catalog_brands = sorted(
+    brand for brand in AVAILABLE_BRANDS if source_brand_counts[brand] < 12
+)
 if missing_catalog_brands:
     raise RuntimeError(
         "Visible brand(s) missing catalog products: " + ", ".join(missing_catalog_brands)
+    )
+if underfilled_catalog_brands:
+    raise RuntimeError(
+        "Visible brand(s) require at least 12 catalog products: "
+        + ", ".join(underfilled_catalog_brands)
     )
 
 code = gzip.decompress(base64.b64decode(payload.read_text().strip()))
@@ -167,6 +177,30 @@ if dist.exists() and human_css.exists():
             text,
             flags=re.S,
         )
+
+        # Brand pages show the actual count from the catalog payload—not the
+        # site-wide inventory claim—and end with a direct inquiry path.
+        relative_parts = html_path.relative_to(dist).parts
+        if len(relative_parts) == 3 and relative_parts[0] == "brand" and relative_parts[2] == "index.html":
+            brand_slug = relative_parts[1]
+            brand_name = next((name for name, slug in TOP_BAR_BRANDS if slug == brand_slug), None)
+            if brand_name:
+                sku_count = source_brand_counts[brand_name.upper()]
+                text = re.sub(
+                    r'<h2>\d+ produk pilihan\.</h2>',
+                    f'<h2>{sku_count} SKU terdaftar di katalog.</h2>',
+                    text,
+                    count=1,
+                )
+                inquiry_section = (
+                    '<section class="section soft-section brand-more-products"><div class="container">'
+                    '<div class="split-card"><div><span class="eyebrow">BUTUH BANTUAN?</span>'
+                    '<h2>Masih mencari produk lainnya?</h2>'
+                    '<p>Langsung tanyakan kepada tim kami untuk cek produk, stok, dan harga terbaru.</p>'
+                    '</div><div><a class="btn btn-primary" href="/kontak/">Tanyakan Produk</a></div>'
+                    '</div></div></section>'
+                )
+                text = text.replace('</main>', inquiry_section + '</main>', 1)
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,
