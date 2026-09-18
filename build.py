@@ -50,7 +50,7 @@ if dist.exists() and human_css.exists():
             )
         # Cache-bust the override stylesheet so the current catalog presentation
         # is fetched instead of a browser's previously cached product-card CSS.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=product-list-1')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=header-search-cta-1')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
@@ -74,9 +74,10 @@ if dist.exists() and human_css.exists():
         text = text.replace('https://www.instagram.com/psm_padan/', 'https://www.instagram.com/psm_padang/')
         text = text.replace('@psm_padan', '@psm_padang')
 
-        # Remove the product search icon from the top navigation.
+        # Keep the search button in the header, but remove the separate
+        # product dropdown from the top bar; catalog routes remain available.
         text = re.sub(
-            r'<a class="icon-btn" href="/produk/" aria-label="Cari produk">.*?</a>',
+            r'<div class="nav-drop"><button>Produk\s*<span>⌄</span></button><div class="drop-menu">.*?</div></div>',
             "",
             text,
             count=1,
@@ -179,16 +180,6 @@ if dist.exists() and human_css.exists():
         # while keeping the category section and standalone catalog routes.
         text = re.sub(
             r'<section class="section">(?:(?!<section class="section">).)*?<div class="product-grid">.*?</section>',
-            "",
-            text,
-            count=1,
-            flags=re.S,
-        )
-
-        # Remove the product dropdown from the top navigation while keeping
-        # product categories and catalog routes available from the page.
-        text = re.sub(
-            r'<div class="nav-drop"><button>Produk\s*<span>⌄</span></button><div class="drop-menu">.*?</div></div>',
             "",
             text,
             count=1,
