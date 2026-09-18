@@ -110,6 +110,8 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   border-radius:10px;
   box-shadow:7px 8px 0 rgba(29,37,41,.07);
   background:var(--paper-2);
+  max-height:calc(100vh - 130px);
+  overflow-y:auto;
 }
 .drop-menu a{border-radius:6px}
 .drop-menu a:hover{background:#eee6da}

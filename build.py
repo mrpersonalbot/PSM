@@ -7,6 +7,12 @@ AVAILABLE_BRANDS = {
     "VISALUX", "ECOKING", "PIOLINE", "HIMAWARI", "SCHNEIDER", "CHINT",
     "SIMON", "ADVANCE", "PROFAN", "DEXTA", "LUBY", "VISERO",
 }
+TOP_BAR_BRANDS = (
+    ("Ecoking", "ecoking"), ("Pioline", "pioline"), ("Himawari", "himawari"),
+    ("Schneider", "schneider"), ("Chint", "chint"), ("Simon", "simon"),
+    ("Advance", "advance"), ("Profan", "profan"), ("Dexta", "dexta"),
+    ("Luby", "luby"), ("Visero", "visero"), ("Visalux", "visalux"),
+)
 REMOVED_BRANDS = {
     "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
 }
@@ -14,8 +20,12 @@ LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
 payload = root / "source" / "payload" / "build_impl.gz.b64"
 product_payload = root / "source" / "payload" / "products.gz.b64"
 
-# Every brand rendered in the supplied logo directory must have at least one
-# catalog record. This keeps each visible brand page useful as inventory grows.
+# Every brand rendered in the supplied logo directory and top-bar menu must have
+# at least one catalog record. This keeps each visible brand page useful as
+# inventory grows and prevents the menu from drifting from the catalog.
+top_bar_brand_codes = {name.upper() for name, _ in TOP_BAR_BRANDS}
+if top_bar_brand_codes != AVAILABLE_BRANDS:
+    raise RuntimeError("Top-bar brands must match the visible brand directory")
 source_products = json.loads(gzip.decompress(base64.b64decode(product_payload.read_text().strip())))
 source_brands = {product["brand"] for product in source_products}
 missing_catalog_brands = sorted(AVAILABLE_BRANDS - source_brands)
@@ -53,6 +63,11 @@ if dist.exists() and human_css.exists():
         shutil.copy2(whatsapp_logo, assets / "whatsapp-floating-logo-only.png")
     for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg", "whatsapp-floating-transparent.png"):
         (assets / stale_asset).unlink(missing_ok=True)
+    top_bar_brand_menu = (
+        '<div class="nav-drop"><button>Brand <span>⌄</span></button><div class="drop-menu">'
+        + "".join(f'<a href="/brand/{slug}/">{name}</a>' for name, slug in TOP_BAR_BRANDS)
+        + '<a class="all-link" href="/produk/?view=brands">Semua brand →</a></div></div>'
+    )
     for html_path in dist.rglob("*.html"): 
         text = html_path.read_text(encoding="utf-8")
         if "/assets/human-touch.css" not in text:
@@ -84,6 +99,17 @@ if dist.exists() and human_css.exists():
         text = text.replace('0812-6660-0800', '081993399888')
         text = text.replace('https://www.instagram.com/psm_padan/', 'https://www.instagram.com/psm_padang/')
         text = text.replace('@psm_padan', '@psm_padang')
+
+        # Render the requested catalog brands in the top-bar Brand menu, each
+        # linked to its dedicated brand route. This replaces the payload's
+        # shorter default list consistently on every generated page.
+        text = re.sub(
+            r'<div class="nav-drop"><button>Brand\s*<span>⌄</span></button><div class="drop-menu">.*?</div></div>',
+            top_bar_brand_menu,
+            text,
+            count=1,
+            flags=re.S,
+        )
 
         # Keep the search button in the header, but remove the separate
         # product dropdown from the top bar; catalog routes remain available.
