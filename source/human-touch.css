@@ -657,3 +657,33 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   .mobile-action-dock{border-radius:12px;background:rgba(29,39,45,.96)}
   .mobile-action-dock a:last-child{border-radius:8px}
 }
+
+/* Temporary catalog mode: no product photography, one readable list per page. */
+.product-grid{
+  grid-template-columns:1fr!important;
+  gap:10px!important;
+}
+.product-card{overflow:visible}
+.product-card-body{
+  display:grid;
+  grid-template-columns:minmax(0,1.4fr) minmax(150px,.7fr) auto;
+  grid-template-areas:"title meta actions";
+  align-items:center;
+  gap:12px 24px;
+  padding:18px 20px!important;
+}
+.product-card-body>.eyebrow{display:none}
+.product-card-body h3{grid-area:title;margin:0!important}
+.product-card-body .product-meta{grid-area:meta;margin:0!important}
+.product-card-body .product-card-actions{grid-area:actions;margin:0!important;white-space:nowrap}
+.product-detail-grid{grid-template-columns:1fr!important}
+.product-detail .product-info{max-width:760px}
+@media (max-width:720px){
+  .product-card-body{
+    grid-template-columns:1fr;
+    grid-template-areas:"title" "meta" "actions";
+    gap:9px;
+    padding:16px!important;
+  }
+  .product-card-body .product-card-actions{white-space:normal}
+}

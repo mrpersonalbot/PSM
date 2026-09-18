@@ -48,9 +48,9 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the override stylesheet so the legacy WA label cannot survive
-        # in a browser that cached an earlier floating-button rule.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=wa-textless-2')
+        # Cache-bust the override stylesheet so the current catalog presentation
+        # is fetched instead of a browser's previously cached product-card CSS.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=product-list-1')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
@@ -112,6 +112,22 @@ if dist.exists() and human_css.exists():
         text = text.replace(
             "7 salesman mendukung kebutuhan toko dan kunjungan langsung.",
             "Sales support mendukung kebutuhan toko dan kunjungan langsung.",
+        )
+
+        # Temporarily present every catalog as a text-only list. Product data,
+        # detail routes, and WhatsApp actions remain available; only the visual
+        # photo blocks are removed from catalog/category/brand/detail pages.
+        text = re.sub(
+            r'<a class="product-visual"[^>]*>.*?</a>',
+            "",
+            text,
+            flags=re.S,
+        )
+        text = re.sub(
+            r'<div class="product-detail-visual">.*?</div>',
+            "",
+            text,
+            flags=re.S,
         )
         html_path.write_text(text, encoding="utf-8")
 
