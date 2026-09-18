@@ -226,30 +226,30 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .hero-panel h2{font-size:35px;line-height:1.08;margin:38px 0 20px}
 .hero-search{background:#fff;border:1px solid #cabdab;border-radius:9px;padding:5px}
 .hero-search input{background:transparent;color:var(--hand-ink)}
+/* Keep the catalog finder submit button identical in size to site-wide primary CTAs. */
 .hero-search button{
   width:auto;
-  min-height:64px;
-  padding:0 30px;
-  border:0;
-  border-radius:16px;
-  background:#155596;
+  min-height:49px;
+  padding:0 21px;
+  border-radius:9px;
+  background:var(--pratama-blue);
   color:#fff;
-  font-size:20px;
-  font-weight:800;
+  font-size:13px;
+  font-weight:750;
   line-height:1;
   letter-spacing:0;
-  box-shadow:0 7px 0 #17364c;
+  box-shadow:3px 3px 0 #15334b;
   cursor:pointer;
-  transition:background .16s ease,box-shadow .16s ease,transform .16s ease;
+  transition:background .18s ease,box-shadow .18s ease,transform .18s ease;
 }
 .hero-search button:hover,
 .hero-search button:focus-visible{
-  background:#0f477f;
+  background:var(--pratama-blue-deep);
   color:#fff;
-  box-shadow:0 3px 0 #17364c;
-  transform:translateY(4px);
+  box-shadow:1px 1px 0 #15334b;
+  transform:translate(2px,2px);
 }
-.hero-search button:focus-visible{outline:3px solid rgba(21,85,150,.28);outline-offset:3px}
+.hero-search button:focus-visible{outline:3px solid rgba(10,73,139,.28);outline-offset:3px}
 .search-suggestions a{
   border:1px solid #cfc2b0;
   color:#514840;
