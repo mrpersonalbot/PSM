@@ -19,7 +19,9 @@ REMOVED_BRANDS = {
     "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
 }
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
-SEO_SITE_URL = "https://pratamaelectric.com"
+# GitHub Pages is the currently resolvable public site. Keep all crawl signals
+# on the published origin until a verified custom domain is configured.
+SEO_SITE_URL = "https://mrpersonalbot.github.io/PSM"
 SEO_PAGES = {
     "/": {
         "title": "Supplier & Toko Alat Listrik Padang | Retail & Proyek | Pratama",
