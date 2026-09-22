@@ -125,7 +125,7 @@ if dist.exists() and human_css.exists():
     for html_path in dist.rglob("*.html"): 
         text = html_path.read_text(encoding="utf-8")
         relative_parts = html_path.relative_to(dist).parts
-        route = "/" if relative_parts == ("index.html",) else "/" + "/".join(relative_parts[:-1]) + "/"
+        route = "/" if len(relative_parts) == 1 else "/" + "/".join(relative_parts[:-1]) + "/"
 
         # Give core audience pages search-focused titles/descriptions, while all
         # generated pages receive an absolute canonical and social preview data.
