@@ -109,11 +109,7 @@ if dist.exists() and human_css.exists():
     if brand_logos.exists():
         shutil.rmtree(assets / "brands", ignore_errors=True)
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
-    whatsapp_logo = root / "source" / "assets" / "whatsapp-floating-logo-only.png"
-    if whatsapp_logo.exists():
-        (assets / "whatsapp-floating-logo-only.png").unlink(missing_ok=True)
-        shutil.copy2(whatsapp_logo, assets / "whatsapp-floating-logo-only.png")
-    for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg", "whatsapp-floating-transparent.png"):
+    for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg", "whatsapp-floating-transparent.png", "whatsapp-floating-logo-only.png"):
         (assets / stale_asset).unlink(missing_ok=True)
     top_bar_brand_menu = (
         '<div class="nav-drop"><button>Brand <span>⌄</span></button><div class="drop-menu">'
@@ -229,13 +225,9 @@ if dist.exists() and human_css.exists():
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
-        # Use the supplied artwork as the only visible floating WhatsApp element.
-        text = re.sub(
-            r'(<a class="wa-float"[^>]*>).*?(</a>)',
-            r'\1<img src="/assets/whatsapp-floating-logo-only.png" alt="Hubungi WhatsApp" width="58" height="58">\2',
-            text,
-            flags=re.S,
-        )
+        # Remove the persistent floating WhatsApp logo site-wide. Product-card
+        # "Tanya stok" links and other inquiry CTAs stay available.
+        text = re.sub(r'<a class="wa-float"[^>]*>.*?</a>', "", text, flags=re.S)
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
             r'\1Tanya stok\2',
