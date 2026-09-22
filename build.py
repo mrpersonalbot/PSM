@@ -104,6 +104,12 @@ if dist.exists() and human_css.exists():
             "const q=search.value.trim().toLowerCase(), b=",
             "const q=search.value.trim().toLowerCase().replace(/\\s+electric$/,'').trim(), b=",
         )
+        # Keep every client-side inquiry path on the current public WhatsApp
+        # number, including dynamically created product and mobile actions.
+        app_text = app_text.replace("6281266600800", "6281993399888")
+        # The retailer form does not collect an address field, so do not send an
+        # empty field in its WhatsApp lead payload.
+        app_text = app_text.replace("\\nAlamat: ${fd.get('alamat')||'-'}", "")
         app_js.write_text(app_text, encoding="utf-8")
     brand_logos = root / "source" / "brand-logos"
     if brand_logos.exists():
