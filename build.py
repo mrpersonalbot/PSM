@@ -1,5 +1,6 @@
 import base64, gzip, json, re, shutil
 from collections import Counter
+from html import escape
 from pathlib import Path
 from urllib.parse import quote
 
@@ -18,6 +19,37 @@ REMOVED_BRANDS = {
     "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
 }
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
+SEO_SITE_URL = "https://pratamaelectric.com"
+SEO_PAGES = {
+    "/": {
+        "title": "Supplier & Toko Alat Listrik Padang | Retail & Proyek | Pratama",
+        "description": "Supplier alat listrik di Padang untuk toko retail, kebutuhan rumah, dan proyek. Tanya stok, harga grosir, kabel, lampu, MCB, saklar, dan kebutuhan listrik di Sumatera Barat.",
+    },
+    "/produk/": {
+        "title": "Katalog Alat Listrik untuk Retail & Proyek | Pratama Padang",
+        "description": "Cari kabel, lampu, MCB, saklar, stop kontak, dan kebutuhan listrik berdasarkan nama, SKU, brand, atau kategori. Untuk rumah, toko retail, dan proyek di Sumatera Barat.",
+    },
+    "/toko-listrik-padang/": {
+        "title": "Toko Alat Listrik Padang untuk Rumah & Retail | Pratama",
+        "description": "Toko alat listrik di Padang untuk kebutuhan rumah, teknisi, dan toko retail: lampu, kabel, MCB, saklar, dan perlengkapan instalasi. Tanya stok melalui WhatsApp.",
+    },
+    "/distributor-alat-listrik-sumbar/": {
+        "title": "Supplier Alat Listrik Sumatera Barat untuk Toko & Proyek | Pratama",
+        "description": "Supplier alat listrik di Sumatera Barat untuk toko retail dan kebutuhan proyek. Diskusikan stok, kebutuhan barang, dan pengadaan kabel, lampu, MCB, saklar, serta aksesoris instalasi.",
+    },
+    "/jadi-mitra-retailer/": {
+        "title": "Supplier Alat Listrik untuk Toko Retail Sumatera Barat | Pratama",
+        "description": "Daftar sebagai mitra toko retail alat listrik di Sumatera Barat. Hubungi Pratama untuk membahas kebutuhan produk, harga grosir, dan dukungan pengadaan.",
+    },
+    "/kontak/": {
+        "title": "Hubungi Supplier Alat Listrik Padang | Pratama",
+        "description": "Hubungi Pratama Electrical Supply di Padang untuk kebutuhan alat listrik rumah, toko retail, dan proyek di Sumatera Barat. Cek lokasi, jam operasional, stok, dan harga lewat WhatsApp.",
+    },
+    "/tentang-kami/": {
+        "title": "Pratama, Supplier Alat Listrik di Padang & Sumatera Barat",
+        "description": "Kenali Pratama Electrical Supply, supplier alat listrik di Padang yang melayani kebutuhan rumah, toko retail, dan proyek di Sumatera Barat.",
+    },
+}
 payload = root / "source" / "payload" / "build_impl.gz.b64"
 product_payload = root / "source" / "payload" / "products.gz.b64"
 database_sku_counts_path = root / "source" / "database-sku-counts.json"
@@ -88,6 +120,48 @@ if dist.exists() and human_css.exists():
     )
     for html_path in dist.rglob("*.html"): 
         text = html_path.read_text(encoding="utf-8")
+        relative_parts = html_path.relative_to(dist).parts
+        route = "/" if relative_parts == ("index.html",) else "/" + "/".join(relative_parts[:-1]) + "/"
+
+        # Give core audience pages search-focused titles/descriptions, while all
+        # generated pages receive an absolute canonical and social preview data.
+        seo = SEO_PAGES.get(route)
+        if seo:
+            text = re.sub(r"<title>.*?</title>", f"<title>{escape(seo['title'])}</title>", text, count=1, flags=re.S)
+            text = re.sub(
+                r'<meta name="description" content="[^"]*">',
+                f'<meta name="description" content="{escape(seo["description"], quote=True)}">',
+                text,
+                count=1,
+            )
+        title_match = re.search(r"<title>(.*?)</title>", text, flags=re.S)
+        description_match = re.search(r'<meta name="description" content="([^"]*)">', text)
+        page_title = title_match.group(1) if title_match else "Pratama Electrical Supply"
+        page_description = description_match.group(1) if description_match else "Supplier alat listrik di Padang dan Sumatera Barat."
+        canonical_url = SEO_SITE_URL + route
+        text = re.sub(
+            r'<link rel="canonical" href="[^"]*">',
+            f'<link rel="canonical" href="{canonical_url}">',
+            text,
+            count=1,
+        )
+        social_meta = (
+            f'<meta property="og:locale" content="id_ID"><meta property="og:site_name" content="Pratama Electrical Supply">'
+            f'<meta property="og:type" content="website"><meta property="og:title" content="{page_title}">'
+            f'<meta property="og:description" content="{page_description}"><meta property="og:url" content="{canonical_url}">'
+            f'<meta name="twitter:card" content="summary"><meta name="twitter:title" content="{page_title}">'
+            f'<meta name="twitter:description" content="{page_description}">'
+        )
+        breadcrumb_schema = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Beranda", "item": SEO_SITE_URL + "/"},
+                {"@type": "ListItem", "position": 2, "name": re.sub(r"<[^>]+>", "", page_title), "item": canonical_url},
+            ],
+        }
+        structured_data = json.dumps(breadcrumb_schema, ensure_ascii=False, separators=(",", ":"))
+        text = text.replace("</head>", social_meta + f'<script type="application/ld+json">{structured_data}</script></head>', 1)
         if "/assets/human-touch.css" not in text:
             text = text.replace(
                 '<link rel="stylesheet" href="/assets/styles.css">',
@@ -310,6 +384,23 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
 
+        # A concise, visible local-service section supports the search intent of
+        # retail stores, direct buyers, and project procurement without hiding
+        # keywords solely in metadata.
+        seo_supplier_section = (
+            '<section class="section soft-section seo-supplier"><div class="container">'
+            '<div class="section-head"><div><span class="eyebrow">SUPPLIER ALAT LISTRIK SUMATERA BARAT</span>'
+            '<h2>Untuk toko retail, kebutuhan rumah, dan proyek.</h2></div></div>'
+            '<div class="seo-supplier-grid">'
+            '<article><h3>Untuk toko retail</h3><p>Butuh partner pengadaan alat listrik untuk toko? Diskusikan kebutuhan barang dan ketersediaan produk bersama tim Pratama.</p><a href="/jadi-mitra-retailer/">Lihat informasi mitra →</a></article>'
+            '<article><h3>Untuk kebutuhan langsung</h3><p>Cari lampu, kabel, saklar, MCB, stop kontak, atau perlengkapan instalasi untuk rumah dan usaha? Mulai dari katalog atau tanyakan stok.</p><a href="/toko-listrik-padang/">Kunjungi toko listrik Padang →</a></article>'
+            '<article><h3>Untuk kebutuhan proyek</h3><p>Siapkan daftar kebutuhan listrik proyek Anda, lalu hubungi kami untuk membahas produk dan pengadaan di Padang serta Sumatera Barat.</p><a href="/distributor-alat-listrik-sumbar/">Hubungi supplier proyek →</a></article>'
+            '</div></div></section>'
+        )
+        category_section_marker = '<section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">KATEGORI PRODUK</span>'
+        if 'class="section soft-section seo-supplier"' not in text:
+            text = text.replace(category_section_marker, seo_supplier_section + category_section_marker, 1)
+
         # Use the supplied Google Maps share link for the landing-page button
         # and the footer location link.
         maps_url = 'https://share.google/nobfOiBD7ggfAbN7W'
@@ -334,6 +425,24 @@ if dist.exists() and human_css.exists():
                 + text[brand_match.end():]
             )
         home.write_text(text, encoding="utf-8")
+
+# Publish crawlable discovery files from the same generated route set.
+sitemap_urls = []
+for page in sorted(dist.rglob("index.html")):
+    parts = page.relative_to(dist).parts
+    route = "/" if parts == ("index.html",) else "/" + "/".join(parts[:-1]) + "/"
+    sitemap_urls.append(SEO_SITE_URL + route)
+sitemap = (
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + "\n".join(f"  <url><loc>{escape(url)}</loc></url>" for url in sitemap_urls)
+    + "\n</urlset>\n"
+)
+(dist / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+(dist / "robots.txt").write_text(
+    "User-agent: *\nAllow: /\n\nSitemap: " + SEO_SITE_URL + "/sitemap.xml\n",
+    encoding="utf-8",
+)
 
 # Persisted product images are collected by GitHub Actions and stored in
 # source/product-images. Apply them after the static generator finishes so the

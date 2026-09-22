@@ -712,3 +712,13 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   }
   .product-card-body .product-card-actions{white-space:normal}
 }
+
+/* Local supplier guidance on the homepage: useful paths for the three audiences. */
+.seo-supplier{border-top:1px solid var(--warm-line);border-bottom:1px solid var(--warm-line)}
+.seo-supplier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.seo-supplier article{padding:24px;background:var(--paper-2);border:1px solid var(--warm-line);border-radius:11px}
+.seo-supplier h3{margin:0 0 10px;color:var(--pratama-blue);font-size:20px}
+.seo-supplier p{margin:0 0 16px;color:#514b43;line-height:1.65}
+.seo-supplier a{color:var(--pratama-blue);font-weight:750;text-decoration-thickness:1px;text-underline-offset:3px}
+.seo-supplier a:hover{color:var(--pratama-blue-deep)}
+@media (max-width:760px){.seo-supplier-grid{grid-template-columns:1fr}.seo-supplier article{padding:20px}}
