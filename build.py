@@ -97,12 +97,12 @@ human_css = root / "source" / "human-touch.css"
 if dist.exists() and human_css.exists():
     assets.mkdir(parents=True, exist_ok=True)
     shutil.copy2(human_css, assets / "human-touch.css")
-    # The supplied brand guide is the source for this exact cropped logo lockup.
-    # Keep it local so the public site never relies on a remote image URL.
-    supplied_wordmark = root / "source" / "assets" / "pratama-brand-wordmark.jpg"
+    # Preserve the original supplied wordmark and publish a separate AI-upscaled
+    # derivative generated with Upscayl UltraSharp 4x for visual review/use.
+    supplied_wordmark = root / "source" / "assets" / "pratama-brand-wordmark-upscaled-4x.png"
     if not supplied_wordmark.exists():
-        raise RuntimeError("Missing supplied Pratama brand-wordmark asset")
-    shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark.jpg")
+        raise RuntimeError("Missing AI-upscaled Pratama brand-wordmark asset")
+    shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark-upscaled-4x.png")
     app_js = assets / "app.js"
     if app_js.exists():
         app_text = app_js.read_text(encoding="utf-8")
@@ -179,8 +179,8 @@ if dist.exists() and human_css.exists():
             )
         # Cache-bust the brand-system override so current visitors receive the
         # palette, typography, and supplied wordmark treatment immediately.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-brand-guide-1')
-        text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark.jpg')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-brand-guide-upscaled-4x')
+        text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-upscaled-4x.png')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
