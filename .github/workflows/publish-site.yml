@@ -35,10 +35,17 @@ jobs:
           echo "Site root: $site_root"
           html_count=$(find "$site_root" -type f -name '*.html' | wc -l)
           product_count=$(find "$site_root/produk" -mindepth 2 -maxdepth 2 -type f -name index.html | wc -l)
+          catalog_count=$(python3 - <<'PY'
+          import base64, gzip, json
+          from pathlib import Path
+          raw=Path('source/payload/products.gz.b64').read_bytes()
+          print(len(json.loads(gzip.decompress(base64.b64decode(raw)))))
+          PY
+          )
           echo "HTML pages: $html_count"
-          echo "Product pages: $product_count"
+          echo "Product pages: $product_count (catalog records: $catalog_count)"
           test "$html_count" -ge 189
-          test "$product_count" -eq 160
+          test "$product_count" -eq "$catalog_count"
           grep -q 'operated by PT Pratama Sukses Mandiri' "$site_root/index.html"
           grep -q 'PRATAMA MITRA' "$site_root/index.html"
           grep -qi '#0a498b' "$site_root/assets/styles.css"
