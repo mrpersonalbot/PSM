@@ -97,12 +97,12 @@ human_css = root / "source" / "human-touch.css"
 if dist.exists() and human_css.exists():
     assets.mkdir(parents=True, exist_ok=True)
     shutil.copy2(human_css, assets / "human-touch.css")
-    # The supplied brand guide is the source for this exact cropped logo lockup.
-    # Keep it local so the public site never relies on a remote image URL.
-    supplied_wordmark = root / "source" / "assets" / "pratama-brand-wordmark.jpg"
+    # This is the user's supplied landing-page logo, cropped only to remove
+    # empty canvas. Keep the original artwork local; do not redraw or upscale it.
+    supplied_wordmark = root / "source" / "assets" / "pratama-brand-wordmark-home.png"
     if not supplied_wordmark.exists():
-        raise RuntimeError("Missing supplied Pratama brand-wordmark asset")
-    shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark.jpg")
+        raise RuntimeError("Missing supplied homepage wordmark asset")
+    shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark-home.png")
     app_js = assets / "app.js"
     if app_js.exists():
         app_text = app_js.read_text(encoding="utf-8")
@@ -177,10 +177,9 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the brand-system override so current visitors receive the
-        # palette, typography, and supplied wordmark treatment immediately.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-brand-guide-contrast-3')
-        text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark.jpg')
+        # Cache-bust the latest supplied-wordmark treatment for visitors.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-home-logo-1')
+        text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home.png')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
