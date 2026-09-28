@@ -744,3 +744,12 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
 .footer{background:var(--hand-ink)}.footer-brand{font-family:Manrope,Inter,sans-serif;font-weight:800;letter-spacing:.09em;color:#fff}.footer-descriptor{font-family:"IBM Plex Mono",monospace;letter-spacing:.16em}.footer h4{color:#cbd4db}
 ::selection{background:var(--signal-orange);color:#fff}
 @media(max-width:720px){.wordmark-final img{width:210px;max-height:42px}.hero{padding:52px 0 64px}.hero-panel{padding:26px 20px;box-shadow:7px 7px 0 var(--signal-orange)}.hero-copy h1{font-size:clamp(42px,13vw,62px)}.section{padding:62px 0}}
+
+/* Contrast repairs: keep Pratama orange accents readable on both paper and dark surfaces. */
+.pill,.eyebrow.signal,.b2b-hero .eyebrow.signal{color:#a83d1d}
+.final-cta .eyebrow{background:transparent;color:var(--signal-orange);border:0;padding:0;transform:none}
+.hero-search button,.benefit-grid>div>.eyebrow{background:#c8421c;border-color:#c8421c;color:#fff}
+.hero-search button:hover,.hero-search button:focus-visible{background:#aa3517;border-color:#aa3517;color:#fff}
+.hero-panel-top,.shelf-box span,.b2b-hero .b2b-grid>div:first-child>p{color:#fff}
+.faq p,details p{color:#5b636a}
+.nav-toggle{color:var(--hand-ink)}
