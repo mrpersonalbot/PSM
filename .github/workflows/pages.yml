@@ -62,8 +62,10 @@ jobs:
           set -euo pipefail
           test -f dist/assets/styles.css
           test -f dist/assets/pratama-brand-wordmark-home-transparent.png
+          test -f dist/assets/pratama-brand-footer-transparent.png
           grep -q 'href="/PSM/assets/styles.css"' dist/index.html
           grep -q 'src="/PSM/assets/pratama-brand-wordmark-home-transparent.png"' dist/index.html
+          grep -q 'src="/PSM/assets/pratama-brand-footer-transparent.png"' dist/index.html
           grep -q "url('/PSM/assets/pratama-logo-white.svg')" dist/assets/styles.css
           grep -q "location.href='/PSM/produk/'" dist/assets/app.js
           ! grep -q '/PSM/PSM/' dist/assets/app.js

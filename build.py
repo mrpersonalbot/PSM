@@ -103,6 +103,10 @@ if dist.exists() and human_css.exists():
     if not supplied_wordmark.exists():
         raise RuntimeError("Missing transparent supplied homepage wordmark asset")
     shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark-home-transparent.png")
+    footer_logo = root / "source" / "assets" / "pratama-brand-footer-transparent.png"
+    if not footer_logo.exists():
+        raise RuntimeError("Missing transparent supplied footer logo asset")
+    shutil.copy2(footer_logo, assets / "pratama-brand-footer-transparent.png")
     app_js = assets / "app.js"
     if app_js.exists():
         app_text = app_js.read_text(encoding="utf-8")
@@ -177,9 +181,22 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the transparent supplied-wordmark treatment for visitors.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-home-logo-2')
+        # Cache-bust the transparent supplied-wordmark and footer-logo styles.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-home-logo-3')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
+        footer_brand_block = (
+            '<div class="footer-brand">PRATAMA</div>'
+            '<div class="footer-descriptor">ELECTRICAL SUPPLY</div>'
+            '<p class="footer-legal">operated by PT Pratama Sukses Mandiri</p>'
+        )
+        footer_logo_tag = (
+            '<img class="footer-logo" src="/assets/pratama-brand-footer-transparent.png" '
+            'alt="Pratama Electrical Supply — operated by PT Pratama Sukses Mandiri" '
+            'width="260" height="75">'
+        )
+        if footer_brand_block not in text:
+            raise RuntimeError(f"Generated footer brand block missing in {html_path}")
+        text = text.replace(footer_brand_block, footer_logo_tag, 1)
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
         # strict brand filter.
