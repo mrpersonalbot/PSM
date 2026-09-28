@@ -181,8 +181,8 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the transparent supplied-wordmark and footer-logo styles.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-home-logo-3')
+        # Cache-bust the shared visual override after component-style changes.
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-review-note-removed-1')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'

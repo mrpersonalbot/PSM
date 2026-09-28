@@ -414,17 +414,6 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   box-shadow:4px 5px 0 rgba(29,37,41,.05);
   position:relative;
 }
-.review-panel:before{
-  content:"20+ tahun ketemu pelanggan di tempat yang sama";
-  position:absolute;
-  right:22px;top:-15px;
-  background:#fff0b5;
-  padding:5px 9px;
-  color:#6c5728;
-  font-family:"Bradley Hand","Segoe Print","Comic Sans MS",cursive;
-  font-size:13px;
-  transform:rotate(1.5deg);
-}
 .rating span{color:var(--signal-orange)}
 .faq summary{font-family:Georgia,"Times New Roman",serif;font-size:17px;font-weight:700}
 
@@ -636,7 +625,6 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
   .category-card{transform:none!important;min-height:210px}
   .product-grid{gap:10px}
   .brand-block{transform:none!important}
-  .review-panel:before{right:12px;font-size:11px;max-width:190px}
   .mobile-action-dock{border-radius:12px;background:rgba(29,39,45,.96)}
   .mobile-action-dock a:last-child{border-radius:8px}
 }
