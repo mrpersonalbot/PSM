@@ -751,5 +751,5 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
 .hero-search button,.benefit-grid>div>.eyebrow{background:#c8421c;border-color:#c8421c;color:#fff}
 .hero-search button:hover,.hero-search button:focus-visible{background:#aa3517;border-color:#aa3517;color:#fff}
 .hero-panel-top,.shelf-box span,.b2b-hero .b2b-grid>div:first-child>p{color:#fff}
-.faq p,details p{color:#5b636a}
+.why-grid p,.local-grid p,.faq p,.faq details p,details p{color:#5b636a}
 .nav-toggle{color:var(--hand-ink)}

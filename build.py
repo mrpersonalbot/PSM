@@ -179,7 +179,7 @@ if dist.exists() and human_css.exists():
             )
         # Cache-bust the brand-system override so current visitors receive the
         # palette, typography, and supplied wordmark treatment immediately.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-brand-guide-contrast-1')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-brand-guide-contrast-3')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark.jpg')
         # Brand-logo links should search the catalog with the electrical context
         # included, e.g. "VISALUX electric", rather than only applying a
