@@ -1,0 +1,5 @@
+# Direct dependencies for the manually dispatched product-image workflow.
+rembg[cpu]
+pillow
+requests
+beautifulsoup4

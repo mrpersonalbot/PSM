@@ -15,17 +15,17 @@ jobs:
     timeout-minutes: 90
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.11'
 
       - name: Cache background-removal model
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: ~/.rembg
           key: rembg-u2netp-v2
@@ -34,8 +34,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq tesseract-ocr
-          python -m pip install --upgrade pip
-          python -m pip install 'rembg[cpu]' pillow requests beautifulsoup4
+          python -m pip install --require-hashes -r requirements-image-pipeline.txt
 
       - name: Build current catalog
         run: python3 build.py
@@ -116,7 +115,7 @@ jobs:
           print(f"Held for review: {report['unresolved_count']}")
           PY
 
-      - name: Commit verified library and review queue
+      - name: Publish verified image-library branch for review
         shell: bash
         run: |
           set -euo pipefail
@@ -126,14 +125,11 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No semi-strict product-image changes to commit.'
           else
+            branch="automation-product-images-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+            git switch -c "$branch"
             git commit -m 'Rebuild semi-strict product image library'
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git checkout --theirs source/product-images source/product-images.json source/product-images-report.json source/product-images-review.json
-              git add -A source/product-images source/product-images.json source/product-images-report.json source/product-images-review.json
-              GIT_EDITOR=true git rebase --continue
-            fi
-            git push origin HEAD:main
+            git push origin "HEAD:refs/heads/$branch"
+            echo "Open a PR to main: https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}?expand=1"
           fi
 
       - name: Semi-strict completion summary
