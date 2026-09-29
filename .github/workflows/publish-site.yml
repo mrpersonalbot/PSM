@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
@@ -55,7 +55,7 @@ jobs:
           rm -rf bootstrap
           rm -f .github/workflows/bootstrap-site.yml
 
-      - name: Commit generated website
+      - name: Publish generated-site branch for review
         shell: bash
         run: |
           set -euo pipefail
@@ -66,5 +66,8 @@ jobs:
             echo 'No changes to commit.'
             exit 0
           fi
+          branch="automation-publish-site-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
           git commit -m 'Publish final Pratama website UI/UX'
-          git push origin main
+          git push origin "HEAD:refs/heads/$branch"
+          echo "Open a PR to main: https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}?expand=1"
