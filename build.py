@@ -1,4 +1,4 @@
-import base64, gzip, json, re, shutil
+import base64, gzip, json, os, re, shutil
 from collections import Counter
 from html import escape
 from pathlib import Path
@@ -19,9 +19,8 @@ REMOVED_BRANDS = {
     "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
 }
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
-# GitHub Pages is the currently resolvable public site. Keep all crawl signals
-# on the published origin until a verified custom domain is configured.
-SEO_SITE_URL = "https://mrpersonalbot.github.io/PSM"
+# Canonical URLs, structured data, and sitemap entries use the production origin.
+SEO_SITE_URL = os.environ.get("SITE_URL", "https://pratamasuksesmandiri.com").rstrip("/")
 SEO_PAGES = {
     "/": {
         "title": "Supplier & Toko Alat Listrik Padang | Retail & Proyek | Pratama",

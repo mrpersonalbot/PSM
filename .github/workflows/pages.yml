@@ -17,43 +17,48 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      SITE_URL: https://pratamasuksesmandiri.com
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Build website
         run: python3 build.py
-        env:
-          SITE_URL: https://mrpersonalbot.github.io/PSM
 
       - name: Adapt paths for GitHub Pages subpath
         shell: bash
         run: |
           python3 - <<'PY'
+          import os
           from pathlib import Path
+          from urllib.parse import urlparse
 
-          base = "/PSM"
+          base = urlparse(os.environ["SITE_URL"]).path.rstrip("/")
 
           for path in Path("dist").rglob("*.html"):
               text = path.read_text(encoding="utf-8")
-              for attr in ("href", "src", "action"):
-                  text = text.replace(f'{attr}="/', f'{attr}="{base}/')
-                  text = text.replace(f"{attr}='/", f"{attr}='{base}/")
+              if base:
+                  for attr in ("href", "src", "action"):
+                      text = text.replace(f'{attr}="/', f'{attr}="{base}/')
+                      text = text.replace(f"{attr}='/", f"{attr}='{base}/")
               path.write_text(text, encoding="utf-8")
 
-          css = Path("dist/assets/styles.css")
-          text = css.read_text(encoding="utf-8")
-          text = text.replace("url('/assets/", "url('/PSM/assets/")
-          text = text.replace('url("/assets/', 'url("/PSM/assets/')
-          css.write_text(text, encoding="utf-8")
+          if base:
+              css = Path("dist/assets/styles.css")
+              text = css.read_text(encoding="utf-8")
+              text = text.replace("url('/assets/", f"url('{base}/assets/")
+              text = text.replace('url("/assets/', f'url("{base}/assets/')
+              css.write_text(text, encoding="utf-8")
 
-          js = Path("dist/assets/app.js")
-          text = js.read_text(encoding="utf-8")
-          text = text.replace("location.href='/produk/", "location.href='/PSM/produk/")
-          text = text.replace('location.href="/produk/', 'location.href="/PSM/produk/')
-          text = text.replace('href="/produk/', 'href="/PSM/produk/')
-          text = text.replace("href='/produk/", "href='/PSM/produk/")
-          js.write_text(text, encoding="utf-8")
+          if base:
+              js = Path("dist/assets/app.js")
+              text = js.read_text(encoding="utf-8")
+              text = text.replace("location.href='/produk/", f"location.href='{base}/produk/")
+              text = text.replace('location.href="/produk/', f'location.href="{base}/produk/')
+              text = text.replace('href="/produk/', f'href="{base}/produk/')
+              text = text.replace("href='/produk/", f"href='{base}/produk/")
+              js.write_text(text, encoding="utf-8")
           PY
 
       - name: Validate preview paths
@@ -63,12 +68,25 @@ jobs:
           test -f dist/assets/styles.css
           test -f dist/assets/pratama-brand-wordmark-home-transparent.png
           test -f dist/assets/pratama-brand-footer-transparent.png
-          grep -q 'href="/PSM/assets/styles.css"' dist/index.html
-          grep -q 'src="/PSM/assets/pratama-brand-wordmark-home-transparent.png"' dist/index.html
-          grep -q 'src="/PSM/assets/pratama-brand-footer-transparent.png"' dist/index.html
-          grep -q "url('/PSM/assets/pratama-logo-white.svg')" dist/assets/styles.css
-          grep -q "location.href='/PSM/produk/'" dist/assets/app.js
-          ! grep -q '/PSM/PSM/' dist/assets/app.js
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          base = urlparse(os.environ["SITE_URL"]).path.rstrip("/")
+          html = Path("dist/index.html").read_text(encoding="utf-8")
+          css = Path("dist/assets/styles.css").read_text(encoding="utf-8")
+          js = Path("dist/assets/app.js").read_text(encoding="utf-8")
+          assert f'href="{base}/assets/styles.css"' in html
+          assert f'src="{base}/assets/pratama-brand-wordmark-home-transparent.png"' in html
+          assert f'src="{base}/assets/pratama-brand-footer-transparent.png"' in html
+          assert f"url('{base}/assets/pratama-logo-white.svg')" in css
+          assert f"location.href='{base}/produk/'" in js
+          if base:
+              assert f"{base}{base}/" not in js
+          else:
+              assert "/PSM/produk/" not in js
+          PY
 
       - name: Audit product image identity and rendered sources
         run: python3 tools/audit_product_images.py
