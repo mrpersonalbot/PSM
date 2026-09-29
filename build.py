@@ -182,7 +182,7 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
         # Cache-bust the shared visual override after component-style changes.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-review-note-removed-1')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-contrast-2')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'
@@ -314,6 +314,9 @@ if dist.exists() and human_css.exists():
     home = dist / "index.html"
     if home.exists():
         text = home.read_text(encoding="utf-8")
+        if '<body class="">' not in text:
+            raise RuntimeError('Homepage body class marker changed; update homepage contrast scope.')
+        text = text.replace('<body class="">', '<body class="homepage">', 1)
         replacements = {
             "PRATAMA / 001 · PADANG, SUMATERA BARAT": "Dari Padang · tumbuh bersama pelanggan selama lebih dari 20 tahun",
             "Lebih dari 1.000 SKU untuk rumah, toko dan bisnis. Belanja retail di Padang atau bergabung sebagai retailer Pratama Mitra di Sumatera Barat.": "Dari lampu sampai MCB, kami sudah lebih dari dua dekade membantu pelanggan menemukan barang yang mereka butuhkan. Belanja untuk rumah, atau ngobrol dengan tim kami kalau Anda punya toko.",

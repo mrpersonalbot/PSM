@@ -741,3 +741,26 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
 .hero-panel-top,.shelf-box span,.b2b-hero .b2b-grid>div:first-child>p{color:#fff}
 .why-grid p,.local-grid p,.faq p,.faq details p,details p{color:#5b636a}
 .nav-toggle{color:var(--hand-ink)}
+
+/* Homepage contrast pass: retain Pratama blue/orange; darken supporting copy so it stays distinct from white and pale-blue cards. ENERGY 2 / RHYTHM 2 / MOTION 1. */
+.homepage .hero-copy>p,
+.homepage .section-head p,
+.homepage .audience-card p,
+.homepage .category-card p,
+.homepage .seo-supplier p,
+.homepage .why-grid p,
+.homepage .local-grid p,
+.homepage .review-panel p,
+.homepage .faq p,
+.homepage .faq details p,
+.homepage details p,
+.homepage .product-meta,
+.homepage .trust-row,
+.homepage .hero-index{color:#3f484f}
+.homepage .rating span{color:#a63717}
+.homepage .hero-search button,
+.homepage .benefit-grid>div>.eyebrow{background:#b13c19;border-color:#b13c19;color:#fff}
+.homepage .hero-search button:hover,
+.homepage .hero-search button:focus-visible{background:#8e3015;border-color:#8e3015;color:#fff}
+.homepage .hero-search button:focus-visible{outline:3px solid #151719;outline-offset:3px}
+.homepage ::selection{background:#a63717;color:#fff}
