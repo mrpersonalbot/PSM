@@ -768,15 +768,15 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
 /* Desktop-only WhatsApp action: preserve the supplied mark, keep a generous target, and leave the existing mobile dock in place. */
 .wa-float{
   position:fixed;
-  right:22px;
-  bottom:22px;
+  right:12px;
+  bottom:16px;
   z-index:130;
   display:flex;
   align-items:center;
   justify-content:center;
-  width:64px;
-  height:64px;
-  padding:4px;
+  width:48px;
+  height:48px;
+  padding:3px;
   border:2px solid #25d366;
   border-radius:50%;
   background:#25d366;
@@ -788,5 +788,5 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
 .wa-float img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover}
 .wa-float:hover{background:#25d366;transform:translateY(-3px);box-shadow:0 9px 22px rgba(21,23,25,.32)}
 .wa-float:focus-visible{outline:3px solid #151719;outline-offset:4px}
-@media(max-width:767px){.wa-float{display:none!important}}
+@media(max-width:1023px){.wa-float{display:none!important}}
 @media(prefers-reduced-motion:reduce){.wa-float{transition:none}.wa-float:hover{transform:none}}
