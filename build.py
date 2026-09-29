@@ -291,9 +291,10 @@ if dist.exists() and human_css.exists():
             brand_slug = relative_parts[1]
             brand_name = next((name for name, slug in TOP_BAR_BRANDS if slug == brand_slug), None)
             if brand_name:
+                brand_sku_count = database_brand_sku_counts[brand_name.upper()]
                 text = re.sub(
                     r'<h2>\d+ produk pilihan\.</h2>',
-                    '<h2>Lebih dari 100 SKU terdaftar di katalog.</h2>',
+                    f'<h2>{brand_sku_count} SKU terdaftar di katalog.</h2>',
                     text,
                     count=1,
                 )

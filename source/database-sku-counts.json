@@ -1,19 +1,19 @@
 {
-  "source_file": "GUDANG_BERKATEGORI.xlsx",
-  "source_sheet": "DATA FULL",
-  "method": "One SKU per data row whose product-name cell contains the brand name (case-insensitive). Duplicate SKU values, blank SKU cells, and stock quantity do not change the count; every matching row counts as one SKU.",
+  "source_file": "data_gudang_kategori_spesifik.xlsx",
+  "source_sheet": "Data Bersih",
+  "method": "One SKU per data row whose product-name cell contains the brand name as a case-insensitive token. Count every matching row; do not deduplicate SKU values, and include rows regardless of stock quantity.",
   "counts": {
-    "ECOKING": 0,
-    "PIOLINE": 6,
-    "HIMAWARI": 4,
-    "SCHNEIDER": 0,
-    "CHINT": 3,
-    "SIMON": 0,
-    "ADVANCE": 0,
-    "PROFAN": 0,
-    "DEXTA": 3,
-    "LUBY": 0,
-    "VISERO": 2,
-    "VISALUX": 8
+    "ECOKING": 367,
+    "PIOLINE": 277,
+    "HIMAWARI": 119,
+    "SCHNEIDER": 106,
+    "CHINT": 104,
+    "SIMON": 95,
+    "ADVANCE": 67,
+    "PROFAN": 56,
+    "DEXTA": 28,
+    "LUBY": 27,
+    "VISERO": 25,
+    "VISALUX": 487
   }
 }

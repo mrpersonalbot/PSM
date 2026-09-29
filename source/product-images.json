@@ -3577,5 +3577,6557 @@
       "status": "unresolved",
       "candidate_blobs": []
     }
+  },
+  "pioline-a02-cam-stater-3p-15a-i-0-ii-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A02",
+    "name": "CAM STATER 3P 15A I-0-II PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-a03-cam-stater-3p-30a-i-0-ii-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A03",
+    "name": "CAM STATER 3P 30A I-0-II PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-a04-cam-stater-3p-63a-i-0-ii-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A04",
+    "name": "CAM STATER 3P 63A I-0-II PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-a05-fiting-besi-wd-e27-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A05",
+    "name": "FITING BESI WD E27 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-a06-fitting-besi-wd-e40-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A06",
+    "name": "FITTING BESI WD E40 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-a360-selector-amper-meter-20a-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A360",
+    "name": "SELECTOR AMPER METER 20A PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-b279-box-mcb-8-group-ib-pioline-2808i": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B279",
+    "name": "BOX MCB 8 GROUP IB PIOLINE 2808I",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-b280-box-mcb-12-group-ib-pioline-2812i": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B280",
+    "name": "BOX MCB 12 GROUP IB PIOLINE 2812I",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-d152-kabel-duct-50-x-25-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D152",
+    "name": "KABEL DUCT 50 X 25 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-d168-kabel-duct-20-x-10-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D168",
+    "name": "KABEL DUCT 20 X 10 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-d169-kabel-duct-39-x-19-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D169",
+    "name": "KABEL DUCT 39 X 19 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-f281-fiting-sensor-e27-pioline-pl-212a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F281",
+    "name": "FITING SENSOR E27 PIOLINE PL 212A",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-f329-fiting-gantung-hitam-pioline-pl-218b": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F329",
+    "name": "FITING GANTUNG HITAM PIOLINE PL 218B",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-f330-fiting-gantung-putih-pioline-pl-218w": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F330",
+    "name": "FITING GANTUNG PUTIH PIOLINE PL 218W",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-h577-kap-t8-led-60cm-9w-6500k-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H577",
+    "name": "KAP T8 LED 60CM 9W 6500K PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-k1020-kabel-duct-75-x-50-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1020",
+    "name": "KABEL DUCT 75 X 50 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-k1085-kabel-duct-100-x-100-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1085",
+    "name": "KABEL DUCT 100 X 100 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-k859-klem-kabel-no-5-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K859",
+    "name": "KLEM KABEL NO 5 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-k968-kabel-duct-30-x-13-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K968",
+    "name": "KABEL DUCT 30 X 13 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-k971-kabel-duct-50-x-50-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K971",
+    "name": "KABEL DUCT 50 X 50 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-ka04-box-kabel-10-yard-4way-pkr5010-10y-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "KA04",
+    "name": "BOX KABEL 10 YARD 4WAY PKR5010-10Y PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-ka05-box-kabel-15-yard-4-way-pkr5010-15y-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "KA05",
+    "name": "BOX KABEL 15 YARD 4 WAY PKR5010-15Y PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1020-lampu-led-bulb-3-0w-putih-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1020",
+    "name": "LAMPU LED BULB 3.0W PUTIH PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1022-lampu-led-bulb-7-0w-putih-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1022",
+    "name": "LAMPU LED BULB 7.0W PUTIH PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1023-lampu-led-bulb-9-0w-putih-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1023",
+    "name": "LAMPU LED BULB 9.0W PUTIH PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1024-lampu-led-bulb-12w-putih-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1024",
+    "name": "LAMPU LED BULB 12W PUTIH PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1073-lampu-led-bulb-1w-g45-frosted-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1073",
+    "name": "LAMPU LED BULB 1W G45 FROSTED PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l1075-lampu-led-bulb-1w-220v-g45-red-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1075",
+    "name": "LAMPU LED BULB 1W 220V G45 RED PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l48-lampu-candle-led-1w-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L48",
+    "name": "LAMPU CANDLE LED 1W PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-l828-lampu-selang-warna-warni-10m-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L828",
+    "name": "LAMPU SELANG WARNA WARNI 10M PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-m60-kotak-warna-antena-pao3886dg-3ply-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M60",
+    "name": "KOTAK WARNA ANTENA PAO3886DG 3PLY PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-o40-timer-digital-16a-ptd16a-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "O40",
+    "name": "TIMER DIGITAL 16A PTD16A PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p05-power-supply-led-strip-180w-15a-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P05",
+    "name": "POWER SUPPLY LED STRIP 180W 15A PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p06-power-supply-led-strip-360w-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P06",
+    "name": "POWER SUPPLY LED STRIP 360W PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p073-pilot-lamp-22mm-kuning-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P073",
+    "name": "PILOT LAMP 22MM KUNING PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p074-pilot-lamp-22mm-hijau-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P074",
+    "name": "PILOT LAMP 22MM HIJAU PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p188-pilot-lamp-led-16mm-red-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P188",
+    "name": "PILOT LAMP LED 16MM RED PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p206-downlight-ib-polar-9w-pth-petak-809s-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P206",
+    "name": "DOWNLIGHT IB POLAR 9W PTH PETAK 809S PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-b009-bell-warless-baterai-himawari-hm-9520-dd": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B009",
+    "name": "BELL WARLESS BATERAI HIMAWARI HM-9520 DD",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-b085-door-bell-hm2118-2ac-2r-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B085",
+    "name": "DOOR BELL HM2118-2AC (2R) HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-b094-kap-balok-t8-18w-himawari-1230": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B094",
+    "name": "KAP BALOK T8 18W HIMAWARI(1230)",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-b095-kap-balok-led-t8-0630-9w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B095",
+    "name": "KAP BALOK LED T8 0630 9W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-c1-chip-plavon-18w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C1",
+    "name": "CHIP PLAVON 18W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d10-downlight-led-hm-1455-5w-6500k-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D10",
+    "name": "DOWNLIGHT LED HM-1455 5W 6500K HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d12-downlight-led-hm-1775-9w-6500k-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D12",
+    "name": "DOWNLIGHT LED HM-1775 9W 6500K HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d15-downlight-led-hm-1955-12w-6500k-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D15",
+    "name": "DOWNLIGHT LED HM-1955 12W 6500K HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d16-downlight-led-hm-1296-16w-6500k-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D16",
+    "name": "DOWNLIGHT LED HM-1296 16W 6500K HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d186-lampu-downlight-led-7w-himawari-hm-y4rd": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D186",
+    "name": "LAMPU DOWNLIGHT LED 7W HIMAWARI HM-Y4RD",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-d187-lampu-downlight-led-15w-himawari-hm-y6rd": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D187",
+    "name": "LAMPU DOWNLIGHT LED 15W HIMAWARI HM-Y6RD",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-f344-fiting-downlight-4004-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F344",
+    "name": "FITING DOWNLIGHT 4004 HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-h359-high-bay-50w-led-kng-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H359",
+    "name": "HIGH BAY 50W LED KNG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-h361-high-bay-100w-led-kng-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H361",
+    "name": "HIGH BAY 100W LED KNG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-j099-kap-lampu-jalan-led-6630-p-30w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "J099",
+    "name": "KAP LAMPU JALAN LED 6630 P 30W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k100-kap-lampu-jalan-led-hm-670-70w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K100",
+    "name": "KAP LAMPU JALAN LED HM 670 70W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1047-kap-t5-1216-led-komplit-16w-br-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1047",
+    "name": "KAP T5 1216 LED KOMPLIT 16W BR HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1049-kap-t5-1216-led-komplit-16w-mrh-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1049",
+    "name": "KAP T5 1216 LED KOMPLIT 16W MRH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1058-kap-t5-1216-led-komplit-16w-kng-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1058",
+    "name": "KAP T5 1216 LED KOMPLIT 16W KNG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1060-kap-t5-0608-led-komplit-8w-br-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1060",
+    "name": "KAP T5 0608 LED KOMPLIT 8W BR HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1061-kap-t5-0608-led-komplit-8w-mrh-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1061",
+    "name": "KAP T5 0608 LED KOMPLIT 8W MRH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k1062-kap-t5-0912-led-komplit-12w-hj-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K1062",
+    "name": "KAP T5 0912 LED KOMPLIT 12W HJ HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k675-kap-t5-21w-kosong-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K675",
+    "name": "KAP T5 21W KOSONG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-k678-kap-t5-28w-kosong-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K678",
+    "name": "KAP T5 28W KOSONG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l04-kap-t5-0608-led-komplit-8w-pth-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L04",
+    "name": "KAP T5 0608 LED KOMPLIT 8W PTH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l06-kap-t5-0912-led-komplit-12w-pth-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L06",
+    "name": "KAP T5 0912 LED KOMPLIT 12W PTH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l07-kap-t5-0912-led-komplit-12w-kng-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L07",
+    "name": "KAP T5 0912 LED KOMPLIT 12W KNG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l09-kap-t5-0304-led-komplit-4w-kng-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L09",
+    "name": "KAP T5 0304 LED KOMPLIT 4W KNG HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l3-lampu-t8-led-balok-20w-komplit-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L3",
+    "name": "LAMPU T8 LED BALOK 20W KOMPLIT HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l51-lampu-t8-led-8818-24w-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L51",
+    "name": "LAMPU T8 LED 8818 24W KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-l644-lampu-hpit-400w-hijau-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L644",
+    "name": "LAMPU HPIT 400W HIJAU HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r007-kap-t5-led-6w-kuning-komplit-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R007",
+    "name": "KAP T5 LED 6W KUNING KOMPLIT HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r045-refill-t5-8w-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R045",
+    "name": "REFILL T5 8W KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r046-refill-t5-14w-biru-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R046",
+    "name": "REFILL T5 14W BIRU HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r047-refill-t5-14w-hijau-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R047",
+    "name": "REFILL T5 14W HIJAU HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r048-refill-t5-14w-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R048",
+    "name": "REFILL T5 14W KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r049-refill-t5-14w-putih-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R049",
+    "name": "REFILL T5 14W PUTIH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r050-refill-t5-14w-merah-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R050",
+    "name": "REFILL T5 14W MERAH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-ca03-connector-1-baut-6-25-35-70mm-a90053013-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "CA03",
+    "name": "CONNECTOR 1 BAUT 6-25/35-70MM A90053013 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-e18-elcb-2p-25a-30ma-16790-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E18",
+    "name": "ELCB 2P 25A 30MA 16790 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-e28-box-mcb-12-group-ib-trans-domh12112f-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E28",
+    "name": "BOX MCB 12 GROUP IB TRANS DOMH12112F SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m597-mcb-1p-4a-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M597",
+    "name": "MCB 1P 4A SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m628-mcb-3p-50a-6ka-domf01350-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M628",
+    "name": "MCB 3P 50A 6KA DOMF01350 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m734-mccb-3p-40a-7-5ka-ezc100b3040-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M734",
+    "name": "MCCB 3P 40A 7.5KA EZC100B3040 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m735-mccb-3p-50a-7-5ka-ezc100b3050-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M735",
+    "name": "MCCB 3P 50A 7.5KA EZC100B3050 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m736-mccb-3p-60a-7-5ka-ezc100b3060-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M736",
+    "name": "MCCB 3P 60A 7.5KA EZC100B3060 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m737-mccb-3p-80a-10ka-ezc100f3080-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M737",
+    "name": "MCCB 3P 80A 10KA EZC100F3080 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m738-mccb-3p-100a-10ka-ezc100f3100-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M738",
+    "name": "MCCB 3P 100A 10KA EZC100F3100 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m740-mccb-3p-20a-7-5ka-ezc100b3020-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M740",
+    "name": "MCCB 3P 20A 7.5KA EZC100B3020 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m741-mccb-3p-25a-7-5ka-ezc100b3025-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M741",
+    "name": "MCCB 3P 25A 7.5KA EZC100B3025 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m743-mccb-3p-125a-18ka-ezc250f3125-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M743",
+    "name": "MCCB 3P 125A 18KA EZC250F3125 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-m744-mccb-3p-160a-18ka-ezc250f3160-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M744",
+    "name": "MCCB 3P 160A 18KA EZC250F3160 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-o046-outlet-telephone-1w-clasic-eto1-4-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "O046",
+    "name": "OUTLET TELEPHONE 1W CLASIC ETO1/4 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rc01-rccb-easy9-2p-25a-ez9r04225-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RC01",
+    "name": "RCCB EASY9 2P 25A EZ9R04225 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rc02-rccb-easy9-4p-40a-ez9r04440-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RC02",
+    "name": "RCCB EASY9 4P 40A EZ9R04440 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rc03-rccb-easy9-2p-40a-ez9r04240-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RC03",
+    "name": "RCCB EASY9 2P 40A EZ9R04240 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm04-mcb-1p-6a-6ka-domf01106-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM04",
+    "name": "MCB 1P 6A 6KA DOMF01106 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm05-mcb-1p-32a-6ka-domf01132-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM05",
+    "name": "MCB 1P 32A 6KA DOMF01132 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm06-mcb-1p-4a-6ka-domf01104-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM06",
+    "name": "MCB 1P 4A 6KA DOMF01104 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm07-mcb-3p-16a-6ka-domf01316-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM07",
+    "name": "MCB 3P 16A 6KA DOMF01316 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm08-mcb-1p-10a-6ka-domf01110-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM08",
+    "name": "MCB 1P 10A 6KA DOMF01110 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm09-mcb-1p-20a-6ka-domf01120-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM09",
+    "name": "MCB 1P 20A 6KA DOMF01120 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm10-mcb-1p-25a-6ka-domf01125-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM10",
+    "name": "MCB 1P 25A 6KA DOMF01125 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm11-mcb-1p-16a-6ka-domf01116-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM11",
+    "name": "MCB 1P 16A 6KA DOMF01116 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm12-mcb-1p-2a-6ka-domf01102-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM12",
+    "name": "MCB 1P 2A 6KA DOMF01102 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm13-mcb-3p-63a-6ka-domf01363-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM13",
+    "name": "MCB 3P 63A 6KA DOMF01363 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm17-mcb-3p-25a-6ka-domf01325-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM17",
+    "name": "MCB 3P 25A 6KA DOMF01325 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm18-mcb-3p-32a-6ka-domf01332-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM18",
+    "name": "MCB 3P 32A 6KA DOMF01332 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm19-mcb-1p-40a-6ka-domf01140-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM19",
+    "name": "MCB 1P 40A 6KA DOMF01140 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm24-mcb-3p-6a-6ka-domf01306-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM24",
+    "name": "MCB 3P 6A 6KA DOMF01306 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm25-mcb-3p-10a-6ka-domf01310-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM25",
+    "name": "MCB 3P 10A 6KA DOMF01310 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm26-mcb-1p-50a-6ka-domf01150-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM26",
+    "name": "MCB 1P 50A 6KA DOMF01150 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm27-mcb-1p-63a-6ka-domf01163-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM27",
+    "name": "MCB 1P 63A 6KA DOMF01163 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm28-mcb-3p-40a-6ka-domf01340-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM28",
+    "name": "MCB 3P 40A 6KA DOMF01340 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm33-mcb-easy9-1p-c-32a-ez9f54132-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM33",
+    "name": "MCB EASY9 1P C 32A EZ9F54132 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm34-mcb-easy9-3p-c-10a-ez9f54310-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM34",
+    "name": "MCB EASY9 3P C 10A EZ9F54310 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m319-mcb-1pole-2a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M319",
+    "name": "MCB 1POLE 2A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m321-mcb-1pole-4a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M321",
+    "name": "MCB 1POLE 4A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m325-mcb-1pole-16a-4-5ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M325",
+    "name": "MCB 1POLE 16A 4.5KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m327-mcb-1pole-25a-4-5ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M327",
+    "name": "MCB 1POLE 25A 4.5KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m364-mccb-nm1-250s-3pole-200a-25ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M364",
+    "name": "MCCB NM1 250S 3POLE 200A 25KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m365-mcb-3-pole-63a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M365",
+    "name": "MCB 3 POLE 63A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m391-mcb-1pole-25a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M391",
+    "name": "MCB 1POLE 25A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m508-mccb-nxm-400s-3pole-400a-35ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M508",
+    "name": "MCCB NXM 400S 3POLE 400A 35KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m524-mccb-nm1-250s-3pole-160a-35ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M524",
+    "name": "MCCB NM1 250S 3POLE 160A 35KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m546-mccb-nm1-63s-3pole-40a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M546",
+    "name": "MCCB NM1 63S 3POLE 40A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m565-mccb-nm1-3p-50a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M565",
+    "name": "MCCB NM1 3P 50A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m578-mccb-nm1-125c-3pole-10ka-125a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M578",
+    "name": "MCCB NM1 125C 3POLE 10KA 125A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m633-mccb-nm1-3pole-16a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M633",
+    "name": "MCCB NM1 3POLE 16A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m634-mccb-nm1-3pole-20a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M634",
+    "name": "MCCB NM1 3POLE 20A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m689-mccb-nm1-3p-40a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M689",
+    "name": "MCCB NM1 3P 40A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m690-mccb-nm1-3p-63a-15ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M690",
+    "name": "MCCB NM1 3P 63A 15KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m691-mccb-nm1-125c-3p-80a-20ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M691",
+    "name": "MCCB NM1-125C 3P 80A 20KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m752-mcb-3-pole-25a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M752",
+    "name": "MCB 3 POLE 25A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m753-mcb-3-pole-40a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M753",
+    "name": "MCB 3 POLE 40A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m760-mcb-3-pole-32a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M760",
+    "name": "MCB 3 POLE 32A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m761-mcb-3-pole-50a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M761",
+    "name": "MCB 3 POLE 50A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m764-mcb-3-pole-20a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M764",
+    "name": "MCB 3 POLE 20A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m766-mcb-3-pole-16a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M766",
+    "name": "MCB 3 POLE 16A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m768-mcb-1-pole-40a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M768",
+    "name": "MCB 1 POLE 40A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m773-mcb-3-pole-10a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M773",
+    "name": "MCB 3 POLE 10A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m774-mccb-nxm-3p-250a-35ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M774",
+    "name": "MCCB NXM 3P 250A 35KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m775-mcb-3-pole-25a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M775",
+    "name": "MCB 3 POLE  25A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m776-mcb-3-pole-32a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M776",
+    "name": "MCB 3 POLE 32A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m777-mcb-3-pole-40a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M777",
+    "name": "MCB 3 POLE 40A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m779-mcb-3-pole-63a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M779",
+    "name": "MCB 3 POLE 63A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-m780-mcb-1-pole-63a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M780",
+    "name": "MCB 1 POLE  63A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p070-push-button-green-np2-ea31-1no-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P070",
+    "name": "PUSH BUTTON GREEN NP2 EA31 1NO CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p071-push-button-red-np2-ea42-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P071",
+    "name": "PUSH BUTTON RED NP2 EA42 CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p084-pilot-lamp-flat-round-red-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P084",
+    "name": "PILOT LAMP FLAT ROUND RED CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p095-push-button-red-chint-ep2-es542": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P095",
+    "name": "PUSH BUTTON RED CHINT EP2 ES542",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p144-push-button-yellow-chint-np2-ea51-1no": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P144",
+    "name": "PUSH BUTTON YELLOW CHINT NP2  EA51 1NO",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p192-panel-interlock-4p-63a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P192",
+    "name": "PANEL INTERLOCK 4P 63A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p211-panel-interlock-2p-25a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P211",
+    "name": "PANEL INTERLOCK 2P 25A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-rm55-mcb-65c-63-6ka-1p-c-6a-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM55",
+    "name": "MCB 65C-63 6KA 1P C(6A) SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-rm56-mcb-65c-63-6ka-1p-c-10a-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM56",
+    "name": "MCB 65C-63 6KA 1P C(10A) SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-rm57-mcb-65c-63-6ka-1p-c-16a-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM57",
+    "name": "MCB 65C-63 6KA 1P C(16A) SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-rm58-mcb-65c-63-6ka-1p-c-25a-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM58",
+    "name": "MCB 65C-63 6KA 1P C(25A) SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-td55-simon-valor-led-downlight-s100-8w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TD55",
+    "name": "SIMON VALOR LED DOWNLIGHT S100 8W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-td59-simon-valor-led-downlight-s150-17w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TD59",
+    "name": "SIMON VALOR LED DOWNLIGHT S150 17W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-td61-simon-valor-led-downlight-r150-17w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TD61",
+    "name": "SIMON VALOR LED DOWNLIGHT R150 17W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-td62-simon-valor-led-downlight-s200-24w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TD62",
+    "name": "SIMON VALOR LED DOWNLIGHT S200 24W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-td63-simon-valor-led-downlight-s200-24w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TD63",
+    "name": "SIMON VALOR LED DOWNLIGHT S200 24W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-tdd25-simon-valor-led-downlight-r75-4w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TDD25",
+    "name": "SIMON VALOR LED DOWNLIGHT R75 4W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-tdd26-simon-valor-led-downlight-r75-4w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TDD26",
+    "name": "SIMON VALOR LED DOWNLIGHT R75 4W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xc31-simon-e3-s-k-ac-bs-switched-socket-13a-3013828n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XC31",
+    "name": "SIMON E3 S/K AC  BS SWITCHED SOCKET 13A 3013828N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xc33-simon-e6-s-k-schuko-socket-grey-721687n-61": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XC33",
+    "name": "SIMON E6 S/K SCHUKO SOCKET GREY 721687N-61",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xc37-simon-e6-s-k-schuko-socket-black-721687n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XC37",
+    "name": "SIMON E6 S/K SCHUKO SOCKET BLACK 721687N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg29-simon-e3-3gang-1-way-switch-301031n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG29",
+    "name": "SIMON E3 3GANG 1 WAY SWITCH 301031N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg31-simon-e3-1gang-1-way-switch-301011n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG31",
+    "name": "SIMON E3 1GANG 1 WAY SWITCH 301011N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg32-simon-e3-2gang-1-way-switch-301021n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG32",
+    "name": "SIMON E3 2GANG 1 WAY SWITCH 301021N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg33-simon-e6-1-gang-1-way-switch-gold-721011n-46": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG33",
+    "name": "SIMON E6 1 GANG 1 WAY SWITCH GOLD 721011N-46",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg39-simon-e6-2-gang-1-way-switch-gold-721021n-46": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG39",
+    "name": "SIMON E6 2 GANG 1 WAY SWITCH GOLD 721021N-46",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg40-simon-e6-3-gang-1-way-switch-gold-721031n-46": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG40",
+    "name": "SIMON E6 3 GANG 1 WAY SWITCH GOLD 721031N-46",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg45-simon-e6-1-gang-1-way-switch-black-721011n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG45",
+    "name": "SIMON E6 1 GANG 1 WAY SWITCH BLACK 721011N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg46-simon-e6-2-gang-1-way-switch-black-721021n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG46",
+    "name": "SIMON E6 2 GANG 1 WAY SWITCH BLACK 721021N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg57-simon-e3-1gang-1-way-switch-black-301011n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG57",
+    "name": "SIMON E3 1GANG 1 WAY SWITCH BLACK 301011N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg58-simon-e3-2gang-1-way-switch-black-301021n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG58",
+    "name": "SIMON E3 2GANG 1 WAY SWITCH BLACK 301021N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg59-simon-e3-schuko-socket-black-301687n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG59",
+    "name": "SIMON E3 SCHUKO SOCKET BLACK 301687N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg61-simon-e3-1-gang-2-way-switch-301012n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG61",
+    "name": "SIMON E3 1 GANG 2 WAY SWITCH 301012N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg62-simon-e3-3gang-1-way-switch-black-301031n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG62",
+    "name": "SIMON E3 3GANG 1 WAY SWITCH BLACK 301031N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg65-simon-e3-1gang-1way-switch-grey-301011n-61": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG65",
+    "name": "SIMON E3 1GANG 1WAY  SWITCH GREY  301011N-61",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg66-simon-e3-2gang-1way-switch-grey-301021n-61": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG66",
+    "name": "SIMON E3 2GANG 1WAY SWITCH GREY 301021N-61",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg69-simon-e3-4-gang-1-way-switch-301041n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG69",
+    "name": "SIMON E3 4 GANG 1 WAY SWITCH 301041N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg70-simon-e3-1gang-2way-switch-black-301012n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG70",
+    "name": "SIMON E3 1GANG 2WAY SWITCH BLACK 301012N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg71-simon-e3-2gang-2way-switch-black-301022n-26": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG71",
+    "name": "SIMON E3 2GANG 2WAY SWITCH BLACK 301022N-26",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xg72-simon-e3-16a-schuko-socket-grey-301687n-61": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XG72",
+    "name": "SIMON E3 16A SCHUKO SOCKET GREY 301687N-61",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xl04-simon-valor-led-emergency-bulb-9w-6800k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XL04",
+    "name": "SIMON VALOR LED EMERGENCY BULB 9W 6800K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xl05-simon-valor-led-emergency-bulb-12w-6800k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XL05",
+    "name": "SIMON VALOR LED EMERGENCY BULB 12W 6800K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-xo05-simon-e3-1gang-tv-outlet-305111n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XO05",
+    "name": "SIMON E3 1GANG TV OUTLET 305111N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y0555-simon-valor-led-t8-de-1200mm-18w-6500k-n62eo-1166": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y0555",
+    "name": "SIMON VALOR LED T8 DE 1200MM 18W 6500K  N62EO-1166",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y0556-simon-valor-led-t8-he-600mm-9w-6500k-de-n62eo-1196": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y0556",
+    "name": "SIMON VALOR LED T8 HE 600MM 9W 6500K DE N62EO-1196",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-kg019-kompor-portable-advance-kgp-102": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "KG019",
+    "name": "KOMPOR PORTABLE ADVANCE KGP-102",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-p2246-rice-cooker-advance-a-20": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P2246",
+    "name": "RICE COOKER ADVANCE A-20",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sd09-desk-fan-advance-df-1201-v3-blue-pink": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SD09",
+    "name": "DESK FAN ADVANCE DF-1201 V3 BLUE/ PINK",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sm17-mic-wireless-mic-101-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SM17",
+    "name": "MIC WIRELESS MIC-101 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sm18-mic-wireless-mic-102-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SM18",
+    "name": "MIC WIRELESS MIC-102 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sm19-mic-wireless-mic-103-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SM19",
+    "name": "MIC WIRELESS MIC-103 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sm20-mic-kabel-advance-884": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SM20",
+    "name": "MIC KABEL ADVANCE 884",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sm21-mic-wireless-advance-206": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SM21",
+    "name": "MIC WIRELESS ADVANCE  206",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-w067-wall-fan-advance-wf-1835": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "W067",
+    "name": "WALL FAN ADVANCE WF-1835",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xs08-stand-fan-advance-sf-1640": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XS08",
+    "name": "STAND FAN ADVANCE SF-1640",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xs09-stand-fan-advance-3in1-tds-1805": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XS09",
+    "name": "STAND FAN ADVANCE  3IN1 TDS-1805",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xt1067-air-cooling-fan-advance-cf-06a-white": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XT1067",
+    "name": "AIR COOLING FAN ADVANCE CF-06A- WHITE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xt1068-air-cooling-fan-advance-cf-06a-green": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XT1068",
+    "name": "AIR COOLING FAN ADVANCE  CF-06A-GREEN",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1024-kompor-gas-1-tungku-advance-gb-6601s": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1024",
+    "name": "KOMPOR GAS 1 TUNGKU ADVANCE GB-6601S",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10673-blender-bl-332-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10673",
+    "name": "BLENDER BL-332  ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10703-mic-wireless-207-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10703",
+    "name": "MIC WIRELESS 207 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10819-kompor-induction-idc-e1-cooker-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10819",
+    "name": "KOMPOR INDUCTION IDC-E1 COOKER ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10820-speaker-t103bt-1-mic-pro-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10820",
+    "name": "SPEAKER T103BT 1 MIC PRO ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10821-speaker-t104bt-1-mic-pro-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10821",
+    "name": "SPEAKER T104BT 1 MIC PRO ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10839-advance-mic-wireless-mic-101-pro": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10839",
+    "name": "ADVANCE MIC WIRELESS MIC 101 PRO",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10956-mic-wireless-205-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10956",
+    "name": "MIC WIRELESS 205 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1119-auto-fan-advance-obf-16-v-2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1119",
+    "name": "AUTO FAN ADVANCE OBF 16 V.2",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y12299-mic-wireless-d2-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y12299",
+    "name": "MIC WIRELESS D2 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1374-dus-kipas-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1374",
+    "name": "DUS KIPAS ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-yst1034-manual-cup-sealing-machine-advance-slc-100": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YST1034",
+    "name": "MANUAL CUP SEALING MACHINE ADVANCE SLC-100",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-sv15-speaker-advance-v15": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV15",
+    "name": "SPEAKER ADVANCE V15",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-tw02-televisi-digital-advance-adv-2401t-v-2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TW02",
+    "name": "TELEVISI DIGITAL ADVANCE ADV-2401T V.2",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-tx03-ketel-teko-listrik-advance-ak-151-cola-red": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TX03",
+    "name": "KETEL/TEKO LISTRIK ADVANCE AK-151 COLA RED",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-tx04-ketel-teko-listrik-advance-ak-151-sky-blue": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TX04",
+    "name": "KETEL/TEKO LISTRIK ADVANCE AK-151 SKY BLUE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa24-speaker-advance-t101-bluetooth": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA24",
+    "name": "SPEAKER ADVANCE T101 BLUETOOTH",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa25-speaker-advance-k1506": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA25",
+    "name": "SPEAKER ADVANCE K1506",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa27-speaker-advance-k1512a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA27",
+    "name": "SPEAKER ADVANCE K1512A",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa29-speaker-advance-k1212-a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA29",
+    "name": "SPEAKER ADVANCE K1212-A",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa30-speaker-advance-rbs-836-red-wooden": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA30",
+    "name": "SPEAKER ADVANCE RBS-836 RED WOODEN",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa31-speaker-advance-k1201-v-2-black": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA31",
+    "name": "SPEAKER ADVANCE  K1201 V.2 BLACK",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa33-speaker-advance-t105bt-v-2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA33",
+    "name": "SPEAKER ADVANCE T105BT V.2",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa339-speaker-advance-ks-617-red": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA339",
+    "name": "SPEAKER ADVANCE KS -617 RED",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa34-speaker-advance-t103bt-v-2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA34",
+    "name": "SPEAKER ADVANCE T103BT V.2",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-b349-box-fan-8-25w-minion-rbf820m-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B349",
+    "name": "BOX FAN 8'  25W MINION RBF820M PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-b350-box-fan-8-25w-bhin-bhin-rbf820b-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B350",
+    "name": "BOX FAN 8'  25W BHIN BHIN RBF820B PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-cf01-cf-56-75w-220v-white-profan-pr56e-w": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "CF01",
+    "name": "CF 56\" 75W 220V WHITE PROFAN PR56E-W",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-cf02-cf-56-75w-220v-grey-profan-pr56e-d": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "CF02",
+    "name": "CF 56\" 75W 220V GREY PROFAN PR56E-D",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-d05-dimmer-kipas-5-speed-75w-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D05",
+    "name": "DIMMER KIPAS 5 SPEED 75W PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0010-free-box-fan-iron-man-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0010",
+    "name": "FREE BOX FAN IRON MAN PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0011-free-box-fan-bhin-bhin-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0011",
+    "name": "FREE BOX FAN BHIN BHIN PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0012-free-box-fan-angry-birds-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0012",
+    "name": "FREE BOX FAN ANGRY BIRDS PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0013-free-box-fan-doraemon-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0013",
+    "name": "FREE BOX FAN DORAEMON PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0014-free-box-fan-macan-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0014",
+    "name": "FREE BOX FAN MACAN PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0015-free-box-fan-minion-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0015",
+    "name": "FREE BOX FAN MINION PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0016-free-box-fan-tosca-bear-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0016",
+    "name": "FREE BOX FAN TOSCA BEAR PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-f0099-free-box-fan-hello-kitty-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F0099",
+    "name": "FREE BOX FAN HELLO KITTY PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-p2237-clip-fan-600mm-30w-tosca-sni-24-ctn-rhf600-profan-rhf700-cf-tsc": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P2237",
+    "name": "CLIP FAN 600MM 30W TOSCA SNI 24/CTN RHF600 PROFAN RHF700-CF/TSC",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-sb02-box-fan-8-25w-angry-bird-rbf820ab-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SB02",
+    "name": "BOX FAN 8'  25W ANGRY BIRD RBF820AB PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-sb03-box-fan-8-25w-ironman-rdf820im-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SB03",
+    "name": "BOX FAN 8' 25W IRONMAN RDF820IM PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-sd07-desk-fan-12-40w-metal-df-wf-idf1210-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SD07",
+    "name": "DESK FAN 12\" 40W METAL DF&WF IDF1210 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-sd08-desk-fan-12-3blade-white-tosca-df1212-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SD08",
+    "name": "DESK FAN 12\" 3BLADE WHITE/TOSCA DF1212 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-w066-wall-fan-16-4blade-bk-tosca-wf1607-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "W066",
+    "name": "WALL FAN 16\" 4BLADE BK/TOSCA WF1607 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-xs07-stand-fan-16-sf1668-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XS07",
+    "name": "STAND FAN 16\" SF1668 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-xu03-setrika-listrik-350w-rsl7035-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XU03",
+    "name": "SETRIKA LISTRIK 350W RSL7035 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y01-clip-fan-500mm-20w-rcf500-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y01",
+    "name": "CLIP FAN 500MM 20W RCF500 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y091-heli-fan-500mm-15w-rhf500-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y091",
+    "name": "HELI FAN 500MM 15W RHF500 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y092-heli-fan-700mm-20w-rhf700-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y092",
+    "name": "HELI FAN 700MM 20W RHF700 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y093-heli-fan-900mm-30w-rhf900-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y093",
+    "name": "HELI FAN 900MM 30W RHF900 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10588-stand-fan-16-grande-grn-rsf1116-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10588",
+    "name": "STAND FAN 16\" GRANDE GRN-RSF1116 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10609-desk-fan-icarus-12-icr-rdf1012-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10609",
+    "name": "DESK FAN ICARUS 12\" ICR-RDF1012 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10622-box-fan-macan-profan-bf-rdf820mc": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10622",
+    "name": "BOX FAN MACAN PROFAN BF-RDF820MC",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10702-cf-56-75w-black-rcf56w-bk-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10702",
+    "name": "CF 56\" 75W BLACK RCF56W-BK PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10709-df-12-30w-2in1-rdf1012-avian-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10709",
+    "name": "DF 12\" 30W 2IN1 RDF1012 AVIAN PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10761-cooling-fan-4-7blade-gusty-sleeve-gus-rdf1014-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10761",
+    "name": "COOLING FAN 4\" 7BLADE GUSTY SLEEVE GUS-RDF1014 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10762-cooling-fan-4-7blade-blowing-ball-blw-rdf1014-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10762",
+    "name": "COOLING FAN 4\" 7BLADE BLOWING BALL BLW-RDF1014 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10763-cooling-fan-6-7blade-blowing-ball-blw-rdf1006-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10763",
+    "name": "COOLING FAN 6\" 7BLADE BLOWING BALL BLW-RDF1006 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10927-wall-fan-16-45w-metal-rwf1216-arion-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10927",
+    "name": "WALL FAN 16\" 45W METAL RWF1216 ARION PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y10928-wall-fan-18-55w-metal-rwf1218-arion-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10928",
+    "name": "WALL FAN 18\" 55W METAL RWF1218 ARION PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y11179-af-17-45w-metal-iaf1617-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11179",
+    "name": "AF 17\" 45W METAL IAF1617 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y11182-kipas-gantung-morra-white-25w-mor-rhf900-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11182",
+    "name": "KIPAS GANTUNG MORRA WHITE  25W MOR-RHF900 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y11183-kipas-gantung-morra-tosca-25w-mor-rhf900-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11183",
+    "name": "KIPAS GANTUNG MORRA TOSCA 25W MOR-RHF900 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b002-box-kabel-dx-10m-lampu-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B002",
+    "name": "BOX KABEL DX-10M + LAMPU DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b006-box-kabel-15m-lampu-turbo-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B006",
+    "name": "BOX KABEL 15M+LAMPU TURBO DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b008-box-kabel-dx-15m-lampu-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B008",
+    "name": "BOX KABEL DX-15M + LAMPU DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b237-box-kabel-6m-new-ginza-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B237",
+    "name": "BOX KABEL 6M NEW GINZA DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b238-box-kabel-9m-new-ginza-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B238",
+    "name": "BOX KABEL 9M NEW GINZA DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b288-box-mcb-4-group-ob-ib-dexta-dx-1234n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B288",
+    "name": "BOX MCB 4 GROUP OB/IB DEXTA DX-1234N",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-b298-box-mcb-2-group-cream-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B298",
+    "name": "BOX MCB 2 GROUP CREAM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-c094-connector-kedap-air-baut-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C094",
+    "name": "CONNECTOR KEDAP AIR BAUT DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-e018-elbow-pipa-pvc-20mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E018",
+    "name": "ELBOW PIPA PVC 20MM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-f304-fuse-box-1-group-dexta-dx-901": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F304",
+    "name": "FUSE BOX 1 GROUP DEXTA DX 901",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-f496-fiting-plafon-segi-8-dx-513-putih-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F496",
+    "name": "FITING PLAFON SEGI 8 DX 513 PUTIH DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-f497-fiting-plafon-segi-8-dx-514-putih-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "F497",
+    "name": "FITING PLAFON SEGI 8 DX 514 PUTIH DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-j006-fitting-gantung-dx-218-putih-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "J006",
+    "name": "FITTING GANTUNG DX 218 PUTIH DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-k-910-kap-halogen-150w-lamp-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "K.910",
+    "name": "KAP HALOGEN 150W+LAMP DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-p166-fiting-plavon-merah-maroon-dexta-dx-505": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P166",
+    "name": "FITING PLAVON MERAH MAROON DEXTA DX 505",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-p167-fiting-plavon-pink-dexta-dx-505": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P167",
+    "name": "FITING PLAVON PINK DEXTA DX 505",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-p170-fiting-plavon-abu-abu-dexta-dx-505": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P170",
+    "name": "FITING PLAVON ABU ABU DEXTA DX 505",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-p228-fiting-plavon-hijau-dexta-dx-505": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P228",
+    "name": "FITING PLAVON HIJAU DEXTA DX 505",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-p229-fiting-plavon-biru-dexta-dx-505": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P229",
+    "name": "FITING PLAVON BIRU DEXTA DX 505",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-s1019-socket-pvc-20mm-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1019",
+    "name": "SOCKET PVC 20MM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-s1122-s-k-4-lgb-gpg-dexta-lampu-cream": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1122",
+    "name": "S/K 4 LGB + GPG DEXTA +LAMPU CREAM",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-y1129-klem-pipa-20mm-new-hitam-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1129",
+    "name": "KLEM PIPA 20MM NEW  HITAM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-y1130-elbow-pipa-20mm-new-hitam-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1130",
+    "name": "ELBOW PIPA 20MM NEW HITAM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-y1131-socket-pvc-20mm-new-hitam-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1131",
+    "name": "SOCKET PVC 20MM NEW HITAM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-dr01-duradus-3-4-dx-122-putih-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "DR01",
+    "name": "DURADUS 3/4 DX 122 PUTIH DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-t997-t-dos-cabang-3-20mm-hitam-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T997",
+    "name": "T DOS CABANG 3 20MM HITAM DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-xw04-service-penarik-twisted-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XW04",
+    "name": "SERVICE / PENARIK TWISTED DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "dexta-y1132-duradus-1-dx-123-putih-dexta": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1132",
+    "name": "DURADUS 1 DX 123 PUTIH DEXTA",
+    "brand": "DEXTA",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-e01-emergency-kipas-luby-l688": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E01",
+    "name": "EMERGENCY KIPAS LUBY L688",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-e168-lampu-emergency-ceiling-l-5060-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E168",
+    "name": "LAMPU EMERGENCY CEILING L-5060 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-e169-lampu-emergency-ceiling-l-5080-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E169",
+    "name": "LAMPU EMERGENCY CEILING L-5080 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-h612-head-lamp-luby-l-2856-20w": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H612",
+    "name": "HEAD LAMP LUBY L-2856/20W",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-h619-head-lamp-luby-l-2871": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H619",
+    "name": "HEAD LAMP LUBY L-2871",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-h622-hand-lamp-luby-l-2675b": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "H622",
+    "name": "HAND LAMP LUBY L-2675B",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-l1122-energy-saving-lamp-aladdin-14w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1122",
+    "name": "ENERGY SAVING LAMP ALADDIN 14W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-l1135-energy-saving-lamp-aladdin-20w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1135",
+    "name": "ENERGY SAVING LAMP ALADDIN 20W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-m709-led-night-light-luby-l-5201": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M709",
+    "name": "LED NIGHT LIGHT LUBY L-5201",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-s10029-head-lamp-luby-l2863ln": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S10029",
+    "name": "HEAD LAMP LUBY L2863LN",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-u24-energy-saving-lamp-aladdin-16w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "u24",
+    "name": "ENERGY SAVING LAMP ALADDIN 16W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-xl02-lampu-emergency-light-luby-l-7760": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XL02",
+    "name": "LAMPU EMERGENCY LIGHT LUBY L-7760",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y10741-head-lamp-l-2898-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10741",
+    "name": "HEAD LAMP L-2898 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y10742-head-lamp-l-2902-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10742",
+    "name": "HEAD LAMP L-2902 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y11203-head-lamp-2899-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11203",
+    "name": "HEAD LAMP 2899 LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y11204-head-lamp-2881l-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11204",
+    "name": "HEAD LAMP 2881L LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y11205-head-lamp-2879l-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11205",
+    "name": "HEAD LAMP 2879L LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-yss30-flash-light-luby-l-8925a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS30",
+    "name": "FLASH LIGHT LUBY L-8925A",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-r287-raket-nyamuk-luby-l-3835a-b": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R287",
+    "name": "RAKET NYAMUK LUBY L-3835A (B)",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-t04-kap-plavon-3colour-remot-25w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T04",
+    "name": "KAP PLAVON 3COLOUR+REMOT 25W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-yst1037-hand-torch-luby-l-2673": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YST1037",
+    "name": "HAND TORCH LUBY L-2673",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-d165-desk-lamp-luby-6635": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "D165",
+    "name": "DESK LAMP LUBY 6635",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-e068-lampu-emergency-luby-7608a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E068",
+    "name": "LAMPU EMERGENCY LUBY 7608A",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-l0101-energy-saving-lamp-aladdin-12w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L0101",
+    "name": "ENERGY SAVING LAMP  ALADDIN 12W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-l1087-energy-save-lamp-luby-l-5819": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L1087",
+    "name": "ENERGY SAVE LAMP LUBY L-5819",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-y1209-lampu-led-80w-luby": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1209",
+    "name": "LAMPU LED 80W LUBY",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "luby-l954-senter-luby-2625a": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "L954",
+    "name": "SENTER LUBY 2625A",
+    "brand": "LUBY",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-0002-solder-40w-plastik-visero-vsl-03": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "0002",
+    "name": "SOLDER 40W PLASTIK VISERO VSL-03",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-a09-tang-amper-meter-mt-87-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A09",
+    "name": "TANG AMPER METER MT 87 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-ch02-charger-baterai-lithium-visero-4-slot-vc-1805": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "CH02",
+    "name": "CHARGER BATERAI LITHIUM VISERO+4 SLOT VC-1805",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-sc01-baterai-lithium-2000ma-kepala-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SC01",
+    "name": "BATERAI LITHIUM 2000MA + KEPALA VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-sc02-baterai-lithium-1500ma-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SC02",
+    "name": "BATERAI LITHIUM 1500MA VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-so02-obeng-bolak-balik-kecil-vsd-m215-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SO02",
+    "name": "OBENG BOLAK BALIK KECIL VSD-M215 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-xj01-solder-40w-kayu-visero-vsl-02": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XJ01",
+    "name": "SOLDER 40W KAYU VISERO VSL-02",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-xj02-solder-tembak-40w-200w-no-2-vsl-01-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XJ02",
+    "name": "SOLDER TEMBAK 40W-200W NO 2 VSL-01 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-yss87-kabel-microphone-5m-vmc-0205-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS87",
+    "name": "KABEL MICROPHONE 5M VMC-0205 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-yss88-kabel-microphone-10m-vmc-0210-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS88",
+    "name": "KABEL MICROPHONE 10M VMC-0210 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-yss89-kabel-microphone-15m-vcm-0215-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS89",
+    "name": "KABEL MICROPHONE 15M VCM-0215 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-ga01-glue-gun-20w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "GA01",
+    "name": "GLUE GUN 20W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-m35-multi-tester-digital-dt-830b-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "M35",
+    "name": "MULTI TESTER DIGITAL DT-830B VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-r04-remote-multi-receiver-visero-vio-288": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R04",
+    "name": "REMOTE MULTI RECEIVER VISERO VIO-288",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-s10043-senter-kepala-p-100w-body-besar-pth-hi-410w-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S10043",
+    "name": "SENTER KEPALA (P) 100W BODY BESAR PTH HI-410W VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-s10044-senter-kepala-p-100w-body-besar-kng-hi-410y-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S10044",
+    "name": "SENTER KEPALA (P) 100W BODY BESAR KNG HI-410Y VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-tq13-timbangan-2kg-visero-vtb-02p": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TQ13",
+    "name": "TIMBANGAN 2KG  VISERO (VTB-02P)",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-tq17-timbangan-5kg-visero-vtb-05p": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TQ17",
+    "name": "TIMBANGAN 5KG VISERO (VTB-05P)",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y10894-remote-multi-lg-goldstar-lcd-plus-rm-3101l-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10894",
+    "name": "REMOTE MULTI LG GOLDSTAR LCD PLUS(RM-3101L) VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y10895-remote-multi-sharp-lcd-plus-rm-3106s-ubrm-0099-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10895",
+    "name": "REMOTE MULTI SHARP LCD PLUS RM-3106S UBRM.0099 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y10896-remote-smart-polytron-81j112-ubrm-0114-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10896",
+    "name": "REMOTE SMART POLYTRON 81J112 UBRM.0114 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y10897-solar-control-30a-rcs-1230-rambo-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10897",
+    "name": "SOLAR CONTROL 30A RCS-1230 RAMBO / VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y10925-timbangan-3kg-visero-vtb-03p": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10925",
+    "name": "TIMBANGAN 3KG VISERO (VTB-03P)",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-y114-calculator-vc-512-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y114",
+    "name": "CALCULATOR VC-512 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visero-yss43-amplifier-set-vam-11-visero": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS43",
+    "name": "AMPLIFIER SET VAM-11 VISERO",
+    "brand": "VISERO",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-b72-led-bulb-6w-rgb-ek-app6w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B72",
+    "name": "LED BULB 6W RGB EK-APP6W ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-c10738-lampu-10w-putih-etc9910dl-champions-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C10738",
+    "name": "LAMPU 10W PUTIH ETC9910DL CHAMPIONS ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-c10739-lampu-15w-putih-etc9915dl-champions-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C10739",
+    "name": "LAMPU 15W PUTIH ETC9915DL CHAMPIONS ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-c10740-lampu-20w-putih-etc9920dl-champions-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C10740",
+    "name": "LAMPU 20W PUTIH ETC9920DL CHAMPIONS ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-c10741-lampu-30w-putih-etc9930dl-champions-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C10741",
+    "name": "LAMPU 30W PUTIH ETC9930DL CHAMPIONS ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-c10742-lampu-40w-putih-etc9940dl-champions-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C10742",
+    "name": "LAMPU 40W PUTIH ETC9940DL CHAMPIONS ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-e03-lampu-led-5w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E03",
+    "name": "LAMPU LED 5W ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-e04-lampu-led-7w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E04",
+    "name": "LAMPU LED 7W ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-e05-lampu-led-9w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E05",
+    "name": "LAMPU LED 9W ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "ecoking-e06-lampu-led-11w-ecoking": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "E06",
+    "name": "LAMPU LED 11W ECOKING",
+    "brand": "ECOKING",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p255-panel-light-led-3-5-3-3w-wh-bl-b-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P255",
+    "name": "PANEL LIGHT LED 3.5 3+3W WH+BL B LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p256-panel-light-led-4-6-3w-wh-bl-blt-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P256",
+    "name": "PANEL LIGHT LED 4 6+3W WH+BL BLT LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p257-panel-light-led-4-6-3w-wh-bl-ptk-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P257",
+    "name": "PANEL LIGHT LED 4 6+3W WH+BL PTK LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p258-panel-light-led-6-12-4w-wh-bl-ptk-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P258",
+    "name": "PANEL LIGHT LED 6 12+4W WH+BL PTK LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p259-panel-light-led-6-12-4w-wh-bl-blt-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P259",
+    "name": "PANEL LIGHT LED 6 12+4W WH+BL BLT LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p260-panel-light-led-8-18-6w-wh-bl-blt-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P260",
+    "name": "PANEL LIGHT LED 8 18+6W WH+BL BLT LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-p261-panel-light-led-8-18-6w-wh-bl-ptk-legion-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P261",
+    "name": "PANEL LIGHT LED 8 18+6W WH+BL PTK LEGION PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-pp12-pipa-20mm-putih-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "PP12",
+    "name": "PIPA 20MM PUTIH PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-r276-rel-mcb-1mtr-aluminium-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R276",
+    "name": "REL MCB 1MTR ALUMINIUM PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-s1042-sisir-mcb-1-phase-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1042",
+    "name": "SISIR MCB 1 PHASE PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-s1079-sisir-mcb-3phase-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1079",
+    "name": "SISIR MCB 3PHASE PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-sa12-antena-wifi-dongle-for-tv-box-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SA12",
+    "name": "ANTENA WIFI DONGLE FOR TV BOX PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-sv05-bell-pintu-3v-single-w-o-batt-aaa-pl8603dc-pd88-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV05",
+    "name": "BELL PINTU 3V SINGLE W/O BATT AAA PL8603DC/PD88 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-sv06-bell-pintu-5w-240v-doubel-pl7610a-pd876-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV06",
+    "name": "BELL PINTU 5W 240V DOUBEL PL7610A/PD876 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-sv07-bell-pintu-5w-240v-singel-pl8610a-pd886-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV07",
+    "name": "BELL PINTU 5W 240V SINGEL PL8610A/PD886 PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-sv08-bell-pintu-5w-240v-singel-pl8621a-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV08",
+    "name": "BELL PINTU 5W 240V SINGEL PL8621A PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-t021-terminal-10a-10mm-tipe-u-white-ptp10w-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T021",
+    "name": "TERMINAL 10A 10MM TIPE U WHITE PTP10W PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-t022-terminal-30a-16mm-tipe-u-white-ptp30w-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T022",
+    "name": "TERMINAL 30A 16MM TIPE U WHITE PTP30W PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-t024-terminal-6a-6mm-tipe-u-white-ptp06w-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T024",
+    "name": "TERMINAL 6A 6MM TIPE U WHITE PTP06W PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "pioline-t026-kabel-antena-5c-jack-15m-pioline": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T026",
+    "name": "KABEL ANTENA 5C + JACK 15M PIOLINE",
+    "brand": "PIOLINE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r051-refill-t5-21w-biru-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R051",
+    "name": "REFILL T5 21W BIRU HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r052-refill-t5-21w-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R052",
+    "name": "REFILL T5 21W KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r054-refill-t5-21w-putih-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R054",
+    "name": "REFILL T5 21W PUTIH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-r111-refill-t5-28w-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R111",
+    "name": "REFILL T5 28W KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-s14-socket-lp-slg-2jlr-hm2835-jarum-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S14",
+    "name": "SOCKET LP SLG 2JLR-HM2835+JARUM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-s37-solar-panel-hm-s01-60w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S37",
+    "name": "SOLAR PANEL HM-S01 60W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-sv04-door-bell-hm-1417-2dc-2r-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "SV04",
+    "name": "DOOR BELL HM 1417-2DC (2R) HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-t011-lampu-t8-led-8809-10w-putih-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T011",
+    "name": "LAMPU T8 LED 8809-10W PUTIH HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-t249-terminal-kabel-25mm-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T249",
+    "name": "TERMINAL KABEL 25MM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-t293-terminal-kabel-6mm-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T293",
+    "name": "TERMINAL KABEL 6MM HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-t517-lampu-tl-t8-20w-hijau-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T517",
+    "name": "LAMPU TL T8 20W HIJAU HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-t596-travo-ballast-kap-rmi-1x14w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T596",
+    "name": "TRAVO (BALLAST) KAP RMI 1X14W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-tf01-refill-t5-6w-ultra-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TF01",
+    "name": "REFILL T5 6W ULTRA HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-tq09-timbangan-electronic-hm-819l-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TQ09",
+    "name": "TIMBANGAN ELECTRONIC HM-819L HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-x198-kap-sorot-70w-led-kuning-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "X198",
+    "name": "KAP SOROT 70W LED KUNING HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-xr02-solar-panel-200w-new-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XR02",
+    "name": "SOLAR PANEL 200W (NEW) HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-xr07-solar-panel-50w-new-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XR07",
+    "name": "SOLAR PANEL 50W (NEW) HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-xr13-solar-panel-10w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XR13",
+    "name": "SOLAR PANEL 10W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-xr14-solar-panel-30w-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XR14",
+    "name": "SOLAR PANEL 30W HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "himawari-xr15-solar-panel-100w-new-himawari": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XR15",
+    "name": "SOLAR PANEL 100W (NEW) HIMAWARI",
+    "brand": "HIMAWARI",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm36-mcb-easy9-1p-c-2a-ez9f54102-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM36",
+    "name": "MCB EASY9 1P C 2A EZ9F54102 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm37-mcb-easy9-1p-c-40a-ez9f54140-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM37",
+    "name": "MCB EASY9 1P C 40A EZ9F54140 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm38-mcb-easy9-1p-c-4a-ez9f54104-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM38",
+    "name": "MCB EASY9 1P C 4A EZ9F54104 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm39-mcb-easy9-3p-c-6a-ez9f54306-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM39",
+    "name": "MCB EASY9 3P C 6A EZ9F54306 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm40-mcb-easy9-3p-c-16a-ez9f54316-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM40",
+    "name": "MCB EASY9 3P C 16A EZ9F54316 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm41-mcb-easy9-3p-c-20a-ez9f54320-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM41",
+    "name": "MCB EASY9 3P C 20A EZ9F54320 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm42-mcb-easy9-3p-c-25a-ez9f54325-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM42",
+    "name": "MCB EASY9 3P C 25A EZ9F54325 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm43-mcb-easy9-3p-c-32a-ez9f54332-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM43",
+    "name": "MCB EASY9 3P C 32A EZ9F54332 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm44-mcb-easy9-3p-c-40a-ez9f54340-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM44",
+    "name": "MCB EASY9 3P C 40A EZ9F54340 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-rm45-mcb-3p-20a-6ka-domf01320-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM45",
+    "name": "MCB 3P 20A 6KA DOMF01320 SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s006-steker-ac-ep13-clasic-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S006",
+    "name": "STEKER AC EP13 CLASIC SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s02-saklar-5-gang-clasic-e35-1-2a-s-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S02",
+    "name": "SAKLAR 5 GANG CLASIC E35/1/2A (S) SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s1081-saklar-engkel-e8431-1-zencelo-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1081",
+    "name": "SAKLAR ENGKEL E8431/1 ZENCELO SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s1082-saklar-seri-e8432-1-zencelo-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1082",
+    "name": "SAKLAR SERI E8432/1 ZENCELO SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s1083-saklar-triple-e8433-1-zencelo-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S1083",
+    "name": "SAKLAR TRIPLE E8433/1 ZENCELO SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s434-s-k-neon-clasic-e15nr-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S434",
+    "name": "S/K NEON CLASIC E15NR SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s436-saklar-triple-clasic-e33-1-2a-sni-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S436",
+    "name": "SAKLAR TRIPLE CLASIC E33/1/2A (SNI) SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-s963-saklar-4-gang-1-way-clasic-e34-1-2a-sni-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "S963",
+    "name": "SAKLAR 4 GANG 1 WAY CLASIC E34/1/2A SNI SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-th06-thermal-overload-lrd-10-tor-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TH06",
+    "name": "THERMAL OVERLOAD LRD-10 TOR SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "schneider-th07-thermal-overload-lrd-12-tor-schneider": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "TH07",
+    "name": "THERMAL OVERLOAD LRD-12 TOR SCHNEIDER",
+    "brand": "SCHNEIDER",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p212-panel-interlock-2p-40a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P212",
+    "name": "PANEL INTERLOCK 2P 40A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p218-panel-interlock-2p-50a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P218",
+    "name": "PANEL INTERLOCK 2P 50A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p219-panel-interlock-2p-32a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P219",
+    "name": "PANEL INTERLOCK 2P 32A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p220-panel-interlock-3p-25a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P220",
+    "name": "PANEL INTERLOCK 3P 25A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p223-panel-interlock-3p-50a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P223",
+    "name": "PANEL INTERLOCK 3P 50A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p227-panel-interlock-3p-63a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P227",
+    "name": "PANEL INTERLOCK 3P 63A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p239-panel-interlock-3p-20a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P239",
+    "name": "PANEL INTERLOCK 3P 20A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p240-push-button-np2-63-green-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P240",
+    "name": "PUSH BUTTON NP2 63 GREEN CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-p253-panel-interlock-2p-20a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "P253",
+    "name": "PANEL INTERLOCK 2P 20A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-pd12-panel-interlock-4p-32a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "PD12",
+    "name": "PANEL INTERLOCK 4P 32A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-pd13-panel-interlock-4p-40a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "PD13",
+    "name": "PANEL INTERLOCK 4P 40A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-pd14-panel-interlock-4p-50a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "PD14",
+    "name": "PANEL INTERLOCK 4P 50A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-r138-rccb-nl1-63-2pole-40a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R138",
+    "name": "RCCB NL1 63 2POLE 40A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-r139-rccb-dz47le-63-1-pole-n-6ka-40a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R139",
+    "name": "RCCB DZ47LE 63 1 POLE+N 6KA 40A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-r207-rccb-dz47-le-32-1p-n-32a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R207",
+    "name": "RCCB DZ47 LE 32 1P+N 32A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-r217-relay-3-phase-220v-chint-njyb3-15": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R217",
+    "name": "RELAY 3 PHASE 220V CHINT NJYB3 - 15",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-r279-rccb-nl1-63-4p-25a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "R279",
+    "name": "RCCB NL1-63 4P 25A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-rm02-mcb-3-pole-6a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM02",
+    "name": "MCB 3 POLE 6A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-rm14-mcb-1-pole-50a-6ka-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "RM14",
+    "name": "MCB 1 POLE 50A 6KA CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "chint-t313-thermal-overload-relay-nxr-25-9-13a-chint": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "T313",
+    "name": "THERMAL OVERLOAD RELAY NXR-25 9-13A CHINT",
+    "brand": "CHINT",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y0557-simon-t8-led-tube-empty-batten-1200mm-n05d1-4003": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y0557",
+    "name": "SIMON T8 LED TUBE EMPTY BATTEN 1200MM N05D1-4003",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y0558-simon-e3-2-gang-2-way-switch-301022n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y0558",
+    "name": "SIMON E3 2 GANG 2 WAY SWITCH 301022N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y1019-simon-e3-multi-standart-socket-with-switch-13a-50v-s-k-ac-301089n": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1019",
+    "name": "SIMON E3 MULTI STANDART SOCKET WITH SWITCH (13A 50V)/S/K AC  301089N",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y1020-simon-e6-multi-gang-frame-flush-mounting-box-e3-tekong-ib": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1020",
+    "name": "SIMON E6 MULTI GANG FRAME FLUSH MOUNTING BOX (E3) TEKONG IB",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10584-simon-downlight-r150-12w-6500k-gen2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10584",
+    "name": "SIMON DOWNLIGHT R150 12W 6500K GEN2",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10585-simon-downlight-s150-12w-6500k-gen2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10585",
+    "name": "SIMON DOWNLIGHT S150 12W 6500K GEN2",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10586-simon-led-t8-he-1200mm-18w-6500k-n62eo-1169": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10586",
+    "name": "SIMON LED T8 HE 1200MM 18W 6500K N62EO-1169",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10994-led-downlight-r100-8w-6500k-pack-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10994",
+    "name": "LED DOWNLIGHT R100 8W 6500K PACK SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10995-led-downlight-r150-12w-6500k-pack-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10995",
+    "name": "LED DOWNLIGHT R150 12W 6500K PACK SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y10996-led-downlight-r150-17w-6500k-pack-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10996",
+    "name": "LED DOWNLIGHT R150 17W 6500K PACK SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-y11207-mounting-box-1gang-inbowdus-45dh86-simon": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11207",
+    "name": "MOUNTING BOX 1GANG INBOWDUS 45DH86 SIMON",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1106-simon-valor-led-bulb-g45-3w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1106",
+    "name": "SIMON VALOR LED BULB G45 3W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1108-simon-valor-led-bulb-a60-5w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1108",
+    "name": "SIMON VALOR LED BULB A60 5W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1109-simon-valor-led-bulb-a60-7w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1109",
+    "name": "SIMON VALOR LED BULB A60 7W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1110-simon-valor-led-bulb-a60-9w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1110",
+    "name": "SIMON VALOR LED BULB A60 9W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1111-simon-valor-led-bulb-a60-11w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1111",
+    "name": "SIMON VALOR LED BULB A60 11W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1112-simon-valor-led-bulb-a60-11w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1112",
+    "name": "SIMON VALOR LED BULB A60 11W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1114-simon-valor-family-pack-led-bulb-7w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1114",
+    "name": "SIMON VALOR FAMILY PACK LED BULB 7W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1133-simon-valor-led-bulb-a60-13w-3000k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1133",
+    "name": "SIMON VALOR LED BULB A60 13W 3000K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "simon-z1134-simon-valor-led-bulb-a60-13w-6500k": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Z1134",
+    "name": "SIMON VALOR LED BULB A60 13W 6500K",
+    "brand": "SIMON",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa37-speaker-advance-v4-beige": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA37",
+    "name": "SPEAKER ADVANCE V4 BEIGE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa38-speaker-advance-v4-blue": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA38",
+    "name": "SPEAKER ADVANCE V4 BLUE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa39-speaker-advance-v4-pink": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA39",
+    "name": "SPEAKER ADVANCE V4 PINK",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa42-speaker-advance-ks-614-red": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA42",
+    "name": "SPEAKER ADVANCE KS-614 RED",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xa47-speaker-advance-k1503": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XA47",
+    "name": "SPEAKER ADVANCE K1503",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xk03-setrika-uap-advance-stk-600-blue": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XK03",
+    "name": "SETRIKA UAP ADVANCE STK-600 BLUE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xk04-setrika-uap-advance-stk-600-purple": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XK04",
+    "name": "SETRIKA UAP ADVANCE STK-600 PURPLE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-xk05-setrika-uap-advance-stk-600-red": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XK05",
+    "name": "SETRIKA UAP ADVANCE STK-600 RED",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1028-setrika-listrik-advance-stk-500-purple": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1028",
+    "name": "SETRIKA LISTRIK ADVANCE STK-500 PURPLE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1030-setrika-listrik-advance-stk-500-blue": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1030",
+    "name": "SETRIKA LISTRIK ADVANCE STK-500 BLUE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10659-speaker-advance-t-530": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10659",
+    "name": "SPEAKER ADVANCE  T-530",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10668-speaker-advance-k1812-a-v-2": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10668",
+    "name": "SPEAKER ADVANCE K1812 - A  V.2",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10745-speaker-ams-321-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10745",
+    "name": "SPEAKER AMS-321 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10803-speaker-rbs-809-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10803",
+    "name": "SPEAKER RBS-809 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10910-speaker-kk-1028-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10910",
+    "name": "SPEAKER KK-1028 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y10948-speaker-cls-303-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y10948",
+    "name": "SPEAKER CLS-303 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1109-speaker-advance-ks-613-orange": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1109",
+    "name": "SPEAKER ADVANCE KS-613 ORANGE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y11150-speaker-cls-301-bt-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11150",
+    "name": "SPEAKER CLS - 301 BT ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y12280-speaker-kk-2100-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y12280",
+    "name": "SPEAKER KK-2100 ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "advance-y1285-televisi-digital-adv-3203a-advance": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1285",
+    "name": "TELEVISI DIGITAL ADV-3203A ADVANCE",
+    "brand": "ADVANCE",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-bp03-blender-2in1-1-2ltr-150w-kaca-yellow-pioline-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "BP03",
+    "name": "BLENDER 2IN1 1.2Ltr 150W (KACA)YELLOW PIOLINE/PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-mc01-mesin-cuci-portable-clean-200w-10l-4-5kg-rs-555-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "MC01",
+    "name": "MESIN CUCI PORTABLE CLEAN 200W 10L 4,5KG RS-555 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y11145-timbangan-gantung-digital-50kg-rtd501-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y11145",
+    "name": "TIMBANGAN GANTUNG DIGITAL 50KG RTD501 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1146-guardian-cf52-75w-5blade-5e27-bronze-profan-rcf56e": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1146",
+    "name": "GUARDIAN CF52\" 75W 5BLADE&5E27 BRONZE PROFAN RCF56E",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1251-kipas-gantung-chrono-20w-white-w-lamp-6500k-4000k-3000k-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1251",
+    "name": "KIPAS GANTUNG CHRONO 20W WHITE W/LAMP 6500K,4000K,3000K PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1299-zelda-cf-52-75w-5blade-w-o-lamp-bronze-rcf56e-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1299",
+    "name": "ZELDA CF 52\" 75W 5BLADE W/O LAMP BRONZE RCF56E PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1300-fantasy-cf-52-75w-5blade-w-lamp-bronze-rcf56e-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1300",
+    "name": "FANTASY CF 52\" 75W 5BLADE W/LAMP BRONZE RCF56E PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1315-box-fan-8-25w-tosca-bear-bf-rdf820tb-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1315",
+    "name": "BOX FAN 8\" 25W TOSCA BEAR BF-RDF820TB PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1328-wall-fan-16-45w-metal-iwf1618-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1328",
+    "name": "WALL FAN 16\"45W METAL IWF1618 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1348-wall-fan-16-atmos-atm-rwf1216-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1348",
+    "name": "WALL FAN 16\" ATMOS  ATM-RWF1216 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1366-wall-fan-16-fujin-1216-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1366",
+    "name": "WALL FAN 16\" FUJIN  1216 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1376-cup-sealer-300w-h19-rcs319-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1376",
+    "name": "CUP SEALER 300W H19 RCS319 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-y1377-stand-fan-18-3in1-pstw45-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1377",
+    "name": "STAND FAN 18\" 3IN1 PSTW45 PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-yss05-heli-fan-700mm-25w-5-daun-rhf700-5d-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS05",
+    "name": "HELI FAN 700MM 25W 5 DAUN RHF700-5D PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-yss06-heli-fan-1050mm-40w-5-daun-rhf1050-5d-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "YSS06",
+    "name": "HELI FAN 1050MM 40W 5 DAUN RHF1050-5D PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-xxx1-kotak-warna-box-fan-8-minion-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XXX1",
+    "name": "KOTAK WARNA BOX FAN 8\" MINION PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-xxx2-kotak-warna-box-fan-hello-kitty-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XXX2",
+    "name": "KOTAK WARNA BOX FAN  HELLO KITTY PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "profan-xxx3-kotak-warna-desk-fan-8-minion-profan": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "XXX3",
+    "name": "KOTAK WARNA DESK FAN 8\" MINION PROFAN",
+    "brand": "PROFAN",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-y1055-dl-12w-5-6500k-tetra-vs8312r-dl-visalux-bulat": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "Y1055",
+    "name": "DL 12W 5\" 6500K TETRA VS8312R-DL VISALUX BULAT",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-a0774-s-k-lavish-multi-black-vsd9013m-neon-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A0774",
+    "name": "S/K LAVISH MULTI BLACK VSD9013M NEON VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-a104-steker-ac-lampu-visalux-v-9548l": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "A104",
+    "name": "STEKER AC + LAMPU VISALUX V 9548L",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-b075-s-k-lantai-16a-10a-c-w-box-v1610fls-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B075",
+    "name": "S/K LANTAI 16A+10A C/W BOX  V1610FLS VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-b285-box-panel-400-x-300-x-200mm-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B285",
+    "name": "BOX PANEL 400 X 300 X 200MM VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-b347-box-outdoor-3x3-transparant-v858d-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B347",
+    "name": "BOX OUTDOOR 3X3 TRANSPARANT V858D VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-b86-led-high-bay-11-30w-vhb1130-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "B86",
+    "name": "LED HIGH BAY 11\" 30W VHB1130 VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-c100-change-over-switch-3p-16a-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C100",
+    "name": "CHANGE OVER SWITCH 3P 16A VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-c101-change-over-switch-3p-25a-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C101",
+    "name": "CHANGE OVER SWITCH 3P 25A VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
+  },
+  "visalux-c179-klem-kabel-10mm-visalux": {
+    "status": "unresolved",
+    "validation_version": 4,
+    "mode": "semi_strict",
+    "reason": "no_existing_candidate",
+    "sku": "C179",
+    "name": "KLEM KABEL 10MM VISALUX",
+    "brand": "VISALUX",
+    "existing_image_review": {
+      "status": "unresolved",
+      "candidate_blobs": []
+    }
   }
 }
