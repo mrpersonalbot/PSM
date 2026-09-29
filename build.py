@@ -127,6 +127,10 @@ if dist.exists() and human_css.exists():
         shutil.copytree(brand_logos, assets / "brands", dirs_exist_ok=True)
     for stale_asset in ("whatsapp.svg", "whatsapp.jpg", "whatsapp.png", "whatsapp-clean.png", "whatsapp-floating.jpg", "whatsapp-floating-final.jpg", "whatsapp-floating-transparent.png", "whatsapp-floating-logo-only.png"):
         (assets / stale_asset).unlink(missing_ok=True)
+    whatsapp_icon = root / "source" / "assets" / "whatsapp-floating.jpg"
+    if not whatsapp_icon.exists():
+        raise RuntimeError("Missing verified WhatsApp logo asset for the desktop floating action")
+    shutil.copy2(whatsapp_icon, assets / "whatsapp-floating.jpg")
     top_bar_brand_menu = (
         '<div class="nav-drop"><button>Brand <span>⌄</span></button><div class="drop-menu">'
         + "".join(f'<a href="/brand/{slug}/">{name}</a>' for name, slug in TOP_BAR_BRANDS)
@@ -182,7 +186,7 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
         # Cache-bust the shared visual override after component-style changes.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-contrast-2')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-desktop-wa-1')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'
@@ -255,9 +259,25 @@ if dist.exists() and human_css.exists():
         # The supplied visual assets are PNGs, replacing the former text SVGs.
         for slug, ext in LOGO_EXTENSIONS.items():
             text = text.replace(f'/assets/brands/{slug}.svg', f'/assets/brands/{slug}.{ext}')
-        # Remove the persistent floating WhatsApp logo site-wide. Product-card
-        # "Tanya stok" links and other inquiry CTAs stay available.
-        text = re.sub(r'<a class="wa-float"[^>]*>.*?</a>', "", text, flags=re.S)
+        # Restore the authentic WhatsApp mark as a fixed desktop action on every
+        # generated route. The mobile utility dock remains the small-screen action.
+        desktop_whatsapp = (
+            '<a class="wa-float" href="https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
+            'aria-label="Hubungi Pratama via WhatsApp" title="Hubungi Pratama via WhatsApp" '
+            'target="_blank" rel="noopener noreferrer">'
+            '<img src="/assets/whatsapp-floating.jpg" width="52" height="52" alt=""></a>'
+        )
+        text, float_count = re.subn(
+            r'<a class="wa-float"[^>]*>.*?</a>',
+            lambda _: desktop_whatsapp,
+            text,
+            count=1,
+            flags=re.S,
+        )
+        if not float_count:
+            if "</body>" not in text:
+                raise RuntimeError(f"Generated page has no body closing tag: {html_path}")
+            text = text.replace("</body>", desktop_whatsapp + "</body>", 1)
         text = re.sub(
             r'(<a class="quick-wa"[^>]*>)WA(</a>)',
             r'\1Tanya stok\2',
