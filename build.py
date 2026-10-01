@@ -1,5 +1,6 @@
 import base64, gzip, json, os, re, shutil
 from collections import Counter
+from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
@@ -491,6 +492,18 @@ sitemap = (
     "User-agent: *\nAllow: /\n\nSitemap: " + SEO_SITE_URL + "/sitemap.xml\n",
     encoding="utf-8",
 )
+
+# Publish the RFC 9116 security contact. The current public contact channel is
+# the site's Contact page; keep the expiry refreshed on each production build.
+well_known = dist / ".well-known"
+well_known.mkdir(parents=True, exist_ok=True)
+security_txt = (
+    "Contact: " + SEO_SITE_URL + "/kontak/\r\n"
+    "Expires: " + (datetime.now(timezone.utc) + timedelta(days=365)).strftime("%Y-%m-%dT%H:%M:%SZ") + "\r\n"
+    "Preferred-Languages: id, en\r\n"
+    "Canonical: " + SEO_SITE_URL + "/.well-known/security.txt\r\n"
+)
+(well_known / "security.txt").write_bytes(security_txt.encode("utf-8"))
 
 # Persisted product images are collected by GitHub Actions and stored in
 # source/product-images. Apply them after the static generator finishes so the
