@@ -131,6 +131,7 @@ if dist.exists() and human_css.exists():
         raise RuntimeError("Missing verified WhatsApp logo asset for the desktop floating action")
     shutil.copy2(whatsapp_icon, assets / "whatsapp-floating.jpg")
     top_bar_brand_menu = (
+        '<a href="/produk/">Produk</a>'
         '<div class="nav-drop"><button>Brand <span>⌄</span></button><div class="drop-menu">'
         + "".join(f'<a href="/brand/{slug}/">{name}</a>' for name, slug in TOP_BAR_BRANDS)
         + '<a class="all-link" href="/produk/?view=brands">Semua brand →</a></div></div>'
