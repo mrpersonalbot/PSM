@@ -339,8 +339,8 @@ if dist.exists() and human_css.exists():
             raise RuntimeError('Homepage body class marker changed; update homepage contrast scope.')
         text = text.replace('<body class="">', '<body class="homepage">', 1)
         replacements = {
-            "PRATAMA / 001 · PADANG, SUMATERA BARAT": "Dari Padang · tumbuh bersama pelanggan selama lebih dari 20 tahun",
-            "Lebih dari 1.000 SKU untuk rumah, toko dan bisnis. Belanja retail di Padang atau bergabung sebagai retailer Pratama Mitra di Sumatera Barat.": "Dari lampu sampai MCB, kami sudah lebih dari dua dekade membantu pelanggan menemukan barang yang mereka butuhkan. Belanja untuk rumah, atau ngobrol dengan tim kami kalau Anda punya toko.",
+            "PRATAMA / 001 · PADANG, SUMATERA BARAT": "Dari Padang · menemani pelanggan selama 4+ tahun",
+            "Lebih dari 1.000 SKU untuk rumah, toko dan bisnis. Belanja retail di Padang atau bergabung sebagai retailer Pratama Mitra di Sumatera Barat.": "Dari lampu sampai MCB, selama 4+ tahun kami membantu pelanggan menemukan barang yang mereka butuhkan. Belanja untuk rumah, atau ngobrol dengan tim kami kalau Anda punya toko.",
             "PRODUCT FINDER": "BANTU CARI PRODUK",
             "PADANG · SUMBAR": "TANYA TIM KAMI",
             "Apa yang sedang Anda cari?": "Cari barangnya. Kalau ragu, tanya kami.",
@@ -350,13 +350,30 @@ if dist.exists() and human_css.exists():
             "Temukan kebutuhan listrik Anda.": "Mulai dari barang yang paling sering dicari.",
             "Dukungan 7 salesman untuk kebutuhan toko.": "Dukungan salesman untuk kebutuhan toko.",
             "<span><strong>7</strong> salesman</span>": "",
-            "20+Tahun dipercaya": "20+ Tahun dipercaya",
+            "20+Tahun dipercaya": "4+ Tahun dipercaya",
             "1.000+SKU aktif": "1.000+ SKU aktif",
             "4,9★Google rating": "4,9 ★ Google rating",
             "PadangStore & warehouse": "Padang Store & warehouse",
         }
         for old, new in replacements.items():
             text = text.replace(old, new)
+
+        # Temporary homepage age display: keep all visible age claims aligned
+        # at 4+ years, without changing other landing-page metrics or routes.
+        age_claim_replacements = {
+            '<div class="pill">20+ tahun dipercaya</div>': '<div class="pill">4+ tahun dipercaya</div>',
+            '<span><strong>20+</strong> tahun dipercaya</span>': '<span><strong>4+</strong> tahun dipercaya</span>',
+            '<div><strong>20+</strong><h3>Tahun Dipercaya</h3>': '<div><strong>4+</strong><h3>Tahun Dipercaya</h3>',
+            'Bangun pengambilan rutin dengan partner distributor yang telah dipercaya lebih dari dua dekade.': 'Bangun pengambilan rutin dengan partner distributor yang telah dipercaya selama 4+ tahun.',
+        }
+        for old, new in age_claim_replacements.items():
+            if text.count(old) != 1:
+                raise RuntimeError(f"Temporary homepage age-copy marker missing or ambiguous: {old}")
+            text = text.replace(old, new, 1)
+        if "20+" in text or "lebih dari 20 tahun" in text or "dua dekade" in text:
+            raise RuntimeError("An old 20+ years claim remains on the homepage")
+        if "2.000+" not in text:
+            raise RuntimeError("Unrelated homepage SKU claim was unexpectedly removed")
 
         # The homepage brand strip is intentionally presentation-only: one
         # continuously moving line of logos, with no separate brand labels.
