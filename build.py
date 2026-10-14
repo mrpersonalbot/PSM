@@ -1,9 +1,16 @@
-import base64, gzip, json, os, re, shutil
+import base64
+import gzip
+import json
+import os
+import re
+import shutil
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
+
+from source.business_information import BUSINESS_INFO, apply_business_information
 
 root = Path(__file__).parent
 AVAILABLE_BRANDS = {
@@ -328,6 +335,7 @@ if dist.exists() and human_css.exists():
                     '</div></div></section>'
                 )
                 text = text.replace('</main>', inquiry_section + '</main>', 1)
+        text = apply_business_information(text)
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,
@@ -452,7 +460,7 @@ if dist.exists() and human_css.exists():
 
         # Use the supplied Google Maps share link for the landing-page button
         # and the footer location link.
-        maps_url = 'https://share.google/nobfOiBD7ggfAbN7W'
+        maps_url = BUSINESS_INFO["maps_url"]
         text = text.replace(
             'https://www.google.com/maps/search/?api=1&query=Pratama+Sukses+Mandiri+Padang',
             maps_url,
