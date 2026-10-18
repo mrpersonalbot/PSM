@@ -148,6 +148,14 @@ if dist.exists() and human_css.exists():
         text = html_path.read_text(encoding="utf-8")
         relative_parts = html_path.relative_to(dist).parts
         route = "/" if len(relative_parts) == 1 else "/" + "/".join(relative_parts[:-1]) + "/"
+        route_scope = {
+            "/toko-listrik-padang/": "padang-store",
+            "/kontak/": "contact",
+        }.get(route)
+        if route_scope:
+            if "<body" not in text:
+                raise RuntimeError(f"Generated page has no body element: {html_path}")
+            text = text.replace("<body", f'<body data-page="{route_scope}"', 1)
 
         # Give core audience pages search-focused titles/descriptions, while all
         # generated pages receive an absolute canonical and social preview data.
@@ -194,7 +202,7 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
         # Cache-bust the shared visual override after component-style changes.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-desktop-wa-2')
+        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-mobile-ux-1')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'
