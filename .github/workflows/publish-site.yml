@@ -46,7 +46,7 @@ jobs:
           echo "Product pages: $product_count (catalog records: $catalog_count)"
           test "$html_count" -ge 189
           test "$product_count" -eq "$catalog_count"
-          grep -q 'operated by PT Pratama Sukses Mandiri' "$site_root/index.html"
+          grep -q 'operated by CV Pratama Sukses Mandiri' "$site_root/index.html"
           grep -q 'PRATAMA MITRA' "$site_root/index.html"
           grep -qi '#0a498b' "$site_root/assets/styles.css"
 

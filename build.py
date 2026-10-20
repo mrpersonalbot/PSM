@@ -10,7 +10,11 @@ from html import escape
 from pathlib import Path
 from urllib.parse import quote
 
-from source.business_information import BUSINESS_INFO, apply_business_information
+from source.business_information import (
+    BUSINESS_INFO,
+    apply_business_information,
+    has_legacy_psm_legal_entity_reference,
+)
 
 root = Path(__file__).parent
 AVAILABLE_BRANDS = {
@@ -204,14 +208,15 @@ if dist.exists() and human_css.exists():
         # Cache-bust the shared visual override after component-style changes.
         text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-mobile-ux-1')
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
+        legal_name = BUSINESS_INFO["legal_name"]
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'
             '<div class="footer-descriptor">ELECTRICAL SUPPLY</div>'
-            '<p class="footer-legal">operated by PT Pratama Sukses Mandiri</p>'
+            f'<p class="footer-legal">operated by {legal_name}</p>'
         )
         footer_logo_tag = (
             '<img class="footer-logo" src="/assets/pratama-brand-footer-transparent.png" '
-            'alt="Pratama Electrical Supply — operated by PT Pratama Sukses Mandiri" '
+            f'alt="Pratama Electrical Supply — operated by {legal_name}" '
             'width="260" height="75">'
         )
         if footer_brand_block not in text:
@@ -528,3 +533,21 @@ apply_images = root / "tools" / "apply_product_images.py"
 if apply_images.exists():
     namespace = {"__name__": "__main__", "__file__": str(apply_images)}
     exec(compile(apply_images.read_bytes(), str(apply_images), "exec"), namespace)
+
+# Fail the build if a generated public text asset still names the incorrect entity.
+public_text_extensions = {".html", ".css", ".js", ".json", ".xml", ".svg", ".txt", ".webmanifest"}
+legacy_identity_paths = []
+for public_asset in dist.rglob("*"):
+    if not public_asset.is_file() or public_asset.suffix.casefold() not in public_text_extensions:
+        continue
+    try:
+        public_text = public_asset.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        continue
+    if has_legacy_psm_legal_entity_reference(public_text):
+        legacy_identity_paths.append(str(public_asset.relative_to(dist)))
+if legacy_identity_paths:
+    raise RuntimeError(
+        "Generated public assets contain the incorrect legal entity name: "
+        + ", ".join(legacy_identity_paths)
+    )

@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from source.business_information import BUSINESS_INFO, apply_business_information
+from source.business_information import BUSINESS_INFO, apply_business_information, has_legacy_psm_legal_entity_reference
 
 
 class BusinessInformationTests(unittest.TestCase):
@@ -25,6 +25,21 @@ class BusinessInformationTests(unittest.TestCase):
         self.assertEqual(first_pass, expected)
         self.assertEqual(apply_business_information(first_pass), expected)
         self.assertNotIn("14ee", first_pass)
+
+    def test_legacy_entity_scanner_detects_plain_encoded_and_unicode_variants(self):
+        variants = (
+            "PT Pratama Sukses Mandiri",
+            "PT. PRATAMA SUKSES MANDIRI",
+            "P.T. Pratama Sukses Mandiri",
+            "PT&#46; Pratama&#32;Sukses&#32;Mandiri",
+            "PT%2E%20PRATAMA%20SUKSES%20MANDIRI",
+            r"PT\u002e\u0020Pratama\u0020Sukses\u0020Mandiri",
+            "ＰＴ． ＰＲＡＴＡＭＡ ＳＵＫＳＥＳ ＭＡＮＤＩＲＩ",
+        )
+        for value in variants:
+            with self.subTest(value=value):
+                self.assertTrue(has_legacy_psm_legal_entity_reference(value))
+        self.assertFalse(has_legacy_psm_legal_entity_reference("CV Pratama Sukses Mandiri"))
 
     def test_visible_saturday_hours_update_without_changing_other_days(self):
         source = (
@@ -61,7 +76,7 @@ class BusinessInformationTests(unittest.TestCase):
 
         self.assertEqual(entity["address"]["streetAddress"], BUSINESS_INFO["street_address"])
         self.assertEqual(entity["hasMap"], BUSINESS_INFO["maps_url"])
-        self.assertEqual(entity["legalName"], "PT Pratama Sukses Mandiri")
+        self.assertEqual(entity["legalName"], BUSINESS_INFO["legal_name"])
         self.assertEqual(entity["telephone"], "+628****9888")
         self.assertEqual(entity["sameAs"], ["https://www.instagram.com/psm_padang/"])
         self.assertEqual(
@@ -102,7 +117,84 @@ class BusinessInformationTests(unittest.TestCase):
         self.assertEqual((specs[0]["opens"], specs[0]["closes"]), ("09:00", "18:00"))
         self.assertEqual(specs[1]["dayOfWeek"], "Saturday")
         self.assertEqual((specs[1]["opens"], specs[1]["closes"]), ("09:00", "17:00"))
-        self.assertEqual(entity["legalName"], "PT Pratama Sukses Mandiri")
+        self.assertEqual(entity["legalName"], BUSINESS_INFO["legal_name"])
+
+    def test_organization_and_product_seller_identity_are_canonicalized(self):
+        source = (
+            '<script type="application/ld+json">'
+            '{"@context":"https://schema.org","@graph":['
+            '{"@type":"Organization","name":"PT. PRATAMA SUKSES MANDIRI",'
+            '"legalName":"PT Pratama Sukses Mandiri"},'
+            '{"@type":"Product","name":"Example product",'
+            '"seller":{"@type":"Organization","name":"PT PRATAMA SUKSES MANDIRI",'
+            '"legalName":"PT. Pratama Sukses Mandiri"}},'
+            '{"@type":"Product","name":"Another product",'
+            '"seller":"PT Pratama Sukses Mandiri"},'
+            '{"@type":"Product","name":"PT Pratama Sukses Mandiri",'
+            '"brand":{"@type":"Brand","name":"PT Pratama Sukses Mandiri"}}]}'
+            '</script>'
+        )
+        updated = apply_business_information(source)
+        graph = json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])["@graph"]
+
+        self.assertEqual(BUSINESS_INFO["legal_name"], "CV Pratama Sukses Mandiri")
+        self.assertEqual(graph[0]["name"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[0]["legalName"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[1]["name"], "Example product")
+        self.assertEqual(graph[1]["seller"]["name"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[1]["seller"]["legalName"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[2]["seller"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[3]["name"], "PT Pratama Sukses Mandiri")
+        self.assertEqual(graph[3]["brand"]["name"], "PT Pratama Sukses Mandiri")
+
+    def test_product_identity_correction_preserves_catalog_fields_and_whatsapp(self):
+        source = (
+            '<script type="application/ld+json">'
+            '{"@context":"https://schema.org","@type":"Product",'
+            '"name":"Kabel NYM 2 x 2.5 mm",'
+            '"sku":"SKU-PSM-001","category":"Kabel & Kawat",'
+            '"url":"https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/",'
+            '"image":"https://pratamasuksesmandiri.com/assets/products/item.jpg",'
+            '"description":"Kabel NYM 2 x 2.5 mm",'
+            '"brand":{"@type":"Brand","name":"PROFAN"},'
+            '"offers":{"@type":"Offer",'
+            '"url":"https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/",'
+            '"price":"12345","priceCurrency":"IDR",'
+            '"availability":"https://schema.org/InStock"},'
+            '"seller":{"@type":"Organization","name":"PT Pratama Sukses Mandiri"}}'
+            '</script>'
+            '<link rel="canonical" href="https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/">'
+            '<a href="https://wa.me/6281993399888?text=SKU%20PSM-001">Tanya stok</a>'
+        )
+        updated = apply_business_information(source)
+        entity = json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])
+
+        self.assertEqual(entity["seller"]["name"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(entity["name"], "Kabel NYM 2 x 2.5 mm")
+        self.assertEqual(entity["sku"], "SKU-PSM-001")
+        self.assertEqual(entity["category"], "Kabel & Kawat")
+        self.assertEqual(entity["url"], "https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/")
+        self.assertEqual(entity["image"], "https://pratamasuksesmandiri.com/assets/products/item.jpg")
+        self.assertEqual(entity["description"], "Kabel NYM 2 x 2.5 mm")
+        self.assertEqual(entity["brand"], {"@type": "Brand", "name": "PROFAN"})
+        self.assertEqual(
+            entity["offers"],
+            {
+                "@type": "Offer",
+                "url": "https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/",
+                "price": "12345",
+                "priceCurrency": "IDR",
+                "availability": "https://schema.org/InStock",
+            },
+        )
+        self.assertIn(
+            '<link rel="canonical" href="https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/">',
+            updated,
+        )
+        self.assertIn(
+            '<a href="https://wa.me/6281993399888?text=SKU%20PSM-001">Tanya stok</a>',
+            updated,
+        )
 
     def test_only_psm_store_map_links_change(self):
         source = (
