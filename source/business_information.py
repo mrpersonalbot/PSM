@@ -1,4 +1,4 @@
-"""Central owner-approved PSM address, operating hours, and Maps destination.
+"""Central owner-approved PSM identity, address, operating hours, and Maps destination.
 
 Generated page templates are legacy inputs; normalize their business information
 here so headers, footers, landing pages, and structured data stay consistent.
@@ -6,11 +6,13 @@ here so headers, footers, landing pages, and structured data stay consistent.
 
 import json
 import re
+import unicodedata
 from copy import deepcopy
 from html import unescape
-from urllib.parse import parse_qs, urlsplit
+from urllib.parse import parse_qs, unquote, urlsplit
 
 BUSINESS_INFO = {
+    "legal_name": "CV Pratama Sukses Mandiri",
     "street_address": "Jl. Ujung Belakang Olo No. 14e",
     "maps_url": "https://share.google/WOR9AeR91epH32LOo",
     "operating_hours": {
@@ -60,6 +62,13 @@ def _is_store_entity(value):
     return any(str(entity_type).rsplit("/", 1)[-1].casefold() in _STORE_TYPES for entity_type in entity_types)
 
 
+def _is_organization_entity(value):
+    entity_types = value.get("@type", [])
+    if isinstance(entity_types, str):
+        entity_types = [entity_types]
+    return any(str(entity_type).rsplit("/", 1)[-1].casefold() == "organization" for entity_type in entity_types)
+
+
 def _day_name(value):
     return str(value).rstrip("/").rsplit("/", 1)[-1].rsplit("#", 1)[-1].casefold()
 
@@ -68,6 +77,38 @@ def _day_values_field(original, values):
     if isinstance(original, list):
         return values
     return values[0] if values else original
+
+
+def _is_psm_legal_entity_name(value):
+    normalized = re.sub(r"[^a-z0-9]+", "", str(value or "").casefold())
+    return normalized in {"ptpratamasuksesmandiri", "cvpratamasuksesmandiri"}
+
+
+def has_legacy_psm_legal_entity_reference(value):
+    """Detect the incorrect PSM legal name in plain or encoded public text."""
+    candidate = str(value or "")
+    for _ in range(5):
+        normalized = unicodedata.normalize("NFKC", candidate).casefold()
+        compact = re.sub(r"[^a-z0-9]+", "", normalized)
+        if "ptpratamasuksesmandiri" in compact:
+            return True
+        decoded = re.sub(
+            re.escape(chr(92)) + r"u([0-9a-fA-F]{4})",
+            lambda match: chr(int(match.group(1), 16)),
+            candidate,
+        )
+        decoded = re.sub(
+            re.escape(chr(92)) + r"x([0-9a-fA-F]{2})",
+            lambda match: chr(int(match.group(1), 16)),
+            decoded,
+        )
+        decoded = unescape(unquote(decoded))
+        if decoded == candidate:
+            break
+        candidate = decoded
+    normalized = unicodedata.normalize("NFKC", candidate).casefold()
+    compact = re.sub(r"[^a-z0-9]+", "", normalized)
+    return "ptpratamasuksesmandiri" in compact
 
 
 def _opening_hours_specification(entity):
@@ -151,6 +192,7 @@ def _update_store_entity(entity):
         address = {"@type": "PostalAddress"}
         entity["address"] = address
     address["streetAddress"] = BUSINESS_INFO["street_address"]
+    entity["legalName"] = BUSINESS_INFO["legal_name"]
     entity["hasMap"] = BUSINESS_INFO["maps_url"]
     _opening_hours_specification(entity)
 
@@ -160,6 +202,18 @@ def _walk_jsonld(value):
         for item in value:
             _walk_jsonld(item)
     elif isinstance(value, dict):
+        if "legalName" in value and _is_psm_legal_entity_name(value["legalName"]):
+            value["legalName"] = BUSINESS_INFO["legal_name"]
+        if (
+            (_is_store_entity(value) or _is_organization_entity(value))
+            and _is_psm_legal_entity_name(value.get("name"))
+        ):
+            value["name"] = BUSINESS_INFO["legal_name"]
+        seller = value.get("seller")
+        if isinstance(seller, str) and _is_psm_legal_entity_name(seller):
+            value["seller"] = BUSINESS_INFO["legal_name"]
+        elif isinstance(seller, dict) and _is_psm_legal_entity_name(seller.get("name")):
+            seller["name"] = BUSINESS_INFO["legal_name"]
         if _is_store_entity(value):
             _update_store_entity(value)
         for child in value.values():
