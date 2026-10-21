@@ -44,16 +44,16 @@ SEO_PAGES = {
         "description": "Cari kabel, lampu, MCB, saklar, stop kontak, dan kebutuhan listrik berdasarkan nama, SKU, brand, atau kategori. Untuk rumah, toko retail, dan proyek di Sumatera Barat.",
     },
     "/toko-listrik-padang/": {
-        "title": "Toko Alat Listrik Padang untuk Rumah & Retail | Pratama",
-        "description": "Toko alat listrik di Padang untuk kebutuhan rumah, teknisi, dan toko retail: lampu, kabel, MCB, saklar, dan perlengkapan instalasi. Tanya stok melalui WhatsApp.",
+        "title": "Toko Listrik Padang untuk Kebutuhan Rumah | Pratama",
+        "description": "Temukan kategori alat listrik untuk kebutuhan rumah di Padang. Jelajahi katalog, tanyakan harga atau ketersediaan lewat WhatsApp, atau lihat alamat dan jam operasional toko.",
     },
     "/distributor-alat-listrik-sumbar/": {
-        "title": "Supplier Alat Listrik Sumatera Barat untuk Toko & Proyek | Pratama",
-        "description": "Supplier alat listrik di Sumatera Barat untuk toko retail dan kebutuhan proyek. Diskusikan stok, kebutuhan barang, dan pengadaan kabel, lampu, MCB, saklar, serta aksesoris instalasi.",
+        "title": "Pengadaan Alat Listrik Sumatera Barat untuk Toko dan Proyek | Pratama",
+        "description": "Informasi pengadaan alat listrik untuk toko retail dan kebutuhan proyek di Sumatera Barat. Siapkan kategori, nama atau SKU, jumlah, dan lokasi kebutuhan; tanyakan ketersediaan serta penawaran melalui WhatsApp.",
     },
     "/jadi-mitra-retailer/": {
-        "title": "Supplier Alat Listrik untuk Toko Retail Sumatera Barat | Pratama",
-        "description": "Daftar sebagai mitra toko retail alat listrik di Sumatera Barat. Hubungi Pratama untuk membahas kebutuhan produk, harga grosir, dan dukungan pengadaan.",
+        "title": "Kemitraan Retailer Alat Listrik Sumatera Barat | Pratama Mitra",
+        "description": "Untuk pemilik atau calon pemilik toko listrik di Sumatera Barat. Sampaikan lokasi toko, status persiapan, dan kategori produk yang diminati melalui formulir yang dilanjutkan ke WhatsApp.",
     },
     "/kontak/": {
         "title": "Hubungi Supplier Alat Listrik Padang | Pratama",
@@ -64,6 +64,212 @@ SEO_PAGES = {
         "description": "Kenali Pratama Electrical Supply, supplier alat listrik di Padang yang melayani kebutuhan rumah, toko retail, dan proyek di Sumatera Barat.",
     },
 }
+
+WHATSAPP_NUMBER = "6281993399888"
+
+
+def replace_once(text, old, new, label):
+    count = text.count(old)
+    if count != 1:
+        raise RuntimeError(f"Expected one {label} marker, found {count}")
+    return text.replace(old, new, 1)
+
+
+def replace_commercial_block(text, pattern, replacement, route, label):
+    updated, count = re.subn(pattern, lambda _: replacement, text, count=1, flags=re.S)
+    if count != 1:
+        raise RuntimeError(f"Expected one {label} block on {route}, found {count}")
+    return updated
+
+
+def commercial_whatsapp_url(message):
+    return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(message, safe='')}"
+
+
+def apply_commercial_landing_content(text, route):
+    """Give the three approved commercial routes distinct, evidence-bounded journeys."""
+    if route not in {
+        "/toko-listrik-padang/",
+        "/distributor-alat-listrik-sumbar/",
+        "/jadi-mitra-retailer/",
+    }:
+        return text
+
+    # Remove unverified authorization and service-area assertions from these
+    # routes without changing shared pages outside the approved scope.
+    text = replace_once(
+        text,
+        "Distributor resmi EcoKing &amp; Visalux · Sumatera Barat",
+        "Pratama Electrical Supply · Padang, Sumatera Barat",
+        f"{route} top strip",
+    )
+    text = replace_once(
+        text,
+        "Distributor dan toko alat listrik di Padang dengan layanan distribusi ke berbagai wilayah Sumatera Barat.",
+        "Pratama Electrical Supply di Padang, operated by CV Pratama Sukses Mandiri.",
+        f"{route} footer summary",
+    )
+
+    category_links = (
+        '<nav aria-label="Kategori produk"><ul class="commercial-link-grid">'
+        '<li><a href="/kategori/lampu-pencahayaan/">Lampu &amp; Pencahayaan</a></li>'
+        '<li><a href="/kategori/kabel-listrik/">Kabel &amp; Kawat</a></li>'
+        '<li><a href="/kategori/saklar-stop-kontak/">Saklar &amp; Stop Kontak</a></li>'
+        '<li><a href="/kategori/proteksi-panel-listrik/">Proteksi Listrik</a></li>'
+        '</ul></nav>'
+    )
+
+    if route == "/toko-listrik-padang/":
+        local_wa = commercial_whatsapp_url(
+            "Halo Pratama, saya ingin bertanya tentang produk untuk kebutuhan rumah di Padang. "
+            "Produk atau SKU: ____. Jumlah: ____. Mohon informasi harga dan ketersediaan."
+        )
+        text = replace_once(text, "<h1>Toko alat listrik lengkap di Padang.</h1>", "<h1>Alat listrik untuk kebutuhan rumah di Padang.</h1>", f"{route} H1")
+        text = replace_once(
+            text,
+            "<p>Lebih dari 20 tahun melayani kebutuhan rumah, toko dan bisnis dengan 2.000+ SKU aktif serta berbagai brand terpercaya.</p>",
+            "<p>Cari kategori atau produk di katalog. Untuk harga dan ketersediaan saat ini, tanyakan melalui WhatsApp atau kunjungi toko di Padang.</p>",
+            f"{route} introduction",
+        )
+        text = replace_once(text, '<a class="btn btn-primary" href="/produk/">Cari Produk</a>', '<a class="btn btn-primary" href="/produk/">Lihat Katalog</a>', f"{route} catalog CTA")
+        text = replace_commercial_block(
+            text,
+            r'<a class="btn btn-secondary" href="[^"]*">Tanya Stok</a>',
+            f'<a class="btn btn-secondary" href="{local_wa}">Tanya Produk via WhatsApp</a>',
+            route,
+            "local WhatsApp CTA",
+        )
+        local_categories = (
+            '<section class="section commercial-section local-categories"><div class="container">'
+            '<div class="section-head"><div><span class="eyebrow">TELUSURI KATALOG</span>'
+            '<h2>Mulai dari kategori produk.</h2>'
+            '<p>Jelajahi kategori, lalu tanyakan nama atau SKU dan jumlah yang Anda perlukan.</p>'
+            '</div></div>'
+            + category_links
+            + '<p class="commercial-crosslink">Belanja untuk toko atau proyek? '
+            '<a href="/distributor-alat-listrik-sumbar/">Lihat informasi pengadaan B2B</a>. '
+            'Punya atau sedang menyiapkan toko listrik? '
+            '<a href="/jadi-mitra-retailer/">Tanyakan kemitraan retailer</a>.</p>'
+            '</div></section>'
+        )
+        text = replace_commercial_block(
+            text,
+            r'<section class="section"><div class="container trust-grid">.*?</section>',
+            local_categories,
+            route,
+            "local trust/statistics section",
+        )
+        local_inquiry = (
+            '<h3>Perlu menanyakan harga atau ketersediaan?</h3>'
+            '<p>Sertakan nama produk atau SKU jika ada, jumlah, dan pertanyaan Anda. WhatsApp akan terbuka dengan pesan awal untuk ditinjau.</p>'
+            f'<a class="text-link" href="{local_wa}">Tanyakan produk via WhatsApp</a>'
+        )
+        text = replace_commercial_block(
+            text,
+            r'<h3>Tidak menemukan barang di katalog\?</h3><p>.*?</p><a class="text-link" href="[^"]*">Kirim pertanyaan →</a>',
+            local_inquiry,
+            route,
+            "local inquiry section",
+        )
+        return text
+
+    if route == "/distributor-alat-listrik-sumbar/":
+        b2b_wa = commercial_whatsapp_url(
+            "Halo Pratama, saya ingin bertanya tentang pengadaan alat listrik untuk toko atau proyek. "
+            "Kategori, nama produk atau SKU: ____. Jumlah kebutuhan: ____. Kota/kabupaten: ____. "
+            "Mohon informasi ketersediaan dan penawaran."
+        )
+        b2b_hero = (
+            '<section class="b2b-hero"><div class="container b2b-grid"><div>'
+            '<span class="eyebrow signal">PENGADAAN ALAT LISTRIK · SUMATERA BARAT</span>'
+            '<h1>Pengadaan alat listrik untuk toko dan proyek.</h1>'
+            '<p>Halaman ini ditujukan untuk pertanyaan pengadaan toko retail dan proyek. Siapkan nama atau SKU, jumlah kebutuhan, serta lokasi; tanyakan ketersediaan dan penawaran kepada tim Pratama.</p>'
+            '<div class="hero-actions">'
+            f'<a class="btn btn-signal" href="{b2b_wa}">Tanya Pengadaan via WhatsApp</a>'
+            '<a class="btn btn-ghost-light" href="/jadi-mitra-retailer/">Informasi Kemitraan Retailer</a>'
+            '</div></div><div class="mitra-panel"><span>UNTUK TOKO DAN PROYEK</span>'
+            '<strong>RINCIAN KEBUTUHAN B2B</strong>'
+            '<p>Produk atau SKU · jumlah kebutuhan · lokasi</p></div></div></section>'
+        )
+        text = replace_commercial_block(text, r'<section class="b2b-hero">.*?</section>', b2b_hero, route, "B2B hero")
+        procurement = (
+            '<section class="section commercial-section procurement-section"><div class="container">'
+            '<div class="section-head"><div><span class="eyebrow">SEBELUM BERTANYA</span>'
+            '<h2>Siapkan rincian kebutuhan pengadaan.</h2>'
+            '<p>Bagikan informasi yang sudah tersedia. Harga, ketersediaan, persyaratan, dan cakupan layanan perlu dikonfirmasi langsung.</p>'
+            '</div></div>'
+            '<div class="commercial-info-grid">'
+            '<article><h3>Jenis kebutuhan</h3><p>Toko retail atau proyek.</p></article>'
+            '<article><h3>Produk dan jumlah</h3><p>Nama produk, SKU, kategori, dan jumlah kebutuhan jika sudah diketahui.</p></article>'
+            '<article><h3>Lokasi kebutuhan</h3><p>Sebutkan kota atau kabupaten agar konteks pertanyaan jelas.</p></article>'
+            '</div>'
+            + category_links
+            + '<p class="commercial-crosslink">Mencari informasi untuk membuka atau mengembangkan toko retail? '
+            '<a href="/jadi-mitra-retailer/">Lihat halaman kemitraan Pratama Mitra</a>.</p>'
+            '</div></section>'
+        )
+        text = replace_commercial_block(text, r'<section class="section"><div class="container">.*?</section>', procurement, route, "B2B feature section")
+        return text
+
+    partner_wa = commercial_whatsapp_url(
+        "Halo Pratama, saya ingin bertanya tentang kemitraan retailer alat listrik. "
+        "Kota/kabupaten toko: ____. Status toko: ____. Kategori atau brand yang diminati: ____."
+    )
+    partner_hero = (
+        '<section class="b2b-hero"><div class="container b2b-grid"><div>'
+        '<span class="eyebrow signal">KEMITRAAN RETAILER · SUMATERA BARAT</span>'
+        '<h1>Kemitraan retailer alat listrik di Sumatera Barat.</h1>'
+        '<p>Untuk pemilik atau calon pemilik toko listrik yang ingin menanyakan proses kemitraan. Sampaikan kota atau kabupaten, status toko, serta kategori atau brand yang diminati.</p>'
+        '<div class="hero-actions">'
+        '<a class="btn btn-signal" href="#daftar">Isi Formulir Kemitraan</a>'
+        f'<a class="btn btn-ghost-light" href="{partner_wa}">Tanya Kemitraan via WhatsApp</a>'
+        '</div></div><div class="mitra-panel"><span>INFORMASI TOKO</span>'
+        '<strong>SUDAH ADA / SEDANG DISIAPKAN</strong>'
+        '<p>Lokasi · status toko · kategori atau brand yang diminati</p></div></div></section>'
+    )
+    text = replace_commercial_block(text, r'<section class="b2b-hero">.*?</section>', partner_hero, route, "retailer hero")
+    partner_steps = (
+        '<section class="section commercial-section partner-preparation"><div class="container">'
+        '<div class="section-head"><div><span class="eyebrow">SEBELUM MENGHUBUNGI</span>'
+        '<h2>Siapkan informasi awal toko.</h2>'
+        '<p>Informasi ini membantu menyusun pertanyaan kemitraan; persyaratan dan ketentuan komersial perlu dibahas langsung.</p>'
+        '</div></div>'
+        '<div class="commercial-info-grid">'
+        '<article><h3>Status toko</h3><p>Pilih apakah toko sudah dimiliki atau sedang dipersiapkan.</p></article>'
+        '<article><h3>Lokasi</h3><p>Masukkan kota atau kabupaten tempat toko berada atau direncanakan.</p></article>'
+        '<article><h3>Minat produk</h3><p>Pilih kategori atau brand yang ingin dibicarakan.</p></article>'
+        '</div>'
+        + category_links
+        + '<p class="commercial-crosslink">Untuk pertanyaan pengadaan proyek, '
+        '<a href="/distributor-alat-listrik-sumbar/">lihat informasi pengadaan B2B</a>.</p>'
+        '</div></section>'
+    )
+    text = replace_commercial_block(text, r'<section class="section"><div class="container">.*?</section>', partner_steps, route, "retailer benefit section")
+    text = replace_once(text, '<section id="daftar" class="section soft-section">', '<section id="daftar" class="section soft-section commercial-application">', f"{route} application section")
+    text = replace_once(text, '<span class="eyebrow">DAFTAR MITRA</span>', '<span class="eyebrow">KEMITRAAN RETAILER</span>', f"{route} form eyebrow")
+    text = replace_once(text, '<h2>Punya atau sedang menyiapkan toko listrik?</h2>', '<h2>Bagikan informasi toko Anda.</h2>', f"{route} form heading")
+    text = replace_once(
+        text,
+        '<p>Isi data singkat. Setelah dikirim, WhatsApp akan terbuka dengan data pendaftaran yang siap dikirim ke admin Pratama.</p>',
+        '<p>Lengkapi informasi toko. WhatsApp akan terbuka dengan pesan yang sudah diisi; tinjau datanya, lalu tekan Kirim di WhatsApp.</p>',
+        f"{route} form instructions",
+    )
+    text = replace_once(text, '<label for="partner-interest">Produk yang diminati</label>', '<label for="partner-interest">Kategori / brand yang diminati</label>', f"{route} product-interest label")
+    text = replace_once(
+        text,
+        '<select id="partner-interest" name="produk"><option>EcoKing</option><option>Visalux</option><option>Kabel</option><option>Saklar &amp; Stop Kontak</option><option>MCB &amp; Proteksi</option><option>Beragam Produk</option></select>',
+        '<select id="partner-interest" name="produk" required><option value="" selected disabled>Pilih kategori / brand</option><option>EcoKing</option><option>Visalux</option><option>Kabel</option><option>Saklar &amp; Stop Kontak</option><option>MCB &amp; Proteksi</option><option>Beragam Produk</option></select>',
+        f"{route} product-interest options",
+    )
+    text = replace_once(
+        text,
+        '<select id="partner-status" name="status"><option>Sudah memiliki toko</option><option>Sedang mempersiapkan toko</option></select>',
+        '<select id="partner-status" name="status" required><option value="" selected disabled>Pilih status toko</option><option>Sudah memiliki toko</option><option>Sedang mempersiapkan toko</option></select>',
+        f"{route} status options",
+    )
+    text = replace_once(text, 'type="submit">Kirim Pendaftaran via WhatsApp</button>', 'type="submit">Lanjutkan ke WhatsApp</button>', f"{route} form CTA")
+    return text
+
 payload = root / "source" / "payload" / "build_impl.gz.b64"
 product_payload = root / "source" / "payload" / "products.gz.b64"
 database_sku_counts_path = root / "source" / "database-sku-counts.json"
@@ -132,6 +338,18 @@ if dist.exists() and human_css.exists():
         # The retailer form does not collect an address field, so do not send an
         # empty field in its WhatsApp lead payload.
         app_text = app_text.replace("\\nAlamat: ${fd.get('alamat')||'-'}", "")
+        app_text = replace_once(
+            app_text,
+            "Halo Pratama, saya ingin mendaftar PRATAMA MITRA.",
+            "Halo Pratama, saya ingin bertanya tentang kemitraan retailer alat listrik.",
+            "partner WhatsApp message introduction",
+        )
+        app_text = replace_once(
+            app_text,
+            "\\n\\nMohon informasi kerja sama, harga grosir, dan program retailer.",
+            "\\n\\nMohon informasi mengenai proses kemitraan.",
+            "partner WhatsApp message close",
+        )
         app_js.write_text(app_text, encoding="utf-8")
     brand_logos = root / "source" / "brand-logos"
     if brand_logos.exists():
@@ -206,8 +424,20 @@ if dist.exists() and human_css.exists():
                 '<link rel="stylesheet" href="/assets/styles.css">',
                 '<link rel="stylesheet" href="/assets/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/human-touch.css">',
             )
-        # Cache-bust the shared visual override after component-style changes.
-        text = text.replace('/assets/human-touch.css', '/assets/human-touch.css?v=pratama-mobile-ux-1')
+        commercial_routes = {
+            "/toko-listrik-padang/",
+            "/distributor-alat-listrik-sumbar/",
+            "/jadi-mitra-retailer/",
+        }
+        cache_key = (
+            "pratama-commercial-pages-2"
+            if route in commercial_routes
+            else "pratama-mobile-ux-1"
+        )
+        text = text.replace(
+            '/assets/human-touch.css',
+            f'/assets/human-touch.css?v={cache_key}',
+        )
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         legal_name = BUSINESS_INFO["legal_name"]
         footer_brand_block = (
@@ -350,6 +580,7 @@ if dist.exists() and human_css.exists():
                 )
                 text = text.replace('</main>', inquiry_section + '</main>', 1)
         text = apply_business_information(text)
+        text = apply_commercial_landing_content(text, route)
         html_path.write_text(text, encoding="utf-8")
 
     # Homepage copy: more like a conversation at a long-established store,

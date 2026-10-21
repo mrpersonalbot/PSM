@@ -20,9 +20,15 @@ class MobileUXTests(unittest.TestCase):
             end = html.find(">", start)
             body_tag = html[start : end + 1] if start >= 0 and end >= 0 else ""
             self.assertTrue(expected in body_tag, f"{route}: route scope missing from {body_tag!r}")
-            self.assertTrue(
-                '/assets/human-touch.css?v=pratama-mobile-ux-1' in html,
-                f"{route}: mobile stylesheet cache key missing",
+            cache_key = (
+                "pratama-commercial-pages-2"
+                if route == "toko-listrik-padang"
+                else "pratama-mobile-ux-1"
+            )
+            self.assertIn(
+                f"/assets/human-touch.css?v={cache_key}",
+                html,
+                f"{route}: stylesheet cache key missing",
             )
 
     def test_home_and_padang_mobile_heroes_allow_content_to_reflow(self):
@@ -40,6 +46,19 @@ class MobileUXTests(unittest.TestCase):
             "min-width:0",
         ):
             self.assertTrue(declaration in self.css, f"Missing responsive declaration: {declaration}")
+
+    def test_padang_hero_actions_contrast_with_blue_hero(self):
+        for rule in (
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn-primary',
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn-secondary',
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn:focus-visible',
+            ".b2b-hero .btn-signal{background:#c1481f;color:#fff;border-color:#c1481f}",
+            ".b2b-hero .btn-signal:hover{background:#a83c1c;border-color:#a83c1c}",
+            "background:#c1481f",
+            "border:1px solid rgba(255,255,255,.48)",
+            "outline:3px solid #fff",
+        ):
+            self.assertIn(rule, self.css)
 
     def test_contact_dock_is_in_flow_and_reserves_only_its_bottom_safe_area(self):
         body_selector = 'body[data-page="contact"]'

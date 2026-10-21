@@ -546,8 +546,8 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 }
 .b2b-hero .hero-actions{margin-top:34px;gap:14px}
 .b2b-hero .btn{min-height:50px;padding:0 20px}
-.b2b-hero .btn-signal{background:#ef6536;color:#fff;border-color:#ef6536}
-.b2b-hero .btn-signal:hover{background:#d95328;border-color:#d95328}
+.b2b-hero .btn-signal{background:#c1481f;color:#fff;border-color:#c1481f}
+.b2b-hero .btn-signal:hover{background:#a83c1c;border-color:#a83c1c}
 .b2b-hero .btn-ghost-light{color:#fff;border:1px solid rgba(255,255,255,.42);background:transparent}
 .b2b-hero .btn-ghost-light:hover{background:rgba(255,255,255,.1);border-color:#fff}
 .mitra-panel{
@@ -863,4 +863,84 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
     z-index:auto;
     margin:12px 10px calc(10px + env(safe-area-inset-bottom, 0px));
   }
+}
+
+/* Commercial landing pages: make category paths and qualification steps easy to scan. */
+.commercial-link-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  margin:24px 0 0;
+  padding:0;
+  list-style:none;
+}
+.commercial-link-grid li{min-width:0}
+.commercial-link-grid a{
+  display:flex;
+  align-items:center;
+  min-height:56px;
+  height:100%;
+  padding:14px 16px;
+  border:1px solid var(--warm-line);
+  border-radius:6px;
+  background:#fff;
+  color:var(--pratama-blue);
+  font-weight:750;
+  line-height:1.4;
+  text-decoration:none;
+  transition:background .16s ease,border-color .16s ease,transform .16s ease;
+}
+.commercial-link-grid a:hover{background:var(--soft-blue);border-color:var(--pratama-blue);transform:translateY(-1px)}
+.commercial-link-grid a:focus-visible,
+.commercial-crosslink a:focus-visible{outline:3px solid var(--signal-orange);outline-offset:3px}
+.commercial-info-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:24px 0 28px;
+}
+.commercial-info-grid article{
+  min-width:0;
+  padding:22px;
+  border:1px solid var(--warm-line);
+  border-radius:8px;
+  background:#fff;
+}
+.commercial-info-grid h3{margin:0 0 10px;color:var(--hand-ink);font-size:18px;line-height:1.35}
+.commercial-info-grid p{margin:0;color:#4b535a;line-height:1.6}
+.commercial-crosslink{margin:24px 0 0;color:#3f484f;line-height:1.7}
+.commercial-crosslink a{color:var(--pratama-blue);font-weight:750;text-underline-offset:3px}
+.commercial-application .form-submit{min-height:56px}
+body[data-page="padang-store"] .page-hero .hero-actions .btn-primary{
+  background:#c1481f;
+  border-color:#c1481f;
+  color:#fff;
+}
+body[data-page="padang-store"] .page-hero .hero-actions .btn-primary:hover{
+  background:#a83c1c;
+  border-color:#a83c1c;
+}
+body[data-page="padang-store"] .page-hero .hero-actions .btn-secondary{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.48);
+  color:#fff;
+}
+body[data-page="padang-store"] .page-hero .hero-actions .btn-secondary:hover{
+  background:rgba(255,255,255,.1);
+  border-color:#fff;
+}
+body[data-page="padang-store"] .page-hero .hero-actions .btn:focus-visible{
+  outline:3px solid #fff;
+  outline-offset:3px;
+}
+@media(max-width:760px){
+  .commercial-info-grid{grid-template-columns:1fr}
+  .commercial-info-grid article{padding:18px}
+}
+@media(max-width:560px){
+  .commercial-link-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .commercial-link-grid a{padding:13px 12px}
+}
+@media(max-width:380px){
+  .commercial-link-grid{grid-template-columns:minmax(0,1fr)}
 }
