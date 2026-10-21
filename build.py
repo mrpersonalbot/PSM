@@ -15,6 +15,7 @@ from source.business_information import (
     apply_business_information,
     has_legacy_psm_legal_entity_reference,
 )
+from source.sitemap import generate_sitemap
 
 root = Path(__file__).parent
 AVAILABLE_BRANDS = {
@@ -496,19 +497,9 @@ if dist.exists() and human_css.exists():
             )
         home.write_text(text, encoding="utf-8")
 
-# Publish crawlable discovery files from the same generated route set.
-sitemap_urls = []
-for page in sorted(dist.rglob("index.html")):
-    parts = page.relative_to(dist).parts
-    route = "/" if parts == ("index.html",) else "/" + "/".join(parts[:-1]) + "/"
-    sitemap_urls.append(SEO_SITE_URL + route)
-sitemap = (
-    '<?xml version="1.0" encoding="UTF-8"?>\n'
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    + "\n".join(f"  <url><loc>{escape(url)}</loc></url>" for url in sitemap_urls)
-    + "\n</urlset>\n"
-)
-(dist / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+# Publish only generated pages whose robots and canonical metadata make them
+# eligible; this final pass must not re-add noindex product variants.
+generate_sitemap(dist, SEO_SITE_URL)
 (dist / "robots.txt").write_text(
     "User-agent: *\nAllow: /\n\nSitemap: " + SEO_SITE_URL + "/sitemap.xml\n",
     encoding="utf-8",
