@@ -374,6 +374,8 @@ if dist.exists() and human_css.exists():
         route_scope = {
             "/toko-listrik-padang/": "padang-store",
             "/kontak/": "contact",
+            "/distributor-alat-listrik-sumbar/": "b2b-procurement",
+            "/jadi-mitra-retailer/": "retailer-partnership",
         }.get(route)
         if route_scope:
             if "<body" not in text:

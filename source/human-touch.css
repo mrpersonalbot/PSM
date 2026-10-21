@@ -864,6 +864,33 @@ h1,h2,h3,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.pr
     z-index:auto;
     margin:12px 10px calc(10px + env(safe-area-inset-bottom, 0px));
   }
+  body[data-page="padang-store"]{padding-bottom:0}
+  body[data-page="padang-store"] .mobile-action-dock{
+    position:static;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    z-index:auto;
+    margin:12px 10px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  body[data-page="retailer-partnership"]{padding-bottom:0}
+  body[data-page="retailer-partnership"] .mobile-action-dock{
+    position:static;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    z-index:auto;
+    margin:12px 10px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
+  body[data-page="b2b-procurement"]{padding-bottom:0}
+  body[data-page="b2b-procurement"] .mobile-action-dock{
+    position:static;
+    left:auto;
+    right:auto;
+    bottom:auto;
+    z-index:auto;
+    margin:12px 10px calc(10px + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 /* Commercial landing pages: make category paths and qualification steps easy to scan. */

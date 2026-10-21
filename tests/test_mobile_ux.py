@@ -10,10 +10,12 @@ class MobileUXTests(unittest.TestCase):
     def setUpClass(cls):
         cls.css = (ROOT / "source" / "human-touch.css").read_text(encoding="utf-8")
 
-    def test_only_the_two_named_internal_routes_receive_page_scopes(self):
+    def test_only_the_named_internal_routes_receive_page_scopes(self):
         for route, expected in (
             ("toko-listrik-padang", 'data-page="padang-store"'),
             ("kontak", 'data-page="contact"'),
+            ("distributor-alat-listrik-sumbar", 'data-page="b2b-procurement"'),
+            ("jadi-mitra-retailer", 'data-page="retailer-partnership"'),
         ):
             html = (DIST / route / "index.html").read_text(encoding="utf-8")
             start = html.find("<body")
@@ -22,7 +24,7 @@ class MobileUXTests(unittest.TestCase):
             self.assertTrue(expected in body_tag, f"{route}: route scope missing from {body_tag!r}")
             cache_key = (
                 "pratama-commercial-pages-2"
-                if route == "toko-listrik-padang"
+                if route in {"toko-listrik-padang", "distributor-alat-listrik-sumbar", "jadi-mitra-retailer"}
                 else "pratama-mobile-ux-1"
             )
             self.assertIn(
@@ -82,6 +84,22 @@ class MobileUXTests(unittest.TestCase):
             self.assertIn(declaration, dock_rule.replace(" ", ""), f"Contact dock missing {declaration}")
 
         self.assertNotIn("@media (max-width: 980px) and (max-height: 420px)", self.css)
+
+    def test_commercial_mobile_action_docks_stay_in_flow_and_clear_content(self):
+        for scope in ("padang-store", "b2b-procurement", "retailer-partnership"):
+            body_selector = f'body[data-page="{scope}"]'
+            self.assertIn(body_selector + "{padding-bottom:0}", self.css.replace(" ", ""))
+            dock_selector = body_selector + " .mobile-action-dock"
+            dock_start = self.css.find(dock_selector)
+            dock_open = self.css.find("{", dock_start)
+            dock_close = self.css.find("}", dock_open)
+            dock_rule = self.css[dock_open + 1 : dock_close] if dock_start >= 0 and dock_open >= 0 and dock_close >= 0 else ""
+            for declaration in (
+                "position:static",
+                "bottom:auto",
+                "margin:12px10pxcalc(10px+env(safe-area-inset-bottom,0px))",
+            ):
+                self.assertIn(declaration, dock_rule.replace(" ", ""), f"{scope} dock missing {declaration}")
 
     def test_mobile_conversion_destinations_remain_unchanged(self):
         home = (DIST / "index.html").read_text(encoding="utf-8")
