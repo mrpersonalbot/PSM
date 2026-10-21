@@ -52,6 +52,7 @@ class MobileUXTests(unittest.TestCase):
             'body[data-page="padang-store"] .page-hero .hero-actions .btn-primary',
             'body[data-page="padang-store"] .page-hero .hero-actions .btn-secondary',
             'body[data-page="padang-store"] .page-hero .hero-actions .btn:focus-visible',
+            ".b2b-hero .hero-actions .btn:focus-visible{outline:3px solid #fff;outline-offset:3px}",
             ".b2b-hero .btn-signal{background:#c1481f;color:#fff;border-color:#c1481f}",
             ".b2b-hero .btn-signal:hover{background:#a83c1c;border-color:#a83c1c}",
             "background:#c1481f",

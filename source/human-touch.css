@@ -550,6 +550,7 @@ h1,h2,.section-head h2,.audience-card h2,.retailer-band h2,.local-grid h2,.produ
 .b2b-hero .btn-signal:hover{background:#a83c1c;border-color:#a83c1c}
 .b2b-hero .btn-ghost-light{color:#fff;border:1px solid rgba(255,255,255,.42);background:transparent}
 .b2b-hero .btn-ghost-light:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.b2b-hero .hero-actions .btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .mitra-panel{
   position:relative;
   padding:34px 34px 38px;

@@ -239,6 +239,9 @@ class SitemapEligibilityTests(unittest.TestCase):
 
             self.assertEqual(set(sitemap_urls), eligible_urls)
             self.assertEqual(len(sitemap_urls), len(eligible_urls))
+            # Release baseline guard: eligibility remains derived above, and this
+            # assertion catches an unexpected count drift against verified main.
+            self.assertEqual(len(sitemap_urls), 702)
             self.assertEqual(
                 (dist / "robots.txt").read_text(encoding="utf-8"),
                 f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n",
@@ -326,6 +329,22 @@ class SitemapEligibilityTests(unittest.TestCase):
             self.assertIn('name="produk" required', partner_html)
             self.assertIn('name="status" required', partner_html)
             self.assertIn("Lanjutkan ke WhatsApp", partner_html)
+
+            app_js = (dist / "assets" / "app.js").read_text(encoding="utf-8")
+            for field in ("nama", "toko", "whatsapp", "kota", "status"):
+                self.assertIn(f"fd.get('{field}')", app_js)
+            self.assertIn("fd.getAll('produk')", app_js)
+            self.assertIn("Nama: ${fd.get('nama')}", app_js)
+            self.assertIn("Nama Toko: ${fd.get('toko')}", app_js)
+            self.assertIn("WhatsApp: ${fd.get('whatsapp')}", app_js)
+            self.assertIn("Kota/Kabupaten: ${fd.get('kota')}", app_js)
+            self.assertIn("Status: ${fd.get('status')}", app_js)
+            self.assertIn("Produk diminati: ${products}", app_js)
+            self.assertIn("encodeURIComponent(msg)", app_js)
+            self.assertIn(
+                "window.open('https://wa.me/6281993399888?text='+encodeURIComponent(msg)",
+                app_js,
+            )
 
             # Product route metadata must retain the existing stylesheet token;
             # only the three authorized landing pages get the new cache-buster.
