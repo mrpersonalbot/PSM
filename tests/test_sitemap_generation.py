@@ -1,12 +1,13 @@
 import sys
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from source.sitemap import indexable_canonical_urls
+from source.sitemap import generate_sitemap, indexable_canonical_urls
 
 
 class SitemapEligibilityTests(unittest.TestCase):
@@ -51,6 +52,30 @@ class SitemapEligibilityTests(unittest.TestCase):
                 indexable_canonical_urls(root, base),
                 [base + "/", base + "/produk/keep/"],
             )
+
+    def test_generated_xml_excludes_noindex_and_noncanonical_pages(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            base = "https://example.test"
+            self._write_page(root, "/", base + "/")
+            self._write_page(root, "/produk/keep/", base + "/produk/keep/")
+            self._write_page(
+                root,
+                "/produk/variant/",
+                base + "/produk/variant/",
+                robots="noindex,follow",
+            )
+            self._write_page(root, "/produk/legacy/", base + "/produk/")
+
+            generate_sitemap(root, base)
+            ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+            locations = [
+                node.text
+                for node in ET.parse(root / "sitemap.xml").getroot().findall("s:url/s:loc", ns)
+            ]
+
+            self.assertEqual(locations, [base + "/", base + "/produk/keep/"])
+            self.assertEqual(len(locations), len(set(locations)))
 
     def test_missing_or_ambiguous_canonical_fails_closed(self):
         with tempfile.TemporaryDirectory() as temp:

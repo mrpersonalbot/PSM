@@ -1,4 +1,5 @@
 import re
+from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -64,4 +65,18 @@ def indexable_canonical_urls(dist: Path, site_url: str) -> list[str]:
         seen.add(expected_canonical)
         urls.append(expected_canonical)
 
+    return urls
+
+
+def generate_sitemap(dist: Path, site_url: str) -> list[str]:
+    """Write sitemap.xml from generated self-canonical, indexable HTML pages."""
+    dist = Path(dist)
+    urls = indexable_canonical_urls(dist, site_url)
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(f"  <url><loc>{escape(url)}</loc></url>" for url in urls)
+        + "\n</urlset>\n"
+    )
+    (dist / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     return urls
