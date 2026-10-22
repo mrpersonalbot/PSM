@@ -10,19 +10,27 @@ class MobileUXTests(unittest.TestCase):
     def setUpClass(cls):
         cls.css = (ROOT / "source" / "human-touch.css").read_text(encoding="utf-8")
 
-    def test_only_the_two_named_internal_routes_receive_page_scopes(self):
+    def test_only_the_named_internal_routes_receive_page_scopes(self):
         for route, expected in (
             ("toko-listrik-padang", 'data-page="padang-store"'),
             ("kontak", 'data-page="contact"'),
+            ("distributor-alat-listrik-sumbar", 'data-page="b2b-procurement"'),
+            ("jadi-mitra-retailer", 'data-page="retailer-partnership"'),
         ):
             html = (DIST / route / "index.html").read_text(encoding="utf-8")
             start = html.find("<body")
             end = html.find(">", start)
             body_tag = html[start : end + 1] if start >= 0 and end >= 0 else ""
             self.assertTrue(expected in body_tag, f"{route}: route scope missing from {body_tag!r}")
-            self.assertTrue(
-                '/assets/human-touch.css?v=pratama-mobile-ux-1' in html,
-                f"{route}: mobile stylesheet cache key missing",
+            cache_key = (
+                "pratama-commercial-pages-2"
+                if route in {"toko-listrik-padang", "distributor-alat-listrik-sumbar", "jadi-mitra-retailer"}
+                else "pratama-mobile-ux-1"
+            )
+            self.assertIn(
+                f"/assets/human-touch.css?v={cache_key}",
+                html,
+                f"{route}: stylesheet cache key missing",
             )
 
     def test_home_and_padang_mobile_heroes_allow_content_to_reflow(self):
@@ -40,6 +48,20 @@ class MobileUXTests(unittest.TestCase):
             "min-width:0",
         ):
             self.assertTrue(declaration in self.css, f"Missing responsive declaration: {declaration}")
+
+    def test_padang_hero_actions_contrast_with_blue_hero(self):
+        for rule in (
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn-primary',
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn-secondary',
+            'body[data-page="padang-store"] .page-hero .hero-actions .btn:focus-visible',
+            ".b2b-hero .hero-actions .btn:focus-visible{outline:3px solid #fff;outline-offset:3px}",
+            ".b2b-hero .btn-signal{background:#c1481f;color:#fff;border-color:#c1481f}",
+            ".b2b-hero .btn-signal:hover{background:#a83c1c;border-color:#a83c1c}",
+            "background:#c1481f",
+            "border:1px solid rgba(255,255,255,.48)",
+            "outline:3px solid #fff",
+        ):
+            self.assertIn(rule, self.css)
 
     def test_contact_dock_is_in_flow_and_reserves_only_its_bottom_safe_area(self):
         body_selector = 'body[data-page="contact"]'
@@ -62,6 +84,22 @@ class MobileUXTests(unittest.TestCase):
             self.assertIn(declaration, dock_rule.replace(" ", ""), f"Contact dock missing {declaration}")
 
         self.assertNotIn("@media (max-width: 980px) and (max-height: 420px)", self.css)
+
+    def test_commercial_mobile_action_docks_stay_in_flow_and_clear_content(self):
+        for scope in ("padang-store", "b2b-procurement", "retailer-partnership"):
+            body_selector = f'body[data-page="{scope}"]'
+            self.assertIn(body_selector + "{padding-bottom:0}", self.css.replace(" ", ""))
+            dock_selector = body_selector + " .mobile-action-dock"
+            dock_start = self.css.find(dock_selector)
+            dock_open = self.css.find("{", dock_start)
+            dock_close = self.css.find("}", dock_open)
+            dock_rule = self.css[dock_open + 1 : dock_close] if dock_start >= 0 and dock_open >= 0 and dock_close >= 0 else ""
+            for declaration in (
+                "position:static",
+                "bottom:auto",
+                "margin:12px10pxcalc(10px+env(safe-area-inset-bottom,0px))",
+            ):
+                self.assertIn(declaration, dock_rule.replace(" ", ""), f"{scope} dock missing {declaration}")
 
     def test_mobile_conversion_destinations_remain_unchanged(self):
         home = (DIST / "index.html").read_text(encoding="utf-8")
