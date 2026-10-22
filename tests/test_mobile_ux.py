@@ -101,6 +101,62 @@ class MobileUXTests(unittest.TestCase):
             ):
                 self.assertIn(declaration, dock_rule.replace(" ", ""), f"{scope} dock missing {declaration}")
 
+    def test_product_detail_mobile_dock_is_in_flow_only_on_detail_routes(self):
+        product_pages = sorted((DIST / "produk").glob("*/index.html"))
+        self.assertEqual(len(product_pages), 757)
+        for page in product_pages:
+            html = page.read_text(encoding="utf-8")
+            body_start = html.find("<body")
+            body_end = html.find(">", body_start)
+            body_tag = html[body_start : body_end + 1] if body_start >= 0 and body_end >= 0 else ""
+            self.assertIn('data-page="product-detail"', body_tag, str(page))
+            self.assertIn("/assets/human-touch.css?v=pratama-product-detail-1", html, str(page))
+
+        catalog = (DIST / "produk" / "index.html").read_text(encoding="utf-8")
+        catalog_body_start = catalog.find("<body")
+        catalog_body_end = catalog.find(">", catalog_body_start)
+        catalog_body_tag = (
+            catalog[catalog_body_start : catalog_body_end + 1]
+            if catalog_body_start >= 0 and catalog_body_end >= 0
+            else ""
+        )
+        self.assertNotIn('data-page="product-detail"', catalog_body_tag)
+        for route in ("toko-listrik-padang", "distributor-alat-listrik-sumbar", "jadi-mitra-retailer"):
+            html = (DIST / route / "index.html").read_text(encoding="utf-8")
+            body_start = html.find("<body")
+            body_end = html.find(">", body_start)
+            body_tag = html[body_start : body_end + 1] if body_start >= 0 and body_end >= 0 else ""
+            self.assertNotIn('data-page="product-detail"', body_tag, route)
+
+        normalized_css = "".join(self.css.split())
+        self.assertIn(
+            'body[data-page="product-detail"]{padding-bottom:0}'
+            'body[data-page="product-detail"].mobile-action-dock{position:static;left:auto;right:auto;bottom:auto;z-index:auto;'
+            'margin:12px10pxcalc(10px+env(safe-area-inset-bottom,0px));}',
+            normalized_css,
+        )
+
+    def test_product_detail_and_mobile_dock_whatsapp_destinations_are_preserved(self):
+        product = (
+            DIST
+            / "produk"
+            / "advance-kg019-kompor-portable-advance-kgp-102"
+            / "index.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn(
+            '<a class="btn btn-primary btn-block" href="https://wa.me/6281993399888?text='
+            'Pratama%2C%20saya%20ingin%20menanyakan%20stok%20dan%20harga%20KOMPOR%20PORTABLE%20ADVANCE%20KGP-102.%20SKU%3A%20KG019.">'
+            'Tanya Stok &amp; Harga via WhatsApp</a>',
+            product,
+        )
+        app = (DIST / "assets" / "app.js").read_text(encoding="utf-8")
+        self.assertIn('dock.innerHTML=\'<a href="/produk/">Cari Produk</a>', app)
+        self.assertIn(
+            '<a href="https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
+            'target="_blank" rel="noopener">WhatsApp</a>',
+            app,
+        )
+
     def test_mobile_conversion_destinations_remain_unchanged(self):
         home = (DIST / "index.html").read_text(encoding="utf-8")
         padang = (DIST / "toko-listrik-padang" / "index.html").read_text(encoding="utf-8")
