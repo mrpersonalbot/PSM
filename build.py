@@ -377,6 +377,8 @@ if dist.exists() and human_css.exists():
             "/distributor-alat-listrik-sumbar/": "b2b-procurement",
             "/jadi-mitra-retailer/": "retailer-partnership",
         }.get(route)
+        if route_scope is None and '<section class="product-detail">' in text:
+            route_scope = "product-detail"
         if route_scope:
             if "<body" not in text:
                 raise RuntimeError(f"Generated page has no body element: {html_path}")
@@ -434,6 +436,8 @@ if dist.exists() and human_css.exists():
         cache_key = (
             "pratama-commercial-pages-2"
             if route in commercial_routes
+            else "pratama-product-detail-1"
+            if route_scope == "product-detail"
             else "pratama-mobile-ux-1"
         )
         text = text.replace(
