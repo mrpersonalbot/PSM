@@ -1,6 +1,6 @@
-# PRATAMA Electrical Supply
+# Pratama Sukses Mandiri
 
-Website source untuk **PRATAMA Electrical Supply**, operated by **CV Pratama Sukses Mandiri**, Padang, Sumatera Barat.
+Website source untuk **Pratama Sukses Mandiri**, operated by **CV Pratama Sukses Mandiri**, Padang, Sumatera Barat.
 
 Website ini melayani dua jalur utama:
 - B2C: customer toko listrik di Padang.
@@ -11,7 +11,7 @@ Website ini melayani dua jalur utama:
 - Pratama Blue: `#0A498B`
 - Signal Orange: `#F05A28`
 - Ink: `#151719`
-- Supply White: `#F7F7F4`
+- Paper White: `#F7F7F4`
 - Legal signature: `operated by CV Pratama Sukses Mandiri`
 
 ## Build
