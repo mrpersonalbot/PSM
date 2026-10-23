@@ -15,6 +15,7 @@ from urllib.parse import parse_qs, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
+from source.business_information import BUSINESS_INFO
 from source.sitemap import generate_sitemap, indexable_canonical_urls
 
 
@@ -86,6 +87,22 @@ class _CommercialPageParser(HTMLParser):
             self._in_title = False
         elif tag.casefold() == "script":
             self._in_jsonld = False
+
+
+def _schema_nodes_excluding_products(value):
+    if isinstance(value, list):
+        for item in value:
+            yield from _schema_nodes_excluding_products(item)
+    elif isinstance(value, dict):
+        raw_types = value.get("@type", [])
+        if isinstance(raw_types, str):
+            raw_types = [raw_types]
+        types = {str(item).rsplit("/", 1)[-1].casefold() for item in raw_types}
+        if "product" in types:
+            return
+        yield value
+        for child in value.values():
+            yield from _schema_nodes_excluding_products(child)
 
 
 COMMERCIAL_PAGES = {
@@ -201,6 +218,7 @@ class SitemapEligibilityTests(unittest.TestCase):
                     )
                 )
             )
+            self.assertEqual(len(products), 757)
             ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
             sitemap = ET.parse(dist / "sitemap.xml").getroot()
             sitemap_urls = [node.text for node in sitemap.findall("s:url/s:loc", ns)]
@@ -224,8 +242,34 @@ class SitemapEligibilityTests(unittest.TestCase):
                 product["url"] for product in products if "VARIANT" in product["strategy"]
             }
             self.assertEqual(len(variant_routes), 94)
+            all_html_pages = sorted(dist.rglob("*.html"))
+            self.assertEqual(len(all_html_pages), 797)
             index_pages = sorted(dist.rglob("index.html"))
+            self.assertEqual(len(index_pages), 796)
+            all_noindex_pages = set()
+            for page in all_html_pages:
+                metadata = _PageMetadataParser()
+                metadata.feed(page.read_text(encoding="utf-8"))
+                if metadata.is_noindex():
+                    all_noindex_pages.add(page.relative_to(dist).as_posix())
+            expected_variant_pages = {
+                f"produk/{product['slug']}/index.html"
+                for product in products
+                if "VARIANT" in product["strategy"]
+            }
+            self.assertEqual(len(all_noindex_pages), 95)
+            self.assertEqual(
+                all_noindex_pages - expected_variant_pages,
+                {"404.html"},
+            )
+            self.assertEqual(
+                all_noindex_pages & expected_variant_pages,
+                expected_variant_pages,
+            )
             eligible_urls = set()
+            business_entities = []
+            website_entities = []
+            invalid_store_entities = []
             for page in index_pages:
                 parts = page.relative_to(dist).parts
                 route = "/" if parts == ("index.html",) else "/" + "/".join(parts[:-1]) + "/"
@@ -237,11 +281,66 @@ class SitemapEligibilityTests(unittest.TestCase):
                 if not metadata.is_noindex():
                     eligible_urls.add(canonical)
 
+                parsed_page = _CommercialPageParser()
+                parsed_page.feed(page.read_text(encoding="utf-8"))
+                for raw_schema in parsed_page.jsonld:
+                    schema = json.loads("".join(raw_schema))
+                    for node in _schema_nodes_excluding_products(schema):
+                        raw_types = node.get("@type", [])
+                        node_types = [raw_types] if isinstance(raw_types, str) else raw_types
+                        type_names = {
+                            str(item).rsplit("/", 1)[-1]
+                            for item in node_types
+                        }
+                        if "WebSite" in type_names:
+                            website_entities.append((route, node))
+                        if type_names.intersection(
+                            {"Organization", "LocalBusiness", "Store", "HardwareStore", "ElectricalSupplyStore"}
+                        ):
+                            business_entities.append((route, node))
+                        if "ElectricalSupplyStore" in type_names:
+                            invalid_store_entities.append((route, node))
+
             self.assertEqual(set(sitemap_urls), eligible_urls)
             self.assertEqual(len(sitemap_urls), len(eligible_urls))
             # Release baseline guard: eligibility remains derived above, and this
             # assertion catches an unexpected count drift against verified main.
             self.assertEqual(len(sitemap_urls), 702)
+            self.assertEqual(
+                sorted(route for route, _ in business_entities),
+                ["/", "/toko-listrik-padang/"],
+            )
+            self.assertEqual(len(website_entities), 0)
+            self.assertEqual(len(invalid_store_entities), 0)
+            self.assertEqual(
+                {node.get("@id") for _, node in business_entities},
+                {BUSINESS_INFO["business_id"]},
+            )
+            expected_identity = {
+                "@type": "HardwareStore",
+                "name": BUSINESS_INFO["public_name"],
+                "legalName": BUSINESS_INFO["legal_name"],
+                "url": BUSINESS_INFO["url"],
+                "logo": BUSINESS_INFO["logo_url"],
+                "telephone": BUSINESS_INFO["telephone"],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": BUSINESS_INFO["street_address"],
+                    "addressLocality": "Padang",
+                    "addressRegion": "Sumatera Barat",
+                    "addressCountry": "ID",
+                },
+            }
+            for route, node in business_entities:
+                for key, expected_value in expected_identity.items():
+                    self.assertEqual(node.get(key), expected_value, f"{route}: {key}")
+                self.assertRegex(node["telephone"], r"^\+[1-9]\d{7,14}$", route)
+                self.assertNotIn("sameAs", node, route)
+                self.assertNotIn("alternateName", node, route)
+            self.assertEqual(
+                (dist / "assets" / "psm-header-transparent.png").read_bytes(),
+                (ROOT / "source" / "assets" / "psm-header-transparent.png").read_bytes(),
+            )
             self.assertEqual(
                 (dist / "robots.txt").read_text(encoding="utf-8"),
                 f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n",

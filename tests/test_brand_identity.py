@@ -125,11 +125,19 @@ class BrandIdentityTests(unittest.TestCase):
         values = [json.loads(script) for script in scripts]
         businesses = [
             item for value in values for item in jsonld_objects(value)
-            if "electricalsupplystore" in str(item.get("@type", "")).casefold()
+            if str(item.get("@type", "")).casefold() == "hardwarestore"
         ]
         self.assertTrue(businesses)
+        self.assertEqual(businesses[0].get("@id"), "https://pratamasuksesmandiri.com/#business")
         self.assertEqual(businesses[0].get("name"), BRAND)
         self.assertEqual(businesses[0].get("legalName"), LEGAL)
+        self.assertEqual(businesses[0].get("url"), "https://pratamasuksesmandiri.com/")
+        self.assertEqual(
+            businesses[0].get("logo"),
+            "https://pratamasuksesmandiri.com/assets/psm-header-transparent.png",
+        )
+        self.assertNotIn("sameAs", businesses[0])
+        self.assertNotIn("alternateName", businesses[0])
 
     def test_social_brand_is_updated_without_changing_page_intent(self):
         contact = (DIST / "kontak" / "index.html").read_text(encoding="utf-8")
