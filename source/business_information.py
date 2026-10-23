@@ -12,8 +12,16 @@ from html import unescape
 from urllib.parse import parse_qs, unquote, urlsplit
 
 BUSINESS_INFO = {
+    "public_name": "Pratama Sukses Mandiri",
     "legal_name": "CV Pratama Sukses Mandiri",
+    "business_id": "https://pratamasuksesmandiri.com/#business",
+    "url": "https://pratamasuksesmandiri.com/",
+    "logo_url": "https://pratamasuksesmandiri.com/assets/psm-header-transparent.png",
+    "telephone": "+6281993399888",
     "street_address": "Jl. Ujung Belakang Olo No. 14e",
+    "address_locality": "Padang",
+    "address_region": "Sumatera Barat",
+    "address_country": "ID",
     "maps_url": "https://share.google/WOR9AeR91epH32LOo",
     "operating_hours": {
         "weekdays": {
@@ -82,6 +90,23 @@ def _day_values_field(original, values):
 def _is_psm_legal_entity_name(value):
     normalized = re.sub(r"[^a-z0-9]+", "", str(value or "").casefold())
     return normalized in {"ptpratamasuksesmandiri", "cvpratamasuksesmandiri"}
+
+
+def _is_psm_business_entity(value):
+    names = (value.get("name"), value.get("legalName"))
+    normalized_names = {
+        re.sub(r"[^a-z0-9]+", "", str(name or "").casefold())
+        for name in names
+    }
+    return bool(
+        normalized_names
+        & {
+            "pratamasuksesmandiri",
+            "cvpratamasuksesmandiri",
+            "ptpratamasuksesmandiri",
+            "pratamaelectricalsupply",
+        }
+    )
 
 
 def has_legacy_psm_legal_entity_reference(value):
@@ -187,12 +212,23 @@ def _opening_hours_specification(entity):
 
 
 def _update_store_entity(entity):
+    entity["@id"] = BUSINESS_INFO["business_id"]
+    entity["@type"] = "HardwareStore"
+    entity["name"] = BUSINESS_INFO["public_name"]
+    entity["legalName"] = BUSINESS_INFO["legal_name"]
+    entity["url"] = BUSINESS_INFO["url"]
+    entity["logo"] = BUSINESS_INFO["logo_url"]
+    entity["telephone"] = BUSINESS_INFO["telephone"]
+    entity.pop("alternateName", None)
+    entity.pop("sameAs", None)
     address = entity.get("address")
     if not isinstance(address, dict):
         address = {"@type": "PostalAddress"}
         entity["address"] = address
     address["streetAddress"] = BUSINESS_INFO["street_address"]
-    entity["legalName"] = BUSINESS_INFO["legal_name"]
+    address["addressLocality"] = BUSINESS_INFO["address_locality"]
+    address["addressRegion"] = BUSINESS_INFO["address_region"]
+    address["addressCountry"] = BUSINESS_INFO["address_country"]
     entity["hasMap"] = BUSINESS_INFO["maps_url"]
     _opening_hours_specification(entity)
 
@@ -202,19 +238,25 @@ def _walk_jsonld(value):
         for item in value:
             _walk_jsonld(item)
     elif isinstance(value, dict):
+        entity_types = value.get("@type", [])
+        if isinstance(entity_types, str):
+            entity_types = [entity_types]
+        normalized_types = {
+            str(entity_type).rsplit("/", 1)[-1].casefold()
+            for entity_type in entity_types
+        }
+        # Product markup is a separate catalog contract. Do not rewrite its
+        # seller, brand, name, or other nested identity data here.
+        if "product" in normalized_types:
+            return
         if "legalName" in value and _is_psm_legal_entity_name(value["legalName"]):
             value["legalName"] = BUSINESS_INFO["legal_name"]
-        if (
-            (_is_store_entity(value) or _is_organization_entity(value))
-            and _is_psm_legal_entity_name(value.get("name"))
-        ):
-            value["name"] = BUSINESS_INFO["legal_name"]
-        seller = value.get("seller")
-        if isinstance(seller, str) and _is_psm_legal_entity_name(seller):
-            value["seller"] = BUSINESS_INFO["legal_name"]
-        elif isinstance(seller, dict) and _is_psm_legal_entity_name(seller.get("name")):
-            seller["name"] = BUSINESS_INFO["legal_name"]
-        if _is_store_entity(value):
+        is_business_type = (
+            _is_store_entity(value)
+            or _is_organization_entity(value)
+            or "electricalsupplystore" in normalized_types
+        )
+        if is_business_type and _is_psm_business_entity(value):
             _update_store_entity(value)
         for child in value.values():
             _walk_jsonld(child)

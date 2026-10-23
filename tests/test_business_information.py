@@ -1,4 +1,6 @@
+import ast
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -10,6 +12,105 @@ from source.business_information import BUSINESS_INFO, apply_business_informatio
 
 
 class BusinessInformationTests(unittest.TestCase):
+    def test_business_telephone_is_full_e164_and_matches_website_whatsapp(self):
+        self.assertIsNotNone(re.fullmatch(r"\+[1-9]\d{7,14}", BUSINESS_INFO["telephone"]))
+        build_tree = ast.parse((ROOT / "build.py").read_text(encoding="utf-8"))
+        assignment = next(
+            node
+            for node in build_tree.body
+            if isinstance(node, ast.Assign)
+            and any(
+                isinstance(target, ast.Name) and target.id == "WHATSAPP_NUMBER"
+                for target in node.targets
+            )
+        )
+        self.assertEqual(BUSINESS_INFO["telephone"], "+" + ast.literal_eval(assignment.value))
+
+    def test_verified_business_identity_is_shared_and_product_jsonld_is_untouched(self):
+        homepage_entity = {
+            "@context": "https://schema.org",
+            "@type": "HardwareStore",
+            "name": "Pratama Sukses Mandiri",
+            "alternateName": "Pratama",
+            "legalName": "CV Pratama Sukses Mandiri",
+            "telephone": "+628****9888",
+            "sameAs": [
+                "https://www.instagram.com/psm_padang/",
+                "https://www.tiktok.com/@psm.padang",
+                "https://maps.google.com/?cid=unconfirmed",
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Ujung Belakang Olo No. 14e",
+                "addressLocality": "Padang",
+                "addressRegion": "Sumatera Barat",
+                "addressCountry": "ID",
+            },
+        }
+        local_entity = {
+            "@context": "https://schema.org",
+            "@type": "ElectricalSupplyStore",
+            "name": "Pratama Sukses Mandiri",
+            "legalName": "PT Pratama Sukses Mandiri",
+            "telephone": "+628****9888",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Ujung Belakang Olo No. 14e",
+                "addressLocality": "Padang",
+                "addressRegion": "Sumatera Barat",
+                "addressCountry": "ID",
+            },
+        }
+        product = {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Fixture product",
+            "seller": {
+                "@type": "Organization",
+                "name": "PT Pratama Sukses Mandiri",
+                "legalName": "PT Pratama Sukses Mandiri",
+            },
+        }
+
+        def transform(node):
+            source = (
+                '<script type="application/ld+json">'
+                + json.dumps(node, ensure_ascii=False)
+                + '</script>'
+            )
+            updated = apply_business_information(source)
+            return json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])
+
+        homepage = transform(homepage_entity)
+        local_store = transform(local_entity)
+        preserved_product = transform(product)
+        expected_identity = {
+            "@id": "https://pratamasuksesmandiri.com/#business",
+            "@type": "HardwareStore",
+            "name": "Pratama Sukses Mandiri",
+            "legalName": "CV Pratama Sukses Mandiri",
+            "url": "https://pratamasuksesmandiri.com/",
+            "logo": "https://pratamasuksesmandiri.com/assets/psm-header-transparent.png",
+            "telephone": "+6281993399888",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Ujung Belakang Olo No. 14e",
+                "addressLocality": "Padang",
+                "addressRegion": "Sumatera Barat",
+                "addressCountry": "ID",
+            },
+        }
+        for key, value in expected_identity.items():
+            with self.subTest(entity="homepage", key=key):
+                self.assertEqual(homepage.get(key), value)
+            with self.subTest(entity="local store", key=key):
+                self.assertEqual(local_store.get(key), value)
+        self.assertNotIn("alternateName", homepage)
+        self.assertNotIn("sameAs", homepage)
+        self.assertNotIn("alternateName", local_store)
+        self.assertNotIn("sameAs", local_store)
+        self.assertEqual(preserved_product, product)
+
     def test_address_rewrite_is_bounded_and_idempotent(self):
         source = (
             "Jl. Ujung Belakang Olo No.14, Padang; "
@@ -77,8 +178,14 @@ class BusinessInformationTests(unittest.TestCase):
         self.assertEqual(entity["address"]["streetAddress"], BUSINESS_INFO["street_address"])
         self.assertEqual(entity["hasMap"], BUSINESS_INFO["maps_url"])
         self.assertEqual(entity["legalName"], BUSINESS_INFO["legal_name"])
-        self.assertEqual(entity["telephone"], "+628****9888")
-        self.assertEqual(entity["sameAs"], ["https://www.instagram.com/psm_padang/"])
+        self.assertEqual(entity["@id"], BUSINESS_INFO["business_id"])
+        self.assertEqual(entity["@type"], "HardwareStore")
+        self.assertEqual(entity["name"], BUSINESS_INFO["public_name"])
+        self.assertEqual(entity["url"], BUSINESS_INFO["url"])
+        self.assertEqual(entity["logo"], BUSINESS_INFO["logo_url"])
+        self.assertEqual(entity["telephone"], BUSINESS_INFO["telephone"])
+        self.assertNotIn("sameAs", entity)
+        self.assertNotIn("alternateName", entity)
         self.assertEqual(
             entity["openingHoursSpecification"][0],
             {
@@ -118,8 +225,10 @@ class BusinessInformationTests(unittest.TestCase):
         self.assertEqual(specs[1]["dayOfWeek"], "Saturday")
         self.assertEqual((specs[1]["opens"], specs[1]["closes"]), ("09:00", "17:00"))
         self.assertEqual(entity["legalName"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(entity["@type"], "HardwareStore")
+        self.assertEqual(entity["@id"], BUSINESS_INFO["business_id"])
 
-    def test_organization_and_product_seller_identity_are_canonicalized(self):
+    def test_organization_is_canonicalized_without_touching_product_sellers(self):
         source = (
             '<script type="application/ld+json">'
             '{"@context":"https://schema.org","@graph":['
@@ -138,12 +247,14 @@ class BusinessInformationTests(unittest.TestCase):
         graph = json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])["@graph"]
 
         self.assertEqual(BUSINESS_INFO["legal_name"], "CV Pratama Sukses Mandiri")
-        self.assertEqual(graph[0]["name"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[0]["@type"], "HardwareStore")
+        self.assertEqual(graph[0]["@id"], BUSINESS_INFO["business_id"])
+        self.assertEqual(graph[0]["name"], BUSINESS_INFO["public_name"])
         self.assertEqual(graph[0]["legalName"], BUSINESS_INFO["legal_name"])
         self.assertEqual(graph[1]["name"], "Example product")
-        self.assertEqual(graph[1]["seller"]["name"], BUSINESS_INFO["legal_name"])
-        self.assertEqual(graph[1]["seller"]["legalName"], BUSINESS_INFO["legal_name"])
-        self.assertEqual(graph[2]["seller"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(graph[1]["seller"]["name"], "PT PRATAMA SUKSES MANDIRI")
+        self.assertEqual(graph[1]["seller"]["legalName"], "PT. Pratama Sukses Mandiri")
+        self.assertEqual(graph[2]["seller"], "PT Pratama Sukses Mandiri")
         self.assertEqual(graph[3]["name"], "PT Pratama Sukses Mandiri")
         self.assertEqual(graph[3]["brand"]["name"], "PT Pratama Sukses Mandiri")
 
@@ -169,7 +280,7 @@ class BusinessInformationTests(unittest.TestCase):
         updated = apply_business_information(source)
         entity = json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])
 
-        self.assertEqual(entity["seller"]["name"], BUSINESS_INFO["legal_name"])
+        self.assertEqual(entity["seller"]["name"], "PT Pratama Sukses Mandiri")
         self.assertEqual(entity["name"], "Kabel NYM 2 x 2.5 mm")
         self.assertEqual(entity["sku"], "SKU-PSM-001")
         self.assertEqual(entity["category"], "Kabel & Kawat")
