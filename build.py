@@ -32,6 +32,8 @@ REMOVED_BRANDS = {
     "COSMIC", "HINOMARU", "NICHI", "OKACHI", "LARKIN", "WAKAMOTO", "VASINDO",
 }
 LOGO_EXTENSIONS = {brand.lower(): "png" for brand in AVAILABLE_BRANDS}
+PUBLIC_BRAND = "Pratama Sukses Mandiri"
+OLD_PUBLIC_BRAND_RE = re.compile(r"\bPratama Electrical Supply\b", re.I)
 # Canonical URLs, structured data, and sitemap entries use the production origin.
 SEO_SITE_URL = os.environ.get("SITE_URL", "https://pratamasuksesmandiri.com").rstrip("/")
 SEO_PAGES = {
@@ -57,11 +59,11 @@ SEO_PAGES = {
     },
     "/kontak/": {
         "title": "Hubungi Supplier Alat Listrik Padang | Pratama",
-        "description": "Hubungi Pratama Electrical Supply di Padang untuk kebutuhan alat listrik rumah, toko retail, dan proyek di Sumatera Barat. Cek lokasi, jam operasional, stok, dan harga lewat WhatsApp.",
+        "description": "Hubungi Pratama Sukses Mandiri di Padang untuk kebutuhan alat listrik rumah, toko retail, dan proyek di Sumatera Barat. Cek lokasi, jam operasional, stok, dan harga lewat WhatsApp.",
     },
     "/tentang-kami/": {
         "title": "Pratama, Supplier Alat Listrik di Padang & Sumatera Barat",
-        "description": "Kenali Pratama Electrical Supply, supplier alat listrik di Padang yang melayani kebutuhan rumah, toko retail, dan proyek di Sumatera Barat.",
+        "description": "Kenali Pratama Sukses Mandiri, supplier alat listrik di Padang yang melayani kebutuhan rumah, toko retail, dan proyek di Sumatera Barat.",
     },
 }
 
@@ -73,6 +75,87 @@ def replace_once(text, old, new, label):
     if count != 1:
         raise RuntimeError(f"Expected one {label} marker, found {count}")
     return text.replace(old, new, 1)
+
+
+def update_public_brand_structured_data(html):
+    """Update only business/brand entity names; leave Product schemas intact."""
+    script_re = re.compile(
+        r'(<script\b[^>]*\btype=["\']application/ld\+json["\'][^>]*>)(.*?)(</script\s*>)',
+        re.I | re.S,
+    )
+
+    def update_script(match):
+        try:
+            payload = json.loads(match.group(2))
+        except (json.JSONDecodeError, TypeError):
+            return match.group(0)
+        changed = False
+
+        def update_node(node, in_breadcrumb=False, in_product=False):
+            nonlocal changed
+            if isinstance(node, list):
+                for item in node:
+                    update_node(item, in_breadcrumb, in_product)
+                return
+            if not isinstance(node, dict):
+                return
+            raw_types = node.get("@type", [])
+            if isinstance(raw_types, str):
+                raw_types = [raw_types]
+            types = {str(value).rsplit("/", 1)[-1].casefold() for value in raw_types}
+            in_product = in_product or "product" in types
+            if in_product:
+                return
+            in_breadcrumb = in_breadcrumb or "breadcrumblist" in types
+            is_public_business = types.intersection({"organization", "localbusiness", "store", "hardwarestore", "electricalsupplystore", "brand"})
+            if is_public_business:
+                for key in ("name", "alternateName"):
+                    value = node.get(key)
+                    if isinstance(value, str) and OLD_PUBLIC_BRAND_RE.fullmatch(value):
+                        node[key] = PUBLIC_BRAND
+                        changed = True
+            if "listitem" in types and in_breadcrumb:
+                value = node.get("name")
+                if isinstance(value, str):
+                    updated = OLD_PUBLIC_BRAND_RE.sub(PUBLIC_BRAND, value)
+                    if updated != value:
+                        node["name"] = updated
+                        changed = True
+            seller = node.get("seller")
+            if isinstance(seller, str) and OLD_PUBLIC_BRAND_RE.fullmatch(seller):
+                node["seller"] = PUBLIC_BRAND
+                changed = True
+            for value in node.values():
+                update_node(value, in_breadcrumb, in_product)
+
+        update_node(payload)
+        if not changed:
+            return match.group(0)
+        return match.group(1) + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + match.group(3)
+
+    return script_re.sub(update_script, html)
+
+
+def replace_public_brand_copy(html, preserve_product_main=False):
+    """Replace only the retired public brand phrase, never Product-schema data."""
+    script_re = re.compile(
+        r'(<script\b(?=[^>]*\btype=["\']application/ld\+json["\'])[^>]*>.*?</script\s*>)',
+        re.I | re.S,
+    )
+    parts = script_re.split(html)
+    for index in range(0, len(parts), 2):
+        segment = parts[index]
+        if preserve_product_main:
+            main = re.search(r"<main\b[^>]*>.*?</main\s*>", segment, re.I | re.S)
+            if main:
+                parts[index] = (
+                    OLD_PUBLIC_BRAND_RE.sub(PUBLIC_BRAND, segment[:main.start()])
+                    + main.group(0)
+                    + OLD_PUBLIC_BRAND_RE.sub(PUBLIC_BRAND, segment[main.end():])
+                )
+                continue
+        parts[index] = OLD_PUBLIC_BRAND_RE.sub(PUBLIC_BRAND, segment)
+    return "".join(parts)
 
 
 def replace_commercial_block(text, pattern, replacement, route, label):
@@ -315,15 +398,17 @@ human_css = root / "source" / "human-touch.css"
 if dist.exists() and human_css.exists():
     assets.mkdir(parents=True, exist_ok=True)
     shutil.copy2(human_css, assets / "human-touch.css")
-    # Use the supplied logo with its white background keyed to alpha. Preserve
-    # the white-background source asset separately; do not redraw or upscale it.
-    supplied_wordmark = root / "source" / "assets" / "pratama-brand-wordmark-home-transparent.png"
-    if not supplied_wordmark.exists():
-        raise RuntimeError("Missing transparent supplied homepage wordmark asset")
-    shutil.copy2(supplied_wordmark, assets / "pratama-brand-wordmark-home-transparent.png")
-    footer_logo = root / "source" / "assets" / "pratama-brand-footer-transparent.png"
-    if not footer_logo.exists():
-        raise RuntimeError("Missing transparent supplied footer logo asset")
+    # Canonical owner-supplied PSM PNGs are committed. Keep the prior public
+    # paths as byte-identical compatibility aliases because the unchanged
+    # GitHub Pages validation still asserts those URLs; neither alias contains
+    # the retired artwork.
+    header_logo = root / "source" / "assets" / "psm-header-transparent.png"
+    footer_logo = root / "source" / "assets" / "psm-footer-transparent.png"
+    if not header_logo.exists() or not footer_logo.exists():
+        raise RuntimeError("Missing committed transparent PSM header/footer logo assets")
+    shutil.copy2(header_logo, assets / "psm-header-transparent.png")
+    shutil.copy2(header_logo, assets / "pratama-brand-wordmark-home-transparent.png")
+    shutil.copy2(footer_logo, assets / "psm-footer-transparent.png")
     shutil.copy2(footer_logo, assets / "pratama-brand-footer-transparent.png")
     app_js = assets / "app.js"
     if app_js.exists():
@@ -397,7 +482,7 @@ if dist.exists() and human_css.exists():
             )
         title_match = re.search(r"<title>(.*?)</title>", text, flags=re.S)
         description_match = re.search(r'<meta name="description" content="([^"]*)">', text)
-        page_title = title_match.group(1) if title_match else "Pratama Electrical Supply"
+        page_title = title_match.group(1) if title_match else PUBLIC_BRAND
         page_description = description_match.group(1) if description_match else "Supplier alat listrik di Padang dan Sumatera Barat."
         canonical_url = SEO_SITE_URL + route
         text = re.sub(
@@ -407,7 +492,7 @@ if dist.exists() and human_css.exists():
             count=1,
         )
         social_meta = (
-            f'<meta property="og:locale" content="id_ID"><meta property="og:site_name" content="Pratama Electrical Supply">'
+            f'<meta property="og:locale" content="id_ID"><meta property="og:site_name" content="{PUBLIC_BRAND}">'
             f'<meta property="og:type" content="website"><meta property="og:title" content="{page_title}">'
             f'<meta property="og:description" content="{page_description}"><meta property="og:url" content="{canonical_url}">'
             f'<meta name="twitter:card" content="summary"><meta name="twitter:title" content="{page_title}">'
@@ -446,6 +531,19 @@ if dist.exists() and human_css.exists():
         )
         text = text.replace('/assets/pratama-logo.svg', '/assets/pratama-brand-wordmark-home-transparent.png')
         legal_name = BUSINESS_INFO["legal_name"]
+        header_brand_block = (
+            f'<a class="wordmark wordmark-final" href="/" aria-label="Pratama Electrical Supply — operated by {legal_name}">'
+            '<img src="/assets/pratama-brand-wordmark-home-transparent.png" '
+            f'alt="Pratama Electrical Supply — operated by {legal_name}" width="260" height="51"></a>'
+        )
+        header_logo_tag = (
+            '<a class="wordmark wordmark-final" href="/" aria-label="Pratama Sukses Mandiri home">'
+            '<img src="/assets/pratama-brand-wordmark-home-transparent.png" '
+            'alt="Pratama Sukses Mandiri logo" width="260" height="95"></a>'
+        )
+        if header_brand_block not in text:
+            raise RuntimeError(f"Generated header brand block missing in {html_path}")
+        text = text.replace(header_brand_block, header_logo_tag, 1)
         footer_brand_block = (
             '<div class="footer-brand">PRATAMA</div>'
             '<div class="footer-descriptor">ELECTRICAL SUPPLY</div>'
@@ -453,8 +551,8 @@ if dist.exists() and human_css.exists():
         )
         footer_logo_tag = (
             '<img class="footer-logo" src="/assets/pratama-brand-footer-transparent.png" '
-            f'alt="Pratama Electrical Supply — operated by {legal_name}" '
-            'width="260" height="75">'
+            'alt="Pratama Sukses Mandiri logo" width="260" height="85">'
+            f'<p class="footer-legal">{legal_name}</p>'
         )
         if footer_brand_block not in text:
             raise RuntimeError(f"Generated footer brand block missing in {html_path}")
@@ -733,6 +831,16 @@ if dist.exists() and human_css.exists():
                 + text[brand_match.end():]
             )
         home.write_text(text, encoding="utf-8")
+
+# Normalize public brand references without altering product-page main content
+# or Product JSON-LD; business legalName values remain the CV identity.
+for html_path in dist.rglob("*.html"):
+    relative_parts = html_path.relative_to(dist).parts
+    product_detail = len(relative_parts) == 3 and relative_parts[0] == "produk" and relative_parts[2] == "index.html"
+    text = html_path.read_text(encoding="utf-8")
+    text = update_public_brand_structured_data(text)
+    text = replace_public_brand_copy(text, preserve_product_main=product_detail)
+    html_path.write_text(text, encoding="utf-8")
 
 # Publish only generated pages whose robots and canonical metadata make them
 # eligible; this final pass must not re-add noindex product variants.
