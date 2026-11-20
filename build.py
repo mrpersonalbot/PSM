@@ -67,7 +67,7 @@ SEO_PAGES = {
     },
 }
 
-WHATSAPP_NUMBER = "6281993399888"
+WHATSAPP_NUMBER = "62811666027"
 
 
 def replace_once(text, old, new, label):
@@ -480,7 +480,8 @@ if dist.exists() and human_css.exists():
         )
         # Keep every client-side inquiry path on the current public WhatsApp
         # number, including dynamically created product and mobile actions.
-        app_text = app_text.replace("6281266600800", "6281993399888")
+        app_text = app_text.replace("6281266600800", "62811666027")
+        app_text = app_text.replace("6281993399888", "62811666027")
         # The retailer form does not collect an address field, so do not send an
         # empty field in its WhatsApp lead payload.
         app_text = app_text.replace("\\nAlamat: ${fd.get('alamat')||'-'}", "")
@@ -642,8 +643,12 @@ if dist.exists() and human_css.exists():
             )
             text = text.replace(f'<option value="{brand}">{brand}</option>', "")
         # Update the public contact details consistently in generated pages.
-        text = text.replace('6281266600800', '6281993399888')
-        text = text.replace('0812-6660-0800', '081993399888')
+        # The website Owner number is authoritative for customer-facing contact;
+        # the Google Maps listing is managed by the Admin on a different number.
+        text = text.replace('6281266600800', '62811666027')
+        text = text.replace('0812-6660-0800', '0811666027')
+        text = text.replace('6281993399888', '62811666027')
+        text = text.replace('081993399888', '0811666027')
         text = text.replace('https://www.instagram.com/psm_padan/', 'https://www.instagram.com/psm_padang/')
         text = text.replace('@psm_padan', '@psm_padang')
 
@@ -685,7 +690,7 @@ if dist.exists() and human_css.exists():
         # Restore the authentic WhatsApp mark as a fixed desktop action on every
         # generated route. The mobile utility dock remains the small-screen action.
         desktop_whatsapp = (
-            '<a class="wa-float" href="https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
+            '<a class="wa-float" href="https://wa.me/62811666027?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
             'aria-label="Hubungi Pratama via WhatsApp" title="Hubungi Pratama via WhatsApp" '
             'target="_blank" rel="noopener noreferrer">'
             '<img src="/assets/whatsapp-floating.jpg" width="52" height="52" alt=""></a>'
@@ -822,7 +827,7 @@ if dist.exists() and human_css.exists():
             flags=re.S,
         )
         # The primary homepage CTA remains a direct WhatsApp inquiry.
-        whatsapp_product = 'https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
+        whatsapp_product = 'https://wa.me/62811666027?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik.'
         text = text.replace(
             '<a class="btn btn-primary" href="/produk/">Cari Produk</a>',
             f'<a class="btn btn-primary" href="{whatsapp_product}">Tanya Produk</a>',
@@ -845,7 +850,7 @@ if dist.exists() and human_css.exists():
             category = category_messages.get(slug)
             if not category:
                 return match.group(0)
-            href = 'https://wa.me/6281993399888?text=' + quote(
+            href = 'https://wa.me/62811666027?text=' + quote(
                 f"Halo Pratama, saya ingin menanyakan kategori {category}."
             )
             body = body.replace("Lihat produk →", "Tanya Produk →")

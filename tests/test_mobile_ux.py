@@ -144,7 +144,7 @@ class MobileUXTests(unittest.TestCase):
             / "index.html"
         ).read_text(encoding="utf-8")
         self.assertIn(
-            '<a class="btn btn-primary btn-block" href="https://wa.me/6281993399888?text='
+            '<a class="btn btn-primary btn-block" href="https://wa.me/62811666027?text='
             'Pratama%2C%20saya%20ingin%20menanyakan%20stok%20dan%20harga%20KOMPOR%20PORTABLE%20ADVANCE%20KGP-102.%20SKU%3A%20KG019.">'
             'Tanya Stok &amp; Harga via WhatsApp</a>',
             product,
@@ -152,7 +152,7 @@ class MobileUXTests(unittest.TestCase):
         app = (DIST / "assets" / "app.js").read_text(encoding="utf-8")
         self.assertIn('dock.innerHTML=\'<a href="/produk/">Cari Produk</a>', app)
         self.assertIn(
-            '<a href="https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
+            '<a href="https://wa.me/62811666027?text=Halo%20Pratama%2C%20saya%20ingin%20bertanya." '
             'target="_blank" rel="noopener">WhatsApp</a>',
             app,
         )
@@ -164,14 +164,14 @@ class MobileUXTests(unittest.TestCase):
         app = (DIST / "assets" / "app.js").read_text(encoding="utf-8")
 
         self.assertIn('>Tanya Produk</a>', home)
-        self.assertIn('href="https://wa.me/6281993399888?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik."', home)
+        self.assertIn('href="https://wa.me/62811666027?text=Halo%20Pratama%2C%20saya%20ingin%20menanyakan%20produk%20listrik."', home)
         self.assertIn('href="/jadi-mitra-retailer/"', home)
         self.assertIn('href="/produk/"', padang)
         self.assertIn('https://share.google/WOR9AeR91epH32LOo', padang)
         self.assertIn('https://share.google/WOR9AeR91epH32LOo', contact)
-        self.assertIn('https://wa.me/6281993399888', contact)
+        self.assertIn('https://wa.me/62811666027', contact)
         self.assertIn('dock.innerHTML=\'<a href="/produk/">Cari Produk</a>', app)
-        self.assertIn('<a class="wa-float" href="https://wa.me/6281993399888', contact)
+        self.assertIn('<a class="wa-float" href="https://wa.me/62811666027', contact)
 
 
 if __name__ == "__main__":

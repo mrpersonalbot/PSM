@@ -380,11 +380,11 @@ class SitemapEligibilityTests(unittest.TestCase):
                 for href in hrefs:
                     if href.startswith("https://wa.me/"):
                         self.assertEqual(urlsplit(href).netloc, "wa.me", route)
-                        self.assertEqual(urlsplit(href).path, "/6281993399888", route)
+                        self.assertEqual(urlsplit(href).path, "/62811666027", route)
                 messages = [
                     parse_qs(urlsplit(href).query).get("text", [""])[0].casefold()
                     for href in hrefs
-                    if href.startswith("https://wa.me/6281993399888")
+                    if href.startswith("https://wa.me/62811666027")
                 ]
                 self.assertTrue(
                     any(expected["whatsapp_hint"].casefold() in message for message in messages),
@@ -441,7 +441,7 @@ class SitemapEligibilityTests(unittest.TestCase):
             self.assertIn("Produk diminati: ${products}", app_js)
             self.assertIn("encodeURIComponent(msg)", app_js)
             self.assertIn(
-                "window.open('https://wa.me/6281993399888?text='+encodeURIComponent(msg)",
+                "window.open('https://wa.me/62811666027?text='+encodeURIComponent(msg)",
                 app_js,
             )
 
