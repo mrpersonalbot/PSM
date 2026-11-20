@@ -17,7 +17,9 @@ BUSINESS_INFO = {
     "business_id": "https://pratamasuksesmandiri.com/#business",
     "url": "https://pratamasuksesmandiri.com/",
     "logo_url": "https://pratamasuksesmandiri.com/assets/psm-header-transparent.png",
-    "telephone": "+6281993399888",
+    # Website Owner contact. The Google Maps listing is managed by the Admin and
+    # intentionally uses a different number (0812-6660-0800); do not use it here.
+    "telephone": "+62811666027",
     "street_address": "Jl. Ujung Belakang Olo No. 14e",
     "address_locality": "Padang",
     "address_region": "Sumatera Barat",

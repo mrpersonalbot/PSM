@@ -91,7 +91,7 @@ class BusinessInformationTests(unittest.TestCase):
             "legalName": "CV Pratama Sukses Mandiri",
             "url": "https://pratamasuksesmandiri.com/",
             "logo": "https://pratamasuksesmandiri.com/assets/psm-header-transparent.png",
-            "telephone": "+6281993399888",
+            "telephone": "+62811666027",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Jl. Ujung Belakang Olo No. 14e",
@@ -275,7 +275,7 @@ class BusinessInformationTests(unittest.TestCase):
             '"seller":{"@type":"Organization","name":"PT Pratama Sukses Mandiri"}}'
             '</script>'
             '<link rel="canonical" href="https://pratamasuksesmandiri.com/produk/kabel-nym-2x25/">'
-            '<a href="https://wa.me/6281993399888?text=SKU%20PSM-001">Tanya stok</a>'
+            '<a href="https://wa.me/62811666027?text=SKU%20PSM-001">Tanya stok</a>'
         )
         updated = apply_business_information(source)
         entity = json.loads(updated.split(">", 1)[1].split("</script>", 1)[0])
@@ -303,7 +303,7 @@ class BusinessInformationTests(unittest.TestCase):
             updated,
         )
         self.assertIn(
-            '<a href="https://wa.me/6281993399888?text=SKU%20PSM-001">Tanya stok</a>',
+            '<a href="https://wa.me/62811666027?text=SKU%20PSM-001">Tanya stok</a>',
             updated,
         )
 
