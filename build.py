@@ -267,7 +267,7 @@ def apply_commercial_landing_content(text, route):
         local_inquiry = (
             '<h3>Sebelum ke toko.</h3>'
             '<p>Kirim nama produk, SKU, atau foto barang ke WhatsApp. Admin akan mengonfirmasi ketersediaan dan harga; '
-            'pesanan bisa diambil di toko atau diatur pengirimannya sesuai lokasi dan jenis barang.</p>'
+            'pesanan yang sudah dikonfirmasi dapat diambil di toko.</p>'
             f'<a class="text-link" href="{local_wa}">Tanyakan produk via WhatsApp</a>'
         )
         text = replace_commercial_block(
@@ -288,8 +288,8 @@ def apply_commercial_landing_content(text, route):
             '<details><summary>Apakah melayani pembelian untuk toko dan proyek?</summary><p>Ya. Untuk kebutuhan toko retail '
             'dan proyek, lihat halaman <a href="/distributor-alat-listrik-sumbar/">distributor alat listrik Sumatera Barat</a> '
             'atau halaman <a href="/jadi-mitra-retailer/">kemitraan retailer</a>.</p></details>'
-            '<details><summary>Apakah barang bisa dikirim?</summary><p>Pengiriman diatur sesuai lokasi dan jenis barang. '
-            'Sampaikan alamat tujuan ke admin untuk memastikan opsi yang tersedia.</p></details>'
+            '<details><summary>Apakah pesanan bisa diambil di toko?</summary><p>Bisa. Setelah stok dan harga '
+            'dikonfirmasi admin, pesanan dapat diambil di toko pada jam operasional.</p></details>'
             '</div></div></section>'
         )
         text = replace_once(text, "</main>", local_faq + "</main>", f"{route} FAQ")

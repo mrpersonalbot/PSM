@@ -140,6 +140,20 @@ class LocalSeoRegressionTests(unittest.TestCase):
             )
             self.assertIn("untuk kebutuhan di Padang", html)
 
+    def test_local_page_does_not_promise_unverified_delivery(self):
+        html = self._page(PADANG)
+        main = _text(_search(r"<main.*?</main>", html, re.S).group(0)).casefold()
+        for phrase in (
+            "pengiriman diatur",
+            "barang bisa dikirim",
+            "dikirim ke",
+            "gratis kirim",
+            "ongkos kirim",
+            "ongkir",
+        ):
+            self.assertNotIn(phrase, main)
+        self.assertIn("dapat diambil di toko", main)
+
     def test_distributor_page_targets_regional_distributor_intent(self):
         html = self._page(DISTRIBUTOR)
         title = _search(r"<title>(.*?)</title>", html, re.S).group(1)
