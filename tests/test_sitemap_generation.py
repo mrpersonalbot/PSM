@@ -107,13 +107,13 @@ def _schema_nodes_excluding_products(value):
 
 COMMERCIAL_PAGES = {
     "/toko-listrik-padang/": {
-        "title": "Toko Listrik Padang untuk Kebutuhan Rumah | Pratama",
-        "description": "Temukan kategori alat listrik untuk kebutuhan rumah di Padang. Jelajahi katalog, tanyakan harga atau ketersediaan lewat WhatsApp, atau lihat alamat dan jam operasional toko.",
+        "title": "Toko Listrik Padang untuk Rumah, Toko, dan Proyek | Pratama",
+        "description": "Toko listrik di Padang untuk kebutuhan rumah, toko retail, dan proyek. Lihat kategori, brand, alamat, jam buka, dan cara memesan lewat WhatsApp.",
         "whatsapp_hint": "kebutuhan rumah di Padang",
     },
     "/distributor-alat-listrik-sumbar/": {
-        "title": "Pengadaan Alat Listrik Sumatera Barat untuk Toko dan Proyek | Pratama",
-        "description": "Informasi pengadaan alat listrik untuk toko retail dan kebutuhan proyek di Sumatera Barat. Siapkan kategori, nama atau SKU, jumlah, dan lokasi kebutuhan; tanyakan ketersediaan serta penawaran melalui WhatsApp.",
+        "title": "Distributor Alat Listrik Sumatera Barat | Supplier Toko dan Proyek",
+        "description": "Distributor alat listrik Sumatera Barat untuk toko retail dan proyek. Kirim daftar kategori, jumlah, dan lokasi untuk konfirmasi ketersediaan dan penawaran lewat WhatsApp.",
         "whatsapp_hint": "pengadaan alat listrik",
     },
     "/jadi-mitra-retailer/": {
